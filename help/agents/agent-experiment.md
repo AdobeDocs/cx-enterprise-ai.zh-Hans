@@ -1,0 +1,135 @@
+---
+title: Experimentation Agent
+description: 了解如何使用Experimentation Agent
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+workflow-type: tm+mt
+source-wordcount: 555
+ht-degree: 4%
+
+---
+
+# Experimentation Agent
+
+<!--
+TQID: https://experienceleague.adobe.com/ARh16ylmUDrp---g8KuYNyewIv54IQ53pxoE2g700o0
+-->
+
+>[!AVAILABILITY]
+>
+>Experimentation Agent可供已购买Journey Optimizer Experimentation Accelerator付费许可证的所有客户使用，并且可与Adobe Target或Adobe Journey Optimizer无缝集成。
+>
+>[了解有关Journey Optimizer Experimentation Accelerator的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experimentation-accelerator/using/overview)
+
+## 概述
+
+**Experimentation Agent**&#x200B;是一款AI支持的工具，可更新您跨网站、电子邮件、推送消息和应用程序运行和管理数字实验的方式。 **Experimentation Agent**&#x200B;构建于Adobe Experience Platform AI平台和实验工具之上，可帮助您更有效地运行实验、梳理业务目标，并生成可操作的见解，其中重点说明哪些方法有效、哪些方法无效，以及下一步在何处实验。
+
+为了充分利用Experimentation Agent功能，请访问以下权限。
+
+* **查看试验**：此权限允许您使用Experimentation Agent直接在AI助手中查看试验的见解。
+
+* **管理试验元数据**：此权限允许您使用Experimentation Agent直接在AI助手中创建新试验。
+
+➡️ [请参阅Journey Optimizer Experimentation Accelerator文档以了解详情](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
+
+作为Experimentation Accelerator功能的一部分，代理提供：
+
+* **性能**：试验中所发生情况的清楚视图
+
+* **分析**：结果出现原因的解释
+
+* **机会**：后续操作指南
+
+Experimentation Agent的![示例](./images/experiment/experiment-agent.png)
+
+## 用例
+
+Experimentation Agent通过分析结果、解释内容并建议后续步骤来增强实验工作流的每个阶段。
+
+其功能可以分为五个关键功能：
+
+* **试验摘要**
+
+  为利益相关者提供清晰、非技术性的实验结果概述。
+
+* **内容分析**
+
+  研究治疗的消息传递或创造性元素，了解为什么某些疗法优于其他疗法。
+
+* **属性标识**
+
+  按关键属性（例如，主题、色调、格式）对处理进行分类，并将这些属性与转化结果相关联。
+
+* **推荐生成**
+
+  根据先前实验的见解，建议新的治疗方法或测试调整。
+
+* **个机会**
+
+  确定更广泛的领域或新的实验角度，以发掘未开发的潜力。
+
+## 范围和范围外功能
+
+### **范围内**
+
+当前支持以下功能：
+
+* 性能
+* 洞察
+* 机会
+
+### **范围外**
+
+目前不支持以下功能：
+
+* 创建或编辑试验
+* 使用多个量度报告用例
+
+## 示例提示
+
+以下是一组提示示例，可帮助您开始使用Experimentation Agent：
+
+### 一般问题
+
+| 提示 |
+|-|
+| 正在运行哪些试验？ |
+| `<campaign name>`正在运行哪些试验？ |
+| 上个月开始了哪些实验？ |
+| 过去一年中有多少实验结束？ |
+| 哪些实验当前已暂停/停止/等？ |
+| 从最近的测试中出现了哪些常见模式？ |
+| 上季度实验的平均持续时间是多少？ |
+
+### 性能问题
+
+| 提示 |
+|-|
+| 对于我的`<experiment name>`，采用哪种处理方式？ |
+| `<experiment name>`的提升度是多少？ |
+| 哪些实验具有统计学意义的结果？ |
+| 哪些实验的转化率最高？ |
+
+### 分析问题
+
+| 提示 |
+|-|
+| 什么是`<experiment name>`测试？ ? |
+| 我们从`<experiment name>`中学到了什么？ |
+| 你能告诉我为什么治疗一个韩元吗？ |
+| 入选变体中的趋势是什么？ |
+| 从最近的测试中出现了哪些常见模式？ |
+| `<experiment name>`中发生了任何意外情况吗？ |
+
+### 机会问题
+
+| 提示 |
+|-|
+| 你建议我在这个实验之后做什么？ |
+| 是否有任何改善`<experiment name>`的方法？ |
+| `<experiment name>`之后哪些机会变得更清晰？ |
+| 接下来我可以测试哪些内容来证明`<experiment name>`的假设验证？ |
+| 我应该实施哪些其他用例？ |
