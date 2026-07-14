@@ -31,7 +31,7 @@ ht-degree: 0%
 - 正确的组织和沙盒
 - 访问要查询的架构和数据集
 
-您对XDM架构以及字段在分段或数据工作流中的使用方式基本熟悉，这可以帮助您更有效地解释结果。 有关详细信息，请参阅[XDM概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)和[架构编辑器文档](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui)。
+您对XDM架构以及字段在分段或数据工作流中的使用方式基本熟悉，这可以帮助您更有效地解释结果。 有关详细信息，请参阅[XDM概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/home)和[架构编辑器文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/tutorials/create-schema-ui)。
 
 有关启用AI助手访问和授予所需权限的说明，请参阅[Agent Orchestrator访问指南](./agent-orchestrator.md#access)。
 
@@ -207,7 +207,7 @@ Field Discovery Agent依赖于知识库，该知识库定期使用Experience Pla
 - 尽可能添加字段描述。
 - 将字段与活动数据集关联，而不是将它们保留为仅架构定义。
 
-有关在架构编辑器中编辑字段显示名称和描述的指导，请参阅[在UI中创建和编辑架构](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas)。
+有关在架构编辑器中编辑字段显示名称和描述的指导，请参阅[在UI中创建和编辑架构](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/xdm/ui/resources/schemas)。
 
 如果您没有架构编辑访问权限，且结果一直不佳，请联系您的Experience Platform管理员或数据工程团队以查看您所使用的架构的字段元数据。
 

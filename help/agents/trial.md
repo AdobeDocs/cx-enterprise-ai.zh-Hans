@@ -38,7 +38,7 @@ ht-degree: 6%
 
 Adobe将自行决定您的试用资格。 目前拥有或以前拥有Adobe Experience Platform Agent Orchestrator促销活动许可证或Experience Platform Agents AI信用许可证的客户不符合试用资格。
 
-合格客户将获得最多10,000个人工智能积分的初始一次性权利，用于在[人工智能积分消耗表](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/ai-credit-consumption)中列出的任何工作组合（取决于您对Experience Cloud应用程序的现有许可证）。 您可以使用Adobe Experience Platform UI中的许可证使用情况仪表板跟踪您的AI积分。 有关详细信息，请阅读[许可证使用情况仪表板文档](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)。
+合格客户将获得最多10,000个人工智能积分的初始一次性权利，用于在[人工智能积分消耗表](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/ai-credit-consumption)中列出的任何工作组合（取决于您对Experience Cloud应用程序的现有许可证）。 您可以使用Adobe Experience Platform UI中的许可证使用情况仪表板跟踪您的AI积分。 有关详细信息，请阅读[许可证使用情况仪表板文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dashboards/guides/license-usage)。
 
 利用Agentic AI监控仪表板，可清楚了解您的组织是如何采用和使用Agentic AI的。 作为授权用户，您可以轻松跟踪参与、收集反馈、监控AI信用使用情况并审查关键量度。 利用这些见解发现优化机会并支持您的治理和采用工作。 要了解更多信息，请访问[代理AI使用监视指南](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/monitoring)。
 
@@ -86,7 +86,7 @@ Adobe Experience Platform代理试用版允许符合条件的客户使用某些�
 
 ### 谁可以查看使用情况以及如何查看？
 
-您可以使用Adobe Experience Platform UI中的许可证使用情况仪表板跟踪您的AI积分。 有关详细信息，请阅读[许可证使用情况仪表板文档](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)。 使用仪表板可查看您的AI信用使用情况和报表。 只有具有相应权限的管理员和用户才能查看您的使用情况信息。
+您可以使用Adobe Experience Platform UI中的许可证使用情况仪表板跟踪您的AI积分。 有关详细信息，请阅读[许可证使用情况仪表板文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dashboards/guides/license-usage)。 使用仪表板可查看您的AI信用使用情况和报表。 只有具有相应权限的管理员和用户才能查看您的使用情况信息。
 
 您还可以使用Agentic AI监控仪表板让insight了解组织中的Agentic AI采用、参与、反馈和AI信用使用情况。 授权用户可以使用功能板跟踪关键指标、识别优化机会并支持治理和采用计划。 有关详细信息，请阅读[代理AI监控](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/monitoring)指南。
 
