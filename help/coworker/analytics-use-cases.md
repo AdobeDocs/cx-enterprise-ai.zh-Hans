@@ -2,10 +2,10 @@
 title: 与同事执行Customer Journey Analytics数据分析
 description: 了解如何与同事一起执行Customer Journey Analytics数据分析。
 hold: true
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 8b82dcb024ff528a86fbe782212a267610b46091
 workflow-type: tm+mt
-source-wordcount: '1760'
-ht-degree: 5%
+source-wordcount: '1865'
+ht-degree: 4%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 5%
 >
 >本文中描述的功能处于版本的有限测试阶段，可能尚未在您的环境中可用。 当功能正式可用时，将删除此注释。 有关Customer Journey Analytics发布过程的信息，请参阅[Customer Journey Analytics功能发布](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/releases/latest)。
 
-Adobe CX Enterprise Co-worker Chat可以执行以前只能在Analysis Workspace中进行的高级数据分析。 同事聊天可访问来自Customer Journey Analytics数据视图的数据，从而允许您浏览这些数据并获得自然语言提示的答案。
+Adobe CX Enterprise Co-worker Chat可以执行以前只能在Analysis Workspace中进行的高级数据分析。 Co-worker Chat访问来自Customer Journey Analytics数据视图的数据，允许您浏览该数据并获得自然语言提示的答案。
 
-在开始分析之前，请通过登录到CX Enterprise帐户访问同事聊天，然后确保Customer Journey Analytics MCP服务器已连接。
+在开始分析之前，请通过登录到CX Enterprise帐户来访问Co-worker Chat ，然后确保Customer Journey Analytics MCP服务器已连接。
 
 ## 访问同事聊天
 
@@ -25,29 +25,25 @@ Adobe CX Enterprise Co-worker Chat可以执行以前只能在Analysis Workspace�
 
 1. 使用您的Adobe ID凭据登录[Adobe CX Enterprise](https://experience.adobe.com)。
 
-1. 然后呢？
+1. 从CX Enterprise产品选择器中选择&#x200B;[!UICONTROL **Co-worker**]。<!--not sure what this step should say-->
 
-## 连接Customer Journey Analytics MCP服务器
+1. 在同事中，验证同事是否已连接到Customer Journey Analytics：
 
-1. 在Co-worker中，选择左边栏中的MCP图标。
+   1. 选择左边栏中的MCP图标，然后确保&#x200B;[!UICONTROL **cja-mcp**]&#x200B;在连接的MCP服务器列表中可用。
 
-   ![同事左边栏中突出显示的MCP图标](images/data-validation-aa-cja/coworker-mcp.png)
+      ![同事左边栏中突出显示的MCP图标](images/data-validation-aa-cja/coworker-mcp-cja.png)
 
-1. 确保&#x200B;[!UICONTROL **cja-mcp**]&#x200B;在连接的MCP服务器列表中可用。
-
-   ![同事左边栏中突出显示的MCP图标](images/data-validation-aa-cja/coworker-mcp-cja.png)
-
-1. （视情况而定）如果尚未连接&#x200B;[!UICONTROL **cja-mcp**]，请选择&#x200B;[!UICONTROL **添加MCP服务器**]，在&#x200B;[!UICONTROL **服务器名称**]&#x200B;字段中指定cja并在其出现时将其选定，然后选择&#x200B;[!UICONTROL **添加服务器**]。
+   1. （视情况而定）如果尚未连接&#x200B;[!UICONTROL **cja-mcp**]，请选择&#x200B;[!UICONTROL **添加MCP服务器**]，在&#x200B;[!UICONTROL **服务器名称**]&#x200B;字段中指定cja并在其出现时将其选定，然后选择&#x200B;[!UICONTROL **添加服务器**]。
 
 ## 连接到正确的数据视图
-
-<!--I did this. Do users need to?-->
 
 数据视图是Customer Journey Analytics中的一个容器，可确定如何解释数据。
 
 您可能有权访问Customer Journey Analytics中的各种数据视图，每个视图都包含同事在分析数据时可以使用的不同维度和量度。
 
-告诉同事您希望回答的问题类型，并询问您有权访问哪些数据视图最能提供该信息。
+### 决定要使用的数据视图
+
+告诉同事您希望回答的问题类型，并询问您有权访问哪些数据视图最能提供该信息。 您还可以[将您的数据视图设置为内存](#add-a-data-view-preference-in-memory)中的首选项。
 
 **您：**
 
@@ -80,6 +76,16 @@ Adobe CX Enterprise Co-worker Chat可以执行以前只能在Analysis Workspace�
 好的，我将使用`Customer lifecycle`数据视图来回答此聊天会话中未来的问题。
 
 >[!ENDSHADEBOX]
+
+### 在内存中添加数据视图首选项
+
+Co-worker Chat包含内存功能，允许您访问跨越所有聊天的信息。 最好将您首选的数据视图添加为同事记忆中的首选项。
+
+1. 在“同事聊天”的左侧导航栏中，选择“内存”图标。
+
+1. 在“内存”页的“存储的首选项”部分，指定您希望Co-worker Chat在聊天中使用的一个或多个数据视图。
+
+   左边栏中的![内存部分](images/data-validation-aa-cja/coworker-memory.png)
 
 ## 用例：查找客户流失的位置
 
