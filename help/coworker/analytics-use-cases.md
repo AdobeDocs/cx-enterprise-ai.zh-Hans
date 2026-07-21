@@ -2,7 +2,7 @@
 title: 与同事执行Customer Journey Analytics数据分析
 description: 了解如何与同事一起执行Customer Journey Analytics数据分析。
 hold: true
-source-git-commit: 8b82dcb024ff528a86fbe782212a267610b46091
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: '1865'
 ht-degree: 4%
@@ -31,7 +31,7 @@ Adobe CX Enterprise Co-worker Chat可以执行以前只能在Analysis Workspace�
 
    1. 选择左边栏中的MCP图标，然后确保&#x200B;[!UICONTROL **cja-mcp**]&#x200B;在连接的MCP服务器列表中可用。
 
-      ![同事左边栏中突出显示的MCP图标](images/data-validation-aa-cja/coworker-mcp-cja.png)
+      ![同事左边栏中突出显示的MCP图标](assets/data-validation-aa-cja/coworker-mcp-cja.png)
 
    1. （视情况而定）如果尚未连接&#x200B;[!UICONTROL **cja-mcp**]，请选择&#x200B;[!UICONTROL **添加MCP服务器**]，在&#x200B;[!UICONTROL **服务器名称**]&#x200B;字段中指定cja并在其出现时将其选定，然后选择&#x200B;[!UICONTROL **添加服务器**]。
 
@@ -85,7 +85,7 @@ Co-worker Chat包含内存功能，允许您访问跨越所有聊天的信息。
 
 1. 在“内存”页的“存储的首选项”部分，指定您希望Co-worker Chat在聊天中使用的一个或多个数据视图。
 
-   左边栏中的![内存部分](images/data-validation-aa-cja/coworker-memory.png)
+   左边栏中的![内存部分](assets/data-validation-aa-cja/coworker-memory.png)
 
 ## 用例：查找客户流失的位置
 
@@ -125,7 +125,7 @@ Co-worker Chat包含内存功能，允许您访问跨越所有聊天的信息。
 
 >[!BEGINSHADEBOX]
 
-![同事左边栏中突出显示的MCP图标](images/data-validation-aa-cja/coworker-funnel-response.png)
+![同事左边栏中突出显示的MCP图标](assets/data-validation-aa-cja/coworker-funnel-response.png)
 
 这是一个funnel问题 — 让我运行转化funnel，以查看购买路径上哪里出现了流失。
 
@@ -176,7 +176,7 @@ Co-worker Chat包含内存功能，允许您访问跨越所有聊天的信息。
 
 >[!BEGINSHADEBOX]
 
-![同事左边栏中突出显示的MCP图标](images/data-validation-aa-cja/coworker-funnel-response2.png)
+![同事左边栏中突出显示的MCP图标](assets/data-validation-aa-cja/coworker-funnel-response2.png)
 
 有一个自定义&#x200B;**营销渠道**&#x200B;维度。 让我提取funnel，然后计算每个渠道的转化率，并识别每个渠道在哪里泄露。
 
@@ -227,7 +227,7 @@ Co-worker Chat包含内存功能，允许您访问跨越所有聊天的信息。
 
 >[!BEGINSHADEBOX]
 
-![同事左边栏中突出显示的MCP图标](images/data-validation-aa-cja/coworker-funnel-response3.png)
+![同事左边栏中突出显示的MCP图标](assets/data-validation-aa-cja/coworker-funnel-response3.png)
 
 **找到它：移动签出已中断**
 

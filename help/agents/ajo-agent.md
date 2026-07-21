@@ -5,31 +5,12 @@ solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
 TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: 3361
 ht-degree: 11%
@@ -53,7 +34,7 @@ Journey Agent包含四个主要待完成任务：
 - **渠道内容创建**：使用AI支持的内容生成功能生成、编辑和管理历程的渠道特定内容（电子邮件、推送、短信）
 - **历程分析**：分析历程、检测问题、揭示见解并优化客户参与
 
-此外，**历程模拟**&#x200B;是Journey Optimizer的一项功能，其中包括[历程模拟](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)，这是一项产品内代理技能，具有非对话性，并具有三项功能：
+此外，**历程模拟**&#x200B;是Journey Optimizer的一项功能，其中包括[历程模拟](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)，这是一项产品内代理技能，具有非对话性，并具有三项功能：
 
 - 生成模拟用户
 - 生成事件值
@@ -283,7 +264,7 @@ Journey Agent包含四个主要待完成任务：
 
 Journey Agent将使Journey Optimizer用户能够使用自然语言界面分析和优化历程。 借助Journey Agent，从业者可以快速识别和解决计划和/或受众冲突，检测历程中的用户放弃点并提供见解或建议。 它使从业者能够做出数据驱动的决策、提高客户参与度，并简化历程编排。
 
-在此[概述](https://experienceleague.adobe.com/zh-hans/slides/journey-agent-overview)中了解更多信息并快速发现代理。
+在此[概述](https://experienceleague.adobe.com/en/slides/journey-agent-overview)中了解更多信息并快速发现代理。
 
 >[!AVAILABILITY]
 >
@@ -297,7 +278,7 @@ Journey Agent将使Journey Optimizer用户能够使用自然语言界面分析�
 >
 >**管理区段**：“收件人”权限允许您直接在AI助手中创建新受众。
 
-AJO代理的![示例](./images/ajo-agent/ajo-agent-sample.png)
+AJO代理的![示例](./assets/ajo-agent/ajo-agent-sample.png)
 
 ## 用例
 
@@ -503,4 +484,4 @@ AJO代理的![示例](./images/ajo-agent/ajo-agent-sample.png)
 
 模拟可能不支持测试模式或实时历程支持的每个活动、渠道或集成，并且行为可能会随着功能成熟而更改。
 
-➡️在Journey Optimizer文档中了解有关[模拟限制](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations)的更多信息。
+➡️在Journey Optimizer文档中了解有关[模拟限制](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations)的更多信息。

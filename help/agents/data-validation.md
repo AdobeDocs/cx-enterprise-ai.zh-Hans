@@ -1,7 +1,7 @@
 ---
 title: 在AI Assistant中验证数据
 description: 了解如何在AI Assistant中使用Agent Orchestrator支持的数据验证对数据集执行统计和语义验证。
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ### 开始验证
 
-![AI助手主页，提示字段显示数据集验证请求、Experience Platform环境选择器和发送控件。](./images/validation/home.png)
+![AI助手主页，提示字段显示数据集验证请求、Experience Platform环境选择器和发送控件。](./assets/validation/home.png)
 
 在左侧导航中，选择&#x200B;**[!UICONTROL AI助手]**。 接下来，使用环境选择器，并选择数据集所在的Experience Platform组织或沙盒（例如，**[!UICONTROL Experience Platform - Prod]**）。 在提示字段中，键入验证请求（例如，按名称请求验证数据集）。 选择&#x200B;**[!UICONTROL 发送]**&#x200B;提交提示。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ### 读取数据集摘要和字段表
 
-![包含推理完成的AI助手响应、验证摘要以及列出字段路径、类型和有效值的字段摘要表。](./images/validation/answer.png)
+![包含推理完成的AI助手响应、验证摘要以及列出字段路径、类型和有效值的字段摘要表。](./assets/validation/answer.png)
 
 请让Agent Orchestrator稍等片刻完成运行（**推理完成**）。 运行完成后，请阅读数据集名称的摘要、已验证的字段数以及样本大小（通常最多大约1,000行）。
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ### 在拆分视图中工作
 
-![拆分视图，左边为验证叙述和统计数据，右边为有效值的扩展图表可视化图表。](./images/validation/split-screen.png)
+![拆分视图，左边为验证叙述和统计数据，右边为有效值的扩展图表可视化图表。](./assets/validation/split-screen.png)
 
 在展开视图中，使用拆分布局：详细统计和叙述一侧，图表另一侧。
 
@@ -69,19 +69,19 @@ ht-degree: 0%
 
 ### 使用相关建议进行跟进
 
-![提示字段上方的相关建议码片，选择一个建议来验证数据集上的特定字段。](./images/validation/related-suggestion.png)
+![提示字段上方的相关建议码片，选择一个建议来验证数据集上的特定字段。](./assets/validation/related-suggestion.png)
 
 在响应之后，在对话下方找到&#x200B;**[!UICONTROL 相关建议]**。 选择建议（例如，验证同一数据集上的特定字段）以将其加载到提示字段中。 根据需要调整文本，确认环境，然后选择&#x200B;**[!UICONTROL 发送]**&#x200B;以运行跟进。
 
 ### 在字段级别验证
 
-![图表视图中单个字段的验证结果卡，显示有效圆环图和扩展视图中的显示操作。](./images/validation/single-field.png)
+![图表视图中单个字段的验证结果卡，显示有效圆环图和扩展视图中的显示操作。](./assets/validation/single-field.png)
 
 打开字段级&#x200B;**[!UICONTROL 验证结果]**&#x200B;信息卡（例如，验证单个字段后）。 当您需要可视化摘要而不是表格时，请使用视图控件切换到&#x200B;**图表**（或其他视图）。 在此步骤中，您可以选择选择&#x200B;**[!UICONTROL 属性]**&#x200B;以查看有关该字段的更多信息。
 
 选择&#x200B;**[!UICONTROL 在展开视图]**&#x200B;中显示，打开该字段验证的更详细、更大型视图。
 
-![显示详细的字段级验证统计信息和图表可视化的扩展视图。](./images/validation/expanded-view.png)
+![显示详细的字段级验证统计信息和图表可视化的扩展视图。](./assets/validation/expanded-view.png)
 
 通过扩展视图，您可以根据给定字段最多1000条记录的示例，查看整个字段的明细列表。 您可以使用此功能检索有关有效、独特和空值的信息。
 
@@ -161,9 +161,9 @@ ht-degree: 0%
 - **分布检查**：最高唯一值及其分布、高基数检测。
 - **语义检查与架构**：使用XDM字段名称、类型和描述推断出“有效”的外观，然后标记异常。
 - **数据类型感知检查** （如果适用）：
-   - 电子邮件：格式和域可行性
-   - 电话：格式准备就绪（例如，E.164）
-   - 日期/时间戳：基本格式健全性（例如，ISO-8601）
+  - 电子邮件：格式和域可行性
+  - 电话：格式准备就绪（例如，E.164）
+  - 日期/时间戳：基本格式健全性（例如，ISO-8601）
 - **与身份相关的检查** （将来/扩展）：候选身份字段或组合键的唯一性。
 
 这些检查将确定性统计与LLM辅助的语义验证结合使用，以检测“看起来错误”的值，即使它们在技术上与架构匹配也是如此。
