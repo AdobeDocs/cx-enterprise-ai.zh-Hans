@@ -41,7 +41,7 @@ Agent Orchestrator由AI Assistant对话界面、用于决策和规划的推理�
 
 ### AI 助手对话界面 {#ai-assistant}
 
-AI Assistant是一种智能、自然的语言对话体验，使使用已启用的CX Enterprise应用程序的从业人员能够利用GenAI和Agentic AI功能，其范围取决于客户许可的CX Enterprise应用程序。 要解锁访问权限，请阅读[访问AI Assistant的指南](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access)。
+AI Assistant是一种智能、自然的语言对话体验，使使用已启用的CX Enterprise应用程序的从业人员能够利用GenAI和Agentic AI功能，其范围取决于客户许可的CX Enterprise应用程序。 要解锁访问权限，请阅读[访问AI Assistant的指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/access)。
 
 有关更多信息，请阅读 [AI 助手 UI 指南](../ai-assistant/ai-assistant-ui.md)。
 
@@ -79,9 +79,9 @@ Agent Orchestrator生态系统包含以下代理：
 
 所有用户都可以访问AI助手和关联的Experience Platform代理。
 
-* **Adobe Experience Manager**：您的管理员必须通过[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)向您授予访问AI助手权限。
+* **Adobe Experience Manager**：您的管理员必须通过[Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)向您授予访问AI助手权限。
 
-* **Customer Journey Analytics**：您的管理员必须通过[Customer Journey Analytics访问控制](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)授予您访问AI助手权限。 这允许您提问产品知识和数据见解问题。
+* **Customer Journey Analytics**：您的管理员必须通过[Customer Journey Analytics访问控制](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/technotes/access-control)授予您访问AI助手权限。 这允许您提问产品知识和数据见解问题。
 
 >[!NOTE]
 >
