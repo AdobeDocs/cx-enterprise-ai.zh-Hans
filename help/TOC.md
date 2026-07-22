@@ -1,21 +1,28 @@
 ---
 audience: user
-user-guide-title: Adobe Experience Cloud中的AI助手
+user-guide-title: Adobe CX Enterprise中的AI助手
 user-guide-description: 了解如何使用 AI 助手通过 Adobe Experience Platform 和 Real-Time Customer Data Platform 加快工作流程。
-description: 了解 Experience Cloud 中的 AI 助手。 使用 Experience Cloud 中的 AI 提高您的产品知识并获得运营洞察。
+description: 了解CX Enterprise中的AI Assistant。 在CX Enterprise中使用AI提高您的产品知识并获得操作见解。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+dummy: true
+source-git-commit: 6e3ab12f1d9ec706e745749b7ca47b91a09ff8b3
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 34%
+source-wordcount: '211'
+ht-degree: 25%
 
 ---
 
 
-# Experience Cloud 中的 AI {#experience-cloud-ai}
+# CX Enterprise 中的 AI {#experience-cloud-ai}
 
-- [Experience Cloud 应用程序中的 AI](home.md)
+- [CX Enterprise应用程序中的AI](home.md)
+- 关于CX Enterprise中的AI {#overview}
+  - [生成式 AI](./overview/generative-ai.md)
+  - [代理式 AI](./overview/agentic-ai.md)
+  - [智能人工智能监控](./overview/monitoring.md)
+  - [代理作业和AI信用消耗](./overview/ai-credit-consumption.md)
+  - [代理式工具](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-agentic-tools/using/overview)
 - AI 助手 {#ai-assistant}
   - [AI助手UI指南](./ai-assistant/ai-assistant-ui.md)
   - [提示库](./ai-assistant/prompt-library.md)
@@ -52,4 +59,4 @@ ht-degree: 34%
 - 同事 {#coworker}
   - {hide-from-toc}[在游乐场中的同事聊天](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[验证AA到CJA的迁移数据](./coworker/data-validation-aa-cja.md)
-  - {hide-from-toc}[分析转化流失](./coworker/analytics-use-cases.md)
+  - [分析CJA数据](./coworker/analytics-chat.md)

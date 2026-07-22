@@ -12,10 +12,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
-source-wordcount: 1483
-ht-degree: 5%
+source-wordcount: 1432
+ht-degree: 1%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 5%
 
 所有符合条件的客户都将滚动从AI助手和Adobe Experience Platform代理过渡到同事聊天。 同时，某些客户可以保留对AI助手和Experience Platform代理的访问权限，直到启用了同事聊天为止。 请注意，此试用版不适用于同事营销活动。
 
-**AI Assistant**：由Agent Orchestrator提供支持的全页沉浸式对话界面，跨产品工作，使使用支持的Experience Cloud产品的从业人员能够利用GenAI和Agentic AI功能。 有关更多信息，请阅读 [AI 助手 UI 指南](../ai-assistant/ai-assistant-ui.md)。
+**AI Assistant**：全页式的沉浸式对话界面，由Agent Orchestrator提供支持，跨产品工作，使使用已启用的CX Enterprise产品的从业人员能够利用GenAI和Agentic AI功能。 有关更多信息，请阅读 [AI 助手 UI 指南](../ai-assistant/ai-assistant-ui.md)。
 
-**Adobe Experience Platform代理**：专门构建的人工智能代理，擅长跨客户体验域类别提供常见作业。 您可以利用代理扩展您的容量，以更快的速度提供体验，产生更大的影响，从而释放下一级别的生产力和效率。 要了解可以使用每个Experience Cloud应用程序利用哪些代理，请阅读有关Experience Cloud中的[代理AI](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/agentic-ai)的文档。
+**Adobe Experience Platform代理**：专门构建的人工智能代理，擅长跨客户体验域类别提供常见作业。 您可以利用代理扩展您的容量，以更快的速度提供体验，产生更大的影响，从而释放下一级别的生产力和效率。 要了解每个CX Enterprise应用程序可以使用哪些代理，请阅读有关CX Enterprise中的[代理AI](../overview/agentic-ai.md)的文档。
 
 ## 试用计划详细信息
 
@@ -40,11 +40,11 @@ ht-degree: 5%
 符合条件的客户最初可获得最多10,000个AI积分的一次性授权，用于以下用途：
 
 - 同事聊天：在同事聊天中输入的输入。 在有限的开头期间，输入按每个输入25个AI信用的比率使用AI信用。 此费率仅在有限的时间内可用，并且可能会发生更改。
-- Experience Platform Agent：使用[AI信用消耗量表](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/ai-credit-consumption)中列出的Experience Platform Agent执行的任意作业组合（取决于您对CX Enterprise应用程序的现有许可证）。
+- Experience Platform Agent：使用[AI信用消耗量表](../overview/ai-credit-consumption.md)中列出的Experience Platform Agent执行的任意作业组合（取决于您对CX Enterprise应用程序的现有许可证）。
 
 您可以使用Adobe Experience Platform UI中的许可证使用情况仪表板跟踪您的AI积分。 有关详细信息，请阅读[许可证使用情况仪表板文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dashboards/guides/license-usage)。
 
-利用Agentic AI监控仪表板，可清楚了解您的组织是如何采用和使用Agentic AI的。 授权用户可以轻松跟踪参与、收集反馈、监控AI信用使用情况并审查关键量度。 利用这些见解发现优化机会并支持您的治理和采用工作。 要了解更多信息，请访问[代理AI使用监视指南](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/monitoring)。
+利用Agentic AI监控仪表板，可清楚了解您的组织是如何采用和使用Agentic AI的。 授权用户可以轻松跟踪参与、收集反馈、监控AI信用使用情况并审查关键量度。 利用这些见解发现优化机会并支持您的治理和采用工作。 要了解更多信息，请访问[代理AI使用监视指南](../overview/monitoring.md)。
 
 >[!IMPORTANT]
 >
@@ -60,7 +60,7 @@ ht-degree: 5%
 
 用户可以通过从CX Enterprise顶部标题的应用程序选择器中选择Co-worker来访问它。
 
-![协同工作所在的应用程序选择器。](../agents/images/coworker.png)
+![协同工作所在的应用程序选择器。](../agents/assets/coworker.png)
 
 如果客户希望撤销其组织对&#x200B;**同事聊天**&#x200B;和/或恢复&#x200B;**AI助手**&#x200B;和&#x200B;**Experience Platform代理**&#x200B;的访问权限，请向[cx-coworker-questions@adobe.com](mailto:cx-coworker-questions@adobe.com)发送请求以供考虑。
 
@@ -70,7 +70,7 @@ ht-degree: 5%
 
 作为试用的一部分，符合条件的客户的用户将拥有对AI助手和代理的默认访问权限，因此无需采取任何操作。 Experience Platform代理受用户输入和监督的指导。 代理还遵循以前定义的产品级访问控制，因此用户只能在适用的基础CX Enterprise产品中执行他们有权执行的作业或操作。
 
-获得访问权限后，导航到Adobe Experience Cloud主页以开始使用AI助手。 您可以使用[发现提示](../ai-assistant/ai-assistant-ui.md#discovery-prompts)来查看提示和常用工作流的建议。 使用此功能有助于加快您使用AI Assistant的入门速度。 此外，请阅读[提示库](../ai-assistant/prompt-library.md)，以获取可以与其他代理一起使用的各种提示。 有关更全面的信息，请阅读[AI助手UI指南](../ai-assistant/ai-assistant-ui.md)。
+获得访问权限后，导航到Adobe CX Enterprise主页以开始使用AI Assistant。 您可以使用[发现提示](../ai-assistant/ai-assistant-ui.md#discovery-prompts)来查看提示和常用工作流的建议。 使用此功能有助于加快您使用AI Assistant的入门速度。 此外，请阅读[提示库](../ai-assistant/prompt-library.md)，以获取可以与其他代理一起使用的各种提示。 有关更全面的信息，请阅读[AI助手UI指南](../ai-assistant/ai-assistant-ui.md)。
 
 如果客户希望选择退出访问这些代理功能并禁用试用版访问，请向[cx-coworker-questions@adobe.com](mailto:cx-coworker-questions@adobe.com)发送请求。
 
@@ -82,7 +82,7 @@ ht-degree: 5%
 - [Agent Orchestrator概述](agent-orchestrator.md)
 - [AI助手UI指南](../ai-assistant/ai-assistant-ui.md)
 - [AI Assistant提示库](../ai-assistant/prompt-library.md)
-- [Experience Cloud 中的 AI](../home.md)
+- [CX Enterprise 中的 AI](../home.md)
 
 ## 常见问题 {#faq}
 
@@ -94,15 +94,15 @@ Agentic使用限制试用版允许符合条件的客户使用同事聊天（或�
 
 ### 此试用版中包括哪些代理？
 
-阅读Experience Cloud中[代理AI](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/agentic-ai)的指南，了解试用版中包括的代理的完整列表。
+阅读CX Enterprise中的[Agentic AI](../overview/agentic-ai.md)指南，以获取试用版中包括的代理的完整列表。
 
 ### 谁可以参与此试用？
 
-此试用版将分阶段向某些符合条件的Adobe Experience Cloud客户推出，以便Adobe能够提供适当的支持。 如果您有兴趣参与，请联系您的Adobe客户团队，他们可以为您确认状态并讨论访问选项。
+此试用版将分阶段向某些符合条件的Adobe CX Enterprise客户推出，以便Adobe能够提供适当的支持。 如果您有兴趣参与，请联系您的Adobe客户团队，他们可以为您确认状态并讨论访问选项。
 
 ### 我获得了多少AI积分，以及当使用这些AI积分时会发生什么？
 
-符合条件的客户可获得最多10,000个试用版AI积分，这些积分作为同事聊天（或Experience Platform代理）执行任务来使用。 请注意，这些AI积分仅存在于试用体验期间，如果您在使用全部10,000个AI积分之前许可额外的AI积分，则不会延期。 有关AI信用消耗的详细信息，请阅读[代理作业和AI信用消耗指南](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/ai-credit-consumption)。
+符合条件的客户可获得最多10,000个试用版AI积分，这些积分作为同事聊天（或Experience Platform代理）执行任务来使用。 请注意，这些AI积分仅存在于试用体验期间，如果您在使用全部10,000个AI积分之前许可额外的AI积分，则不会延期。 有关AI信用消耗的详细信息，请阅读[代理作业和AI信用消耗指南](../overview/ai-credit-consumption.md)。
 
 ### 这要价钱吗？
 

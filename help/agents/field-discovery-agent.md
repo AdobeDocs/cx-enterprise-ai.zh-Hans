@@ -4,10 +4,10 @@ description: 在Adobe Experience Platform中使用AI Assistant中的自然语言
 keywords: 字段发现、XDM、AI Assistant、Experience Platform代理、实体链接、字段推荐、受众创建、分段
 solution: Experience Platform
 role: User, Admin, Developer
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
-source-wordcount: '3534'
-ht-degree: 0%
+source-wordcount: '3367'
+ht-degree: 1%
 
 ---
 
@@ -101,7 +101,7 @@ Field Discovery Agent会处理您的查询，并根据您的意图返回三种�
 - **[!UICONTROL 相关性]** — 分配给字段的相关性标签（**[!UICONTROL 高度相关]**、**[!UICONTROL 适度相关]**&#x200B;或&#x200B;**[!UICONTROL 相关]**）
 - **[!UICONTROL 使用上下文]** — 显示字段在数据生态系统中的显示位置的链接。 选择&#x200B;**[!UICONTROL 受众]**、**[!UICONTROL 数据集]**、**[!UICONTROL 目标]**&#x200B;或&#x200B;**[!UICONTROL 架构]**&#x200B;以打开显示字段使用位置的侧面板。
 
-![AI助手中的“已识别字段”面板显示具有相关性标签和使用上下文链接的候选字段行。](./images/field-discovery/fields-identified-panel-in-chat.png)
+![AI助手中的“已识别字段”面板显示具有相关性标签和使用上下文链接的候选字段行。](./assets/field-discovery/fields-identified-panel-in-chat.png)
 
 **[!UICONTROL 解释的结果]**&#x200B;部分显示在&#x200B;**[!UICONTROL 已标识的字段]**&#x200B;表下方，并且提供了额外的字段级上下文，包括每个结果的解释和支持详细信息。 有关导航AI助手界面的指导，请参阅[AI助手UI指南](../ai-assistant/ai-assistant-ui.md)。
 
@@ -118,7 +118,7 @@ Field Discovery Agent会处理您的查询，并根据您的意图返回三种�
 3. 查看&#x200B;**[!UICONTROL 已识别字段]**&#x200B;面板中的排名结果。 每一行在&#x200B;**[!UICONTROL 字段名称]**&#x200B;列中包含相关性标签和XDM字段路径。
 4. 在&#x200B;**[!UICONTROL 使用情况上下文]**&#x200B;列中选择&#x200B;**[!UICONTROL 受众]**、**[!UICONTROL 数据集]**、**[!UICONTROL 目标]**&#x200B;或&#x200B;**[!UICONTROL 架构]**&#x200B;以打开显示字段使用位置的侧面板。 有关其他字段级上下文，请参阅结果表下方的&#x200B;**[!UICONTROL 解释的结果]**&#x200B;部分。
 
-   ![AI助手中的侧面板，显示选定字段的使用上下文，包括受众、数据集、目标和架构关联。](./images/field-discovery/fields-identified-panel-expanded.png)
+   ![AI助手中的侧面板，显示选定字段的使用上下文，包括受众、数据集、目标和架构关联。](./assets/field-discovery/fields-identified-panel-expanded.png)
 
 5. 在下游工具（如区段生成器、查询服务或数据摄取工作流）中使用&#x200B;**[!UICONTROL 字段名称]**&#x200B;路径，具体取决于您的用例。 字段发现代理提供字段引用，但不将其插入其他工具。
 
@@ -138,7 +138,9 @@ Field Discovery Agent会处理您的查询，并根据您的意图返回三种�
 
 当您描述特定数据概念或属性时， Field Discovery Agent会返回语义上与您的描述匹配的字段的排名列表。
 
-> “哪些字段代表客户所在省/市/自治区？”“查找与采购交易日期相关的字段。”“哪些字段包含有关电子邮件营销同意的信息？”
+> “哪些字段代表客户所在省/市/自治区？”
+> “查找与购买交易日期相关的字段。”
+> “哪些字段包含有关电子邮件营销同意的信息？”
 
 响应在&#x200B;**[!UICONTROL 已识别字段]**&#x200B;面板中列出了候选字段及其相关标签和XDM路径。 标记为&#x200B;**[!UICONTROL 高度相关]**&#x200B;的字段与您声明的概念最接近。 如果排名最前的结果标记为&#x200B;**[!UICONTROL 适度相关]**&#x200B;或&#x200B;**[!UICONTROL 相关]**&#x200B;而不是&#x200B;**[!UICONTROL 高度相关]**，请使用更具体的术语或字段级上下文来优化您的查询。
 
@@ -146,7 +148,9 @@ Field Discovery Agent会处理您的查询，并根据您的意图返回三种�
 
 当您描述工作流目标或用例（如构建区段、加入数据集或准备查询）时，字段发现代理会推荐与该目标一致的字段，并按相关性优先排序。
 
-> “我想打造一个高价值客户群。 我应该使用哪些字段？”“推荐用于对购买倾向进行建模的字段。”“载入零售交易数据集时应包含哪些字段？”
+> “我想打造一个高价值客户群。我应该使用哪些字段？”
+> “推荐用于建模购买倾向的字段。”
+> “载入零售交易数据集时应该包含哪些字段？”
 
 响应将返回带相关上下文的优先级字段列表。 查看每个推荐字段的使用上下文，以确认在您的环境中当前已使用该字段。
 
@@ -154,7 +158,9 @@ Field Discovery Agent会处理您的查询，并根据您的意图返回三种�
 
 当您按名称或路径询问某个特定字段时， Field Discovery Agent会返回该字段的详细上下文，包括示例值、架构位置以及数据集、受众和目标之间的使用情况。
 
-> “告诉我有关字段`person.name.lastName`的更多信息。”“`homeAddress.stateProvince`存在哪些示例值？”“字段`commerce.purchases.value`在我的数据集和受众中的哪些位置使用？”
+> “告诉我有关字段`person.name.lastName`的更多信息。”
+> “`homeAddress.stateProvince`存在哪些示例值？”
+> “我的数据集和受众使用的字段`commerce.purchases.value`在哪里？”
 
 响应将返回该字段的示例值、架构位置、关联的数据集以及显示该字段的任何受众或目标。 查看此上下文，以确认该字段包含您预期的数据。
 
@@ -235,19 +241,31 @@ Field Discovery Agent依赖于知识库，该知识库定期使用Experience Pla
 
 当您知道您需要的数据概念，但不知道哪个字段包含它时，可以使用这些提示。
 
-> “哪个字段代表客户的州或地区？”“查找与电子邮件订阅状态相关的字段。”“哪个字段包含客户首次购买的日期？”“识别代表客户存留期值的字段。”“我的用户档案架构中的哪些字段与忠诚度计划会员资格相关？”
+> “哪个字段代表客户的州或地区？”
+> “查找与电子邮件订阅状态相关的字段。”
+> “哪个字段包含客户首次购买的日期？”
+> “标识表示客户存留期值的字段。”
+> “我的个人资料架构中的哪些字段与忠诚度计划会员资格相关？”
 
 ### 推荐提示
 
 在启动工作流并需要有关特定目标应包含哪些字段的指导时，请使用这些提示。
 
-> “我应该使用哪些字段来构建重新参与受众？”“针对在90天内未购买的客户，推荐受众的字段。”“哪些字段对流失风险建模最有用？”“建议在创建地域划分时要包括的字段。”“我正在打造一种购买倾向模式。 我应该从哪些字段开始？”
+> “我应该使用哪些字段来构建重新参与受众？”
+> “针对在90天内未购买的客户，推荐受众的字段。”
+> “哪些字段对建模流失风险最有用？”
+> “在创建地域划分时建议我应该包括的字段。”
+> “我正在构建购买倾向模型。我应该从哪些字段开始？”
 
 ### 扩充提示
 
 当具有候选字段并希望在将其用于区段、查询或映射之前验证该字段时，使用这些提示。
 
-> “告诉我有关`homeAddress.stateProvince`的更多信息。”“向我显示`commerce.purchases.value`的示例值。”“在我的数据集和受众中，在哪里使用了`person.name.lastName`？”“哪些数据集包含字段`web.webPageDetails.URL`？”“`segmentMembership`是否映射到任何活动的目标？”
+> “告诉我有关`homeAddress.stateProvince`的更多信息。”
+> “显示`commerce.purchases.value`的示例值。”
+> “在我的数据集和受众中，在哪里使用了`person.name.lastName`？”
+> “哪些数据集包含字段`web.webPageDetails.URL`？”
+> “是否将`segmentMembership`映射到任何活动目标？”
 
 ## 故障排除 {#troubleshooting}
 
