@@ -15,10 +15,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d8daade8bb7d0259cd18fe7c8f957955dd97b2a0
+source-git-commit: 2d8059201070965b01e67d2c910adc3a7b66ab01
 workflow-type: tm+mt
-source-wordcount: 766
-ht-degree: 2%
+source-wordcount: 881
+ht-degree: 3%
 
 ---
 
@@ -60,14 +60,17 @@ ht-degree: 2%
 
 ## CX Enterprise Co-worker
 
-CX Enterprise Co-worker是AI Assistant的“代理优先”演变。 您不必一次询问一个问题，而是用自然语言描述一个目标，同事可以计划工作，在您的Adobe和连接的系统中执行工作，验证结果，并返回完成的工作以供您审批。 同事包括：
+CX Enterprise Co-worker是AI Assistant的代理优先改进，它自动化了客户体验和营销工作流，因此您的团队可以专注于业务目标而不是例行执行。 您不必一次询问一个问题，而是用自然语言描述一个目标，同事可以计划工作，在您的Adobe和连接的系统中执行工作，验证结果，并返回完成的工作以供您审批。 同事包括：
 
-- **同事聊天**：用于浏览数据、验证受众和历程以及完成跨CX Enterprise应用程序的多步任务的对话界面。
-- **同事营销活动**：AI原生应用程序，可将营销活动简报、受众构建、内容生成、历程设计和校对整合为单一对话体验。
+- **[同事聊天](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)**：用于在CX Enterprise应用程序中浏览数据、验证受众和历程以及完成多步骤任务的对话界面。
+- **[同事营销活动](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)**：人工智能原生应用程序，使用内置模板、最佳实践和提示性指导，将营销活动简报、受众构建、内容生成、历程设计和校对整合为单一对话体验，以便规模小、敏捷的团队可以快速启动营销活动。
+- **同事项目**（即将推出）：用于自动化端到端客户体验编排工作流的统一工作区，帮助团队协调任务、审批和执行以推动从战略到交付的结果。 即将提供项目文档。
 
 符合条件的客户正在逐步从AI助手和Experience Platform代理过渡到同事聊天。 阅读[CX Enterprise Co-worker试用版](./agents/trial.md)以了解试用资格、AI信用使用情况以及如何获得访问权限。
 
-要查看同事聊天的实际效果，请浏览[Playground中的同事聊天](./coworker/playground-coworker-chat.md)，或阅读实际用例，例如[验证AA到CJA的迁移数据](./coworker/data-validation-aa-cja.md)和[分析转化下降](./coworker/analytics-chat.md)。
+要查看同事聊天的实际效果，请浏览[Playground中的同事聊天](./coworker/playground-coworker-chat.md)，或阅读实际用例，例如[验证AA到CJA的迁移数据](./coworker/data-validation-aa-cja.md)和[分析CJA数据](./coworker/analytics-chat.md)。
+
+有关同事聊天、营销活动和项目的完整产品文档，请参阅[Adobe CX Enterprise同事](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)。
 
 ## MCP
 
