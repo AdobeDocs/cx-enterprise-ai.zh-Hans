@@ -50,15 +50,15 @@ ht-degree: 1%
 
 ![选择“继续”的请求结果，突出显示“提交”。](./assets/sandbox-tooling/results-proceed.png)
 
-4. 选择要迁移的一个或多个对象，然后选择&#x200B;**[!UICONTROL 提交]**。
+&#x200B;4. 选择要迁移的一个或多个对象，然后选择&#x200B;**[!UICONTROL 提交]**。
 
 ![对象选择页面突出显示Submit。](./assets/sandbox-tooling/object-selection.png)
 
-5. 查看代理标识的对象和依赖项，并确认操作操作 — *新建*&#x200B;或&#x200B;*使用现有*。 准备开始迁移时，请选择&#x200B;**[!UICONTROL 继续]**，然后选择&#x200B;**[!UICONTROL 提交]**&#x200B;进行确认。 迁移可能需要几分钟才能完成。
+&#x200B;5. 查看代理标识的对象和依赖项，并确认操作操作 — *新建*&#x200B;或&#x200B;*使用现有*。 准备开始迁移时，请选择&#x200B;**[!UICONTROL 继续]**，然后选择&#x200B;**[!UICONTROL 提交]**&#x200B;进行确认。 迁移可能需要几分钟才能完成。
 
 ![确认行动计划页面突出显示“提交”。](./assets/sandbox-tooling/action-plan.png)
 
-6. 迁移完成后，所选对象将在目标沙盒中可用。
+&#x200B;6. 迁移完成后，所选对象将在目标沙盒中可用。
 
 ![显示请求状态的“传输完成”页面。](./assets/sandbox-tooling/transfer-complete.png)
 
