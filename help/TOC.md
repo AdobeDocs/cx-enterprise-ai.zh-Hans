@@ -5,10 +5,10 @@ user-guide-description: 了解如何使用 AI 助手通过 Adobe Experience Plat
 description: 了解CX Enterprise中的AI Assistant。 在CX Enterprise中使用AI提高您的产品知识并获得操作见解。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 8648fc2b3c36c2e017ba122a46931cdc14b04160
+source-git-commit: 869d08a77b71bb7690cccdcd5b00c4ddfe0bd722
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 28%
+source-wordcount: '227'
+ht-degree: 27%
 
 ---
 
@@ -54,9 +54,10 @@ ht-degree: 28%
     - [Journey Optimizer工具](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 同事帮助 {#coworker}
   - [同事帮助](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)
   - {hide-from-toc}[在游乐场中的同事聊天](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[验证AA到CJA的迁移数据](./coworker/data-validation-aa-cja.md)
-
+  - [分析CJA数据](./coworker/analytics-chat.md)
+  - [沙盒工具代理技能](./agents/sandbox-tooling.md)
