@@ -108,4 +108,4 @@ ht-degree: 1%
 
 阅读本指南后，您应该了解如何使用沙盒工具代理技能在沙盒之间发现、打包和迁移受支持的对象。
 
-有关沙盒工具的详细信息，请参阅[沙盒工具指南](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling)。
+有关沙盒工具的详细信息，请参阅[沙盒工具指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/ui/sandbox-tooling)。
