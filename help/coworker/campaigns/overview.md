@@ -110,7 +110,7 @@ Adobe CX Enterprise Co-worker Campaigns是一款AI原生营销应用程序，可
 
 ## 视频概述
 
->[!VIDEO](https://video.tv.adobe.com/v/3492807?learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3492815?captions=chi_hans&learn=on){transcript=true}
 
 
 新功能将在试用期间提供。 您的反馈有助于形成后续内容。 通过标题中的产品内反馈图标提交反馈。
