@@ -2,23 +2,13 @@
 title: CX企业应用程序中的AI
 description: 了解CX Enterprise应用程序如何使用generative AI (GenAI)、AI Assistant、agentic AI、CX Enterprise Co-worker和MCP工具。
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2d8059201070965b01e67d2c910adc3a7b66ab01
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 870dc2f9f9c13278457248a8db7af3980674efe5
 workflow-type: tm+mt
-source-wordcount: 881
-ht-degree: 3%
+source-wordcount: 872
+ht-degree: 2%
 
 ---
 
@@ -70,7 +60,7 @@ CX Enterprise Co-worker是AI Assistant的代理优先改进，它自动化了客
 
 要查看同事聊天的实际效果，请浏览[Playground中的同事聊天](./coworker/playground-coworker-chat.md)，或阅读实际用例，例如[验证AA到CJA的迁移数据](./coworker/data-validation-aa-cja.md)和[分析CJA数据](./coworker/analytics-chat.md)。
 
-有关同事聊天、营销活动和项目的完整产品文档，请参阅[Adobe CX Enterprise同事](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home)。
+有关同事聊天、营销活动和项目的完整产品文档，请参阅[Adobe CX Enterprise同事](./coworker/overview.md)。
 
 ## MCP
 
@@ -99,3 +89,4 @@ AI Assistant和Experience Platform代理构建时将隐私、安全和治理放�
 ## 法律注意事项
 
 AI Assistant当前仅支持英语回复，语言模型偶尔可能会出错。 始终验证提供的信息，并使用每个响应中包含的推理步骤来了解信息的生成方式。 有关完整的详细信息，请阅读[法律免责声明](./ai-assistant/legal-disclaimer.md)。
+
