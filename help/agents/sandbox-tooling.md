@@ -1,7 +1,7 @@
 ---
 title: 沙盒工具代理技能
 description: 了解如何使用沙盒工具代理技能跨沙盒环境复制对象元数据。
-source-git-commit: 1fec24983eff50e6d0215c576049d9a80105bfc0
+source-git-commit: 7790447877fa20321321ce5561d8ff61b28c572e
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -42,23 +42,23 @@ ht-degree: 1%
 要使用沙盒工具代理技能，请执行以下操作：
 
 1. 导航到&#x200B;**[!UICONTROL CX Co-worker]**。
-2. 输入要完成的任务的明确说明。 例如：
+1. 输入要完成的任务的明确说明。 例如：
 
    *“将架构忠诚度会员白金从当前沙盒移动到Acme演示沙盒。”*
 
-3. 查看结果表，其中显示了源沙箱和目标沙箱。 准备好继续时，选择&#x200B;**[!UICONTROL 继续]**，然后选择&#x200B;**[!UICONTROL 提交]**&#x200B;以进行确认。
+1. 查看结果表，其中显示了源沙箱和目标沙箱。 准备好继续时，选择&#x200B;**[!UICONTROL 继续]**，然后选择&#x200B;**[!UICONTROL 提交]**&#x200B;以进行确认。
 
-![选择“继续”的请求结果，突出显示“提交”。](./assets/sandbox-tooling/results-proceed.png)
+   ![选择“继续”的请求结果，突出显示“提交”。](./assets/sandbox-tooling/results-proceed.png)
 
-&#x200B;4. 选择要迁移的一个或多个对象，然后选择&#x200B;**[!UICONTROL 提交]**。
+1. 选择要迁移的一个或多个对象，然后选择&#x200B;**[!UICONTROL 提交]**。
 
-![对象选择页面突出显示Submit。](./assets/sandbox-tooling/object-selection.png)
+   ![对象选择页面突出显示Submit。](./assets/sandbox-tooling/object-selection.png)
 
-&#x200B;5. 查看代理标识的对象和依赖项，并确认操作操作 — *新建*&#x200B;或&#x200B;*使用现有*。 准备开始迁移时，请选择&#x200B;**[!UICONTROL 继续]**，然后选择&#x200B;**[!UICONTROL 提交]**&#x200B;进行确认。 迁移可能需要几分钟才能完成。
+1. 查看代理标识的对象和依赖项，并确认操作操作 — *新建*&#x200B;或&#x200B;*使用现有*。 准备开始迁移时，请选择&#x200B;**[!UICONTROL 继续]**，然后选择&#x200B;**[!UICONTROL 提交]**&#x200B;进行确认。 迁移可能需要几分钟才能完成。
 
-![确认行动计划页面突出显示“提交”。](./assets/sandbox-tooling/action-plan.png)
+   ![确认行动计划页面突出显示“提交”。](./assets/sandbox-tooling/action-plan.png)
 
-&#x200B;6. 迁移完成后，所选对象将在目标沙盒中可用。
+1. 迁移完成后，所选对象将在目标沙盒中可用。
 
 ![显示请求状态的“传输完成”页面。](./assets/sandbox-tooling/transfer-complete.png)
 
