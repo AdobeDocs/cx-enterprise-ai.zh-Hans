@@ -2,23 +2,13 @@
 title: CX企业应用程序中的AI
 description: 了解CX Enterprise应用程序如何使用generative AI (GenAI)、AI Assistant、agentic AI、CX Enterprise Co-worker和MCP工具。
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 870dc2f9f9c13278457248a8db7af3980674efe5
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 325bdc7452557cf9a2b448b5e6afa613b87b4544
 workflow-type: tm+mt
-source-wordcount: 872
-ht-degree: 2%
+source-wordcount: 929
+ht-degree: 3%
 
 ---
 
@@ -26,7 +16,7 @@ ht-degree: 2%
 
 本指南涵盖Adobe CX Enterprise应用程序中提供的AI功能：用于产品知识和操作见解的创作AI和AI Assistant；用于作业自动化的Agent Orchestrator和Experience Platform Agent；用于实现完全对话的、代理优先体验的CX Enterprise Co-worker；用于将您自己的AI工具连接到CX Enterprise数据的MCP。
 
-## 关于CX Enterprise中的AI
+## AI功能概述
 
 从这里开始，了解在何处以及如何跨CX Enterprise使用AI ：
 
@@ -34,6 +24,7 @@ ht-degree: 2%
 - [代理AI](./overview/agentic-ai.md)说明Experience Platform Agent如何在现有CX Enterprise应用程序和AI优先应用程序中工作，并列出每个应用程序中可用的代理。
 - [Agentic AI监控](./overview/monitoring.md)涵盖跟踪代理采用、使用、反馈和AI信用消耗的仪表板。
 - [代理作业和AI信用消耗](./overview/ai-credit-consumption.md)说明代理作业如何使用AI信用消耗，并按照代理和作业类型估计消耗率。
+- [CX Enterprise Agentic Tools](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-agentic-tools/using/overview)涵盖了扩展CX Enterprise Agent的其他代理技能和工具。
 
 ## AI 助手
 
@@ -55,6 +46,7 @@ ht-degree: 2%
 - [通知代理](./agents/notifications.md)
 - [产品支持代理](./agents/product-support.md)
 - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
+- [验证数据](./agents/data-validation.md)
 
 有关代理的完整列表、每个支持的应用程序以及资格要求，请参阅[CX Enterprise中的Agentic AI](./overview/agentic-ai.md)。
 
@@ -68,13 +60,15 @@ CX Enterprise Co-worker是AI Assistant的代理优先改进，它自动化了客
 
 符合条件的客户正在逐步从AI助手和Experience Platform代理过渡到同事聊天。 阅读[CX Enterprise Co-worker试用版](./agents/trial.md)以了解试用资格、AI信用使用情况以及如何获得访问权限。
 
-要查看同事聊天的实际效果，请浏览[Playground中的同事聊天](./coworker/playground-coworker-chat.md)，或阅读实际用例，例如[验证AA到CJA的迁移数据](./coworker/data-validation-aa-cja.md)和[分析CJA数据](./coworker/analytics-chat.md)。
+要查看同事聊天的实际效果，请浏览[Playground中的同事聊天](./coworker/playground-coworker-chat.md)，或阅读实际用例，例如[验证AA到CJA的迁移数据](./coworker/data-validation-aa-cja.md)和[分析CJA数据](./coworker/chat/analytics-chat.md)。
 
-有关同事聊天、营销活动和项目的完整产品文档，请参阅[Adobe CX Enterprise同事](./coworker/overview.md)。
+有关同事聊天、营销活动和项目的完整产品文档，请参阅[Adobe CX Enterprise同事](./coworker/overview.md)。 有关沙盒到沙盒对象复制，请参阅[沙盒工具代理技能](./agents/sandbox-tooling.md)。
 
 ## MCP
 
-[Adobe CX Co-worker Gateway](./mcp/overview.md)是CX Enterprise的统一模型上下文协议(MCP)终结点。 它提供与MCP兼容的客户端，如[!DNL Claude]、[!DNL ChatGPT]和[!DNL Cursor]，与您的组织有权使用的产品工具（包括Real-Time CDP、Experience Platform、Journey Optimizer、Customer Journey Analytics和Adobe Analytics）之间的单个受管辖连接。
+[Adobe CX Co-worker Gateway](./mcp/overview.md)是CX Enterprise的统一模型上下文协议(MCP)终结点。 它提供与MCP兼容的客户端，如[!DNL Claude]、[!DNL ChatGPT]和[!DNL Cursor]，与您的组织有权使用的产品工具（包括Real-Time CDP、Experience Platform、Journey Optimizer、Customer Journey Analytics、Adobe Analytics和Workfront）之间的单个受管辖连接。
+
+初次使用CX Co-worker Gateway？ 请参阅[访问CX Co-worker Gateway工具](./mcp/access.md)和[安装CX Co-worker Gateway](./mcp/install.md)以连接。
 
 ## 快速入门
 
