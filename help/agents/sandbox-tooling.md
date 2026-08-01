@@ -33,7 +33,7 @@ ht-degree: 1%
 - 访问要发现或迁移的对象。
 - CX Co-worker中安装的Adobe CXO插件。
 
-有关安装插件的说明，请参阅[辅助进程UI指南](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide)。
+有关安装插件的说明，请参阅[辅助进程UI指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/chat/ui-guide)。
 
 ## 使用沙盒工具代理技能 {#use-sandbox-tooling-agentic-skills}
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 ![显示请求状态的“传输完成”页面。](./assets/sandbox-tooling/transfer-complete.png)
 
-有关使用CX Co-worker的详细信息，请参阅[Co-worker UI指南](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide)。
+有关使用CX Co-worker的详细信息，请参阅[Co-worker UI指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/chat/ui-guide)。
 
 ## 支持的用例 {#supported-use-cases}
 
