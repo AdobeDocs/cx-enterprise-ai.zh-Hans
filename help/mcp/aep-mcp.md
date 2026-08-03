@@ -3,8 +3,8 @@ title: CX Co-worker Gateway中的Adobe Experience Platform工具
 description: 通过CX Co-worker Gateway了解哪些Adobe Experience Platform工具可用。
 source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
 workflow-type: tm+mt
-source-wordcount: '1372'
-ht-degree: 8%
+source-wordcount: '1354'
+ht-degree: 7%
 
 ---
 
@@ -175,7 +175,7 @@ Experience Platform目录服务的统一调度工具。 查询数据集元数据
 | `scope` | 否 | `core` （Adobe定义）或`custom` （组织定义）。 `list`、`get`、`evaluate`必需；未用于`list_enabled` |
 | `resource_id` | 否 | 标签名称、策略ID或营销操作名称。 `get`和`evaluate`必需 |
 | `query_params.dule_labels` | 否 | 逗号分隔的标签（如`C1,C3`）。 `marketing_action/evaluate`必需；`policy/list`的可选筛选器 |
-| `query_params.limit` | 否 | 最大结果 |
+| `query_params.limit` | 否 | 最大结果数 |
 | `query_params.start` | 否 | 来自先前响应的`_page.next`值的分页光标 |
 | `query_params.orderby` | 否 | 逗号分隔的排序字段 |
 | `query_params.property_filter` | 否 | 筛选表达式，如`name==C1` |
