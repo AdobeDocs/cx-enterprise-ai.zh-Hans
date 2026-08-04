@@ -1,14 +1,14 @@
 ---
 description: 了解Co-worker Chat如何使用对话界面在几分钟内规划、执行和完成跨Adobe和联网系统的客户体验工作。
-title: Adobe CX Enterprise同事聊天概述
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+title: Adobe同事聊天概述
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
 
-# Adobe CX Enterprise同事聊天概述 {#overview}
+# Adobe同事聊天概述 {#overview}
 
 同事聊天是一种用于完成客户体验工作的对话界面。 您用简单的语言描述了目标（例如，“构建春季瑜伽促销活动的受众”或“告诉我为什么这个受众上周在收缩”），Co-worker Chat规划工作，在您的Adobe和连接的系统中执行工作，验证结果，然后将完成的工作交还给您进行审批。
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->同事聊天是Adobe CX Enterprise Co-worker的一个模块。 其他两个模块扩展了同一个基础：同事营销活动（从一个对话中站起来启动一个完整的营销活动）和同事项目（用于端到端、多团队工作流的始终在线工作区）。 本页介绍“同事聊天”。
+>同事聊天是Adobe同事的一个模块。 其他两个模块扩展了同一个基础：同事营销活动（从一个对话中站起来启动一个完整的营销活动）和同事项目（用于端到端、多团队工作流的始终在线工作区）。 本页介绍“同事聊天”。
 
 ## AI助理的演变
 
@@ -51,4 +51,4 @@ ht-degree: 0%
 
 ## 视频概述
 
->[!VIDEO](https://video.tv.adobe.com/v/3495975?captions=chi_hans&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}

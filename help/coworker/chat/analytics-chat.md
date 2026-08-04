@@ -1,16 +1,16 @@
 ---
 title: 通过同事聊天分析Customer Journey Analytics数据
-description: 了解如何使用Adobe CX Enterprise Co-worker Chat分析Customer Journey Analytics数据、构建漏斗并查找客户在历程中的流失位置。
-source-git-commit: 4c615d3c844049e47edde3b4c4dd7f77a788c268
+description: 了解如何使用Adobe Co-worker Chat分析Customer Journey Analytics数据、构建漏斗并查找客户在旅程中的流失位置。
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2040'
 ht-degree: 4%
 
 ---
 
 # 通过同事聊天分析Customer Journey Analytics数据
 
-Adobe CX Enterprise Co-worker Chat可以执行以前只能在Analysis Workspace中进行的高级数据分析。 Co-worker Chat访问来自Customer Journey Analytics数据视图的数据，允许您浏览该数据并获得自然语言提示的答案。
+Adobe Co-worker Chat可以执行以前仅在Analysis Workspace中才有的高级数据分析。 Co-worker Chat访问来自Customer Journey Analytics数据视图的数据，允许您浏览该数据并获得自然语言提示的答案。
 
 在开始分析之前，请了解Co-worker Chat界面和配置选项，然后确保Co-worker已连接到Customer Journey Analytics以及包含要使用的数据的数据视图。
 
@@ -29,13 +29,13 @@ Adobe CX Enterprise Co-worker Chat可以执行以前只能在Analysis Workspace�
 * 技能
 * 等等
 
-有关详细信息，请参阅[同事聊天用户界面指南] (./)。
+有关详细信息，请参阅[同事聊天用户界面指南](./)。
 
 ### Customer Journey Analytics的用例
 
-您可以在Adobe CX Enterprise Co-worker Chat中看到从业者正在使用的Customer Journey Analytics用例和示例提示。 每个提示都构建为可复制、根据您自己的数据和上下文进行调整，并通过对话进行细化。
+您可以查看从业人员在同事聊天中使用的Customer Journey Analytics用例和示例提示。 每个提示都构建为可复制、根据您自己的数据和上下文进行调整，并通过对话进行细化。
 
-有关详细信息，请参阅[用例] (./)。
+有关详细信息，请参阅[用例](./)。
 
 ## 验证同事聊天是否已连接到Customer Journey Analytics
 
@@ -105,7 +105,7 @@ Co-worker创建可视化图表后，您可以在Customer Journey Analytics的Ana
 
 要在新的Analysis Workspace项目中打开可视化图表，请执行以下操作：
 
-1. 选择“在CJA中分析”[!UICONTROL **&#x200B;**]，位于在同事中创建的任何可视化图表旁边。
+1. 选择“在CJA中分析”[!UICONTROL ****]，位于在同事中创建的任何可视化图表旁边。
 
 1. 在Customer Journey Analytics中打开可视化图表后，您可以使用Analysis Workspace拖放浏览器界面进行修改、进一步构建分析、创建受众等等。 您甚至可以与所选的任何人共享您的Workspace项目。
 

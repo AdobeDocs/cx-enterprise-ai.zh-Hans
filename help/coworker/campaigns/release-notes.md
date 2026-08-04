@@ -1,16 +1,16 @@
 ---
-description: 了解Adobe CX Enterprise Co-worker Campaigns发行说明中的功能增强和修复。
-title: Adobe CX Enterprise Co-worker Campaign发行说明
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+description: 在Adobe Co-worker Campaigns发行说明中了解功能增强和修复。
+title: Adobe同事营销活动发行说明
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '2193'
+source-wordcount: '2182'
 ht-degree: 0%
 
 ---
 
-# Adobe CX Enterprise Co-worker Campaign发行说明 {#release-notes}
+# Adobe同事营销活动发行说明 {#release-notes}
 
-Adobe CX Enterprise Co-worker Campaigns版本在持续交付模型上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。
+协作营销活动版本在持续交付模型上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。
 
 ## 2026年7月 {#july-2026}
 
@@ -130,7 +130,7 @@ Adobe CX Enterprise Co-worker Campaigns版本在持续交付模型上运行，�
 
 **发行日期： 2026年6月10日**
 
-* 该应用程序现在更名为CX Enterprise Co-worker Campaigns ，其命名更新贯穿始终
+* 该应用程序现在更名为“同事营销活动”，其命名在整个过程中进行了更新
 * 首次入门导览将指导您构建演示品牌
 * 在您的计划准备就绪后，从专用对话框启动营销活动
 * 使用集成目录中的API密钥连接HubSpot
