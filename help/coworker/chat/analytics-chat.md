@@ -1,7 +1,7 @@
 ---
 title: 通过同事聊天分析Customer Journey Analytics数据
 description: 了解如何使用Adobe CX Enterprise Co-worker Chat分析Customer Journey Analytics数据、构建漏斗并查找客户在历程中的流失位置。
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+source-git-commit: 4c615d3c844049e47edde3b4c4dd7f77a788c268
 workflow-type: tm+mt
 source-wordcount: '2047'
 ht-degree: 4%
@@ -23,19 +23,19 @@ Adobe CX Enterprise Co-worker Chat可以执行以前只能在Analysis Workspace�
 * 聊天输入
 * 对话
 * 市场
-* MCP服务器
-* 内存
+* MCP 服务器
+* 记忆
 * 插件
 * 技能
 * 等等
 
-有关详细信息，请参阅[同事聊天用户界面指南] (./)。
+有关详细信息，请参阅[同事聊天用户界面指南](./)。
 
 ### Customer Journey Analytics的用例
 
 您可以在Adobe CX Enterprise Co-worker Chat中看到从业者正在使用的Customer Journey Analytics用例和示例提示。 每个提示都构建为可复制、根据您自己的数据和上下文进行调整，并通过对话进行细化。
 
-有关详细信息，请参阅[用例] (./)。
+有关详细信息，请参阅[用例](./)。
 
 ## 验证同事聊天是否已连接到Customer Journey Analytics
 
@@ -60,33 +60,33 @@ Adobe CX Enterprise Co-worker Chat可以执行以前只能在Analysis Workspace�
 **您：**
 
 >[!BEGINSHADEBOX]
->
->我感兴趣的是了解客户在客户历程中的流失情况。 Customer Journey Analytics中我可以访问哪些数据视图，以便回答此问题？
->
+
+我感兴趣的是了解客户在客户历程中的流失情况。 Customer Journey Analytics中我可以访问哪些数据视图，以便回答此问题？
+
 >[!ENDSHADEBOX]
 
 **同事聊天响应：**
 
 >[!BEGINSHADEBOX]
->
->您有权访问三个数据视图。 `Customer lifecycle`数据视图包含以下维度和量度，最适合回答您的问题。
->
+
+您有权访问三个数据视图。 `Customer lifecycle`数据视图包含以下维度和量度，最适合回答您的问题。
+
 >[!ENDSHADEBOX]
 
 **您：**
 
 >[!BEGINSHADEBOX]
->
->很好，让我们使用该数据视图。
->
+
+很好，让我们使用该数据视图。
+
 >[!ENDSHADEBOX]
 
 **同事聊天响应：**
 
 >[!BEGINSHADEBOX]
->
->好的，我将使用`Customer lifecycle`数据视图来回答此聊天会话中未来的问题。
->
+
+好的，我将使用`Customer lifecycle`数据视图来回答此聊天会话中未来的问题。
+
 >[!ENDSHADEBOX]
 
 ### 在内存中添加数据视图首选项
@@ -105,7 +105,7 @@ Co-worker创建可视化图表后，您可以在Customer Journey Analytics的Ana
 
 要在新的Analysis Workspace项目中打开可视化图表，请执行以下操作：
 
-1. 选择“在CJA中分析”[!UICONTROL **&#x200B;**]，位于在同事中创建的任何可视化图表旁边。
+1. 选择“在CJA中分析”[!UICONTROL ****]，位于在同事中创建的任何可视化图表旁边。
 
 1. 在Customer Journey Analytics中打开可视化图表后，您可以使用Analysis Workspace拖放浏览器界面进行修改、进一步构建分析、创建受众等等。 您甚至可以与所选的任何人共享您的Workspace项目。
 
@@ -138,9 +138,9 @@ Co-worker创建可视化图表后，您可以在Customer Journey Analytics的Ana
 **您：**
 
 >[!BEGINSHADEBOX]
->
->在采购途中，我们在哪里失去了一些人？
->
+
+在采购途中，我们在哪里失去了一些人？
+
 >[!ENDSHADEBOX]
 
 **同事聊天响应：**
@@ -189,9 +189,9 @@ Co-worker创建可视化图表后，您可以在Customer Journey Analytics的Ana
 **您：**
 
 >[!BEGINSHADEBOX]
->
->好，我们来按营销渠道细分
->
+
+好，我们来按营销渠道细分
+
 >[!ENDSHADEBOX]
 
 **同事聊天响应：**
@@ -240,9 +240,9 @@ Co-worker创建可视化图表后，您可以在Customer Journey Analytics的Ana
 **您：**
 
 >[!BEGINSHADEBOX]
->
->有意思。 让我们尝试按设备类型划分。
->
+
+有意思。 让我们尝试按设备类型划分。
+
 >[!ENDSHADEBOX]
 
 **同事聊天响应：**
@@ -299,20 +299,20 @@ Co-worker创建可视化图表后，您可以在Customer Journey Analytics的Ana
 **您：**
 
 >[!BEGINSHADEBOX]
->
->那我该怎么办？
->
+
+那我该怎么办？
+
 >[!ENDSHADEBOX]
 
 **同事聊天响应：**
 
 >[!BEGINSHADEBOX]
->
->根据数据显示的情况，我将重点介绍以下内容：
->
->* **修复移动结帐 — 这不是渠道问题。** 每个渠道都在以相似且健康的比率将人们转化为购物车，因此广告支出在整体上发挥作用。 收入将会丢失，特别是在该修补程序所属的移动结账流程中。
->* **开始付款并形成摩擦。** 这些是意图高远的移动购物者放弃购物的最常见原因。 提供移动钱包选项和缩短表格通常是最快的优势。
->* 修复后&#x200B;**重新检查。** 结账后出货情况发生变化，请观察移动设备的购物车到购买率是否向桌面机的23.2%移动。
+
+根据数据显示的情况，我将重点介绍以下内容：
+
+* **修复移动结帐 — 这不是渠道问题。** 每个渠道都在以相似且健康的比率将人们转化为购物车，因此广告支出在整体上发挥作用。 收入将会丢失，特别是在该修补程序所属的移动结账流程中。
+* **开始付款并形成摩擦。** 这些是意图高远的移动购物者放弃购物的最常见原因。 提供移动钱包选项和缩短表格通常是最快的优势。
+* 修复后&#x200B;**重新检查。** 结账后出货情况发生变化，请观察移动设备的购物车到购买率是否向桌面机的23.2%移动。
 
 希望我将它另存为项目以便您可以跟踪它，或者在移动购物车购买次数低于阈值时设置警报？
 
