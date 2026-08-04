@@ -64,8 +64,8 @@ ht-degree: 4%
 
 CX Enterprise Co-worker是AI Assistant的代理优先改进，它自动化了客户体验和营销工作流，因此您的团队可以专注于业务目标而不是例行执行。 与其一次问一个问题，不如描述一个目标。 同事计划、执行、验证和返回已完成的工作以供您审批。 同事包括：
 
-- **[同事聊天](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**：用于在CX Enterprise应用程序中浏览数据、验证受众和历程以及完成多步骤任务的对话界面。
-- **[同事营销活动](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**：人工智能原生应用程序，可将营销活动简报、受众构建、内容生成、历程设计和校对整合为单一对话体验。 它使用内置模板、最佳实践和提示性指导，帮助小型、敏捷团队快速启动促销活动。
+- **[同事聊天](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**：用于在CX Enterprise应用程序中浏览数据、验证受众和历程以及完成多步骤任务的对话界面。
+- **[同事营销活动](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**：人工智能原生应用程序，可将营销活动简报、受众构建、内容生成、历程设计和校对整合为单一对话体验。 它使用内置模板、最佳实践和提示性指导，帮助小型、敏捷团队快速启动促销活动。
 - **同事项目**（即将推出）：用于自动化端到端客户体验编排工作流的统一工作区，帮助团队协调任务、审批和执行以推动从战略到交付的结果。 即将提供项目文档。
 
 符合条件的客户正在逐步从AI助手和Experience Platform代理过渡到同事聊天。 阅读[CX Enterprise Co-worker试用版](./agents/trial.md)以了解试用资格、AI信用使用情况以及如何获得访问权限。
