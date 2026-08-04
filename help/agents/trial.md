@@ -42,7 +42,7 @@ ht-degree: 1%
 - 同事聊天：在同事聊天中输入的输入。 在有限的开头期间，输入按每个输入25个AI信用的比率使用AI信用。 此费率仅在有限的时间内可用，并且可能会发生更改。
 - Experience Platform Agent：使用[AI信用消耗量表](../overview/ai-credit-consumption.md)中列出的Experience Platform Agent执行的任意作业组合（取决于您对CX Enterprise应用程序的现有许可证）。
 
-您可以使用Adobe Experience Platform UI中的许可证使用情况仪表板跟踪您的AI积分。 有关详细信息，请阅读[许可证使用情况仪表板文档](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)。
+您可以使用Adobe Experience Platform UI中的许可证使用情况仪表板跟踪您的AI积分。 有关详细信息，请阅读[许可证使用情况仪表板文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dashboards/guides/license-usage)。
 
 利用Agentic AI监控仪表板，可清楚了解您的组织是如何采用和使用Agentic AI的。 授权用户可以轻松跟踪参与、收集反馈、监控AI信用使用情况并审查关键量度。 利用这些见解发现优化机会并支持您的治理和采用工作。 要了解更多信息，请访问[代理AI使用监视指南](../overview/monitoring.md)。
 
@@ -78,7 +78,7 @@ ht-degree: 1%
 
 有关同事、Agent Orchestrator和AI Assistant的更多信息，请阅读以下指南：
 
-- [同事](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
+- [同事](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
 - [Agent Orchestrator概述](agent-orchestrator.md)
 - [AI助手UI指南](../ai-assistant/ai-assistant-ui.md)
 - [AI Assistant提示库](../ai-assistant/prompt-library.md)
@@ -110,7 +110,7 @@ Agentic使用限制试用版允许符合条件的客户使用同事聊天（或�
 
 ### 谁可以查看使用情况以及如何查看？
 
-您可以使用Adobe Experience Platform UI中的许可证使用情况仪表板跟踪您的AI积分。 有关详细信息，请阅读[许可证使用情况仪表板文档](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)。 使用仪表板可查看您的AI信用使用情况和报表。 只有具有相应权限的管理员和用户才能查看您的使用情况信息。
+您可以使用Adobe Experience Platform UI中的许可证使用情况仪表板跟踪您的AI积分。 有关详细信息，请阅读[许可证使用情况仪表板文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dashboards/guides/license-usage)。 使用仪表板可查看您的AI信用使用情况和报表。 只有具有相应权限的管理员和用户才能查看您的使用情况信息。
 
 客户可以控制谁可以查看使用情况和报表。 只有具有相应权限的管理员和用户才能查看此信息。
 
