@@ -1,9 +1,9 @@
 ---
 title: 通过同事聊天分析Customer Journey Analytics数据
 description: 了解如何使用Adobe CX Enterprise Co-worker Chat分析Customer Journey Analytics数据、构建漏斗并查找客户在历程中的流失位置。
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 64745860140f636548155b7eda8605ffde43b75a
 workflow-type: tm+mt
-source-wordcount: '3243'
+source-wordcount: '3210'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ Adobe CX Enterprise Co-worker Chat可以执行以前只能在Analysis Workspace�
 * **快速回答** — 直接问一个纯语言的问题，并立即获得答案。 商业用户通常以这种方式使用同事聊天，而分析师在需要为利益相关者提供快速答案时也会使用这种聊天。
 * **深入思考工作** — 与同事聊天进行多圈扩展对话，以调查业务问题、排除原因并得出建议。 分析人员通常使用此方法在提出推荐之前深入浏览数据。
 
-在开始分析之前，请了解Co-worker Chat界面和配置选项，然后确保Co-worker已连接到Customer Journey Analytics以及包含要使用的数据的数据视图。
+在开始之前，请先了解Co-worker Chat界面和配置选项，然后确保Co-worker已连接到Customer Journey Analytics和相关数据视图。
 
 ## 同事聊天入门
 
@@ -54,12 +54,14 @@ Adobe CX Enterprise Co-worker Chat可以执行以前只能在Analysis Workspace�
 
 #### 用户级别的最佳实践
 
-* 使用计划模式。 这对于复杂任务特别有用，但也可以为简单任务产生更好的结果，因为它允许同事在采取行动之前提出后续问题。 有关详细信息，请参阅[计划模式](/help/coworker/chat/ui-guide.md#plan-mode)。
+* 使用计划模式。
+
+  此模式对于复杂任务特别有用，但也可以为简单任务产生更好的结果，因为它允许同事在采取行动之前提出后续问题。 有关详细信息，请参阅[计划模式](/help/coworker/chat/ui-guide.md#plan-mode)。
 
 * 创建提示时，请尽可能具体一些：
 
   * 命名要分析的维度、量度和日期范围。
-  * 按确切名称引用数据视图组件，例如维度、量度和区段。
+  * 按其确切名称引用数据视图组件。
   * 指定要包含、排除或比较的任何区段、受众、渠道或设备。
   * 指明您是要获取特定的可视化图表类型，如funnel、趋势表还是同类群组表。
   * 如果您希望同事聊天提供后续问题建议，请咨询建议的后续步骤。
@@ -90,7 +92,7 @@ Adobe CX Enterprise Co-worker Chat可以执行以前只能在Analysis Workspace�
 
 ### 决定要使用的数据视图
 
-告诉同事您希望回答的问题类型，并询问您有权访问哪些数据视图最能提供该信息。 您还可以[将您的数据视图设置为内存](#add-a-data-view-preference-in-memory)中的首选项。
+告诉同事您要回答的问题类型，并询问您有权访问哪些数据视图来提供该信息。 您还可以[将您的数据视图设置为内存](#add-a-data-view-preference-in-memory)中的首选项。
 
 **您：**
 
@@ -136,11 +138,11 @@ Co-worker Chat包含内存功能，允许您访问跨越所有聊天的信息。
 
 ## 在Customer Journey Analytics中分析
 
-Co-worker创建可视化图表后，您可以在Customer Journey Analytics的Analysis Workspace中打开该可视化图表，以便通过更精细的控制进行更深入的分析。 该可视化图表在Customer Journey Analytics的新Analysis Workspace项目中打开。
+Co-worker创建可视化图表后，您可以在Analysis Workspace中打开该可视化图表，以便进行更深入的分析并更精细地控制。 该可视化图表在Customer Journey Analytics的新Analysis Workspace项目中打开。
 
 要在新的Analysis Workspace项目中打开可视化图表，请执行以下操作：
 
-1. 选择“在CJA中分析”[!UICONTROL **&#x200B;**]，位于在同事中创建的任何可视化图表旁边。
+1. 选择“在CJA中分析”[!UICONTROL ****]，位于在同事中创建的任何可视化图表旁边。
 
 1. 在Customer Journey Analytics中打开可视化图表后，您可以使用Analysis Workspace拖放浏览器界面进行修改、进一步构建分析、创建受众等等。 您甚至可以与所选的任何人共享您的Workspace项目。
 
@@ -265,7 +267,7 @@ Co-worker创建可视化图表后，您可以在Customer Journey Analytics的Ana
 
 #### 所需的权限
 
-* 管理技能，以保存可重复使用的技能
+* 管理技能
 
 #### 主要用例
 
@@ -490,7 +492,7 @@ Co-worker创建可视化图表后，您可以在Customer Journey Analytics的Ana
 
 >[!ENDSHADEBOX]
 
-### 刚刚发生的事情
+### 发生了什么
 
 在四个直白的问题中，同事帮助我们：
 
