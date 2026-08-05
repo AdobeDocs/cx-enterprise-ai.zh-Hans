@@ -1,10 +1,10 @@
 ---
 description: 浏览同事聊天用例和示例提示，按区域在数据见解、受众、历程和平台操作之间组织。
 title: 用例
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 58fc8c37c1bf26a6da3bc69e307931a7680c4490
 workflow-type: tm+mt
-source-wordcount: '1234'
-ht-degree: 3%
+source-wordcount: '1143'
+ht-degree: 4%
 
 ---
 
@@ -33,10 +33,10 @@ ht-degree: 3%
 | 从自然语言创建受众 | 在每个阶段都通过用户批准来编排受众创建的分步过程 | `audience-creation-flow` | Real-Time CDP (RTCDP) | “创建过去30天内购买的用户受众” · “在加利福尼亚为高价值忠诚度会员构建区段” |
 | 构建PQL定义 | 从XDM属性、行为事件或现有受众收集受众定义；支持聚合和时间窗口 | `segment-definition-assembly` | Real-Time CDP (RTCDP) | “为查看了3个以上产品但未购买的用户创建PQL” · “向我的事件条件添加7天时间范围” |
 | 搜索和查找受众 | 按ID、名称、语义搜索查找受众；检测重复项并分析重叠 | `audience-search` | Real-Time CDP (RTCDP) | “查找所有忠诚受众” · “我的‘节日购物者’区段是否存在重复项？” |
-| 估计受众规模 | 使用带有轮询的AEP预览API估算PQL表达式的配置文件访问范围 | `audience-size-estimate` | Real-Time CDP (RTCDP) | “这些受众有多大？” · “估算此PQL表达式的范围” |
+| 估计受众规模 | 使用带有轮询的Adobe Experience Platform预览API估算PQL表达式的配置文件访问范围 | `audience-size-estimate` | Real-Time CDP (RTCDP) | “这些受众有多大？” · “估算此PQL表达式的范围” |
 | 受众规模瀑布 | 将PQL分解为子谓词，并显示每个条件对最终受众规模的贡献 | `audience-size-waterfall` | Real-Time CDP (RTCDP) | “向我展示此PQL的瀑布图” · “划分每个条件如何减少受众” |
 | 发现用于定位的XDM字段 | 按名称、描述或数据值搜索字段；查看字段的生活位置和使用位置 | `field-discovery` | Real-Time CDP (RTCDP) | “可使用哪些字段来定位忠诚客户？” · “查找与购买历史记录相关的字段” |
-| 发布/保存受众 | 通过命名约定和合规性检查将受众定义保留到AEP分段服务 | `audience-publish` | Real-Time CDP (RTCDP) | “保存为草稿” · “发布名称为‘春季促销买家’的受众” |
+| 发布/保存受众 | 通过命名约定和合规性检查将受众定义保留到Experience Platform分段服务 | `audience-publish` | Real-Time CDP (RTCDP) | “保存为草稿” · “发布名称为‘春季促销买家’的受众” |
 
 ## 历程
 
@@ -52,17 +52,14 @@ ht-degree: 3%
 | 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | 产品知识和文档 | 从官方Adobe文档中回答操作方法、概念、故障排除和最佳实践问题 | `product-knowledge` | 所有符合条件的应用程序 | “如何设置流目标？” · “批量分段与流式分段之间有何区别？” |
-| 查询AEP/AJO实体 | 作为有关平台实体的问题的主要入口点；根据需要路由到KG 、字段发现或API | `operational-insights` | 所有符合条件的应用程序 | “我有多少数据集？” · “显示所有活动的历程” · “列出我的目标” |
+| 查询Experience Platform/Journey Optimizer实体 | 作为有关平台实体的问题的主要入口点；根据需要路由到KG 、字段发现或API | `operational-insights` | 所有符合条件的应用程序 | “我有多少数据集？” · “显示所有活动的历程” · “列出我的目标” |
 | 知识图查询 | 通过单个SQL查询进行聚合计数、跨实体联接、关系查找和元数据探索 | `knowledge-graph` | 所有符合条件的应用程序 | “哪些受众使用此数据集？” · “向我显示架构和数据集之间的关系” |
-| AEP/AJO/CJA API操作 | 提供直接API网关，用于处理知识图中没有的突变、实时状态检查和实体类型 | `cxo-api` | 所有符合条件的应用程序 | &quot;删除数据集X&quot; · &quot;检查我的批量摄取作业的状态&quot; |
-| 实体解析和链接 | 使用语义和词法搜索将实体提及解析为实际的AEP实体并发现XDM字段 | `entity-linking` | Adobe Experience Platform (AEP) | “将‘假日购物者’解析为实际受众”·“查找与购买历史记录相关的字段” |
-| 构建个人上下文 | 从AEP、CJA和/或Workfront活动日志生成个性化的用户配置文件 | `build-my-context` | 所有符合条件的应用程序 | “从AEP和CJA活动构建我的上下文”· “我在此组织中是谁？” |
-| 提取组织上下文 | 将文档中的组织范围知识提取到共享的组织上下文Wiki中 | `distill-org-context` | 所有符合条件的应用程序 | “将此文档提取到组织wiki”·“将此文件添加到组织上下文” |
-| 提取用户上下文 | 将个人工作上下文从文档提取到用户上下文Wiki中 | `distill-user-context` | 所有符合条件的应用程序 | “将此文件添加到我的用户上下文”·“从此文档中提取我的工作上下文” |
+| Experience Platform / Journey Optimizer / Customer Journey Analytics API操作 | 提供直接API网关，用于处理知识图中没有的突变、实时状态检查和实体类型 | `cxo-api` | 所有符合条件的应用程序 | &quot;删除数据集X&quot; · &quot;检查我的批量摄取作业的状态&quot; |
+| 实体解析和链接 | 使用语义和词法搜索将实体提及解析为实际的Experience Platform实体并发现XDM字段 | `entity-linking` | Adobe Experience Platform | “将‘假日购物者’解析为实际受众”·“查找与购买历史记录相关的字段” |
 | 管理自定义技能 | 保存、修改或删除跨会话保留的用户拥有的可重用技能 | `manage-skill` | 所有符合条件的应用程序 | 将工作流另存为技能” · “删除我的每周报告技能” · “将此转换为可重复使用的技能” |
 
 ## 沙盒工具
 
 | 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| 跨沙盒移动对象元数据 | 通过自动解析依赖关系，跨沙盒无缝迁移架构、受众和其他对象配置 | `sandbox-tooling-workflow` | Adobe Experience Platform (AEP) | “将架构Luma忠诚会员白金从当前沙盒移动到生产沙盒”· “将美国金牌忠诚会员受众提升到暂存环境” |
+| 跨沙盒移动对象元数据 | 通过自动解析依赖关系，跨沙盒无缝迁移架构、受众和其他对象配置 | `sandbox-tooling-workflow` | Adobe Experience Platform | “将架构Luma忠诚会员白金从当前沙盒移动到生产沙盒”· “将美国金牌忠诚会员受众提升到暂存环境” |
