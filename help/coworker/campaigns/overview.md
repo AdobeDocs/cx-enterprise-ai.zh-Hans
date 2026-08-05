@@ -1,14 +1,14 @@
 ---
-description: 了解Adobe Co-worker Campaigns，它是一款AI原生营销应用程序，可将单个提示转化为可供审核的营销活动。
-title: Adobe Co-worker概述
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+description: 了解Adobe CX Enterprise Co-worker Campaigns，它是一款AI原生营销应用程序，可将单个提示转化为可供审核的营销活动。
+title: Adobe CX Enterprise Co-worker概述
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
 
-# Adobe同事营销活动概述 {#overview}
+# Adobe CX Enterprise同事促销活动概述 {#overview}
 
 同事营销活动是一种AI原生营销应用程序，可将您从单个提示引导至一个完整的审核就绪营销活动。
 

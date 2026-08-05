@@ -2,16 +2,16 @@
 description: 此处提供描述。
 title: 连接器
 hide: true
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '107'
 ht-degree: 13%
 
 ---
 
 # 连接器 {#connectors}
 
-Adobe同事营销活动允许您连接Marketo Engage或Hubspot帐户，从而拉入联系人、区段和活动。
+通过Adobe CX Enterprise Co-worker Campaigns ，您可以连接Marketo Engage或Hubspot帐户，以便拉入联系人、区段和活动。
 
 >[!NOTE]
 >

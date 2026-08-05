@@ -1,16 +1,16 @@
 ---
 title: 通过同事聊天分析Customer Journey Analytics数据
-description: 了解如何使用Adobe Co-worker Chat分析Customer Journey Analytics数据、构建漏斗并查找客户在旅程中的流失位置。
-source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
+description: 了解如何使用Adobe CX Enterprise Co-worker Chat分析Customer Journey Analytics数据、构建漏斗并查找客户在历程中的流失位置。
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '3239'
+source-wordcount: '3243'
 ht-degree: 3%
 
 ---
 
 # 通过同事聊天分析Customer Journey Analytics数据
 
-Adobe Co-worker Chat可以执行以前仅在Analysis Workspace中才有的高级数据分析。 Co-worker Chat访问来自Customer Journey Analytics数据视图的数据，允许您浏览该数据并获得自然语言提示的答案。
+Adobe CX Enterprise Co-worker Chat可以执行以前只能在Analysis Workspace中进行的高级数据分析。 Co-worker Chat访问来自Customer Journey Analytics数据视图的数据，允许您浏览该数据并获得自然语言提示的答案。
 
 您可以通过两种方式使用同事聊天，具体取决于您需要的分析量：
 
