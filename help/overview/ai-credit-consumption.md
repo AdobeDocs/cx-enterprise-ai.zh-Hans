@@ -75,4 +75,4 @@ _代理作业_&#x200B;是AEP代理为获得客户输入内容所指示的特定�
 
 * [CX Enterprise中的GenAI](generative-ai.md)
 * [CX Enterprise 中的代理式 AI](agentic-ai.md)
-* [面向Adobe Experience Platform代理使用的试用版](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [面向Adobe Experience Platform代理使用的试用版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
