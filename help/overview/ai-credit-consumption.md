@@ -1,40 +1,42 @@
 ---
-title: 代理作业和AI信用消耗
-description: 了解 CX Enterprise 应用程序中的代理工作和 AI 积分消耗率。
+title: AI信用使用
+description: 了解CX Enterprise应用程序中的AI积分使用情况。
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
-source-git-commit: cbded236e67d7d47ad70187a307f403a93ace8e9
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+source-git-commit: 9b744e4c60afcd0533d52c11ba65463f8ffb5b0e
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 8%
+source-wordcount: 966
+ht-degree: 5%
 
 ---
 
-# Adobe Experience Platform代理工作和AI积分消耗
+# AI信用消费
 
-了解CX Enterprise应用程序中的AI智能作业和AI信用消耗。 有关在现有CX Enterprise应用程序中启用代理AI功能的信息，请参阅CX Enterprise中的[代理AI](agentic-ai.md#existing-apps)。
-
-## 新增功能
-
-| 功能 | 描述 |
-| --- | --- |
-| [CX Enterprise Agentic AI功能目录](https://agentic-capability-explorer.entapp.adproto.com/) | 了解您已授权的 CX Enterprise 应用程序中可用的代理式 AI 任务。 |
-
-## 代理作业
-
-_代理作业_&#x200B;是代理执行的一系列任务和操作，以实现客户输入所指示的特定结果。
-
-通过AI Assistant使用自然语言提示，可以要求代理执行特定作业。 根据这些输入，Agent Orchestrator协调相应的代理以执行相关CX Enterprise应用程序中的每个步骤。
+了解CX Enterprise应用程序中的AI积分使用情况。
 
 ## AI 积分
 
-_AI点数_&#x200B;是一个基于使用情况的量度，它量化了代理作业的执行情况。 AI积分不适用于[AI优先应用程序](agentic-ai.md)。
+_AI点数_&#x200B;是一个基于使用情况的量度，它量化了操作或作业的执行情况。
 
-## AI信用消费
+## 使用AI积分的合格服务
+
+* CX Enterprise Coworker
+* AEP代理
+
+### CX Enterprise Co-worker信用率
+
+在有限的介绍期内，同事输入按每个输入25个人工智能积分的费率冲减人工智能积分。 此费率仅在有限的时间内可用，并且可能会发生更改。
+
+### AEP Agents信用率
+
+_代理作业_&#x200B;是AEP代理为获得客户输入内容所指示的特定结果而执行的一系列任务和操作。
+
+通过AI Assistant使用自然语言提示，可以要求代理执行特定作业。 根据这些输入，Agent Orchestrator协调相应的代理以执行相关CX Enterprise应用程序中的每个步骤。
 
 根据所执行作业的复杂性和价值，AI信用使用可能有所不同：
 
@@ -42,9 +44,9 @@ _AI点数_&#x200B;是一个基于使用情况的量度，它量化了代理作�
 * 复杂（通常为多步）任务会消耗更多积分
 * 涉及高级推理、验证、多代理协调或集成的任务消耗更多积分
 
-**注意：** [CX Enterprise Agentic AI Capability Catalog](https://agentic-capability-explorer.entapp.adproto.com/)还可帮助您发现许可的CX Enterprise应用中有哪些代理AI作业可用。
+要查看您的许可CX Enterprise应用中有哪些AEP代理和代理作业可用，请参阅[CX Enterprise Agentic AI Capability Catalog](https://agentic-capability-explorer.entapp.adproto.com/)。
 
-### 估计的人工智能信贷消费率
+#### 估计的座席工作信用费率
 
 | 代理 | 作业 | 支持的应用程序 | 估计的AI积分 | 示例提示 |
 | ------ | ----- | ------------------------ | ----------------------- | ----------------- |
@@ -72,4 +74,4 @@ _AI点数_&#x200B;是一个基于使用情况的量度，它量化了代理作�
 
 * [CX Enterprise中的GenAI](generative-ai.md)
 * [CX Enterprise 中的代理式 AI](agentic-ai.md)
-* [面向Adobe Experience Platform代理使用的试用版](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [面向Adobe Experience Platform代理使用的试用版](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
