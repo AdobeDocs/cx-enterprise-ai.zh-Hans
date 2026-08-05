@@ -1,16 +1,16 @@
 ---
-title: Adobe CX Enterprise Co-worker
-description: 了解如何使用Adobe CX Enterprise Co-worker将您的营销提升到新的水平。
-source-git-commit: 0a56fd8cc38258e764f4cf97ff67ae4dde2e4d56
+title: Adobe同事
+description: 了解如何通过Adobe Co-worker将您的营销提升到新的水平。
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 3%
+source-wordcount: '194'
+ht-degree: 4%
 
 ---
 
-# 关于Adobe CX Enterprise Co-worker
+# 关于Adobe Co-worker
 
-Adobe CX Enterprise Co-worker是一个由AI提供支持的团队成员，它重新构想了组织、团队和个人的工作性质。 Co-worker优雅地自动化了客户体验和营销工作流，因此组织可以专注于实现业务目标和转变成果，而不是协调任务。 作为代理引擎， Co-worker采用了一种新的创新方法来自动化业务流程。 它通过将数据、智能、协作和代理技能执行与内置的企业上下文、治理和人为监督整合在一起，提高了AI模型的性能和准确性。
+Co-worker是一个由AI提供支持的团队成员，它重新构想了组织、团队和个人的工作性质。 Co-worker优雅地自动化了客户体验和营销工作流，因此组织可以专注于实现业务目标和转变成果，而不是协调任务。 作为代理引擎， Co-worker采用了一种新的创新方法来自动化业务流程。 它通过将数据、智能、协作和代理技能执行与内置的企业上下文、治理和人为监督整合在一起，提高了AI模型的性能和准确性。
 
 ## 营销活动
 

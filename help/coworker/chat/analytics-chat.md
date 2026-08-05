@@ -1,20 +1,29 @@
 ---
 title: 通过同事聊天分析Customer Journey Analytics数据
-description: 了解如何使用Adobe CX Enterprise Co-worker Chat分析Customer Journey Analytics数据、构建漏斗并查找客户在历程中的流失位置。
-source-git-commit: 4c615d3c844049e47edde3b4c4dd7f77a788c268
+description: 了解如何使用Adobe Co-worker Chat分析Customer Journey Analytics数据、构建漏斗并查找客户在旅程中的流失位置。
+source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
 workflow-type: tm+mt
-source-wordcount: '2047'
-ht-degree: 4%
+source-wordcount: '3239'
+ht-degree: 3%
 
 ---
 
 # 通过同事聊天分析Customer Journey Analytics数据
 
-Adobe CX Enterprise Co-worker Chat可以执行以前只能在Analysis Workspace中进行的高级数据分析。 Co-worker Chat访问来自Customer Journey Analytics数据视图的数据，允许您浏览该数据并获得自然语言提示的答案。
+Adobe Co-worker Chat可以执行以前仅在Analysis Workspace中才有的高级数据分析。 Co-worker Chat访问来自Customer Journey Analytics数据视图的数据，允许您浏览该数据并获得自然语言提示的答案。
+
+您可以通过两种方式使用同事聊天，具体取决于您需要的分析量：
+
+* **快速回答** — 直接问一个纯语言的问题，并立即获得答案。 商业用户通常以这种方式使用同事聊天，而分析师在需要为利益相关者提供快速答案时也会使用这种聊天。
+* **深入思考工作** — 与同事聊天进行多圈扩展对话，以调查业务问题、排除原因并得出建议。 分析人员通常使用此方法在提出推荐之前深入浏览数据。
 
 在开始分析之前，请了解Co-worker Chat界面和配置选项，然后确保Co-worker已连接到Customer Journey Analytics以及包含要使用的数据的数据视图。
 
 ## 同事聊天入门
+
+### 数据访问和权限
+
+同事聊天从Customer Journey Analytics继承权限。 您只能访问Analysis Workspace中可供您访问的数据视图、维度、量度和区段。
 
 ### 界面和配置选项
 
@@ -29,17 +38,43 @@ Adobe CX Enterprise Co-worker Chat可以执行以前只能在Analysis Workspace�
 * 技能
 * 等等
 
-有关详细信息，请参阅[同事聊天用户界面指南] (./)。
+有关详细信息，请参阅[同事聊天用户界面指南](/help/coworker/chat/ui-guide.md)。
 
-### Customer Journey Analytics的用例
+### 使用同事聊天分析数据时的最佳实践
 
-您可以在Adobe CX Enterprise Co-worker Chat中看到从业者正在使用的Customer Journey Analytics用例和示例提示。 每个提示都构建为可复制、根据您自己的数据和上下文进行调整，并通过对话进行细化。
+#### 组织级别的最佳实践
 
-有关详细信息，请参阅[用例] (./)。
+* 指定贵组织的分析师作为同事冠军。
+
+* 创建一个经过审核的提示和技能库，这些提示和技能与用户可用的数据和组件相关联。
+
+* 创建一个或多个技能，指导同事聊天仅使用您要在分析中使用的组件。 这有助于同事聊天为您的组织中的用户提供最相关的数据。
+
+* 教育用户何时请求同事聊天以获得快速答案以及何时使用它进行深入思考工作。
+
+#### 用户级别的最佳实践
+
+* 使用计划模式。 这对于复杂任务特别有用，但也可以为简单任务产生更好的结果，因为它允许同事在采取行动之前提出后续问题。 有关详细信息，请参阅[计划模式](/help/coworker/chat/ui-guide.md#plan-mode)。
+
+* 创建提示时，请尽可能具体一些：
+
+  * 命名要分析的维度、量度和日期范围。
+  * 按确切名称引用数据视图组件，例如维度、量度和区段。
+  * 指定要包含、排除或比较的任何区段、受众、渠道或设备。
+  * 指明您是要获取特定的可视化图表类型，如funnel、趋势表还是同类群组表。
+  * 如果您希望同事聊天提供后续问题建议，请咨询建议的后续步骤。
+  * 在预测指标时要求提供预测时限，例如“未来30天”。
+  * 提及您已有的任何假设，这样同事聊天即可验证或排除该假设。
+  * 如果您希望划分量度更改，请询问参与维度。
+  * 指定摘要的受众，如领导力或营销团队，如果您计划展示调查结果，请要求幻灯片组概述。
+  * 命名验证数据时要比较的特定报表包和数据视图。
+  * 首先完成分析，然后让同事聊天将分析保存为技能，为分析提供一个清楚的描述性名称，并指出您计划重复使用分析的频率。
+
+* 将标准方向添加到“同事聊天”内存。 例如，如果始终使用来自相同数据视图的数据，请将其添加到内存中。
 
 ## 验证同事聊天是否已连接到Customer Journey Analytics
 
-1. 在同事聊天中，验证同事是否已连接到Customer Journey Analytics。
+在同事聊天中，验证同事是否已连接到Customer Journey Analytics：
 
 1. 选择左边栏中的MCP图标，然后确保&#x200B;[!UICONTROL **cja-mcp**]&#x200B;在连接的MCP服务器列表中可用。
 
@@ -95,7 +130,7 @@ Co-worker Chat包含内存功能，允许您访问跨越所有聊天的信息。
 
 1. 在“同事聊天”的左侧导航栏中，选择“内存”图标。
 
-1. 在“内存”页的“存储的首选项”部分，指定您希望Co-worker Chat在聊天中使用的一个或多个数据视图。
+1. 在“内存”页面的&#x200B;[!UICONTROL **存储的首选项**]&#x200B;部分中，指定您希望Co-worker Chat在聊天中使用的一个或多个数据视图。
 
    左边栏中的![内存部分](./assets/coworker-memory.png)
 
@@ -110,6 +145,143 @@ Co-worker创建可视化图表后，您可以在Customer Journey Analytics的Ana
 1. 在Customer Journey Analytics中打开可视化图表后，您可以使用Analysis Workspace拖放浏览器界面进行修改、进一步构建分析、创建受众等等。 您甚至可以与所选的任何人共享您的Workspace项目。
 
    有关Analysis Workspace的更多信息，请参阅[Analysis Workspace概述](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/home)。
+
+### Customer Journey Analytics的用例
+
+您可以查看从业者在Customer Journey Analytics CX Enterprise Co-worker Chat中使用的Adobe用例和示例提示，从快速解答到深入思考工作调查。 每个提示都构建为可复制、根据您自己的数据和上下文进行调整，并通过对话进行细化。
+
+有关详细信息，请参阅[用例](/help/coworker/chat/use-cases.md)。
+
+## Analytics技能
+
+具备以下技能以分析Customer Journey Analytics数据。
+
+### 查询和分析数据
+
+此技能(`cja`)允许您实时查询Customer Journey Analytics并分析结果，而无需在Analysis Workspace中自行构建请求。
+
+#### 所需的权限
+
+* 查看对要查询的数据视图的访问权限
+
+#### 主要用例
+
+| 用例 | 函数 | 示例提示 |
+|---------|----------|---------|
+| **提取报告和量度** | 实时查询Customer Journey Analytics以提取量度、维度、区段和数据视图。 | <ul><li>“显示过去30天的页面查看次数”</li><li>&quot;在主数据视图中列出排名最前的区段&quot;</li></ul> |
+| **比较分析** | 并排比较各个渠道、时间段或区段之间的量度。 | <ul><li>&quot;按渠道月份比较收入&quot;</li><li>“本季度移动设备与台式机转化情况如何？”</li></ul> |
+| **Funnel分析** | 逐步了解每个阶段都存在流失的多步转化漏斗。 | <ul><li>“带我逛逛结帐funnel”</li><li>&quot;显示从PDP到购买的转换funnel&quot;</li></ul> |
+| **预测** | 根据历史数据预测未来的量度值。 | <ul><li>“未来30天的预测会话”</li><li>“我们的收入目标是否有望实现？”</li></ul> |
+
+#### 范围
+
+* 实时查询量度、维度、区段和数据视图
+* 跨渠道、时间段或区段的并排比较
+* 多步骤funnel和流失分析
+* 基于历史趋势的量度预测
+
+#### 超出范围
+
+* 创建或编辑数据视图组件
+* 您有权访问的数据视图以外的数据
+* 超出量度预测的预测建模
+
+### 根本原因分析
+
+此技能(`cja-root-cause-analysis`)调查量度发生更改的原因，而不只是报告该量度已更改。
+
+#### 所需的权限
+
+* 查看对正在分析的数据视图的访问权限
+
+#### 主要用例
+
+| 用例 | 函数 | 示例提示 |
+|---------|----------|---------|
+| **诊断量度更改** | 调查量度发生更改（包括下降、峰值和异常）的原因。 | <ul><li>“为什么上周的转化率下降了？”</li><li>“是什么导致了1月15日的收入激增？”</li></ul> |
+
+#### 范围
+
+* 调查已知量度在已知时间段内的变化
+* 显示促成更改的维度和区段
+
+#### 超出范围
+
+* 检测您未询问的异常（无自动或实时警报）
+* 针对您有权访问的数据视图以外的量度进行根本原因分析
+
+### 执行摘要和绩效摘要
+
+此技能(`cja-executive-summary`)可生成Customer Journey Analytics数据的利益相关者就绪摘要。
+
+#### 所需的权限
+
+* 查看对摘要中涵盖的数据视图的访问权限
+
+#### 主要用例
+
+| 用例 | 函数 | 示例提示 |
+|---------|----------|---------|
+| **性能摘要** | 制作适用于利益相关者的性能摘要、规范性建议和幻灯片组概述。 | <ul><li>“给我一份上个月的摘要”</li><li>“根据本季度的数据创建幻灯片组大纲”</li></ul> |
+
+#### 范围
+
+* 汇总指定期间的性能
+* 根据数据生成规范性建议
+* 概述幻灯片幻灯片或利益相关者阅读的内容
+
+#### 超出范围
+
+* 构建最终幻灯片幻灯片或演示文件
+* 跨您无权访问的数据视图的摘要
+
+### 使用Adobe Analytics验证数据
+
+该技能(`aa-cja-validation`)比较、审核和协调[!DNL Adobe Analytics]与Customer Journey Analytics之间的数据。
+
+#### 所需的权限
+
+* 查看对正在比较的[!DNL Adobe Analytics]报表包和Customer Journey Analytics数据视图的访问权限
+
+#### 主要用例
+
+| 用例 | 函数 | 示例提示 |
+|---------|----------|---------|
+| **从Adobe Analytics升级到Customer Journey Analytics时验证数据** | 比较、审核和协调[!DNL Adobe Analytics]与Customer Journey Analytics之间的数据。<p>有关详细信息，请参阅[从Adobe Analytics升级到Customer Journey Analytics时，与同事验证数据](/help/coworker/data-validation-aa-cja.md)。</p> | <ul><li>“将我的Adobe Analytics报表包与Customer Journey Analytics数据视图进行比较”</li><li>“验证Adobe Analytics和Customer Journey Analytics之间的页面查看次数”</li></ul> |
+
+#### 范围
+
+* 比较报表包和数据视图之间的量度值
+* 标记两个数据源之间的差异
+
+#### 超出范围
+
+* 解决数据差异的根本原因
+* 验证[!DNL Adobe Analytics]和Customer Journey Analytics以外的数据源
+
+### 创建自定义技能
+
+此技能(`cja-skill-creator`)使您已遇到的分析变为可重复使用的技能，该技能会跨会话持续存在。
+
+#### 所需的权限
+
+* 管理技能，以保存可重复使用的技能
+
+#### 主要用例
+
+| 用例 | 函数 | 示例提示 |
+|---------|----------|---------|
+| **可重复使用的分析模式** | 将分析模式转变为可重用、可重复的技能，这些技能可在不同会话间持续保留。 | <ul><li>“将这一每周收入分析变成一项可重复使用的技能”</li><li>“将此项另存为每月funnel报告的技能”</li></ul> |
+
+#### 范围
+
+* 将已完成的分析转换为已命名的、可重用的技能
+* 使保存的技能在未来的聊天会话中可用
+
+#### 超出范围
+
+* 自动与其他用户共享保存的技能（组织级别的技能库需要管理员设置）
+* 编辑技能引用的数据视图组件
 
 ## 示例：查找客户流失的位置
 

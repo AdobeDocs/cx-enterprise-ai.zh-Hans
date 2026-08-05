@@ -1,16 +1,16 @@
 ---
 description: 浏览同事聊天用例和示例提示，按区域在数据见解、受众、历程和平台操作之间组织。
 title: 用例
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+source-git-commit: ad1e50aa70822ba764b417d2559417c9a235422e
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1232'
 ht-degree: 3%
 
 ---
 
 # 用例 {#use-cases}
 
-下面是从业人员在Adobe CX Enterprise Co-worker Chat中使用的用例和示例提示，按工作区组织。 每个提示都构建为可复制、根据您自己的数据和上下文进行调整，并通过对话进行细化。
+以下是从业人员在Adobe Co-worker Chat中使用的用例和示例提示，按工作区组织。 每个提示都构建为可复制、根据您自己的数据和上下文进行调整，并通过对话进行细化。
 
 ## 数据分析
 
@@ -44,6 +44,8 @@ ht-degree: 3%
 | --- | --- | --- | --- | --- |
 | 从自然语言创建历程 | 在AJO中通过文本提示或上传的图像/流程图编排旅程创建 | `journey-create` | Adobe Journey Optimizer (AJO) | “创建一个欢迎历程，在注册后发送电子邮件，等待3天，然后发送跟进” · “从此上传的流程图图像构建历程” |
 | 分析历程冲突 | 检测活动历程之间的受众重叠、计划冲突和重复数据删除问题 | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | “我的购物车放弃历程是否与其他历程冲突？” · “检查我的活动历程之间的受众重叠” |
+| 分析历程流失 | 识别客户在旅程中的流失位置和原因，并检测导致脱离接触的行为模式 | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | “在我的重新参与之旅中，人们会在哪里掉头？” · “历程X中的哪些节点的流失率最高？” |
+| 分析自定义操作错误 | 识别历程中自定义操作何时失败或错误率激增，并在故障升级为更广泛中断之前诊断根本原因 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | “为什么自定义操作在我的忠诚度注册历程中失败？” · “在我的欢迎历程中向我显示自定义操作ExternalPush的错误率。” |
 
 ## 基本元素
 

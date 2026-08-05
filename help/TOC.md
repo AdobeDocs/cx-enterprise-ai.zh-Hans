@@ -5,10 +5,10 @@ user-guide-description: 了解如何使用 AI 助手通过 Adobe Experience Plat
 description: 了解CX Enterprise中的AI Assistant。 在CX Enterprise中使用AI提高您的产品知识并获得操作见解。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 41a237937d9c84db25a4fea12f7f3a403b462c67
+source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 27%
+source-wordcount: '235'
+ht-degree: 28%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 27%
 - 关于CX Enterprise中的AI {#overview}
   - [生成式 AI](./overview/generative-ai.md)
   - [代理式 AI](./overview/agentic-ai.md)
-  - [智能人工智能监控](./overview/monitoring.md)
+  - [代理式 AI 监控](./overview/monitoring.md)
   - [代理作业和AI信用消耗](./overview/ai-credit-consumption.md)
   - [代理式工具](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-agentic-tools/using/overview)
 - AI 助手 {#ai-assistant}
@@ -37,7 +37,7 @@ ht-degree: 27%
   - [产品支持代理](./agents/product-support.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [通知代理](./agents/notifications.md)
-  - [CX Enterprise Co-worker试用版](./agents/trial.md)
+  - [同事试用版](./agents/trial.md)
   - [验证数据](./agents/data-validation.md)
   - 数据工程 {#data-engineering}
     - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
@@ -70,5 +70,5 @@ ht-degree: 27%
     - [UI指南](./coworker/chat/ui-guide.md)
     - [分析CJA数据](./coworker/chat/analytics-chat.md)
   - {hide-from-toc}[在游乐场中的同事聊天](./coworker/playground-coworker-chat.md)
-  - {hide-from-toc}[验证AA到CJA的迁移数据](./coworker/data-validation-aa-cja.md)
+  - [验证AA到CJA的迁移数据](./coworker/data-validation-aa-cja.md)
   - [沙盒工具代理技能](./agents/sandbox-tooling.md)

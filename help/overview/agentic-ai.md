@@ -12,20 +12,20 @@ last-update: '2026-05-21T00:00:00.000Z'
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-source-git-commit: 1da893e900542a62e836250d9b38464016734740
+source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
 workflow-type: tm+mt
-source-wordcount: 1149
+source-wordcount: 1142
 ht-degree: 12%
 
 ---
 
 # Adobe CX Enterprise中的代理AI
 
-Adobe Experience Platform代理由[Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/home)提供支持，以在CX Enterprise应用程序中启用代理AI功能。
+Adobe [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/home)支持CX Enterprise应用程序中的代理AI功能。
 
-这些代理可帮助自动执行任务、更快地提供见解并简化工作流。 因此，团队可以更高效地工作，从CX Enterprise中获得更多价值。
+代理可帮助自动执行任务、更快地提供见解并简化工作流。 因此，团队可以更高效地工作，从CX Enterprise中获得更多价值。
 
-可通过以下任一方式访问CX Enterprise中的AI代理：
+CX Enterprise AI代理在以下任一位置提供：
 
 * [现有CX Enterprise应用程序](#existing-apps)
 * [AI优先的CX企业应用程序](#ai-first-apps)
@@ -34,7 +34,7 @@ Adobe Experience Platform代理由[Experience Platform Agent Orchestrator](https
 
 ## 现有CX Enterprise应用程序 {#existing-apps}
 
-在现有应用程序中，您可以使用自然语言通过[AI Assistant](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/home)对话界面指示Adobe Experience Platform代理。 AI助手可在全屏视图和右边栏视图中可用。
+在现有应用程序中，您可以使用自然语言通过[AI Assistant](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/home)中的对话界面指示Adobe Experience Platform代理。 AI助手可在全屏视图和右边栏视图中可用。
 
 可以在现有CX Enterprise应用程序中为具有以下类别之一的客户启用代理：
 
@@ -63,9 +63,9 @@ AI代理遵循&#x200B;_您的_&#x200B;输入和监督，并遵守产品级别的
 
 ## AI优先的CX企业应用程序 {#ai-first-apps}
 
-AI优先应用是以Al为内核的生成或遗传的。 它们使用创生或代理式Al执行关键任务，并且代理功能已包含在Al-first应用程序许可证中。 因此，它们不需要Experience Platform Agent Orchestrator许可证。
+AI优先应用是以AI为主要组件构建的。 它们使用生成性或代理性人工智能来执行关键任务，并且代理性功能已包含在AI优先的应用程序许可证中。 因此，它们不需要Experience Platform Agent Orchestrator许可证。
 
-下表列出了作为所有优先应用程序可用的Experience Platform代理。 通过许可这些优先应用程序来启用这些功能：
+下表列出了可用作人工智能优先应用程序的Experience Platform代理。 通过许可这些AI优先的应用程序，即可实现这些功能：
 
 | 代理名称 | 功能 | 支持的应用程序 |
 |---|----------|----------|

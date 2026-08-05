@@ -17,16 +17,16 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: cbded236e67d7d47ad70187a307f403a93ace8e9
+source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
 workflow-type: tm+mt
-source-wordcount: 994
-ht-degree: 2%
+source-wordcount: 996
+ht-degree: 1%
 
 ---
 
 # Agentic AI监控仪表板
 
-人工智能监测仪表板使卓越中心(COE)成员和其他治理利益攸关方能够了解人工智能的使用和采用。 查看7天或30天趋势以了解谁使用[!DNL AI Assistant]或其他表面（如[Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)）与[!DNL Experience Platform Agents]交互以及他们收到的值。 这些视图共同帮助您使用数据而不是假设来指导代理采用。
+Agentic AI [!UICONTROL 监控]仪表板使Center of Excellence (COE)成员和其他治理利益相关者能够了解代理AI的使用和采用。 查看7天或30天趋势以了解谁使用[!DNL AI Assistant]或其他表面（如[Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)）与[!DNL Experience Platform Agents]交互以及他们收到的值。 这些视图共同帮助您使用数据而不是假设来指导代理采用。
 
 **可用性**
 
@@ -42,7 +42,7 @@ ht-degree: 2%
 | **反馈** | 响应质量和用户满意度的信号 |
 | **AI积分** | 信用消耗趋势和余额 |
 
-Adobe CX Enterprise中的[代理AI](agentic-ai.md)文档列出了现有CX Enterprise应用程序中[个AI代理中用于监视使用情况的作用域中的代理](agentic-ai.md#existing-apps-table)。
+Adobe CX Enterprise中的[代理AI](agentic-ai.md)文档在现有CX Enterprise应用程序[&#128279;](agentic-ai.md#existing-apps-table)表的AI代理中列出了用于监视使用情况的作用域中的代理。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491876?captions=chi_hans&learn=on)
 
@@ -90,7 +90,7 @@ Adobe CX Enterprise中的[代理AI](agentic-ai.md)文档列出了现有CX Enterp
 
 ## 概述仪表板
 
-概述仪表板是整个组织中采用和参与量度的中心位置。 它将高级趋势与更深入的分析联系起来。 要查看这些数字背后的驱动因素，请从任何指标深入了解各个对话。
+概述仪表板是整个组织中采用和参与量度的中心位置。 它将高级趋势与更深入的分析联系起来。 要查看影响量度的因素，请查看来自任何量度的个人对话。
 
 ### “概述”功能板上的量度
 

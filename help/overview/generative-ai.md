@@ -41,16 +41,16 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1da893e900542a62e836250d9b38464016734740
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: 3308
+source-wordcount: 3283
 ht-degree: 13%
 
 ---
 
 # CX Enterprise 中的生成式 AI
 
-CX Enterprise中的Generative AI (genAI)可帮助您自动执行创意和认知任务并提高工作效率。 本页可帮助您了解CX Enterprise应用程序在何处支持genAI和AI Assistant ，并提供了解这些功能的详细信息的链接。
+CX Enterprise中的Generative AI (genAI)可帮助您自动执行创意和认知任务并提高工作效率。 此页面可帮助您了解[!DNL CX Enterprise]应用程序在何处支持genAI和AI Assistant。 它提供了详细了解这些功能的链接。
 
 >[!IMPORTANT]
 >
@@ -58,9 +58,9 @@ CX Enterprise中的Generative AI (genAI)可帮助您自动执行创意和认知�
 
 **什么是genAI？**
 
-创作AI是一种可以创建原始内容的AI。 例如，它可以创建文本、图像、视频、音频或软件代码来响应用户的提示或请求。
+GenAI可以&#x200B;_创建_&#x200B;原始内容，或者&#x200B;_生成对用户提示或问题的响应_。
 
-* **创建：**&#x200B;根据培训和输入提示从头开始生成内容（文本、图像、音乐或视频）的功能。 此功能是创作AI的&#x200B;_创作_&#x200B;方面。
+* **创建：**&#x200B;根据培训和输入提示从头开始生成内容（文本、图像、音乐或视频）的功能。 此功能是genAI的&#x200B;_生成_&#x200B;方面。
 
 * **生成响应：**&#x200B;人工智能提供对提示的响应或反应，通常利用其可用的数据和知识存储库。
 
@@ -68,11 +68,11 @@ CX Enterprise中的Generative AI (genAI)可帮助您自动执行创意和认知�
 
 **什么是[!UICONTROL AI助手]？**
 
-[!UICONTROL AI Assistant]是许多CX Enterprise应用程序中支持的对话式genAI工具。 根据您使用的应用程序，使用它可快速获得&#x200B;_产品知识_&#x200B;和&#x200B;_运营见解_。
+[!UICONTROL AI Assistant]是许多CX Enterprise应用程序中支持的对话式genAI工具。 根据您使用的应用程序，使用它快速获得&#x200B;_产品知识_&#x200B;和&#x200B;_运营见解_。
 
 * **产品知识：**&#x200B;产品知识是指以有关Experience League的CX Enterprise产品文档为依据的概念和主题。 例如，使用[基于目标的提示](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home)快速了解Experience Platform。 来自Experience League的所有响应均可验证并带有链接引用。
 
-* **运营分析：**&#x200B;例如，Experience Platform中的[运营分析](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/questions#objects-questions)是指有关您的元数据对象（属性、受众、数据流、数据集等）的生成的响应。 使用[!UICONTROL AI助手]，您可以在几秒钟内完成操作，否则可能需要数小时或数天。
+* **运营分析：**&#x200B;例如，Experience Platform中的[运营分析](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/questions#objects-questions)是指有关您的元数据对象（属性、受众、数据流、数据集等）的生成的响应。 使用[!UICONTROL AI助手]，您只需几秒钟即可完成工作，否则需要数小时或数天。
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ CX Enterprise中的Generative AI (genAI)可帮助您自动执行创意和认知�
 
 | **产品名称** | **关键GenAI功能** | **Firefly兼容性** |
 | ------------------ | ------------------------- | ------------------- |
-| [CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/home) | GenAI在以下位置提供： <ul><li>**[聊天](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/chat/overview)**：一种对话式界面，其中您以自然语言描述目标，genAI规划工作，在Adobe和连接的系统中执行工作，验证结果，并返回完成的工作以供您审批。</li><li>**[营销活动](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/campaigns/overview)**：人工智能原生应用程序，可将营销活动简报、受众构建、内容生成、历程设计和校对整合为单一对话体验。 GenAI可生成营销活动计划、构建历程并草稿个性化内容，以供您反复优化。</li></ul> | 否 |
+| [Adobe同事](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview) | GenAI在以下位置提供： <ul><li>**[聊天](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/chat/overview)**：一种对话式界面，其中您以自然语言描述目标，genAI规划工作，在Adobe和连接的系统中执行工作，验证结果，并返回完成的工作以供您审批。</li><li>**[营销活动](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/campaigns/overview)**：人工智能原生应用程序，可将营销活动简报、受众构建、内容生成、历程设计和校对整合为单一对话体验。 GenAI可生成营销活动计划、构建历程并草稿个性化内容，以供您反复优化。</li></ul> | 否 |
 | [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/home) | 使用genAI创建个性化的品牌内内容。 | 是 |
 | [Adobe Experience Manager as a Cloud Service (AEM CS)](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/overview) | GenAI在以下位置提供： <ul><li>在&#x200B;**AEM Sites**&#x200B;中生成变体（[了解更多](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)）</li><li>**Sites Optimizer**&#x200B;中的GenAI （[了解更多](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-sites-optimizer/content/opportunity-types/overview)）</li><li>**AEM Assets**&#x200B;中的[Content Hub](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en)和[智能标记](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags)</li></ul> AI助手： <ul><li>Experience Hub概述页面</li><li>Edge Delivery Services</li><li>站点</li><li>资产</li><li>表单</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 是 |
 | [Adobe Experience Manager 6.5](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/ai-assistant/ai-assistant-in-aem) | AI助手： <ul><li>Experience Hub概述页面</li><li>Edge Delivery Services</li><li>站点</li><li>资产</li><li>表单</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 是 |
@@ -155,7 +155,7 @@ AI Assistant在以下位置支持AEM as a Cloud Service：
 
 #### Experience Manager Sites
 
-在AEM Sites中，您可以使用&#x200B;_[!UICONTROL 生成变体]_。 此功能使用创新型人工智能根据输入提示创建内容变体。 提示由Adobe提供或由您创建和管理。
+在[!DNL AEM Sites]中，您可以使用&#x200B;_[!UICONTROL 生成变体]_。 此功能使用创新型人工智能根据输入提示创建内容变体。 Adobe会提供提示，或者由您创建和管理这些提示。
 
 创建变体后，您可以在网站上使用该内容，并使用Edge Delivery Services中的[试验](https://www.aem.live/docs/experimentation)功能衡量其成功与否。 您还可以选择使用Adobe Express的创作AI功能在Firefly中生成图像。
 
@@ -364,7 +364,7 @@ Campaign Managed Cloud Services使用[!UICONTROL AI助手]生成内容。 通过
 
 **电子邮件设计器**
 
-Marketo Engage [!UICONTROL 电子邮件Designer]中的[!UICONTROL AI助手]可帮助您创建即时、高性能、直观的电子邮件。 这是通过Adobe的创作AI技术和提示库以及图像生成Firefly来实现的，该图像生成可帮助为特定角色/购买群体、营销历程阶段、沟通策略、语调等创建合适的内容。还可以使用特定的品牌资产来创建内容。
+Marketo Engage [!UICONTROL 电子邮件Designer]中的[!UICONTROL AI助手]可帮助您创建即时、高性能、直观的电子邮件。 这一结果可通过Adobe的创作AI技术和提示库以及图像生成Firefly来实现，该图像生成可帮助为特定角色/购买群体、营销历程阶段、沟通策略、语调等创建合适的内容。还可以使用特定的品牌资产来创建内容。
 
 [!BADGE 了解详情]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/email-marketing/email-designer/ai-assistant" tooltip="了解Dynamic Chat"}
 
