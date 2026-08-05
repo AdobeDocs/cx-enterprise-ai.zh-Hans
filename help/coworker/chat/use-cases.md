@@ -1,16 +1,16 @@
 ---
 description: 浏览同事聊天用例和示例提示，按区域在数据见解、受众、历程和平台操作之间组织。
 title: 用例
-source-git-commit: ad1e50aa70822ba764b417d2559417c9a235422e
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1234'
 ht-degree: 3%
 
 ---
 
 # 用例 {#use-cases}
 
-以下是从业人员在Adobe Co-worker Chat中使用的用例和示例提示，按工作区组织。 每个提示都构建为可复制、根据您自己的数据和上下文进行调整，并通过对话进行细化。
+下面是从业人员在Adobe CX Enterprise Co-worker Chat中使用的用例和示例提示，按工作区组织。 每个提示都构建为可复制、根据您自己的数据和上下文进行调整，并通过对话进行细化。
 
 ## 数据分析
 

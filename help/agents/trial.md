@@ -1,25 +1,18 @@
 ---
-title: Adobe同事试用版
-description: 了解Adobe Co-worker的免费试用。
+title: CX Enterprise Co-worker试用版
+description: 了解CX Enterprise Co-worker的免费试用版。
 TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: 1430
+source-wordcount: 1433
 ht-degree: 1%
 
 ---
 
-# Adobe同事试用版
+# CX Enterprise Co-worker试用版
 
 >[!AVAILABILITY]
 >
@@ -42,7 +35,7 @@ ht-degree: 1%
 - 同事聊天：在同事聊天中输入的输入。 在有限的开头期间，输入按每个输入25个AI信用的比率使用AI信用。 此费率仅在有限的时间内可用，并且可能会发生更改。
 - Experience Platform Agent：使用[AI信用消耗量表](../overview/ai-credit-consumption.md)中列出的Experience Platform Agent执行的任意作业组合（取决于您对CX Enterprise应用程序的现有许可证）。
 
-您可以使用Adobe Experience Platform UI中的许可证使用情况仪表板跟踪您的AI积分。 有关详细信息，请阅读[许可证使用情况仪表板文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dashboards/guides/license-usage)。
+您可以使用Adobe Experience Platform UI中的许可证使用情况仪表板跟踪您的AI积分。 有关详细信息，请阅读[许可证使用情况仪表板文档](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)。
 
 利用Agentic AI监控仪表板，可清楚了解您的组织是如何采用和使用Agentic AI的。 授权用户可以轻松跟踪参与、收集反馈、监控AI信用使用情况并审查关键量度。 利用这些见解发现优化机会并支持您的治理和采用工作。 要了解更多信息，请访问[代理AI使用监视指南](../overview/monitoring.md)。
 
@@ -78,7 +71,7 @@ ht-degree: 1%
 
 有关同事、Agent Orchestrator和AI Assistant的更多信息，请阅读以下指南：
 
-- [同事](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
+- [同事](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
 - [Agent Orchestrator概述](agent-orchestrator.md)
 - [AI助手UI指南](../ai-assistant/ai-assistant-ui.md)
 - [AI Assistant提示库](../ai-assistant/prompt-library.md)
@@ -110,7 +103,7 @@ Agentic使用限制试用版允许符合条件的客户使用同事聊天（或�
 
 ### 谁可以查看使用情况以及如何查看？
 
-您可以使用Adobe Experience Platform UI中的许可证使用情况仪表板跟踪您的AI积分。 有关详细信息，请阅读[许可证使用情况仪表板文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dashboards/guides/license-usage)。 使用仪表板可查看您的AI信用使用情况和报表。 只有具有相应权限的管理员和用户才能查看您的使用情况信息。
+您可以使用Adobe Experience Platform UI中的许可证使用情况仪表板跟踪您的AI积分。 有关详细信息，请阅读[许可证使用情况仪表板文档](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)。 使用仪表板可查看您的AI信用使用情况和报表。 只有具有相应权限的管理员和用户才能查看您的使用情况信息。
 
 客户可以控制谁可以查看使用情况和报表。 只有具有相应权限的管理员和用户才能查看此信息。
 
