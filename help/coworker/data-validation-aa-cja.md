@@ -1,9 +1,9 @@
 ---
 title: 从Adobe Analytics升级到Customer Journey Analytics时与同事验证数据
 description: 了解Analytics管理员如何在升级期间使用CX Enterprise Co-worker数据验证技能比较Adobe Analytics和Customer Journey Analytics数据。
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 8a9f8413f2993e99cf7452bc720500f4823b62a8
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1532'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 > 
 >只有在完成所有先前的升级步骤后，才应执行本页上的步骤。 您可以执行推荐的升级步骤（为大多数组织推荐），也可以使用《Customer Journey Analytics升级指南》执行为您的组织动态生成的步骤。 <ul><li>**建议的升级步骤** （建议大多数组织使用）<p>一组导致实现理想Customer Journey Analytics的步骤。</p><p>有关详细信息，请参阅[从Adobe Analytics升级到Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations)。</p></li><li>**Customer Journey Analytics升级指南** （根据贵组织的特定需求定制的自定义步骤）<p>提供了新的升级指南，可动态生成针对贵组织和独特环境定制的升级步骤。</p><p>要从Customer Journey Analytics访问指南，请选择&#x200B;**[!UICONTROL Workspace]**&#x200B;选项卡，然后在左侧面板中选择&#x200B;**[!UICONTROL 升级到Customer Journey Analytics]**。 按照屏幕上的说明操作。</p></li></ul>
 
-CX Enterprise Co-worker包括验证技能，允许您在从Adobe Analytics升级到Customer Journey Analytics时验证数据。 数据验证在单个会话中完成。
+Co-worker包括验证技能，允许您在从Adobe Analytics升级到Customer Journey Analytics时验证数据。 数据验证在单个会话中完成。
 
 此技能会自动比较：
 
@@ -50,7 +50,9 @@ CX Enterprise Co-worker包括验证技能，允许您在从Adobe Analytics升级
 
    您的请求将被路由到数据验证技能，该技能将启动交互式设置过程。
 
-1. 设置过程包括下表中的问题。 对于每个问题，请选择答案，然后选择&#x200B;[!UICONTROL **提交**]。
+1. 对于设置过程中的每个问题，请选择答案，然后选择&#x200B;[!UICONTROL **提交**]。
+
+   设置过程包括下表中的问题。
 
    >[!NOTE]
    >
@@ -62,7 +64,9 @@ CX Enterprise Co-worker包括验证技能，允许您在从Adobe Analytics升级
    | [!UICONTROL **选择您的报表包**]<!--In the UI, recommend change to "Select your Adobe Analytics report suite"--> | 这是Adobe Analytics中的报表包，其中包含要针对Customer Journey Analytics数据验证的数据。 |
    | [!UICONTROL **选择您的Customer Journey Analytics数据视图**] | 这是Customer Journey Analytics中的数据视图，其中包含与您选择的Adobe Analytics报表包相同的数据。 |
 
-1. 查看设置摘要，确认您正在验证正确的数据，然后再继续。 摘要包括您选择的公司、报表包和数据视图，以及每个系统中排名最前的量度和维度的预览。
+1. 查看设置摘要，确认您正在验证正确的数据，然后再继续。
+
+   摘要包括您选择的公司、报表包和数据视图，以及每个系统中排名最前的量度和维度的预览。
 
 1. 继续下面的部分，[选择要验证的数据](#choose-the-data-to-validate)。
 
@@ -82,7 +86,9 @@ CX Enterprise Co-worker包括验证技能，允许您在从Adobe Analytics升级
 
 ## 查看分析
 
-1. 选择&#x200B;[!UICONTROL **总体匹配率**]&#x200B;选项卡可查看百分比，该百分比指示Adobe Analytics报表包中的数据与Customer Journey Analytics数据视图数据的匹配程度。 此得分始终显示在任何其他结果之前。 它对每个比较的量度和维度进行同等权重，以确保页面查看次数等大量量度不会造成得分偏差。
+1. 选择&#x200B;[!UICONTROL **总体匹配率**]&#x200B;选项卡可查看百分比，该百分比指示Adobe Analytics报表包中的数据与Customer Journey Analytics数据视图数据的匹配程度。
+
+   此得分始终显示在任何其他结果之前。 它对每个比较的量度和维度进行同等权重，以确保页面查看次数等大量量度不会造成得分偏差。
 
    使用以下刻度来解释得分：
 
@@ -93,11 +99,27 @@ CX Enterprise Co-worker包括验证技能，允许您在从Adobe Analytics升级
    | 75%-89% | ![橙色圆圈](./assets/data-validation-aa-cja/review-circle.svg) [!UICONTROL 评论] | 存在有意义的差距。 在依靠Customer Journey Analytics数据之前调查根本原因。 |
    | 低于75% | ![红色圆圈](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL 差] | 严重失调。 在使用Customer Journey Analytics数据之前立即采取措施。 |
 
-1. 选择&#x200B;[!UICONTROL **关键分析**]&#x200B;选项卡以查看两个到四个简短的标注框，每个框在单个句子中总结分析中的一个发现。 标注(Callout)按严重程度进行颜色编码，因此您可以首先发现最重要的发现。
+1. 选择&#x200B;[!UICONTROL **关键分析**]&#x200B;选项卡以查看两个到四个简短的标注框，每个框在单个句子中总结分析中的一个发现。
 
-1. 选择&#x200B;[!UICONTROL **概要**]&#x200B;选项卡以查看Adobe Analytics总计、Customer Journey Analytics总计、总差异、间隔天数以及关键天数，其中间隔天数以及关键天数反映日期范围内的天数处于&#x200B;[!UICONTROL **间隔**]&#x200B;和&#x200B;[!UICONTROL **关键**]&#x200B;差异状态，如下所述。
+   标注(Callout)按严重程度进行颜色编码，因此您可以首先确定最重要的发现结果。
 
-1. （视情况而定）进行单维度比较或单指标比较时，您可以在&#x200B;[!UICONTROL **每日趋势**]&#x200B;选项卡中查看Adobe Analytics数据与Customer Journey Analytics数据的并排比较。
+1. 选择&#x200B;[!UICONTROL **摘要**]&#x200B;选项卡以查看以下信息：
+
+   * Adobe Analytics总计
+
+   * Customer Journey Analytics总计
+
+   * 总差异
+
+   * 天过
+
+     反映日期范围中的多少天处于&#x200B;[!UICONTROL **传递**]&#x200B;差异状态，如下所述。
+
+   * 关键天数
+
+     反映日期范围内有多少天处于&#x200B;[!UICONTROL **关键**]&#x200B;变量状态，如下所述。
+
+1. （视情况而定）进行单维度比较或单指标比较时，选择&#x200B;[!UICONTROL **每日趋势**]&#x200B;选项卡以查看Adobe Analytics数据与Customer Journey Analytics数据的并排比较。
 
    对于量度，这是一个比较每日趋势的折线图。
 
@@ -107,7 +129,17 @@ CX Enterprise Co-worker包括验证技能，允许您在从Adobe Analytics升级
 
    ![显示水平条形图的“每日趋势”选项卡](./assets/data-validation-aa-cja/trend-bar.png)
 
-1. （视情况而定）进行单维度比较或单量度比较时，您可以在&#x200B;[!UICONTROL **日期详细信息**]&#x200B;选项卡中查看行级详细信息。 此表列出了每个比较的量度或维度值的日期、Adobe Analytics值、Customer Journey Analytics值、差异百分比和状态标记。
+1. （视情况而定）进行单维度比较或单维度比较时，选择&#x200B;[!UICONTROL **日期详细信息**]&#x200B;选项卡以查看每个比较的量度或维度值的以下信息：
+
+   * 日期
+
+   * Adobe Analytics值
+
+   * Customer Journey Analytics值
+
+   * 差异百分比
+
+   * 状态徽章
 
    ![日期详细信息选项卡，显示差异百分比表和状态徽章](./assets/data-validation-aa-cja/date-detail.png)
 
@@ -119,9 +151,17 @@ CX Enterprise Co-worker包括验证技能，允许您在从Adobe Analytics升级
    | 3%-10% | ![黄色警告三角形](./assets/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL 标志] | 监控差异，并调查差异是继续还是恶化。 |
    | 大于10% | ![红色圆圈](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL 关键] | 立即调查 这通常指向架构、摄取或映射问题。 |
 
-1. （视情况而定）在运行完整的报表包和数据视图审核时，[!UICONTROL **每日趋势**]&#x200B;和&#x200B;[!UICONTROL **每日详细信息**]&#x200B;选项卡会被一个记分卡替换，该记分卡显示通过数、已标记数和严重计数，同时还会显示分别列出前五个最佳匹配量度和前五个最低匹配量度和维度的单独表。
+1. （视情况而定）运行完整的报表包和数据视图审核时，请选择&#x200B;[!UICONTROL **记分卡**]&#x200B;选项卡以查看以下信息：
 
-1. 在分析中向下滚动以查看在分析期间发现的其他模式和问题、这些模式的可能原因以及为解决任何数据差异可采取的建议操作。
+   * 通过计数
+
+   * 已标记计数
+
+   * 关键计数
+
+   * 列出前五个最佳匹配和前五个最低匹配量度和维度的表
+
+1. 在分析中向下滚动以查看在分析期间发现的其他模式和问题、这些模式的可能原因以及解决任何数据差异的建议操作。
 
    >[!NOTE]
    >
@@ -139,7 +179,11 @@ CX Enterprise Co-worker包括验证技能，允许您在从Adobe Analytics升级
 
 1. 验证建议的操作是否有效，然后在Adobe Experience Platform或Adobe Analytics中解析它们。
 
-1. （可选）通过分析其他量度、分析其他维度或运行另一个最多包含40个量度和20个维度的报表来继续您的分析，如[选择要验证的数据](#choose-the-data-to-validate)中所述。 您无需重复设置过程即可执行此操作；您的公司、报表包和数据视图选择将在整个对话中持续进行。
+1. （可选）通过分析其他量度、分析其他维度或运行另一个最多包含40个量度和20个维度的报表来继续您的分析，如[选择要验证的数据](#choose-the-data-to-validate)中所述。
 
-1. 继续执行Customer Journey Analytics升级指南中的[建议的升级步骤](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations)或动态生成的升级步骤。 要从Customer Journey Analytics访问指南，请选择&#x200B;**[!UICONTROL Workspace]**&#x200B;选项卡，然后在左侧面板中选择&#x200B;**[!UICONTROL 升级到Customer Journey Analytics]**。 按照屏幕上的说明操作。
+   您无需重复设置过程即可执行此操作；您的公司、报表包和数据视图选择将在整个对话中持续进行。
+
+1. 继续执行Customer Journey Analytics升级指南中的[建议的升级步骤](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations)或动态生成的升级步骤。
+
+   要从Customer Journey Analytics访问Customer Journey Analytics升级指南，请选择&#x200B;**[!UICONTROL Workspace]**&#x200B;选项卡，然后在左侧面板中选择&#x200B;**[!UICONTROL 升级到Customer Journey Analytics]**。 按照屏幕上的说明操作。
 
