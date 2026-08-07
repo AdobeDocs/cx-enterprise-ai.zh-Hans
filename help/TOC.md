@@ -5,10 +5,10 @@ user-guide-description: 了解如何使用 AI 助手通过 Adobe Experience Plat
 description: 了解CX Enterprise中的AI Assistant。 在CX Enterprise中使用AI提高您的产品知识并获得操作见解。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
+source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 28%
+source-wordcount: '236'
+ht-degree: 25%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 28%
 
 - [CX Enterprise应用程序中的AI](home.md)
 - 关于CX Enterprise中的AI {#overview}
-  - [生成式 AI](./overview/generative-ai.md)
-  - [代理式 AI](./overview/agentic-ai.md)
-  - [代理式 AI 监控](./overview/monitoring.md)
-  - [代理作业和AI信用消耗](./overview/ai-credit-consumption.md)
+  - [关于创作AI](./overview/generative-ai.md)
+  - [关于智能人工智能](./overview/agentic-ai.md)
+  - [关于AI积分使用](./overview/ai-credit-consumption.md)
+  - [Agentic AI监控仪表板](./overview/monitoring.md)
   - [代理式工具](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-agentic-tools/using/overview)
 - AI 助手 {#ai-assistant}
   - [AI助手UI指南](./ai-assistant/ai-assistant-ui.md)

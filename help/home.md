@@ -15,9 +15,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 4da8c6f87f4227983b19c682fdceb0db9a352122
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 862
 ht-degree: 3%
 
 ---
@@ -30,10 +30,10 @@ ht-degree: 3%
 
 从这里开始，了解在何处以及如何跨CX Enterprise使用AI ：
 
-- [创作AI](./overview/generative-ai.md)介绍了哪些CX Enterprise应用程序支持创作AI和AI Assistant，以及它们之间的比较。
-- [代理AI](./overview/agentic-ai.md)说明Experience Platform Agent如何在现有CX Enterprise应用程序和AI优先应用程序中工作，并列出每个应用程序中可用的代理。
-- [Agentic AI监控](./overview/monitoring.md)涵盖跟踪代理采用、使用、反馈和AI信用消耗的仪表板。
-- [代理作业和AI信用消耗](./overview/ai-credit-consumption.md)说明代理作业如何使用AI信用，以及按代理和作业类型估计的使用率。
+- [关于创作AI](./overview/generative-ai.md)介绍了哪些CX Enterprise应用程序支持创作AI和AI Assistant，以及它们之间的比较方式。
+- [关于代理AI](./overview/agentic-ai.md)介绍Experience Platform Agent如何在现有CX Enterprise应用程序和AI优先应用程序中工作，并列出每个应用程序中可用的代理。
+- [AI监控](./overview/monitoring.md)涵盖跟踪代理采用、使用、反馈和AI信用消耗的仪表板。
+- [AI积分消耗](./overview/ai-credit-consumption.md)说明代理作业如何消耗AI积分，并按照代理和作业类型估计消耗率。
 - [CX Enterprise代理工具](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-agentic-tools/using/overview)涵盖了扩展CX Enterprise代理的其他代理技能和工具（视频教程）。
 
 ## AI 助手

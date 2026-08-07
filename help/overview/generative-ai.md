@@ -41,14 +41,14 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6df9b0df99ff2d5773a94644d1e4313c86c2f1a0
+source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
 workflow-type: tm+mt
-source-wordcount: 3287
+source-wordcount: 3288
 ht-degree: 13%
 
 ---
 
-# CX Enterprise 中的生成式 AI
+# 关于CX Enterprise中的创作AI
 
 CX Enterprise中的Generative AI (genAI)可帮助您自动执行创意和认知任务并提高工作效率。 此页面可帮助您了解[!DNL CX Enterprise]应用程序在何处支持genAI和AI Assistant。 它提供了详细了解这些功能的链接。
 
