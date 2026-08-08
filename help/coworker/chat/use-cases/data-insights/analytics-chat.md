@@ -1,7 +1,7 @@
 ---
 title: 通过同事聊天分析Customer Journey Analytics数据
 description: 了解如何使用Adobe CX Enterprise Co-worker Chat分析Customer Journey Analytics数据、构建漏斗并查找客户在历程中的流失位置。
-source-git-commit: 64745860140f636548155b7eda8605ffde43b75a
+source-git-commit: bfc9d04860f592093e4cab4b88463b173f6be369
 workflow-type: tm+mt
 source-wordcount: '3210'
 ht-degree: 3%
@@ -80,7 +80,7 @@ Adobe CX Enterprise Co-worker Chat可以执行以前只能在Analysis Workspace�
 
 1. 选择左边栏中的MCP图标，然后确保&#x200B;[!UICONTROL **cja-mcp**]&#x200B;在连接的MCP服务器列表中可用。
 
-   ![同事左边栏中突出显示的MCP图标](./assets/coworker-mcp-cja.png)
+   ![同事左边栏中突出显示的MCP图标](../../assets/coworker-mcp-cja.png)
 
 1. （视情况而定）如果尚未连接&#x200B;[!UICONTROL **cja-mcp**]，请选择&#x200B;[!UICONTROL **添加MCP服务器**]，在&#x200B;[!UICONTROL **服务器名称**]&#x200B;字段中指定cja并在其出现时将其选定，然后选择&#x200B;[!UICONTROL **添加服务器**]。
 
@@ -134,7 +134,7 @@ Co-worker Chat包含内存功能，允许您访问跨越所有聊天的信息。
 
 1. 在“内存”页面的&#x200B;[!UICONTROL **存储的首选项**]&#x200B;部分中，指定您希望Co-worker Chat在聊天中使用的一个或多个数据视图。
 
-   左边栏中的![内存部分](./assets/coworker-memory.png)
+   左边栏中的![内存部分](../../assets/coworker-memory.png)
 
 ## 在Customer Journey Analytics中分析
 
@@ -152,7 +152,7 @@ Co-worker创建可视化图表后，您可以在Analysis Workspace中打开该�
 
 您可以查看从业者在Customer Journey Analytics CX Enterprise Co-worker Chat中使用的Adobe用例和示例提示，从快速解答到深入思考工作调查。 每个提示都构建为可复制、根据您自己的数据和上下文进行调整，并通过对话进行细化。
 
-有关详细信息，请参阅[用例](/help/coworker/chat/use-cases.md)。
+有关详细信息，请参阅[用例](/help/coworker/chat/use-cases/overview.md)。
 
 ## Analytics技能
 
@@ -249,7 +249,7 @@ Co-worker创建可视化图表后，您可以在Analysis Workspace中打开该�
 
 | 用例 | 函数 | 示例提示 |
 |---------|----------|---------|
-| **从Adobe Analytics升级到Customer Journey Analytics时验证数据** | 比较、审核和协调[!DNL Adobe Analytics]与Customer Journey Analytics之间的数据。<p>有关详细信息，请参阅[从Adobe Analytics升级到Customer Journey Analytics时，与同事验证数据](/help/coworker/data-validation-aa-cja.md)。</p> | <ul><li>“将我的Adobe Analytics报表包与Customer Journey Analytics数据视图进行比较”</li><li>“验证Adobe Analytics和Customer Journey Analytics之间的页面查看次数”</li></ul> |
+| **从Adobe Analytics升级到Customer Journey Analytics时验证数据** | 比较、审核和协调[!DNL Adobe Analytics]与Customer Journey Analytics之间的数据。<p>有关详细信息，请参阅[从Adobe Analytics升级到Customer Journey Analytics时，与同事验证数据](data-validation-aa-cja.md)。</p> | <ul><li>“将我的Adobe Analytics报表包与Customer Journey Analytics数据视图进行比较”</li><li>“验证Adobe Analytics和Customer Journey Analytics之间的页面查看次数”</li></ul> |
 
 #### 范围
 
@@ -323,7 +323,7 @@ Co-worker创建可视化图表后，您可以在Analysis Workspace中打开该�
 
 >[!BEGINSHADEBOX]
 
-![Funnel表，显示从会话到购买的每一步的会话计数、转化率和流失率](./assets/coworker-funnel-response.png)
+![Funnel表，显示从会话到购买的每一步的会话计数、转化率和流失率](../../assets/coworker-funnel-response.png)
 
 这是一个funnel问题 — 让我运行转化funnel，以查看购买路径上哪里出现了流失。
 
@@ -372,7 +372,7 @@ Co-worker创建可视化图表后，您可以在Analysis Workspace中打开该�
 
 >[!BEGINSHADEBOX]
 
-![Funnel表，显示按营销渠道细分的转化率和流失率](./assets/coworker-funnel-response2.png)
+![Funnel表，显示按营销渠道细分的转化率和流失率](../../assets/coworker-funnel-response2.png)
 
 有一个自定义&#x200B;**营销渠道**&#x200B;维度。 让我提取funnel，然后计算每个渠道的转化率，并识别每个渠道在哪里泄露。
 
@@ -423,7 +423,7 @@ Co-worker创建可视化图表后，您可以在Analysis Workspace中打开该�
 
 >[!BEGINSHADEBOX]
 
-![显示按设备类型划分的转化率和流失率的Funnel表](./assets/coworker-funnel-response3.png)
+![显示按设备类型划分的转化率和流失率的Funnel表](../../assets/coworker-funnel-response3.png)
 
 **找到它：移动签出已中断**
 

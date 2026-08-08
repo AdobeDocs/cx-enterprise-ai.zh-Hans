@@ -1,7 +1,7 @@
 ---
 title: 沙盒工具代理技能
 description: 了解如何使用沙盒工具代理技能跨沙盒环境复制对象元数据。
-source-git-commit: 6df9b0df99ff2d5773a94644d1e4313c86c2f1a0
+source-git-commit: 9b6c144fae1ebb17c22ce0a0d6f65b444408ece9
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -24,6 +24,8 @@ ht-degree: 1%
 >您当前可以使用沙盒工具代理技能来发现、打包和迁移架构和受众对象。 未来版本中将添加对其他对象类型的支持。
 
 使用沙盒工具代理技能，通过以自然语言描述要完成的任务来跨Adobe Experience Platform环境移动对象元数据（包括架构和受众）。 使用CX Co-worker ，您可以通过对话体验来发现所需的元数据、自动识别依赖项、创建迁移包和迁移对象。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496716?captions=chi_hans&learn=on)
 
 ## 先决条件 {#prerequisites}
 

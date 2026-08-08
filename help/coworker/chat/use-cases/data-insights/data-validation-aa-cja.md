@@ -1,7 +1,7 @@
 ---
 title: 从Adobe Analytics升级到Customer Journey Analytics时与同事验证数据
 description: 了解Analytics管理员如何在升级期间使用CX Enterprise Co-worker数据验证技能比较Adobe Analytics和Customer Journey Analytics数据。
-source-git-commit: 8a9f8413f2993e99cf7452bc720500f4823b62a8
+source-git-commit: ccdc8e69ca03630ca0964b22878cff0bd6ca4c01
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 0%
@@ -94,10 +94,10 @@ Co-worker包括验证技能，允许您在从Adobe Analytics升级到Customer Jo
 
    | 得分 | 评级 | 它的含义 |
    |---------|----------|----------|
-   | 97%-100% | ![绿色方形](./assets/data-validation-aa-cja/excellent-square.svg) [!UICONTROL 优秀] | 所有属性均高度对齐。 无需执行任何操作。 |
-   | 90%-96% | ![黄色圆圈](./assets/data-validation-aa-cja/good-circle.svg) [!UICONTROL 良好] | 存在细微间隙。 监测趋势并调查趋势是否下降。 |
-   | 75%-89% | ![橙色圆圈](./assets/data-validation-aa-cja/review-circle.svg) [!UICONTROL 评论] | 存在有意义的差距。 在依靠Customer Journey Analytics数据之前调查根本原因。 |
-   | 低于75% | ![红色圆圈](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL 差] | 严重失调。 在使用Customer Journey Analytics数据之前立即采取措施。 |
+   | 97%-100% | ![绿色方形](../../assets/data-validation-aa-cja/excellent-square.svg) [!UICONTROL 优秀] | 所有属性均高度对齐。 无需执行任何操作。 |
+   | 90%-96% | ![黄色圆圈](../../assets/data-validation-aa-cja/good-circle.svg) [!UICONTROL 良好] | 存在细微间隙。 监测趋势并调查趋势是否下降。 |
+   | 75%-89% | ![橙色圆圈](../../assets/data-validation-aa-cja/review-circle.svg) [!UICONTROL 评论] | 存在有意义的差距。 在依靠Customer Journey Analytics数据之前调查根本原因。 |
+   | 低于75% | ![红色圆圈](../../assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL 差] | 严重失调。 在使用Customer Journey Analytics数据之前立即采取措施。 |
 
 1. 选择&#x200B;[!UICONTROL **关键分析**]&#x200B;选项卡以查看两个到四个简短的标注框，每个框在单个句子中总结分析中的一个发现。
 
@@ -123,11 +123,11 @@ Co-worker包括验证技能，允许您在从Adobe Analytics升级到Customer Jo
 
    对于量度，这是一个比较每日趋势的折线图。
 
-   ![显示折线图的“每日趋势”选项卡](./assets/data-validation-aa-cja/trend-line.png)
+   ![显示折线图的“每日趋势”选项卡](../../assets/data-validation-aa-cja/trend-line.png)
 
    对于维度，这是一个比较最高值的条形图。
 
-   ![显示水平条形图的“每日趋势”选项卡](./assets/data-validation-aa-cja/trend-bar.png)
+   ![显示水平条形图的“每日趋势”选项卡](../../assets/data-validation-aa-cja/trend-bar.png)
 
 1. （视情况而定）进行单维度比较或单维度比较时，选择&#x200B;[!UICONTROL **日期详细信息**]&#x200B;选项卡以查看每个比较的量度或维度值的以下信息：
 
@@ -141,15 +141,15 @@ Co-worker包括验证技能，允许您在从Adobe Analytics升级到Customer Jo
 
    * 状态徽章
 
-   ![日期详细信息选项卡，显示差异百分比表和状态徽章](./assets/data-validation-aa-cja/date-detail.png)
+   ![日期详细信息选项卡，显示差异百分比表和状态徽章](../../assets/data-validation-aa-cja/date-detail.png)
 
    差异列和状态列使用以下比例：
 
    | 变量 | 状态 | 它的含义 |
    |---------|----------|----------|
-   | 小于3% | ![绿色复选标记](./assets/data-validation-aa-cja/pass-check.svg) [!UICONTROL 通过] | 数据完全一致。 无需执行任何操作。 |
-   | 3%-10% | ![黄色警告三角形](./assets/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL 标志] | 监控差异，并调查差异是继续还是恶化。 |
-   | 大于10% | ![红色圆圈](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL 关键] | 立即调查 这通常指向架构、摄取或映射问题。 |
+   | 小于3% | ![绿色复选标记](../../assets/data-validation-aa-cja/pass-check.svg) [!UICONTROL 通过] | 数据完全一致。 无需执行任何操作。 |
+   | 3%-10% | ![黄色警告三角形](../../assets/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL 标志] | 监控差异，并调查差异是继续还是恶化。 |
+   | 大于10% | ![红色圆圈](../../assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL 关键] | 立即调查 这通常指向架构、摄取或映射问题。 |
 
 1. （视情况而定）运行完整的报表包和数据视图审核时，请选择&#x200B;[!UICONTROL **记分卡**]&#x200B;选项卡以查看以下信息：
 
