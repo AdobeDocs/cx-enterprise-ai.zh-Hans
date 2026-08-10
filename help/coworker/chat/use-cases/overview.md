@@ -1,9 +1,9 @@
 ---
 description: 浏览同事聊天用例和示例提示，按区域在数据见解、受众、历程和平台操作之间组织。
 title: 用例
-source-git-commit: 5a04f8fea57dcf6e50ca0040aaad904158c6edf7
+source-git-commit: 539dac230b33d4dee06c940080b48a523211d73d
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1142'
 ht-degree: 4%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 4%
 
 | 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| 提取CJA报表和量度 | 实时查询CJA以提取量度、维度、区段和数据视图 | `cja` | Customer Journey Analytics (CJA) | “显示过去30天的页面查看次数” · “在主数据视图中列出排名最前的区段” |
+| [提取CJA报告和量度](data-insights/analytics-chat.md) | 实时查询CJA以提取量度、维度、区段和数据视图 | `cja` | Customer Journey Analytics (CJA) | “显示过去30天的页面查看次数” · “在主数据视图中列出排名最前的区段” |
 | 比较分析 | 并排比较各个渠道、时间段或区段之间的量度 | `cja` | Customer Journey Analytics (CJA) | “按渠道逐月比较收入” · “本季度移动设备与台式机转化情况如何？” |
 | funnel分析 | 逐步了解每个阶段都存在流失的多步转化漏斗 | `cja` | Customer Journey Analytics (CJA) | &quot;带我浏览funnel结账&quot; · &quot;显示从PDP到购买的转化funnel&quot; |
 | 预测 | 基于历史CJA数据预测未来量度值 | `cja` | Customer Journey Analytics (CJA) | “未来30天的预测会议” · “我们是否即将实现收入目标？” |
-| 根本原因分析 | 调查量度发生更改的原因：诊断下降、尖峰和异常 | `cja-root-cause-analysis` | Customer Journey Analytics (CJA) | “为什么上周的转化率下降了？” · “是什么导致1月15日收入激增？” |
+| [根本原因分析](data-insights/root-cause-analysis.md) | 调查量度发生更改的原因：诊断下降、尖峰和异常 | `cja-root-cause-analysis` | Customer Journey Analytics (CJA) | “为什么上周的转化率下降了？” · “是什么导致1月15日收入激增？” |
 | 执行摘要和KPI摘要 | 制作为利益相关者准备的性能摘要、规范性建议和幻灯片组概述 | `cja-executive-summary` | Customer Journey Analytics (CJA) | “给我上个月的执行摘要” · “根据本季度的数据创建一个幻灯片组大纲” |
-| AA ↔ CJA数据验证 | 在Adobe Analytics和Customer Journey Analytics之间比较、审核和协调数据 | `aa-cja-validation` | ADOBE ANALYTICS + CJA | “将我的AA报表包与CJA数据视图进行比较” · “验证AA和CJA之间的页面视图” |
+| [AA ↔ CJA数据验证](data-insights/data-validation-aa-cja.md) | 在Adobe Analytics和Customer Journey Analytics之间比较、审核和协调数据 | `aa-cja-validation` | ADOBE ANALYTICS + CJA | “将我的AA报表包与CJA数据视图进行比较” · “验证AA和CJA之间的页面视图” |
 | 运行时间序列和因果分析 | 查询和分析受众、数据集和具有因果归因的历程的历史时间序列数据 | `operational-stats-causal-analysis` | 所有符合条件的应用程序 | “显示过去90天的受众规模趋势” · “为什么我的数据集行数在3月3日激增？” |
 | 创建自定义CJA技能 | 将分析模式转变为可重用、可重复的技能，这些技能可在不同会话间持续保留 | `cja-skill-creator` | Customer Journey Analytics (CJA) | “将此每周收入分析转换为可重复使用的技能” · “将此技能另存为每月funnel报告的技能” |
 
@@ -30,7 +30,7 @@ ht-degree: 4%
 
 | 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| 从自然语言创建受众 | 在每个阶段都通过用户批准来编排受众创建的分步过程 | `audience-creation-flow` | Real-Time CDP (RTCDP) | “创建过去30天内购买的用户受众” · “在加利福尼亚为高价值忠诚度会员构建区段” |
+| [从自然语言创建受众](audiences/create-audience-from-natural-language.md) | 在每个阶段都通过用户批准来编排受众创建的分步过程 | `audience-creation-flow` | Real-Time CDP (RTCDP) | “创建过去30天内购买的用户受众” · “在加利福尼亚为高价值忠诚度会员构建区段” |
 | 构建PQL定义 | 从XDM属性、行为事件或现有受众收集受众定义；支持聚合和时间窗口 | `segment-definition-assembly` | Real-Time CDP (RTCDP) | “为查看了3个以上产品但未购买的用户创建PQL” · “向我的事件条件添加7天时间范围” |
 | 搜索和查找受众 | 按ID、名称、语义搜索查找受众；检测重复项并分析重叠 | `audience-search` | Real-Time CDP (RTCDP) | “查找所有忠诚受众” · “我的‘节日购物者’区段是否存在重复项？” |
 | 估计受众规模 | 使用带有轮询的Adobe Experience Platform预览API估算PQL表达式的配置文件访问范围 | `audience-size-estimate` | Real-Time CDP (RTCDP) | “这些受众有多大？” · “估算此PQL表达式的范围” |
@@ -42,7 +42,7 @@ ht-degree: 4%
 
 | 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| 从自然语言创建历程 | 在AJO中通过文本提示或上传的图像/流程图编排旅程创建 | `journey-create` | Adobe Journey Optimizer (AJO) | “创建一个欢迎历程，在注册后发送电子邮件，等待3天，然后发送跟进” · “从此上传的流程图图像构建历程” |
+| [从自然语言创建历程](journeys/create-journey-from-natural-language.md) | 在AJO中通过文本提示或上传的图像/流程图编排旅程创建 | `journey-create` | Adobe Journey Optimizer (AJO) | “创建一个欢迎历程，在注册后发送电子邮件，等待3天，然后发送跟进” · “从此上传的流程图图像构建历程” |
 | 分析历程冲突 | 检测活动历程之间的受众重叠、计划冲突和重复数据删除问题 | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | “我的购物车放弃历程是否与其他历程冲突？” · “检查我的活动历程之间的受众重叠” |
 | 分析历程流失 | 识别客户在旅程中的流失位置和原因，并检测导致脱离接触的行为模式 | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | “在我的重新参与之旅中，人们会在哪里掉头？” · “历程X中的哪些节点的流失率最高？” |
 | 分析自定义操作错误 | 识别历程中自定义操作何时失败或错误率激增，并在故障升级为更广泛中断之前诊断根本原因 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | “为什么自定义操作在我的忠诚度注册历程中失败？” · “在我的欢迎历程中向我显示自定义操作ExternalPush的错误率。” |
@@ -62,4 +62,4 @@ ht-degree: 4%
 
 | 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| 跨沙盒移动对象元数据 | 通过自动解析依赖关系，跨沙盒无缝迁移架构、受众和其他对象配置 | `sandbox-tooling-workflow` | Adobe Experience Platform | “将架构Luma忠诚会员白金从当前沙盒移动到生产沙盒”· “将美国金牌忠诚会员受众提升到暂存环境” |
+| [跨沙盒移动对象](/help/agents/sandbox-tooling.md) | 通过自动解析依赖关系，跨沙盒无缝迁移架构、受众和其他对象配置 | `sandbox-tooling-workflow` | Adobe Experience Platform | “将架构Luma忠诚会员白金从当前沙盒移动到生产沙盒”· “将美国金牌忠诚会员受众提升到暂存环境” |

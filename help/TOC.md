@@ -5,10 +5,10 @@ user-guide-description: 通过实际文档、实施指导和参考材料，了�
 description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提高您的产品知识并获得操作见解。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: d6aa28c5708256c4717c65bc3fb3d218086f39d6
+source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 18%
+source-wordcount: '253'
+ht-degree: 17%
 
 ---
 
@@ -71,7 +71,12 @@ ht-degree: 18%
       - [概述](./coworker/chat/use-cases/overview.md)
       - 数据分析 {#data-insights}
         - [分析CJA数据](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - [根本原因分析](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [验证AA到CJA的迁移数据](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+      - 受众 {#audiences}
+        - [使用自然语言创建受众](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
+      - 历程 {#journeys}
+        - [使用自然语言创建历程](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
       - 沙盒工具 {#sandbox-tooling}
         - [在沙盒之间移动对象](./agents/sandbox-tooling.md)
   - {hide-from-toc}[在游乐场中的同事聊天](./coworker/playground-coworker-chat.md)

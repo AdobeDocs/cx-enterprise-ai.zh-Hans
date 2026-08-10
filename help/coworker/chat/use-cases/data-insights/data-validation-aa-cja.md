@@ -1,7 +1,14 @@
 ---
 title: 从Adobe Analytics升级到Customer Journey Analytics时与同事验证数据
 description: 了解Analytics管理员如何在升级期间使用CX Enterprise Co-worker数据验证技能比较Adobe Analytics和Customer Journey Analytics数据。
-source-git-commit: ccdc8e69ca03630ca0964b22878cff0bd6ca4c01
+feature: AI Tools
+role: User
+level: Intermediate
+doc-type: Feature Video
+duration: null
+last-substantial-update: 2026-08-10T00:00:00Z
+jira: KT-22083
+source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 0%
@@ -26,8 +33,6 @@ Co-worker包括验证技能，允许您在从Adobe Analytics升级到Customer Jo
 
 ## 开始之前
 
-
-
 要在升级过程中验证数据，您需要：
 
 * 要验证的Adobe Analytics报表包。
@@ -35,6 +40,8 @@ Co-worker包括验证技能，允许您在从Adobe Analytics升级到Customer Jo
 * 包含相同数据的Customer Journey Analytics数据视图。
 
 您无需知道如何构建实施。 该技能会自动检测您的Customer Journey Analytics实施是使用Analytics Source Connector，还是使用Experience Platform Web SDK的新实施。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496865/?captions=chi_hans&learn=on&enablevpops)
 
 ## 启动验证会话
 
