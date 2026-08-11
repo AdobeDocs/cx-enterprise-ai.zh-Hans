@@ -1,30 +1,17 @@
 ---
 description: 了解如何使用Customer Journey Analytics中的Data Insights Agent可视化数据
-title: 在Customer Journey Analytics中使用Data Insights Agent可视化数据
+title: 使用Data Insights Agent可视化数据
 role: User, Admin
 solution: Customer Journey Analytics
 TQID: https://experienceleague.adobe.com/UtKIDlN2x7MOAiHNRRQ8b5OO4fIwzV74r1fnfMwblcQ
-product_v2:
-  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2:
-  - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
-  - id: c73c4213-d623-4126-81f4-80b42e5e2656
-  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2:
-  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
-  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
-  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
-  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b743a5d9-dc51-41ed-8b2f-86a1f8de430fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: 2655
+source-wordcount: 2686
 ht-degree: 4%
 
 ---
@@ -49,7 +36,7 @@ AI助手中的![Data Insights Agent](/help/agents/assets/cja-agent/cja-ai-asst-d
 | **Workspace操作和代理功能** | <ul><li>构建和更新可视化图表<p>生成自由格式表和相关的可视化图表（例如折线图、条形图、圆环图等）。</p><p>例如，*从2月到5月，跨SKU的利润是多少？*</p></li><li>提出跟进问题<p>响应上下文中的任何先前提示中的提示。 例如：</p> <ul><li>提示1：*从3月开始的趋势事件。*</li><li>提示2： *改为向我显示从3月到4月的数据*</li></ul> </li><li>范围外提示检测<p>如果您提交了一个超出范围的提示，如&#x200B;*导出此项目*，Data Insights Agent会通知您问题超出范围，从而做出响应。</p></li></ul> | <ul><li>共享</li><li>导出</li><li>下载</li><li>管理用户首选项</li><li>管理数据视图</li><li>Analytics功能板应用程序</li><li>归因</li><li>内联摘要或响应<p>Data Insights Agent无法在聊天边栏中以用户提示的摘要答案进行内联响应。 范围外提示的示例包括：*给我上一个提示的见解摘要*&#x200B;和&#x200B;*总结折线图可视化图表的亮点。*</p></li></ul> |
 | **澄清问题** | 如果您提的问题没有足够上下文可供Data Insights Agent回答，或者过于宽泛，Data Insights Agent会用一个澄清问题或建议的选项进行响应。 <p>以下澄清性问题是组件相关问题的示例：</p><ul><li>量度：*您指的是哪个“收入”量度？*</li><li>Dimension：*您想关注以下“地区”中的哪一个？*</li><li>区段： *您要应用哪个“帐户”区段？*</li><li>日期范围： *对于“上个月”，您是指“上个月”还是“最近30天”？*</li></ul><p>以下澄清问题是与维度项目相关的一个问题的示例：</p> <ul><li>你是指哪个“商店名称”？ （例如，存储#5274、存储#2949等。）</li></ul> | 澄清问题仅限于组件和维度项目。 Data Insights Agent无法阐明数据视图、可视化图表、数据粒度、比较和范围等内容。 当澄清无法使用的问题时，代理将默认使用您最可能要求的内容。 如果它返回意外的可视化图表或数据粒度，您可以提出后续问题或调整可视化图表和数据。 |
 | **数据可验证性和正确性** | 通过查看生成的自由格式表和数据可视化图表，可以确认数据的可验证性和正确性。 <p>例如，如果您要求Data Insights Agent显示上个月&#x200B;*的*&#x200B;趋势订单，则可以确认在新生成的面板、数据可视化图表和自由格式表中选择了正确的指标（“订单”）和日期范围（“上个月”）。</p> | Data Insights Agent不会通过通知您添加了哪些组件或可视化图表来进行响应。 |
-| **反馈机制** | <ul><li>竖起大拇指</li><li>拇指朝下</li><li>标记</li></ul> |  |
+| **反馈机制** | <ul><li>点赞</li><li>点踩</li><li>标记</li></ul> |  |
 
 
 ## 管理对 Data Insights 代理的访问权限 {#manage-access}
@@ -71,7 +58,7 @@ AI助手中的![Data Insights Agent](/help/agents/assets/cja-agent/cja-ai-asst-d
 
 * **权限**：必须先在[!UICONTROL Adobe Admin Console]中授予必要的权限，用户才能访问Data Insights Agent。
 
-  要授予权限，[产品配置文件管理员](https://helpx.adobe.com/cn/enterprise/using/manage-product-profiles.html)必须在[!UICONTROL Admin Console]中完成以下步骤：
+  要授予权限，[产品配置文件管理员](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)必须在[!UICONTROL Admin Console]中完成以下步骤：
   1. 在&#x200B;**[!UICONTROL Admin Console]**&#x200B;中，选择&#x200B;**[!UICONTROL 产品]**&#x200B;选项卡以查看&#x200B;**[!UICONTROL 所有产品和服务]**&#x200B;页面。
   1. 选择&#x200B;**[!UICONTROL Customer Journey Analytics]**。
   1. 在&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;选项卡上，选择要为其提供[!UICONTROL AI助手：产品知识]访问权限的产品配置文件的标题。
@@ -89,15 +76,15 @@ AI助手中的![Data Insights Agent](/help/agents/assets/cja-agent/cja-ai-asst-d
 
   1. 选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存权限。
 
-  有关访问控制的详细信息，请参阅[访问控制](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/technotes/access-control#access-control)。
+  有关访问控制的详细信息，请参阅[访问控制](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control)。
 
 * **数据视图访问**：必须为Data Insights Agent启用数据视图。
 
   >[!IMPORTANT]
   >
   >启用数据视图时，请考虑以下事项：
-  >* 每个IMS组织最多可启用50个数据视图。如果您在给定组织的所有产品配置文件中启用了超过50个数据视图，Data Insights Agent将使用50个最常用的数据视图。
-  >  您可以使用数据视图[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views)中Data Insights Agent列上的信息查看IMS组织中为Data Insights Agent启用的数据视图数量。
+  >* 每个IMS组织最多可启用50个数据视图。 如果您在给定组织的所有产品配置文件中启用了超过50个数据视图，Data Insights Agent将使用50个最常用的数据视图。
+  >  您可以使用数据视图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views)中Data Insights Agent列上的[信息查看IMS组织中为Data Insights Agent启用的数据视图数量。
   >* 在启用数据视图的同一天，Data Insights Agent可以引用包含的数据视图。
 
   要为Data Insights Agent启用数据视图，请执行以下操作：
@@ -108,7 +95,7 @@ AI助手中的![Data Insights Agent](/help/agents/assets/cja-agent/cja-ai-asst-d
 
      ![启用Data Insights Agent的数据视图](/help/agents/assets/cja-agent/data-view-enable-dia.png)
 
-     有关为Data Insights Agent启用数据视图的详细信息，请参阅数据视图的[AI设置](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/create-dataview#ai-settings/help/data-views/create-dataview.md网站#ai-settings)。
+     有关为Data Insights Agent启用数据视图的详细信息，请参阅数据视图的[AI设置](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview#ai-settings/help/data-views/create-dataview.md网站#ai-settings)。
 
   要查看在IMS组织中为Data Insights Agent启用的数据视图的数量，请执行以下操作：
 
@@ -195,7 +182,7 @@ AI助手中的![Data Insights Agent](/help/agents/assets/cja-agent/cja-ai-asst-d
 
 Agent Orchestrator解释您的请求，确定需要哪些专业代理，并协调他们提供正确的响应。 它可以跨多轮交互跟踪上下文，因此您可以自然地基于先前的查询进行构建。
 
-有关详细信息，请参阅[Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/cn/products/experience-platform/agent-orchestrator.html)。
+有关详细信息，请参阅[Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/products/experience-platform/agent-orchestrator.html)。
 
 ## 示例数据可视化提示
 
@@ -285,8 +272,8 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 
 >[!MORELIKETHIS]
 >
->[组件设置](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[数据字典](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
->[批准计算量度](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
->[共享区段](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/segments/seg-share)
+>[组件设置](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[数据字典](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[批准计算量度](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[共享区段](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)
 

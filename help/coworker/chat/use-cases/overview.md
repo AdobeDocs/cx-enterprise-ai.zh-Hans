@@ -1,16 +1,16 @@
 ---
 description: 浏览同事聊天用例和示例提示，按区域在数据见解、受众、历程和平台操作之间组织。
-title: 用例
-source-git-commit: 539dac230b33d4dee06c940080b48a523211d73d
+title: 同事聊天用例
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 4%
+source-wordcount: '1181'
+ht-degree: 3%
 
 ---
 
-# 用例 {#use-cases}
+# 同事聊天用例{#use-cases}
 
-下面是从业人员在Adobe CX Enterprise Co-worker Chat中使用的用例和示例提示，按工作区组织。 每个提示都构建为可复制、根据您自己的数据和上下文进行调整，并通过对话进行细化。
+Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experience Platform]数据，而不是手动导航多个UI或编写查询。 此页面按工作区域整理了从业人员最依赖的用例目录：数据分析、受众、历程、基本元素和沙盒工具。 每个条目都包括它调用的技能、与它一起使用的应用程序以及示例提示，您可以复制、适应自己的数据，并通过对话进行细化。
 
 ## 数据分析
 
