@@ -1,5 +1,5 @@
 ---
-title: Adobe Journey Optimizer与同事 — 使用自然语言生成历程
+title: Journey Optimizer与同事 — 生成历程
 description: 了解同事如何使用简单的自然语言提示帮助营销人员创建Adobe Journey Optimizer历程。
 feature: AI Tools
 role: User
@@ -8,9 +8,9 @@ doc-type: Feature Video
 duration: 102
 last-substantial-update: 2026-08-10T00:00:00Z
 jira: KT-22081
-source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---

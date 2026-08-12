@@ -1,5 +1,5 @@
 ---
-title: 从Adobe Analytics升级到Customer Journey Analytics时与同事验证数据
+title: 验证Adobe Analytics到Customer Journey Analytics的数据
 description: 了解Analytics管理员如何在升级期间使用CX Enterprise Co-worker数据验证技能比较Adobe Analytics和Customer Journey Analytics数据。
 feature: AI Tools
 role: User
@@ -8,9 +8,9 @@ doc-type: Feature Video
 duration: null
 last-substantial-update: 2026-08-10T00:00:00Z
 jira: KT-22083
-source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1527'
 ht-degree: 0%
 
 ---

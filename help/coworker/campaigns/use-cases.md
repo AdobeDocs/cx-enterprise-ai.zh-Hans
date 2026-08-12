@@ -1,9 +1,9 @@
 ---
 description: 浏览Adobe CX Enterprise Co-worker Campaigns的实际提示模式，按用例组织，横跨客户获取、参与、事件、转化和保留促销活动。
-title: 用例
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+title: 同事营销活动用例
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
