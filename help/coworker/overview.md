@@ -1,9 +1,9 @@
 ---
 title: 关于Adobe CX Enterprise Co-worker
 description: 了解如何使用Adobe CX Enterprise Co-worker将您的营销提升到新的水平。
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: 500932a1e705af1682a71ce460b6fa62e4ffd4ac
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '195'
 ht-degree: 4%
 
 ---
@@ -20,6 +20,11 @@ Co-worker是一个由AI提供支持的团队成员，它重新构想了组织、
 * [创建电子邮件营销活动](./campaigns/create-an-email-campaign.md)
 * [用例](./campaigns/use-cases.md)
 * [提示最佳实践](./campaigns/prompting-best-practices.md)
+<!--
+broken links
+* [Connect to Marketo Engage](./coworker/campaigns/connectors/marketo.md)
+* [Connect to Hubspot](./coworker/campaigns/connectors/hubspot.md) 
+-->
 
 ## 聊天
 
@@ -29,6 +34,6 @@ Co-worker Chat使团队能够使用自然语言自动执行Adobe产品任务，�
 * [用例](./chat/use-cases/overview.md)
 * [UI指南](./chat/ui-guide.md)
 
-## 项目（文档即将发布）
+## 项目（即将推出）
 
 Co-worker Projects是一个统一的工作区，用于自动化端到端客户体验编排工作流，帮助团队协调任务、批准和执行以推动从战略到交付的成果。

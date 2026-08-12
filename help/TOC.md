@@ -6,10 +6,10 @@ description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 8a6d1c51abb7702298af4ac294dbe96a3b90e2df
+source-git-commit: 6f3672e35719921b82ce5c9bdd761a2a6b610438
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 16%
+source-wordcount: '270'
+ht-degree: 17%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 16%
     - [Journey Optimizer工具](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - 同事 {#coworker}
   - [关于同事](./coworker/overview.md)
   - 营销活动 {#campaigns}
@@ -63,6 +63,9 @@ ht-degree: 16%
     - [创建电子邮件营销活动](./coworker/campaigns/create-an-email-campaign.md)
     - [用例](./coworker/campaigns/use-cases.md)
     - [提示最佳实践](./coworker/campaigns/prompting-best-practices.md)
+    - 连接器 {#connectors}
+      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
+      - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
     - [发行说明](./coworker/campaigns/release-notes.md)
   - 聊天 {#chat}
     - [概述](./coworker/chat/overview.md)
