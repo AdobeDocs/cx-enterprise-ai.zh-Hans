@@ -6,10 +6,10 @@ description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 91ea22749d33f8d58b5eb7b41f06ea4cc0b9513e
+source-git-commit: 6f3672e35719921b82ce5c9bdd761a2a6b610438
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 16%
+source-wordcount: '270'
+ht-degree: 17%
 
 ---
 
@@ -63,6 +63,9 @@ ht-degree: 16%
     - [创建电子邮件营销活动](./coworker/campaigns/create-an-email-campaign.md)
     - [用例](./coworker/campaigns/use-cases.md)
     - [提示最佳实践](./coworker/campaigns/prompting-best-practices.md)
+    - 连接器 {#connectors}
+      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
+      - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
     - [发行说明](./coworker/campaigns/release-notes.md)
   - 聊天 {#chat}
     - [概述](./coworker/chat/overview.md)
@@ -77,6 +80,7 @@ ht-degree: 16%
         - [评估平台运行状况并构建受众](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - 历程 {#journeys}
         - [使用自然语言创建历程](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
+        - [创建忠诚度挑战并显示见解](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - 沙盒工具 {#sandbox-tooling}
         - [沙盒工具代理技能](./agents/sandbox-tooling.md)
   - {hide-from-toc}[在游乐场中的同事聊天](./coworker/playground-coworker-chat.md)
