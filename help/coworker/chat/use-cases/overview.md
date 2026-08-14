@@ -1,10 +1,10 @@
 ---
 description: 浏览同事聊天用例和示例提示，按区域在数据见解、受众、历程和平台操作之间组织。
 title: 同事聊天用例
-source-git-commit: 8a6d1c51abb7702298af4ac294dbe96a3b90e2df
+source-git-commit: a19e6a17796fbe8d00a6e5559fc664ae469481f2
 workflow-type: tm+mt
-source-wordcount: '1219'
-ht-degree: 4%
+source-wordcount: '1284'
+ht-degree: 7%
 
 ---
 
@@ -17,12 +17,13 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | [提取CJA报告和量度](data-insights/analytics-chat.md) | 实时查询CJA以提取量度、维度、区段和数据视图 | `cja` | Customer Journey Analytics (CJA) | “显示过去30天的页面查看次数” · “在主数据视图中列出排名最前的区段” |
-| 比较分析 | 并排比较各个渠道、时间段或区段之间的量度 | `cja` | Customer Journey Analytics (CJA) | “按渠道逐月比较收入” · “本季度移动设备与台式机转化情况如何？” |
+| 比较分析 | 并排比较各个渠道、时间段或区段之间的量度 | `cja-root-cause-analysis`, `cja`, `dx-api`, `knowledge-graph` | Customer Journey Analytics (CJA) | “按渠道逐月比较收入” · “本季度移动设备与台式机转化情况如何？” |
+| 营销活动效果 | 测量在给定时间段内促销活动、渠道和Web属性的执行情况。 | `cja`, `dx-api`, `knowledge-graph` | | “上个月，我们的Acrobat网络营销活动表现如何？” |
 | funnel分析 | 逐步了解每个阶段都存在流失的多步转化漏斗 | `cja` | Customer Journey Analytics (CJA) | &quot;带我浏览funnel结账&quot; · &quot;显示从PDP到购买的转化funnel&quot; |
 | 预测 | 基于历史CJA数据预测未来量度值 | `cja` | Customer Journey Analytics (CJA) | “未来30天的预测会议” · “我们是否即将实现收入目标？” |
 | [根本原因分析](data-insights/root-cause-analysis.md) | 调查量度发生更改的原因：诊断下降、尖峰和异常 | `cja-root-cause-analysis` | Customer Journey Analytics (CJA) | “为什么上周的转化率下降了？” · “是什么导致1月15日收入激增？” |
-| 执行摘要和KPI摘要 | 制作为利益相关者准备的性能摘要、规范性建议和幻灯片组概述 | `cja-executive-summary` | Customer Journey Analytics (CJA) | “给我上个月的执行摘要” · “根据本季度的数据创建一个幻灯片组大纲” |
-| [AA ↔ CJA数据验证](data-insights/data-validation-aa-cja.md) | 在Adobe Analytics和Customer Journey Analytics之间比较、审核和协调数据 | `aa-cja-validation` | ADOBE ANALYTICS + CJA | “将我的AA报表包与CJA数据视图进行比较” · “验证AA和CJA之间的页面视图” |
+| 执行摘要和KPI摘要 | 制作为利益相关者准备的性能摘要、规范性建议和幻灯片组概述 | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `dx-api` | Customer Journey Analytics (CJA) | “给我上个月的执行摘要” · “根据本季度的数据创建一个幻灯片组大纲” |
+| [AA ↔ CJA数据验证](data-insights/data-validation-aa-cja.md) | 在Adobe Analytics和Customer Journey Analytics之间比较、审核和协调数据，尤其是在从Adobe Analytics升级到Customer Journey Analytics时 | `aa-cja-validation`, `cja`, `dx-api` | ADOBE ANALYTICS + CJA | “将我的AA报表包与CJA数据视图进行比较” · “验证AA和CJA之间的页面视图” |
 | 运行时间序列和因果分析 | 查询和分析受众、数据集和具有因果归因的历程的历史时间序列数据 | `operational-stats-causal-analysis` | 所有符合条件的应用程序 | “显示过去90天的受众规模趋势” · “为什么我的数据集行数在3月3日激增？” |
 | 创建自定义CJA技能 | 将分析模式转变为可重用、可重复的技能，这些技能可在不同会话间持续保留 | `cja-skill-creator` | Customer Journey Analytics (CJA) | “将此每周收入分析转换为可重复使用的技能” · “将此技能另存为每月funnel报告的技能” |
 
