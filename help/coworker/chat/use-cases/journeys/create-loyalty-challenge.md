@@ -5,11 +5,12 @@ role: User
 level: Beginner
 doc-type: Feature Video
 duration: 499
-last-substantial-update: 2026-08-12T00:00:00Z
+last-substantial-update: 2026-08-12T00:00:00.000Z
 jira: KT-22312
-source-git-commit: 8a6d1c51abb7702298af4ac294dbe96a3b90e2df
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: 90
 ht-degree: 0%
 
 ---
@@ -21,4 +22,4 @@ ht-degree: 0%
  
 此视频展示了忠诚度插件及其挑战管理技能，这是一项AI支持的功能，可帮助营销人员使用自然语言而不是手动配置用户界面中的每个设置来创建、编辑和管理忠诚度挑战。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496546/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496528/?learn=on&enablevpops)
