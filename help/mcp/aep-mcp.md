@@ -256,7 +256,7 @@ Experience Platform目录服务的统一调度工具。 查询数据集元数据
 
 >[!NOTE]
 >
->此工具仅检索评估结果。 要修复标记的问题，请使用[!DNL Experience Platform] UI中的运行状况检查详细信息面板。 请参阅[运行状况检查](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks)。 在[CX Co-worker Chat](../coworker/chat/overview.md)中提供了针对所支持运行状况检查的自动修正指南。
+>此工具仅检索评估结果。 要修复标记的问题，请使用[!DNL Experience Platform] UI中的运行状况检查详细信息面板。 请参阅[运行状况检查](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/run-and-operate/health-checks)。 在[CX Co-worker Chat](../coworker/chat/overview.md)中提供了针对所支持运行状况检查的自动修正指南。
 
 **功能：**&#x200B;列出当前沙盒的所有运行状况检查结果，获取一个命名检查的结果
 
