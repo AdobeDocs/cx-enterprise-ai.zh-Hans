@@ -1,10 +1,10 @@
 ---
 title: Adobe CX Co-worker网关概述
 description: Adobe CX Co-worker Gateway是适用于Adobe CX Enterprise的统一MCP，它为MCP客户端提供了到支持的产品工具的单一连接。
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: 428291fab4c74bc49f62c65011c3336ff1609a38
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 4%
+source-wordcount: '454'
+ht-degree: 3%
 
 ---
 
@@ -40,11 +40,11 @@ CX Co-worker Gateway为CX Co-worker Gateway产品工具提供了一个受管理�
 | 产品工具 | 通过端点公开的内容 | 可用性 | 文档 |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Real-Time CDP** | 受众、目标、源、身份命名空间和激活运行状况（只读） | Beta 版 | [Real-Time CDP工具](rtcdp-mcp.md) |
-| **Experience Platform** | 架构、数据集、数据管理、查询服务和审核事件（只读） | Beta 版 | [Experience Platform工具](aep-mcp.md) |
+| **Experience Platform** | 架构、数据集、数据管理、查询服务、审核事件和沙盒运行状况检查评估（只读） | Beta 版 | [Experience Platform工具](aep-mcp.md) |
 | **Journey Optimizer** | 营销活动和渠道配置（只读） | Beta 版 | [Journey Optimizer工具](ajo-mcp.md) |
 | **Customer Journey Analytics** | 数据视图、维度、量度、报表、区段、日期范围、项目和受众（读写） | 可用 | [Customer Journey Analytics工具](cja-mcp.md) |
 | **Adobe Analytics** | 报表包、维度、量度、报表、区段、日期范围和工作区项目（读取和写入支持的组件） | 可用 | [Adobe Analytics工具](analytics-mcp.md) |
-| **Workfront** | 项目、任务和审批工作流的工作管理工具 | 预览 | [Workfront MCP服务器](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
+| **Workfront** | 项目、任务和审批工作流的工作管理工具 | 预览 | [Workfront MCP服务器](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
 
 
 >[!NOTE]
