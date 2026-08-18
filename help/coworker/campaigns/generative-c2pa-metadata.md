@@ -2,7 +2,7 @@
 description: 了解同事营销活动如何自动附加并保留图像上的C2PA元数据(Content Credentials)，从生成一直到电子邮件投放。
 title: 同事营销活动中的C2PA元数据
 hide: true
-source-git-commit: 9796ac7d3d55e7a278414d44a214bfdf5311d727
+source-git-commit: 399f0e33cc98c0450fe5fd0b75d847525e89f978
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 6%
@@ -15,13 +15,9 @@ ht-degree: 6%
 
 C2PA元数据是持久的、不可见的元数据，记录一段内容的创建或编辑方式。 在Co-worker Campaigns中使用创作AI工具生成或编辑图像时，C2PA元数据会自动附加到该图像。 您无需执行任何操作。
 
->[!BEGINSHADEBOX]
-
 ## 电子邮件营销活动中的Content Credentials {#content-credentials-email}
 
 在电子邮件促销活动中发送的图像将其Content Credentials保持不变，因此收件人可以直接从投放的电子邮件中验证任何图像的来源和真实性。
-
->[!ENDSHADEBOX]
 
 ## 附加C2PA元数据的操作 {#cc-workflows}
 
@@ -48,4 +44,4 @@ C2PA元数据是持久的、不可见的元数据，记录一段内容的创建�
 
 * [Adobe Experience Cloud创作AI用户准则](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 
-* [护栏和限制](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [护栏和限制](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
