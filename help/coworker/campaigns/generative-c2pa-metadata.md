@@ -2,10 +2,10 @@
 description: 了解同事营销活动如何在AI生成和编辑的图像上自动附加和保留C2PA元数据(Content Credentials)，而无需执行任何操作。
 title: 同事营销活动中的C2PA元数据
 hide: true
-source-git-commit: c03bdd213d3e96de1bee022b98e4809d3100a195
+source-git-commit: 2b75854bde0697971e736bd453a14a4aa44352ed
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 8%
+source-wordcount: '361'
+ht-degree: 6%
 
 ---
 
@@ -30,14 +30,14 @@ C2PA元数据是持久的、不可见的元数据，记录一段内容的创建�
 
 ## 内容移动时发生的情况 {#cc-content-moves}
 
-同事营销活动会保留与支持的图像资源关联的Content Credentials。 如果导入到同事营销活动中的图像包含Content Credentials，则在生成的营销活动内容和出站电子邮件体验中使用资产时，将保留这些凭据。 [了解有关C2PA元数据的更多信息](https://helpx.adobe.com/cn/firefly/using/content-credentials.html){target="_blank"}。
+同事营销活动会保留与支持的图像资源关联的Content Credentials。 如果导入到同事营销活动中的图像包含Content Credentials，则在生成的营销活动内容和出站电子邮件体验中使用资产时，将保留这些凭据。
 
 <!-- Some ways of bringing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, may not preserve the original C2PA metadata. In these cases, no C2PA metadata can be read from the source, and none is created for the result. -->
 
 ## 其他资源
 
+* [了解有关C2PA元数据的更多信息](https://helpx.adobe.com/cn/firefly/using/content-credentials.html){target="_blank"}
+
 * [Adobe Experience Cloud创作AI用户准则](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 
-* [Content Credentials如何跨Adobe产品工作](https://helpx.adobe.com/cn/firefly/using/content-credentials.html){target="_blank"}
-
-* [护栏和限制](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [护栏和限制](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
