@@ -1,10 +1,10 @@
 ---
 title: CX Co-worker Gateway中的Experience Platform工具
 description: 通过CX Co-worker Gateway了解哪些Adobe Experience Platform工具可用。
-source-git-commit: 3b9aa67448b5686b614e5f34019d06272837f5c6
+source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 7%
+source-wordcount: '1947'
+ht-degree: 6%
 
 ---
 
@@ -31,12 +31,14 @@ ht-degree: 7%
 | `search_query_service` | 查询SQL查询、模板、计划、警报 | 查询服务·查询、模板、计划、警报 | 列表，获取，筛选，获取连接参数 | 活动 |
 | `search_sandbox_health_assessment` | 为当前沙盒检索最新的运行和操作运行状况检查评估结果 | 运行和运行·运行状况检查评估 | 列表，按支票名称获取 | 活动 |
 | `search_schema_registry` | 查询XDM架构、字段组、类、类型 | 架构注册表·架构、字段组、类、数据类型、描述符 | 列表，获取，按容器筛选 | 活动 |
+| `execute_observability_metrics_query` | 查询当前沙盒或所有沙盒的[!DNL Observability Insights]量度 | 可观察性洞察·量度 | 时间序列和聚合查询、多量度请求、标记过滤器、groupBy/exclude、按量度缩减采样 | 活动 |
+| `inspect_observability_breaches` | 检测度量超过其配置的基线的[!DNL Observability Insights]入侵间隔 | 可观察性洞察·违规 | 按系列、组织和沙盒范围列出违规间隔 | 活动 |
 
 ## 工具引用
 
 ### search_allowed_ip_ranges
 
-**资源：**&#x200B;数据Distiller身份验证· IP范围
+**资源：**数据Distiller身份验证· IP范围
 **状态：**&#x200B;活动
 
 在当前沙盒中为查询服务检索所有配置的IP访问限制。 返回组织ID和允许的IP范围列表。 仅适用于具有Data Distiller加载项的客户。
@@ -47,7 +49,7 @@ ht-degree: 7%
 
 ### search_audit
 
-**资源：**&#x200B;审核查询·审核事件
+**资源：**审核查询·审核事件
 **状态：**&#x200B;活动
 
 列出跨Experience Platform服务的用户活动带有时间戳的记录。 返回操作类型、用户电子邮件、资产信息和事件状态。 使用`asset_type`和`action`缩小结果范围。 未指定时间范围时，默认为最近7天。 限于过去90天的最近1000条记录和事件。
@@ -71,7 +73,7 @@ ht-degree: 7%
 
 ### search_dataset
 
-**资源：**&#x200B;目录API ·数据集、批次
+**资源：**目录API ·数据集、批次
 **状态：**&#x200B;活动
 
 Experience Platform目录服务的统一调度工具。 查询数据集元数据（架构引用、标记、创建信息）或批量摄取记录（状态、量度、文件列表）。 使用`dataset/list`发现数据集，`batch/list`检查摄取运行状况，以及`batch/list_files`或`batch/get_meta_files`检查特定批次内容。 所有操作均为只读。
@@ -102,7 +104,7 @@ Experience Platform目录服务的统一调度工具。 查询数据集元数据
 
 ### search_class_relations
 
-**资源：**&#x200B;类关系·静态YAML索引
+**资源：**类关系·静态YAML索引
 **状态：**&#x200B;活动
 
 使用静态`class_relations_v1.yaml`索引按名称搜索Experience Platform业务类关系。 未调用Experience Platform API。 接受单个术语或以逗号分隔的术语；每个术语使用部分令牌匹配根据类名进行匹配。 返回具有正向关系（每个类指向的内容）和反向关系（哪些类指向它）的匹配类。 在构建查询、数据流或架构组合之前，请使用此项了解实体关系。
@@ -118,7 +120,7 @@ Experience Platform目录服务的统一调度工具。 查询数据集元数据
 
 ### search_data_access
 
-**资源：**&#x200B;数据访问API ·失败的批处理
+**资源：**数据访问API ·失败的批处理
 **状态：**&#x200B;活动
 
 从失败的Experience Platform数据摄取批次访问文件。 使用`failed_batch/list_failed`列出属于失败批次的文件以进行故障诊断。 所有操作都需要批次ID。 注意： `file/get`和`dataset/preview`已禁用，因为它们公开实际记录数据。 所有操作均为只读。
@@ -139,7 +141,7 @@ Experience Platform目录服务的统一调度工具。 查询数据集元数据
 
 ### search_data_lake
 
-**资源：**&#x200B;数据湖API ·数据集，批次
+**资源：**数据湖API ·数据集，批次
 **状态：**&#x200B;活动
 
 检查数据湖层中的数据集并批处理元数据。 使用`get`表示完整的元数据，使用`get_size`表示存储和摄取大小量度，使用`list_failed`监视时间范围内的摄取失败。 如果未为`list_failed`提供时间范围，则默认为过去7天。 所有操作均为只读，需要资源ID。
@@ -160,7 +162,7 @@ Experience Platform目录服务的统一调度工具。 查询数据集元数据
 
 ### search_dule
 
-**资源：**&#x200B;数据管理·标签、策略、marketing_actions
+**资源：**数据管理·标签、策略、marketing_actions
 **状态：**&#x200B;活动
 
 查询策略服务API，以获取数据使用标签、策略和营销操作。 使用`marketing_action/evaluate`测试对具有特定标签的数据的营销操作是否会违反任何治理策略。 所有操作均为只读。
@@ -185,7 +187,7 @@ Experience Platform目录服务的统一调度工具。 查询数据集元数据
 
 ### search_query_service
 
-**资源：**&#x200B;查询服务·查询、模板、计划、计划运行、连接、警报订阅
+**资源：**查询服务·查询、模板、计划、计划运行、连接、警报订阅
 **状态：**&#x200B;活动
 
 查询服务资源的统一工具。 列出和检索临时查询、保存的SQL模板、计划的查询及其运行、交互式连接参数（用于psql/JDBC客户端）和警报订阅。 对于查询列表，默认为`isService==false,isParentLevel==true`以过滤掉内部流量。 所有操作均为只读。
@@ -199,16 +201,62 @@ Experience Platform目录服务的统一调度工具。 查询数据集元数据
 | `entity_type` | 是 | `query`, `query_template`, `schedule`, `schedule_run`, `connection`, `alert_subscription` |
 | `operation` | 是 | `list`, `get`, `get_connection_params`, `list_by_u...` |
 
+### execute_observability_metrics_query
+
+**资源：**可观察性分析·量度
+**状态：**&#x200B;活动
+
+查询当前沙盒的[!DNL Observability Insights]量度，或查询组织中所有沙盒的量度。 支持单个请求中的多个量度、基于标记的过滤器和按量度缩减像素采样。 对于`scope=org`，请在每个量度上至少包含一个`groupBy`筛选器。 所有操作均为只读。
+
+**功能：**&#x200B;查询度量数据点、时间序列或聚合、多度量请求、标记过滤器、groupBy/exclude、按度量缩减采样
+
+**参数：**
+
+| 参数 | 必需 | 描述 |
+| --- | --- | --- |
+| `metrics` | 是 | 量度规格数组。 每个变量都包含`name` （完全限定的量度名称）、`aggregator` （`sum`、`avg`、`min`、`max`、`count`、`last`、`p50`、`p95`、`p99`、直方图变量或`absent`）、可选`filters`和可选`downsample` |
+| `start` | 是 | 窗口开始，ISO 8601，例如`2026-01-15T00:00:00.000Z`。 必须早于`end`。 最大时段：31天 |
+| `end` | 是 | 窗口结束，ISO 8601。 必须晚于`start` |
+| `granularity` | 否 | 时段大小： `MINUTE`、`FIVE_MINUTE`、`TEN_MINUTE`、`FIFTEEN_MINUTE`、`THIRTY_MINUTE`、`HOUR`、`FOUR_HOUR`、`TWELVE_HOUR`、`DAY`、`TWO_DAY`、`WEEK`、`MONTH`或`ALL`（将窗口折叠为单个聚合）。 省略以让服务器选择 |
+| `scope` | 否 | `sandbox` （默认）查询当前沙盒。 `org`查询您组织中的所有沙盒并对每个量度建议`groupBy`过滤器 |
+
+`metrics[].filters`中的每个筛选器都包含`name`（标记名称）、`value`（精确、通配符或正则表达式匹配）以及可选的`groupBy`和`exclude`布尔值。
+
+### inspect_observability_implications
+
+**资源：**可观察性洞察·违规
+**状态：**&#x200B;活动
+
+对于当前沙盒或组织中的所有沙盒，检测[!DNL Observability Insights]入侵间隔，即量度超出其配置基线的时间窗口。 返回每个系列的预先匹配间隔。 窗口末尾仍在进行的开放性违规将返回`end: null`。 所有操作均为只读。
+
+**功能：**&#x200B;每个系列、组织和沙盒范围的列表违规间隔
+
+**参数：**
+
+| 参数 | 必需 | 描述 |
+| --- | --- | --- |
+| `metrics` | 是 | 一系列违规规格。 每个包含`name`（完全限定的量度名称）和可选的`filters` |
+| `start` | 是 | 窗口起始，ISO 8601。 必须早于`end`。 最大时段：31天 |
+| `end` | 是 | 窗口结束，ISO 8601 |
+| `granularity` | 否 | 时段大小，与`execute_observability_metrics_query`的值相同，但`ALL`除外。 每个存储段都根据基线进行独立评估 |
+| `scope` | 否 | `sandbox` （默认）或`org`。 在没有沙盒过滤器的`org`上，至少包括一个每个量度具有`groupBy: true`的过滤器，这样结果将按该维度拆分，而不是跨组织折叠 |
+
+`inspect_observability_breaches`不接受`metrics[]`上的`aggregator`或`downsample`。 该工具在内部设置这些参数以评估破坏条件。
+
+>[!NOTE]
+>
+>两个可观察性分析工具也限制为每个请求约10,000个数据点。 如果请求因超出此限制而被拒绝，请缩小时间范围，添加过滤器，或使用较粗的`granularity`。
+
 ### search_sandbox_health_assessment
 
-**资源：**&#x200B;运行和运行·运行状况检查评估
+**资源：**运行和运行·运行状况检查评估
 **状态：**&#x200B;活动
 
 检索当前沙盒的最新“运行和运行”运行状况检查评估结果。 返回每个受支持类别的结果，包括架构和身份、分段、引入和配置文件。 为了在没有单独查找的情况下确定根本原因，每个结果都包括失败检查背后的受影响资源。 仅返回具有已发布、人类可读名称的检查。 所有操作均为只读。
 
 >[!NOTE]
 >
->此工具仅检索评估结果。 要修复标记的问题，请使用[!DNL Experience Platform] UI中的运行状况检查详细信息面板。 请参阅[运行状况检查](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/run-and-operate/health-checks)。 在[CX Co-worker Chat](../coworker/chat/overview.md)中提供了针对所支持运行状况检查的自动修正指南。
+>此工具仅检索评估结果。 要修复标记的问题，请使用[!DNL Experience Platform] UI中的运行状况检查详细信息面板。 请参阅[运行状况检查](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks)。 在[CX Co-worker Chat](../coworker/chat/overview.md)中提供了针对所支持运行状况检查的自动修正指南。
 
 **功能：**&#x200B;列出当前沙盒的所有运行状况检查结果，获取一个命名检查的结果
 
