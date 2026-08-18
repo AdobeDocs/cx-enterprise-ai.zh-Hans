@@ -1,11 +1,10 @@
 ---
 description: 浏览同事聊天用例和示例提示，按区域在数据见解、受众、历程和平台操作之间组织。
 title: 同事聊天用例
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 9188ccfc1a01288bee775bc82d84c7f252e66615
 workflow-type: tm+mt
-source-wordcount: 1284
+source-wordcount: 1333
 ht-degree: 7%
 
 ---
@@ -61,6 +60,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | Experience Platform / Journey Optimizer / Customer Journey Analytics API操作 | 提供直接API网关，用于处理知识图中没有的突变、实时状态检查和实体类型 | `cxo-api` | 所有符合条件的应用程序 | &quot;删除数据集X&quot; · &quot;检查我的批量摄取作业的状态&quot; |
 | 实体解析和链接 | 使用语义和词法搜索将实体提及解析为实际的Experience Platform实体并发现XDM字段 | `entity-linking` | Adobe Experience Platform | “将‘假日购物者’解析为实际受众”·“查找与购买历史记录相关的字段” |
 | 管理自定义技能 | 保存、修改或删除跨会话保留的用户拥有的可重用技能 | `manage-skill` | 所有符合条件的应用程序 | 将工作流另存为技能” · “删除我的每周报告技能” · “将此转换为可重复使用的技能” |
+| 监控流容量和违规情况 | 检查沙盒中的当前和历史流使用情况、容量和违规状态 | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | “我当前的沙盒中的流容量是多少？” · “我当前的沙盒在上周是否超出了容量限制？” |
 
 ## 沙盒工具
 
