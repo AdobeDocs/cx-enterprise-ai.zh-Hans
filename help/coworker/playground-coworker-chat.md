@@ -2,9 +2,11 @@
 title: 开始使用游乐场中的同事聊天
 description: 了解如何在游乐场中使用同事聊天来探索自然语言提示如何帮助您学习、调查和优化您的工作。
 hide: true
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
-source-wordcount: '1671'
+source-wordcount: 1671
 ht-degree: 4%
 
 ---

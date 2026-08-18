@@ -1,9 +1,11 @@
 ---
 description: 了解同事营销活动以提示最佳实践 — 联合启动框架、有无、不支持的内容以及提示的质量核对清单。
 title: 提示最佳实践
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: 532
 ht-degree: 1%
 
 ---
