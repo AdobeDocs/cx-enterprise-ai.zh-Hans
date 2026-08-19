@@ -2,10 +2,10 @@
 description: 了解同事营销活动如何自动附加并保留图像上的C2PA元数据(Content Credentials)，从生成一直到电子邮件投放。
 title: 同事营销活动中的C2PA元数据
 hide: true
-source-git-commit: 399f0e33cc98c0450fe5fd0b75d847525e89f978
+source-git-commit: 17acfbd783e1e70b965636b806c465be8cf73522
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 6%
+source-wordcount: '380'
+ht-degree: 4%
 
 ---
 
@@ -40,8 +40,6 @@ C2PA元数据是持久的、不可见的元数据，记录一段内容的创建�
 
 ## 其他资源
 
-* [了解有关C2PA元数据的更多信息](https://helpx.adobe.com/cn/firefly/using/content-credentials.html){target="_blank"}
-
 * [Adobe Experience Cloud创作AI用户准则](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 
-* [护栏和限制](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [护栏和限制](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
