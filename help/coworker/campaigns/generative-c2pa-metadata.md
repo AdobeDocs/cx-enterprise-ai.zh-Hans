@@ -1,10 +1,10 @@
 ---
-description: 了解同事营销活动如何在AI生成和编辑的图像上自动附加和保留C2PA元数据(Content Credentials)，而无需执行任何操作。
+description: 了解同事营销活动如何自动附加并保留图像上的C2PA元数据(Content Credentials)，从生成一直到电子邮件投放。
 title: 同事营销活动中的C2PA元数据
 hide: true
-source-git-commit: 2b75854bde0697971e736bd453a14a4aa44352ed
+source-git-commit: 399f0e33cc98c0450fe5fd0b75d847525e89f978
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '391'
 ht-degree: 6%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 6%
 围绕创新型人工智能透明度的新法律正在出现，Adobe正在努力满足跨司法辖区的适用要求。 [C2PA元数据](https://c2pa.org/)（也称为Content Credentials）是Adobe用于满足这些法律要求的源工具。
 
 C2PA元数据是持久的、不可见的元数据，记录一段内容的创建或编辑方式。 在Co-worker Campaigns中使用创作AI工具生成或编辑图像时，C2PA元数据会自动附加到该图像。 您无需执行任何操作。
+
+## 电子邮件营销活动中的Content Credentials {#content-credentials-email}
+
+在电子邮件促销活动中发送的图像将其Content Credentials保持不变，因此收件人可以直接从投放的电子邮件中验证任何图像的来源和真实性。
 
 ## 附加C2PA元数据的操作 {#cc-workflows}
 

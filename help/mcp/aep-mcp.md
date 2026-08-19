@@ -1,10 +1,10 @@
 ---
 title: CX Co-worker Gateway中的Experience Platform工具
 description: 通过CX Co-worker Gateway了解哪些Adobe Experience Platform工具可用。
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 8%
+source-wordcount: '1947'
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,10 @@ ht-degree: 8%
 | `search_data_lake` | 检查数据集元数据和批次运行状况 | Data Lake API ·数据集、批次 | 获取，获取大小，列出失败的批次 | 活动 |
 | `search_dule` | 查询数据管理标签、策略和操作 | 数据管理·标签、策略、营销活动 | 列表，获取，列表启用，评估 | 活动 |
 | `search_query_service` | 查询SQL查询、模板、计划、警报 | 查询服务·查询、模板、计划、警报 | 列表，获取，筛选，获取连接参数 | 活动 |
+| `search_sandbox_health_assessment` | 为当前沙盒检索最新的运行和操作运行状况检查评估结果 | 运行和运行·运行状况检查评估 | 列表，按支票名称获取 | 活动 |
 | `search_schema_registry` | 查询XDM架构、字段组、类、类型 | 架构注册表·架构、字段组、类、数据类型、描述符 | 列表，获取，按容器筛选 | 活动 |
+| `execute_observability_metrics_query` | 查询当前沙盒或所有沙盒的[!DNL Observability Insights]量度 | 可观察性洞察·量度 | 时间序列和聚合查询、多量度请求、标记过滤器、groupBy/exclude、按量度缩减采样 | 活动 |
+| `inspect_observability_breaches` | 检测度量超过其配置的基线的[!DNL Observability Insights]入侵间隔 | 可观察性洞察·违规 | 按系列、组织和沙盒范围列出违规间隔 | 活动 |
 
 ## 工具引用
 
@@ -197,3 +200,64 @@ Experience Platform目录服务的统一调度工具。 查询数据集元数据
 | --- | --- | --- |
 | `entity_type` | 是 | `query`, `query_template`, `schedule`, `schedule_run`, `connection`, `alert_subscription` |
 | `operation` | 是 | `list`, `get`, `get_connection_params`, `list_by_u...` |
+
+### execute_observability_metrics_query
+
+**资源：**&#x200B;可观察性分析·量度
+**状态：**&#x200B;活动
+
+查询当前沙盒的[!DNL Observability Insights]量度，或查询组织中所有沙盒的量度。 支持单个请求中的多个量度、基于标记的过滤器和按量度缩减像素采样。 对于`scope=org`，请在每个量度上至少包含一个`groupBy`筛选器。 所有操作均为只读。
+
+**功能：**&#x200B;查询度量数据点、时间序列或聚合、多度量请求、标记过滤器、groupBy/exclude、按度量缩减采样
+
+**参数：**
+
+| 参数 | 必需 | 描述 |
+| --- | --- | --- |
+| `metrics` | 是 | 量度规格数组。 每个变量都包含`name` （完全限定的量度名称）、`aggregator` （`sum`、`avg`、`min`、`max`、`count`、`last`、`p50`、`p95`、`p99`、直方图变量或`absent`）、可选`filters`和可选`downsample` |
+| `start` | 是 | 窗口开始，ISO 8601，例如`2026-01-15T00:00:00.000Z`。 必须早于`end`。 最大时段：31天 |
+| `end` | 是 | 窗口结束，ISO 8601。 必须晚于`start` |
+| `granularity` | 否 | 时段大小： `MINUTE`、`FIVE_MINUTE`、`TEN_MINUTE`、`FIFTEEN_MINUTE`、`THIRTY_MINUTE`、`HOUR`、`FOUR_HOUR`、`TWELVE_HOUR`、`DAY`、`TWO_DAY`、`WEEK`、`MONTH`或`ALL`（将窗口折叠为单个聚合）。 省略以让服务器选择 |
+| `scope` | 否 | `sandbox` （默认）查询当前沙盒。 `org`查询您组织中的所有沙盒并对每个量度建议`groupBy`过滤器 |
+
+`metrics[].filters`中的每个筛选器都包含`name`（标记名称）、`value`（精确、通配符或正则表达式匹配）以及可选的`groupBy`和`exclude`布尔值。
+
+### inspect_observability_implications
+
+**资源：**&#x200B;可观察性洞察·违规
+**状态：**&#x200B;活动
+
+对于当前沙盒或组织中的所有沙盒，检测[!DNL Observability Insights]入侵间隔，即量度超出其配置基线的时间窗口。 返回每个系列的预先匹配间隔。 窗口末尾仍在进行的开放性违规将返回`end: null`。 所有操作均为只读。
+
+**功能：**&#x200B;每个系列、组织和沙盒范围的列表违规间隔
+
+**参数：**
+
+| 参数 | 必需 | 描述 |
+| --- | --- | --- |
+| `metrics` | 是 | 一系列违规规格。 每个包含`name`（完全限定的量度名称）和可选的`filters` |
+| `start` | 是 | 窗口起始，ISO 8601。 必须早于`end`。 最大时段：31天 |
+| `end` | 是 | 窗口结束，ISO 8601 |
+| `granularity` | 否 | 时段大小，与`execute_observability_metrics_query`的值相同，但`ALL`除外。 每个存储段都根据基线进行独立评估 |
+| `scope` | 否 | `sandbox` （默认）或`org`。 在没有沙盒过滤器的`org`上，至少包括一个每个量度具有`groupBy: true`的过滤器，这样结果将按该维度拆分，而不是跨组织折叠 |
+
+`inspect_observability_breaches`不接受`metrics[]`上的`aggregator`或`downsample`。 该工具在内部设置这些参数以评估破坏条件。
+
+>[!NOTE]
+>
+>两个可观察性分析工具也限制为每个请求约10,000个数据点。 如果请求因超出此限制而被拒绝，请缩小时间范围，添加过滤器，或使用较粗的`granularity`。
+
+### search_sandbox_health_assessment
+
+**资源：**&#x200B;运行和运行·运行状况检查评估
+**状态：**&#x200B;活动
+
+检索当前沙盒的最新“运行和运行”运行状况检查评估结果。 返回每个受支持类别的结果，包括架构和身份、分段、引入和配置文件。 为了在没有单独查找的情况下确定根本原因，每个结果都包括失败检查背后的受影响资源。 仅返回具有已发布、人类可读名称的检查。 所有操作均为只读。
+
+>[!NOTE]
+>
+>此工具仅检索评估结果。 要修复标记的问题，请使用[!DNL Experience Platform] UI中的运行状况检查详细信息面板。 请参阅[运行状况检查](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/run-and-operate/health-checks)。 在[CX Co-worker Chat](../coworker/chat/overview.md)中提供了针对所支持运行状况检查的自动修正指南。
+
+**功能：**&#x200B;列出当前沙盒的所有运行状况检查结果，获取一个命名检查的结果
+
+无参数。
