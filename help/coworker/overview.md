@@ -1,14 +1,12 @@
 ---
 title: 关于Adobe CX Enterprise Co-worker
 description: 了解如何使用Adobe CX Enterprise Co-worker将您的营销提升到新的水平。
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: d408bb6c54e59187382ca120695619c66003bc17
 workflow-type: tm+mt
-source-wordcount: 195
-ht-degree: 4%
+source-wordcount: 202
+ht-degree: 3%
 
 ---
 
@@ -24,11 +22,8 @@ Co-worker是一个由AI提供支持的团队成员，它重新构想了组织、
 * [创建电子邮件营销活动](./campaigns/create-an-email-campaign.md)
 * [用例](./campaigns/use-cases.md)
 * [提示最佳实践](./campaigns/prompting-best-practices.md)
-<!--
-broken links
-* [Connect to Marketo Engage](./coworker/campaigns/connectors/marketo.md)
-* [Connect to Hubspot](./coworker/campaigns/connectors/hubspot.md) 
--->
+* [连接到Marketo Engage](./campaigns/connectors/marketo.md)
+* [连接到Hubspot](./campaigns/connectors/hubspot.md)
 
 ## 聊天
 
