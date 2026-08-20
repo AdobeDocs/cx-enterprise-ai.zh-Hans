@@ -1,9 +1,8 @@
 ---
 description: 同事聊天界面的参考指南，涵盖导航、输入框、响应、聊天历史记录以及配置技能、MCP服务器和内存。
 title: 同事聊天UI指南
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: bf7465398bd73664ebd8911450dfd1173d55d6a4
 workflow-type: tm+mt
 source-wordcount: 1577
 ht-degree: 3%
@@ -13,6 +12,8 @@ ht-degree: 3%
 # UI指南 {#ui-guide}
 
 开始使用同事聊天界面。 本指南涵盖方方面面，从访问应用程序、导航工作区到充分利用对话、管理历史记录和定制设置。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 访问同事聊天
 
