@@ -1,7 +1,8 @@
 ---
 description: 同事聊天界面的参考指南，涵盖导航、输入框、响应、聊天历史记录以及配置技能、MCP服务器和内存。
 title: 同事聊天UI指南
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 jira: KT-22106
 source-git-commit: ff6ea2f9650bf1c72d2a878c20eecf90f1c8d9aa
 workflow-type: tm+mt
