@@ -2,9 +2,9 @@
 description: 了解同事营销活动如何自动附加并保留图像上的C2PA元数据，从生成一直到电子邮件投放。
 title: 同事营销活动中的C2PA元数据
 hide: true
-source-git-commit: 1c24814b92c2eb3ecd7f3a54058c9a670613d814
+source-git-commit: 639602b445cba01fce2130006f98e1e388ba7d5b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '370'
 ht-degree: 4%
 
 ---
@@ -30,13 +30,11 @@ C2PA元数据是持久的、不可见的元数据，记录一段内容的创建�
 ## 内容类型及其范围 {#content-types}
 
 * **图像**：已覆盖。 使用创作AI生成图像时，会附加C2PA元数据，并通过在Co-worker Campaigns中通过图像生成执行的裁切、文本叠加和图像叠加操作来保留。
-* **文本**：不适用。 在合作营销活动中生成图像的纯文本输出（如副本生成、翻译和品牌对齐建议）不需要C2PA元数据。
+* **文本**：不适用。 合作营销活动中的纯文本输出（如副本生成、翻译和品牌调整建议）不需要C2PA元数据。
 
 ## 内容移动时发生的情况 {#content-moves}
 
 同事营销活动会保留与支持的图像资产关联的C2PA元数据。 如果导入到同事营销活动中的图像包含C2PA元数据，则在生成的营销活动内容和出站电子邮件体验中使用资产时，将保留这些凭据。
-
-<!-- Some ways of bringing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, may not preserve the original C2PA metadata. In these cases, no C2PA metadata can be read from the source, and none is created for the result. -->
 
 ## 其他资源 {#resources}
 

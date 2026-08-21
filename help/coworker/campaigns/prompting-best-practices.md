@@ -3,7 +3,7 @@ description: 了解同事营销活动以提示最佳实践 — 联合启动框�
 title: 提示最佳实践
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+source-git-commit: d408bb6c54e59187382ca120695619c66003bc17
 workflow-type: tm+mt
 source-wordcount: 532
 ht-degree: 1%
@@ -141,4 +141,4 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->浏览更多[协同工作营销活动的提示模式] (./)。
+>浏览更多[协同工作营销活动的提示模式](use-cases.md)。
