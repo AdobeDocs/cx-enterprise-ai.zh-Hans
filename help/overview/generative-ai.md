@@ -1,6 +1,6 @@
 ---
 title: CX Enterprise应用程序中的创作AI
-description: 大致了解可以在CX Enterprise应用程序中利用AI支持的功能的位置。
+description: 大致了解在CX Enterprise应用程序中可以利用AI支持的genAI功能的地方。
 solution: Experience Cloud
 landing-page-name: ai
 landing-page-breadcrumb-title: AI Documentation
@@ -41,16 +41,16 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
+source-git-commit: cdf395ef366771780ee549385fa5ed6aaa6bd873
 workflow-type: tm+mt
-source-wordcount: 3288
+source-wordcount: 3388
 ht-degree: 13%
 
 ---
 
 # 关于CX Enterprise中的创作AI
 
-CX Enterprise中的Generative AI (genAI)可帮助您自动执行创意和认知任务并提高工作效率。 此页面可帮助您了解[!DNL CX Enterprise]应用程序在何处支持genAI和AI Assistant。 它提供了详细了解这些功能的链接。
+CX Enterprise中的Generative AI (genAI)可帮助您自动执行创意和认知任务并提高工作效率。 此页面可帮助您了解[!DNL CX Enterprise]应用程序支持genAI的位置。 它提供了详细了解这些功能的链接。
 
 >[!IMPORTANT]
 >
@@ -66,7 +66,7 @@ GenAI可以&#x200B;_创建_&#x200B;原始内容，或者&#x200B;_生成对用户
 
 [!BADGE 了解详情]{type=Informative url="https://business.adobe.com/ai/adobe-genai.html" tooltip="Adobe的GenAI"}
 
-**什么是[!UICONTROL AI助手]？**
+## 什么是[!UICONTROL AI助手]？
 
 [!UICONTROL AI Assistant]是许多CX Enterprise应用程序中支持的对话式genAI工具。 根据您使用的应用程序，使用它快速获得&#x200B;_产品知识_&#x200B;和&#x200B;_运营见解_。
 
@@ -82,6 +82,18 @@ GenAI可以&#x200B;_创建_&#x200B;原始内容，或者&#x200B;_生成对用户
 
 [!BADGE 隐私、安全和管理]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/privacy" tooltip="Adobe的GenAI"}
 
+## 什么是CX Enterprise Co-worker？
+
+[!DNL CX Enterprise Coworker]是AI支持的团队成员，可自动执行客户体验和营销工作流。 作为代理引擎， Co-worker将数据、情报、协作和代理技能执行与内置的企业环境、治理和人力监督整合在一起，因此您可以专注于结果而不是协调任务。
+
+可通过以下方式联系同事：
+
+* **[聊天](../coworker/chat/overview.md)**：一种对话式界面，您使用自然语言描述目标，同事可以规划工作，在Adobe和连接的系统中执行工作，验证结果，并返回完成的工作以供您审批。
+
+* **[营销活动](../coworker/campaigns/overview.md)**：人工智能原生应用程序，可将营销活动简报、受众构建、内容生成、历程设计和校对整合为单一对话体验。
+
+[!BADGE 了解详情]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview" tooltip="转到CX Enterprise Co-worker"}
+
 ## 支持哪些genAI功能？
 
 以下是使用创作AI功能和AI助手的[!DNL CX Enterprise]应用程序的汇总。 指明了与[Adobe Firefly](https://business.adobe.com/cn/products/firefly-business/firefly-ai-approach.html)的兼容性，以实现创作AI功能。
@@ -90,19 +102,19 @@ GenAI可以&#x200B;_创建_&#x200B;原始内容，或者&#x200B;_生成对用户
 
 | **产品名称** | **关键GenAI功能** | **Firefly兼容性** |
 | ------------------ | ------------------------- | ------------------- |
-| [CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview) | GenAI在以下位置提供： <ul><li>**[聊天](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**：一种对话式界面，其中您以自然语言描述目标，genAI规划工作，在Adobe和连接的系统中执行工作，验证结果，并返回完成的工作以供您审批。</li><li>**[营销活动](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/campaigns/overview)**：人工智能原生应用程序，可将营销活动简报、受众构建、内容生成、历程设计和校对整合为单一对话体验。 GenAI可生成营销活动计划、构建历程并草稿个性化内容，以供您反复优化。</li></ul> | 否 |
+| [CX Enterprise Coworker](../coworker/overview.md) | GenAI在以下位置提供： <ul><li>**[聊天](../coworker/chat/overview.md)**：一种对话式界面，使用自然语言描述目标，genAI规划工作，在Adobe和连接的系统中执行工作，验证结果，并返回完成的工作以供您审批。</li><li>**[营销活动](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-coworker/content/campaigns/overview)**：人工智能原生应用程序，可将营销活动简报、受众构建、内容生成、历程设计和校对整合为单一对话体验。 GenAI可生成营销活动计划、构建历程并草稿个性化内容，以供您反复优化。</li></ul> | 否 |
 | [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/home) | 使用genAI创建个性化的品牌内内容。 | 是 |
 | [Adobe Experience Manager as a Cloud Service (AEM CS)](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/overview) | GenAI在以下位置提供： <ul><li>在&#x200B;**AEM Sites**&#x200B;中生成变体（[了解更多](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)）</li><li>**Sites Optimizer**&#x200B;中的GenAI （[了解更多](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-sites-optimizer/content/opportunity-types/overview)）</li><li>**AEM Assets**&#x200B;中的[Content Hub](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en)和[智能标记](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags)</li></ul> AI助手： <ul><li>Experience Hub概述页面</li><li>Edge Delivery Services</li><li>站点</li><li>资产</li><li>表单</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 是 |
 | [Adobe Experience Manager 6.5](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/ai-assistant/ai-assistant-in-aem) | AI助手： <ul><li>Experience Hub概述页面</li><li>Edge Delivery Services</li><li>站点</li><li>资产</li><li>表单</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 是 |
 | [Adobe Experience Manager 6.5 LTS](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65-lts/content/ai-assistant/ai-assistant-in-aem) | AI助手： <ul><li>Experience Hub概述页面</li><li>Edge Delivery Services</li><li>站点</li><li>资产</li><li>表单</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | 是 |
 | [LLM Optimizer](https://experienceleague.adobe.com/zh-hans/docs/llm-optimizer/using/home) | 一个创新型的AI优先应用程序，它使用AI代理自动识别可见性差距，自动提出改进建议，并在特定情况下自动优化您的站点体验。 | 否 |
 | [Adobe Experience Platform](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/landing) | 用于产品知识和操作见解的AI助手。 | 否 |
-| [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/ai-assistant) | 用于产品知识和操作见解的AI助手。 | 否 |
+| [Adobe Journey Optimizer](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/ai-assistant) | [!DNL AI Assistant]产品知识和运营见解。 | 否 |
 | | _AJO Prime_&#x200B;和&#x200B;_Ultimate_&#x200B;提供[内容生成](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en)功能，为文本和图像提供主动内容变体建议。 | 是 |
 | [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | 产品知识的AI助手。 | 否 |
 | [[!DNL Campaign] 托管云服务](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/content/ai-assistant/generative-gs) | AI Assistant for Content Accelerator可根据跨渠道（如电子邮件、短信和推送）的营销目标自动生成个性化、引人入胜的有效内容。 | 是 |
 | **[!DNL Customer Journey Analytics]** | GenAI用于：<ul><li> [智能字幕](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en)：有关最常用的Workspace可视化图表的见解。</li><li>[Content Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/content-analytics/report/report?lang=en#template)：自动分配资源元数据。</li></ul> AI助手：<ul><li>[产品知识](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[产品支持代理](agentic-ai.md) </li><li>[Data Insights Agent](agentic-ai.md)</li></ul> | 否 |
-| [Real-Time CDP](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home) | Experience League产品知识的AI助手。 它还提供了运营见解。 | 否 |
+| [Real-Time CDP](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home) | 来自Experience League的产品知识为[!DNL AI Assistant]。 它还提供了运营见解。 | 否 |
 | **[!DNL Marketo]** | GenAI在Email Designer （带Firefly）、[Dynamic Chat](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview?lang=en)和[交互式网络研讨会](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai?lang=en)中可用。<br> Marketo Engage的AI助手[向Designer发送电子邮件](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/email-marketing/email-designer/ai-assistant) | 是 |
 | [Adobe Target](https://experienceleague.adobe.com/zh-hans/docs/target/using/introduction/assistant-ai/ai-assistant) | 产品知识的AI助手。 | 否 |
 | [Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/ai-assistant/ai-assistant-overview) | 用于应用程序内信息和建议的AI助手。 | 是 |
