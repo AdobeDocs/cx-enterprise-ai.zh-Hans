@@ -1,14 +1,14 @@
 ---
 audience: user
-user-guide-title: Coworker
+user-guide-title: CX Enterprise 中的 AI
 user-guide-description: 通过实际文档、实施指导和参考材料，了解如何构建、配置、集成和扩展AI Assistant、同事、代理和MCP。
 description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提高您的产品知识并获得操作见解。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 785b5d106cb029d68506c90385786cbdae164991
+source-git-commit: 1bdbdf6b40e6202073f2759041dd55f5ce9399ca
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '279'
 ht-degree: 18%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 18%
   - [关于AI积分使用](./overview/ai-credit-consumption.md)
   - [Agentic AI监控仪表板](./overview/monitoring.md)
   - [代理式工具](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-agentic-tools/using/overview)
+  - [创作AI内容透明度](content-transparency.md)
 - AI 助手 {#ai-assistant}
   - [AI助手UI指南](./ai-assistant/ai-assistant-ui.md)
   - [提示库](./ai-assistant/prompt-library.md)
