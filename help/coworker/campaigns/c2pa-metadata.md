@@ -1,10 +1,9 @@
 ---
 description: 了解同事营销活动如何自动附加并保留图像上的C2PA元数据，从生成一直到电子邮件投放。
 title: 同事营销活动中的C2PA元数据
-hide: true
-source-git-commit: 639602b445cba01fce2130006f98e1e388ba7d5b
+source-git-commit: 0d07019c1bf88ecb7452767364d1a5f05702ce0e
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '387'
 ht-degree: 4%
 
 ---
@@ -38,6 +37,6 @@ C2PA元数据是持久的、不可见的元数据，记录一段内容的创建�
 
 ## 其他资源 {#resources}
 
+* [创作AI内容透明度](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}
 * [Adobe Experience Cloud创作AI用户准则](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
-
 * [护栏和限制](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}

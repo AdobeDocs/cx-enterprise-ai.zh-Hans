@@ -15,9 +15,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 543c62ff56886213b9212864e6ff6ad02dc0f742
+source-git-commit: 7668505ba139898a4747e049290e5eaf1e29b9f8
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: 969
 ht-degree: 3%
 
 ---
@@ -34,6 +34,7 @@ ht-degree: 3%
 - [关于代理AI](./overview/agentic-ai.md)介绍Experience Platform Agent如何在现有CX Enterprise应用程序和AI优先应用程序中工作，并列出每个应用程序中可用的代理。
 - [AI监控](./overview/monitoring.md)涵盖跟踪代理采用、使用、反馈和AI信用消耗的仪表板。
 - [AI积分消耗](./overview/ai-credit-consumption.md)说明代理作业如何消耗AI积分，并按照代理和作业类型估计消耗率。
+- [创作AI内容透明度](./content-transparency.md)介绍Adobe如何在CX Enterprise应用程序中自动将C2PA元数据附加到GenAI生成和GenAI编辑的内容。
 - [CX Enterprise代理工具](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-agentic-tools/using/overview)涵盖了扩展CX Enterprise代理的其他代理技能和工具（视频教程）。
 
 ## AI 助手
@@ -60,7 +61,7 @@ ht-degree: 3%
 
 有关代理的完整列表、每个支持的应用程序以及资格要求，请参阅[CX Enterprise中的Agentic AI](./overview/agentic-ai.md)。
 
-## 同事
+## Coworker
 
 Co-worker是AI Assistant的代理优先演变，可自动化客户体验和营销工作流，因此您的团队可以专注于业务目标而不是日常执行。 与其一次问一个问题，不如描述一个目标。 同事计划、执行、验证和返回已完成的工作以供您审批。 同事包括：
 
@@ -76,9 +77,16 @@ Co-worker是AI Assistant的代理优先演变，可自动化客户体验和营�
 
 ## MCP
 
-[Adobe CX Co-worker Gateway](./mcp/overview.md)是CX Enterprise的统一模型上下文协议(MCP)终结点。 它提供与MCP兼容的客户端，如[!DNL Claude]、[!DNL ChatGPT]和[!DNL Cursor]，这些客户端与您的组织有权使用的产品工具之间存在单个受管辖的连接。 这些工具包括[!DNL Real-Time CDP]、[!DNL Experience Platform]、[!DNL Journey Optimizer]、[!DNL Customer Journey Analytics]、[!DNL Adobe Analytics]和[!DNL Workfront]。
+[Adobe CX Co-worker Gateway](./mcp/overview.md)是CX Enterprise的统一模型上下文协议(MCP)终结点。 它提供了与MCP兼容的客户端，如[!DNL Claude]、[!DNL ChatGPT]和[!DNL Cursor]，与您的组织有权使用的产品工具之间的单个受管辖连接：
 
-初次使用CX Co-worker Gateway？ 请参阅[访问CX Co-worker Gateway工具](./mcp/access.md)和[安装CX Co-worker Gateway](./mcp/install.md)以连接。
+- [Real-Time CDP工具](./mcp/rtcdp-mcp.md)
+- [Experience Platform工具](./mcp/aep-mcp.md)
+- [Journey Optimizer工具](./mcp/ajo-mcp.md)
+- [Customer Journey Analytics工具](./mcp/cja-mcp.md)
+- [Adobe Analytics工具](./mcp/analytics-mcp.md)
+- [!DNL Workfront]工具，记录在[Workfront MCP服务器指南](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)中
+
+初次使用CX Co-worker Gateway？ 请参阅[访问CX Co-worker Gateway工具](./mcp/access.md)和[安装CX Co-worker Gateway](./mcp/install.md)以连接。 连接后，使用[会话上下文工具](./mcp/context-tools.md)在调用产品工具之前设置活动组织、沙盒和数据视图。
 
 ## 快速入门
 
@@ -103,4 +111,6 @@ AI Assistant和Experience Platform代理优先考虑隐私、安全和治理，�
 ## 法律注意事项
 
 AI Assistant目前仅支持英语回复，语言模型偶尔会出错。 始终验证提供的信息，并使用每个响应中包含的推理步骤来了解信息的生成方式。 有关完整的详细信息，请阅读[法律免责声明](./ai-assistant/legal-disclaimer.md)。
+
+Adobe还自动将C2PA元数据附加到跨CX Enterprise应用程序的GenAI生成和GenAI编辑的内容中，以满足创新型人工智能透明度法规。 有关详细信息，请阅读[创作AI内容透明度](./content-transparency.md)。
 

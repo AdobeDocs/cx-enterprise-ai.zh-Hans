@@ -1,9 +1,12 @@
 ---
 title: 创作AI内容透明度
 description: 了解Adobe如何跨Adobe CX Enterprise应用程序将C2PA元数据自动附加到GenAI生成和GenAI编辑的内容。
-source-git-commit: f6627af3f62ae3238b6a2bff665e8d1eabcdf3d1
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
+source-git-commit: 02de82fd17bdf3f806ce120b93cbbd85b50f9b8a
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: 1539
 ht-degree: 1%
 
 ---

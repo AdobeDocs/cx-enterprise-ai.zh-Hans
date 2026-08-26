@@ -1,7 +1,7 @@
 ---
 title: 沙盒工具代理技能
 description: 了解如何使用沙盒工具代理技能跨沙盒环境复制对象元数据。
-source-git-commit: 9b6c144fae1ebb17c22ce0a0d6f65b444408ece9
+source-git-commit: 57286b8fe58061231422dcc8a68385884c049a81
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 1. 迁移完成后，所选对象将在目标沙盒中可用。
 
-![显示请求状态的“传输完成”页面。](./assets/sandbox-tooling/transfer-complete.png)
+   ![显示请求状态的“传输完成”页面。](./assets/sandbox-tooling/transfer-complete.png)
 
 有关使用CX Co-worker的详细信息，请参阅[Co-worker UI指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)。
 
@@ -78,7 +78,7 @@ ht-degree: 1%
 
 例如：
 
-> “将架构Luma忠诚度会员白金从当前沙盒移动到生产沙盒。”
+- “将架构Luma忠诚度会员白金从当前沙盒移动到生产沙盒。”
 
 ### 在沙盒之间提升受众
 
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 例如：
 
-> “将‘受众名称’受众提升到暂存沙盒。”
+- “将‘受众名称’受众提升到暂存沙盒。”
 
 沙盒工具代理技能识别指定的受众，验证其依赖关系，并将所有必需对象迁移到目标沙盒。
 
@@ -111,3 +111,4 @@ ht-degree: 1%
 阅读本指南后，您应该了解如何使用沙盒工具代理技能在沙盒之间发现、打包和迁移受支持的对象。
 
 有关沙盒工具的详细信息，请参阅[沙盒工具指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/ui/sandbox-tooling)。
+
