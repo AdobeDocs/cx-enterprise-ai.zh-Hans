@@ -1,7 +1,7 @@
 ---
 title: 沙盒工具代理技能
 description: 了解如何使用沙盒工具代理技能跨沙盒环境复制对象元数据。
-source-git-commit: 979ac39364b79973a683cd2f1b2b8e4e67fcbcf3
+source-git-commit: 57286b8fe58061231422dcc8a68385884c049a81
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 使用沙盒工具代理技能，通过以自然语言描述要完成的任务来跨Adobe Experience Platform环境移动对象元数据（包括架构和受众）。 使用CX Co-worker ，您可以通过对话体验来发现所需的元数据、自动识别依赖项、创建迁移包和迁移对象。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496716?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3496706?learn=on)
 
 ## 先决条件 {#prerequisites}
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 - 访问要发现或迁移的对象。
 - CX Co-worker中安装的Adobe CXO插件。
 
-有关安装插件的说明，请参阅[辅助进程UI指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)。
+有关安装插件的说明，请参阅[辅助进程UI指南](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)。
 
 ## 使用沙盒工具代理技能 {#use-sandbox-tooling-agentic-skills}
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 
    ![显示请求状态的“传输完成”页面。](./assets/sandbox-tooling/transfer-complete.png)
 
-有关使用CX Co-worker的详细信息，请参阅[Co-worker UI指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)。
+有关使用CX Co-worker的详细信息，请参阅[Co-worker UI指南](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)。
 
 ## 支持的用例 {#supported-use-cases}
 
@@ -110,4 +110,5 @@ ht-degree: 1%
 
 阅读本指南后，您应该了解如何使用沙盒工具代理技能在沙盒之间发现、打包和迁移受支持的对象。
 
-有关沙盒工具的详细信息，请参阅[沙盒工具指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/sandbox/ui/sandbox-tooling)。
+有关沙盒工具的详细信息，请参阅[沙盒工具指南](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling)。
+
