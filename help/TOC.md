@@ -87,6 +87,6 @@ ht-degree: 17%
       - 历程 {#journeys}
         - [使用自然语言创建历程](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
         - [创建忠诚度挑战并显示见解](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
-  - 在游乐场中{hide-from-toc}[同事聊天](./coworker/playground-coworker-chat.md)
+  - {hide-from-toc}[在游乐场中同事聊天](./coworker/playground-coworker-chat.md)
     - [沙盒工具代理技能](./agents/sandbox-tooling.md)
     - [客户提醒技能](./agents/customer-alert-skills.md)
