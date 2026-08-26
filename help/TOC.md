@@ -6,10 +6,10 @@ description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 41dce794de5268fa6f89fcd601ee53fd4da2da5b
+source-git-commit: 7b207cc5ff5f53df5bc0684fb48ac98186f23393
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 19%
+source-wordcount: '289'
+ht-degree: 17%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 19%
     - [Journey Optimizer工具](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [关于同事](./coworker/overview.md)
   - 营销活动 {#campaigns}
@@ -87,5 +87,6 @@ ht-degree: 19%
       - 历程 {#journeys}
         - [使用自然语言创建历程](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
         - [创建忠诚度挑战并显示见解](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
-      - 沙盒工具 {#sandbox-tooling}
-        - [沙盒工具代理技能](./agents/sandbox-tooling.md)
+  - 在游乐场中{hide-from-toc}[同事聊天](./coworker/playground-coworker-chat.md)
+    - [沙盒工具代理技能](./agents/sandbox-tooling.md)
+    - [客户提醒技能](./agents/customer-alert-skills.md)
