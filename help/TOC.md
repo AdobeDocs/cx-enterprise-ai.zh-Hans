@@ -6,10 +6,10 @@ description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1bdbdf6b40e6202073f2759041dd55f5ce9399ca
+source-git-commit: 979ac39364b79973a683cd2f1b2b8e4e67fcbcf3
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 18%
+source-wordcount: '292'
+ht-degree: 17%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 18%
   - [字段发现代理](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)
   - [产品支持代理](./agents/product-support.md)
+  - [沙盒工具代理技能](./agents/sandbox-tooling.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [通知代理](./agents/notifications.md)
   - [同事试用版](./agents/trial.md)
@@ -56,7 +57,7 @@ ht-degree: 18%
     - [Journey Optimizer工具](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [关于同事](./coworker/overview.md)
   - 营销活动 {#campaigns}
@@ -86,3 +87,5 @@ ht-degree: 18%
       - 沙盒工具 {#sandbox-tooling}
         - [沙盒工具代理技能](./agents/sandbox-tooling.md)
   - {hide-from-toc}[在游乐场中的同事聊天](./coworker/playground-coworker-chat.md)
+  - {hide-from-toc}[验证AA到CJA的迁移数据](./coworker/data-validation-aa-cja.md)
+  - [分析CJA数据](./coworker/analytics-chat.md)
