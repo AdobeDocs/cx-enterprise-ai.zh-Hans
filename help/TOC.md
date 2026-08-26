@@ -6,7 +6,7 @@ description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 979ac39364b79973a683cd2f1b2b8e4e67fcbcf3
+source-git-commit: 0d07019c1bf88ecb7452767364d1a5f05702ce0e
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 17%
@@ -57,7 +57,7 @@ ht-degree: 17%
     - [Journey Optimizer工具](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [关于同事](./coworker/overview.md)
   - 营销活动 {#campaigns}
@@ -65,7 +65,7 @@ ht-degree: 17%
     - [创建电子邮件营销活动](./coworker/campaigns/create-an-email-campaign.md)
     - [用例](./coworker/campaigns/use-cases.md)
     - [提示最佳实践](./coworker/campaigns/prompting-best-practices.md)
-    - {hide-from-toc}[C2PA元数据](./coworker/campaigns/generative-c2pa-metadata.md)
+    - [C2PA元数据](./coworker/campaigns/c2pa-metadata.md)
     - 连接器 {#connectors}
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
