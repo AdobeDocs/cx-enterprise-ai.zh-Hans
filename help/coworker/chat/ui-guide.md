@@ -1,13 +1,12 @@
 ---
 description: 同事聊天界面的参考指南，涵盖导航、输入框、响应、聊天历史记录以及配置技能、MCP服务器和内存。
 title: 同事聊天UI指南
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
 jira: KT-22106
-source-git-commit: ff6ea2f9650bf1c72d2a878c20eecf90f1c8d9aa
+source-git-commit: b0cea8cb64bd92c97fdd85905400fd458c842af2
 workflow-type: tm+mt
-source-wordcount: 1577
-ht-degree: 3%
+source-wordcount: 1718
+ht-degree: 4%
 
 ---
 
@@ -15,9 +14,28 @@ ht-degree: 3%
 
 开始使用同事聊天界面。 本指南涵盖方方面面，从访问应用程序、导航工作区到充分利用对话、管理历史记录和定制设置。
 
->[!VIDEO](https://video.tv.adobe.com/v/3498575?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 访问同事聊天
+
+当您的组织获得对同事的访问权时，您可以通过沉浸式体验或产品内体验来使用其功能。
+
+>[!NOTE]
+>
+>可通过右上角的同事图标![同事图标](./assets/icon-coworker.png)访问产品内体验。 沉浸式体验详细信息概述如下[](#immersive)。
+
+下表列出了这些体验在何时可用于每个CX Enterprise应用程序。
+
+| CX企业级应用程序 | 沉浸式体验 | 产品内体验 |
+|---|---|---|
+| RTCDP | 现在可用 | 即将推出 |
+| AJO | 现在可用 | 即将推出 |
+| CJA | 现在可用 | 即将推出 |
+| AEM | 2026年9月即将推出 | 即将推出 |
+| Workfront | 2026年9月即将推出 | 即将推出：<br><br>* 2026年9月初在预览模式下，适用于精选Workfront系统管理员<br><br>* 2026年9月中旬在生产模式下，适用于符合条件的快速发布Workfront客户<br><br>* 2026年10月中旬在生产模式下，适用于符合条件的季度发布Workfront客户 |
+| 目标 | 2026年9月即将推出 | 即将推出 |
+
+### 沉浸式体验 {#immersive}
 
 导航到[https://experience.adobe.com/#/coworker](https://experience.adobe.com/#/coworker)并使用您的Adobe凭据登录以访问同事聊天。
 
