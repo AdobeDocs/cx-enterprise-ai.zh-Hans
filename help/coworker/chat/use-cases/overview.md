@@ -1,7 +1,8 @@
 ---
 description: 浏览同事聊天用例和示例提示，按区域在数据见解、受众、历程和平台操作之间组织。
 title: 同事聊天用例
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
 workflow-type: tm+mt
 source-wordcount: 3344
