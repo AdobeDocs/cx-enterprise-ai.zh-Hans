@@ -1,9 +1,14 @@
 ---
 title: 关于CX Enterprise中的AI
 description: 业务级概述，介绍创新型和代理人工智能在Adobe CX Enterprise应用程序中的显示位置，如何管理和衡量使用情况，以及您的团队如何开始工作。
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: c5345fbf43da8f310c1b076618a615bf8bb8d998
 workflow-type: tm+mt
 source-wordcount: 447
