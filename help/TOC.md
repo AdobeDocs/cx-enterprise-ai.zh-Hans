@@ -6,9 +6,9 @@ description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
+source-git-commit: ecdca9c893722e1cdfd392c79c9ee361bb993793
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '296'
 ht-degree: 19%
 
 ---
@@ -16,8 +16,9 @@ ht-degree: 19%
 
 # CX Enterprise 中的 AI {#experience-cloud-ai}
 
-- [CX Enterprise应用程序中的AI](home.md)
+- [CX Enterprise 中的 AI](home.md)
 - 关于CX Enterprise中的AI {#overview}
+  - [关于CX Enterprise中的AI](./overview/overview-ai-cxe.md)
   - [关于创作AI](./overview/generative-ai.md)
   - [关于智能人工智能](./overview/agentic-ai.md)
   - [关于AI积分使用](./overview/ai-credit-consumption.md)
@@ -76,6 +77,7 @@ ht-degree: 19%
   - 聊天 {#chat}
     - [概述](./coworker/chat/overview.md)
     - [UI指南](./coworker/chat/ui-guide.md)
+    - {hide-from-toc}[在游乐场中的同事聊天](./coworker/playground-coworker-chat.md)
     - 用例 {#use-cases}
       - [同事聊天用例](./coworker/chat/use-cases/overview.md)
       - 数据分析 {#data-insights}
