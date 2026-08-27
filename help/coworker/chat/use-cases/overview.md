@@ -3,9 +3,9 @@ description: 浏览同事聊天用例和示例提示，按区域在数据见解�
 title: 同事聊天用例
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: e396bdc6974eb4484049af450f1b3a6b5045311b
+source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
 workflow-type: tm+mt
-source-wordcount: 3050
+source-wordcount: 3344
 ht-degree: 7%
 
 ---
@@ -22,7 +22,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 >
 >所有符合条件的客户都可以在Co-worker中以滚动方式访问Adobe Experience Manager代理功能。
 >
->另请参阅AEM中的[AI - AEM中的代理功能概述](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)。
+>另请参阅AEM中的[AI - AEM中的代理功能概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)。
 
 ## 品牌体验
 
@@ -36,7 +36,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：Brand Experience - Experience Production - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [AEM中的代理功能：Brand Experience - Experience Production - Sites](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
 ### Experience Production - Forms用例
 
@@ -49,7 +49,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：Brand Experience - Experience Production - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [AEM中的代理功能：Brand Experience - Experience Production - Forms](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### 开发
 
@@ -63,7 +63,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：Brand Experience — 开发](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [AEM中的代理功能：Brand Experience — 开发](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### 入门 — AEM Assets用例
 
@@ -76,7 +76,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：品牌体验 — 入门](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [AEM中的代理功能：品牌体验 — 入门](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## 内容顾问 — AEM Assets用例
 
@@ -91,7 +91,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：内容顾问 — 内容发现](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [AEM中的代理功能：内容顾问 — 内容发现](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### 内容优化
 
@@ -103,7 +103,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：内容顾问 — 内容优化](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [AEM中的代理功能：内容顾问 — 内容优化](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## 品牌治理
 
@@ -115,7 +115,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：品牌管理](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [AEM中的代理功能：品牌管理](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## 数据分析
 
@@ -173,3 +173,15 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
 | [跨沙盒移动对象](/help/agents/sandbox-tooling.md) | 通过自动解析依赖关系，跨沙盒无缝迁移架构、受众和其他对象配置 | `sandbox-tooling-workflow` | Adobe Experience Platform | “将架构Luma忠诚会员白金从当前沙盒移动到生产沙盒”· “将美国金牌忠诚会员受众提升到暂存环境” |
+
+## 客户警报
+
+| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| --- | --- | --- | --- | --- |
+| 管理警报订阅 | 通过自然语言对话查看和管理警报订阅。 | `alerts-subscribe` | Adobe Experience Platform | “我订阅了哪些警报？”<br><br>“为我订阅此警报。”<br><br>“删除此警报的订阅。” |
+| 查看警报活动 | 查看指定时间段内的当前警报状态和历史警报活动。 | `alerts-list` | Adobe Experience Platform | “过去24小时内发生了什么？”<br><br>“过去24小时内触发了哪些警报？”<br><br>“显示过去七天的活动警报。” |
+| 识别定期警报模式 | 分析警报历史记录，以识别频繁触发的警报类型和操作趋势。 | `alerts-list` | Adobe Experience Platform | “显示前3个触发的警报类型。”<br><br>“哪些警报类型本月发生得最频繁？”<br><br>“您最近七天看到了哪些警报模式？” |
+| 关注高度优先的问题 | 按严重程度筛选警报活动以安排调查工作的优先级。 | `alerts-list` | Adobe Experience Platform | “仅显示高严重性警报。”<br><br>“本周触发了哪些严重性警报？”<br><br>“显示过去30天的严重性警报。” |
+| 了解警报的影响范围 | 确定受警报影响最大的对象并确定应从何处开始调查。 | `alerts-list` | Adobe Experience Platform | “前5个受影响的对象是什么？”<br><br>“哪些对象与最高级别警报关联？” |
+| 将警报类型连接到受影响的对象 | 分析警报类型和受影响资源之间的关系。 | `alerts-list` | Adobe Experience Platform | “哪些警报类型最常影响此数据集？”<br><br>“显示警报类型与受影响对象之间的关系。”<br><br>“哪些警报类型最常影响最受影响的对象？” |
+| 关注我的警报 | 分析您订阅并负责监视的警报。 | `alerts-list` | Adobe Experience Platform | “显示我订阅的高严重性警报。”<br><br>“本周触发了来自我的警报的哪些警报？”<br><br>“我的任何订阅警报需要关注吗？” |
