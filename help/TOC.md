@@ -6,9 +6,9 @@ description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 74c7d4e455b0b7079b5fe85d2b5325e32fe6642e
+source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '288'
 ht-degree: 19%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 19%
     - [Journey Optimizer工具](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [关于同事](./coworker/overview.md)
   - 营销活动 {#campaigns}
@@ -89,3 +89,6 @@ ht-degree: 19%
         - [创建忠诚度挑战并显示见解](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - 沙盒工具 {#sandbox-tooling}
         - [沙盒工具代理技能](./agents/sandbox-tooling.md)
+      - 警报 {#alerts}
+        - [客户警报技能](./agents/customer-alerts.md)
+
