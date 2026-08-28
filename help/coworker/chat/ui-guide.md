@@ -1,12 +1,11 @@
 ---
 description: 同事聊天界面的参考指南，涵盖导航、输入框、响应、聊天历史记录以及配置技能、MCP服务器和内存。
 title: 同事聊天UI指南
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
 jira: KT-22106
-source-git-commit: b0cea8cb64bd92c97fdd85905400fd458c842af2
+source-git-commit: 7bb455d36977d05d1d7d7b93fb16201ebd05695e
 workflow-type: tm+mt
-source-wordcount: 1718
+source-wordcount: 1712
 ht-degree: 4%
 
 ---
@@ -15,7 +14,7 @@ ht-degree: 4%
 
 开始使用同事聊天界面。 本指南涵盖方方面面，从访问应用程序、导航工作区到充分利用对话、管理历史记录和定制设置。
 
->[!VIDEO](https://video.tv.adobe.com/v/3498575?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 访问同事聊天
 
@@ -23,7 +22,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->可通过右上角的同事图标![同事图标](./assets/icon-coworker.png)访问产品内体验。 沉浸式体验详细信息概述如下[&#128279;](#immersive)。
+>可通过右上角的同事图标![同事图标](./assets/icon-coworker.png)访问产品内体验。 沉浸式体验详细信息概述如下[](#immersive)。
 
 下表列出了这些体验在何时可用于每个CX Enterprise应用程序。
 
@@ -32,9 +31,9 @@ ht-degree: 4%
 | RTCDP | 现在可用 | 即将推出 |
 | AJO | 现在可用 | 即将推出 |
 | CJA | 现在可用 | 即将推出 |
-| AEM | 2026年9月即将推出 | 即将推出 |
-| Workfront | 2026年9月即将推出 | 即将推出：<br><br>* 2026年9月初在预览模式下，适用于精选Workfront系统管理员<br><br>* 2026年9月中旬在生产模式下，适用于符合条件的快速发布Workfront客户<br><br>* 2026年10月中旬在生产模式下，适用于符合条件的季度发布Workfront客户 |
-| 目标 | 2026年9月即将推出 | 即将推出 |
+| AEM | 2026年9月 | 即将推出 |
+| Workfront | 2026年9月 | 即将推出：<br><br>* 2026年9月初，在预览实例中，针对精选Workfront系统管理员<br><br>* 2026年9月中旬在生产实例中，针对符合条件的快速发布Workfront客户<br><br>* 2026年10月中旬在生产实例中，针对符合条件的季度发布Workfront客户 |
+| 目标 | 2026年9月 | 即将推出 |
 
 ### 沉浸式体验 {#immersive}
 
