@@ -4,10 +4,10 @@ title: 同事聊天UI指南
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 jira: KT-22106
-source-git-commit: ff6ea2f9650bf1c72d2a878c20eecf90f1c8d9aa
+source-git-commit: 7bb455d36977d05d1d7d7b93fb16201ebd05695e
 workflow-type: tm+mt
-source-wordcount: 1577
-ht-degree: 3%
+source-wordcount: 1712
+ht-degree: 4%
 
 ---
 
@@ -18,6 +18,25 @@ ht-degree: 3%
 >[!VIDEO](https://video.tv.adobe.com/v/3498575?captions=chi_hans&learn=on)
 
 ## 访问同事聊天
+
+当您的组织获得对同事的访问权时，您可以通过沉浸式体验或产品内体验来使用其功能。
+
+>[!NOTE]
+>
+>可通过右上角的同事图标![同事图标](./assets/icon-coworker.png)访问产品内体验。 沉浸式体验详细信息概述如下[&#128279;](#immersive)。
+
+下表列出了这些体验在何时可用于每个CX Enterprise应用程序。
+
+| CX企业级应用程序 | 沉浸式体验 | 产品内体验 |
+|---|---|---|
+| RTCDP | 现在可用 | 即将推出 |
+| AJO | 现在可用 | 即将推出 |
+| CJA | 现在可用 | 即将推出 |
+| AEM | 2026年9月 | 即将推出 |
+| Workfront | 2026年9月 | 即将推出：<br><br>* 2026年9月初，在预览实例中，针对精选Workfront系统管理员<br><br>* 2026年9月中旬在生产实例中，针对符合条件的快速发布Workfront客户<br><br>* 2026年10月中旬在生产实例中，针对符合条件的季度发布Workfront客户 |
+| 目标 | 2026年9月 | 即将推出 |
+
+### 沉浸式体验 {#immersive}
 
 导航到[https://experience.adobe.com/#/coworker](https://experience.adobe.com/#/coworker)并使用您的Adobe凭据登录以访问同事聊天。
 
