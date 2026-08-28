@@ -1,7 +1,8 @@
 ---
 description: 同事聊天界面的参考指南，涵盖导航、输入框、响应、聊天历史记录以及配置技能、MCP服务器和内存。
 title: 同事聊天UI指南
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 jira: KT-22106
 source-git-commit: 7bb455d36977d05d1d7d7b93fb16201ebd05695e
 workflow-type: tm+mt
@@ -22,7 +23,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->可通过右上角的同事图标![同事图标](./assets/icon-coworker.png)访问产品内体验。 沉浸式体验详细信息概述如下[](#immersive)。
+>可通过右上角的同事图标![同事图标](./assets/icon-coworker.png)访问产品内体验。 沉浸式体验详细信息概述如下[&#128279;](#immersive)。
 
 下表列出了这些体验在何时可用于每个CX Enterprise应用程序。
 
