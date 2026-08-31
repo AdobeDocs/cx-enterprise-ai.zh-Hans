@@ -3,10 +3,10 @@ description: 浏览同事聊天用例和示例提示，按区域在数据见解�
 title: 同事聊天用例
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
+source-git-commit: 9975595370bff328ea990f07ec3dbb85c17ee23b
 workflow-type: tm+mt
-source-wordcount: 3344
-ht-degree: 7%
+source-wordcount: 3308
+ht-degree: 6%
 
 ---
 
@@ -26,28 +26,22 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 ## 品牌体验
 
-### 体验生产 — 站点用例
+| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| --- | --- | --- | --- | --- |
+| 更新AEM页面 | 执行更新、删除、替换或添加内容元素等操作，以保持体验准确且最新。 输入内容可以是自然语言或可视批注，如PDF或屏幕截图。 | `aem-sites-pages-update` | Adobe Experience Manager (AEM) - AEM Sites | 在&lt;URL>上将标题更新为Hello World<br><br>在&lt;URL>上将“参加我们的咖啡测验”按钮更改为更吸引人的版本<br><br>根据附加的<br><br>在&lt;URL>上更新&lt;URL>我想在页面底部添加一个新的Teaser部分，介绍我们在8月份举行的促销活动，购买咖啡机并免费获得2袋咖啡。 还可以找到朋友喝咖啡的图像，并在Teaser中使用 |
+| 批量更新AEM | 同时跨多个页面执行批量操作，例如删除、替换或添加内容元素，以保持体验准确且最新。 | `aem-sites-pages-bulkreplace` | Adobe Experience Manager (AEM) - AEM Sites | 在&lt;aem path>上，将包含副本“MyBarista\”的所有页面更新为“BrewPass” |
+| 从图转到可视内容片段 | 使用自然语言将设计直接从Figma导入Adobe Experience Manager。 该技能会自动创建所需的内容模型、内容片段、资源和可视化模板，使业务用户能够在几分钟内从设计转移到支持Web的内容，而无需手动设置。 | `aem-sites-visualcontentfragments-create` | Adobe Experience Manager (AEM) - AEM Sites | 从&lt;Figma_URL>导入 |
 
 | 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| 更新AEM页面 | 执行更新、删除、替换或添加内容元素等操作，以保持体验准确且最新。 输入内容可以是自然语言或可视批注，如PDF或屏幕截图。 | `aem-sites-pages-update` | Adobe Experience Manager (AEM) | 在&lt;URL>上将标题更新为Hello World<br><br>在&lt;URL>上将“参加我们的咖啡测验”按钮更改为更吸引人的版本<br><br>根据附加的<br><br>在&lt;URL>上更新&lt;URL>我想在页面底部添加一个新的Teaser部分，介绍我们在8月份举行的促销活动，购买咖啡机并免费获得2袋咖啡。 还可以找到朋友喝咖啡的图像，并在Teaser中使用 |
-| 批量更新AEM | 同时跨多个页面执行批量操作，例如删除、替换或添加内容元素，以保持体验准确且最新。 | `aem-sites-pages-bulkreplace` | Adobe Experience Manager (AEM) | 在&lt;aem path>上，将包含副本“MyBarista\”的所有页面更新为“BrewPass” |
-| 从图转到可视内容片段 | 使用自然语言将设计直接从Figma导入Adobe Experience Manager。 该技能会自动创建所需的内容模型、内容片段、资源和可视化模板，使业务用户能够在几分钟内从设计转移到支持Web的内容，而无需手动设置。 | `aem-sites-visualcontentfragments-create` | Adobe Experience Manager (AEM) | 从&lt;Figma_URL>导入 |
+| 创建表单 | 从纯语言描述、附加的摘要、图像或PDF生成新的自适应表单 | `aem-forms-adaptiveform-create` | Adobe Experience Manager (AEM) - AEM Forms | “创建员工入门培训表单”<br><br>“使用附加的摘要（图像或PDF）创建表单”<br><br>“创建&lt;form type>自适应表单” |
+| 编辑/更新表单 | 修改现有表单 — 添加/编辑字段、调整简单布局、配置提交操作或应用附加准则文档的更改 | `aem-forms-adaptiveform-edit` | Adobe Experience Manager (AEM) - AEM Forms | “在名字字段下添加中间名字段”<br><br>“将名字和姓氏字段置于2列布局中，50/50”<br><br>“配置表单以将数据发送到REST端点”<br><br>“更新此表单以匹配附加的准则文档”<br><br>“在&lt;现有字段>字段下添加&lt;字段名称>字段” |
+| 添加业务逻辑 | 创建简单规则，例如根据其他字段的值显示或隐藏字段 | `aem-forms-adaptiveform-edit` | Adobe Experience Manager (AEM) - AEM Forms | “仅在员工类型为承包商时显示‘公司’字段”<br><br>“仅在&lt;其他字段>为&lt;值>时显示&lt;字段>字段” |
+| 嵌入表单 | 将现有表单或新创建的表单放置到指定的AEM Sites页面上（仅在Edge Delivery Services页面上受支持） | `aem-forms-adaptiveform-embed` | Adobe Experience Manager (AEM) - AEM Forms | “将此表单嵌入到我们网站的主页上”<br><br>“将此表单嵌入到&lt;页面路径>” |
 
 **相关信息**
 
 * [AEM中的代理功能：Brand Experience - Experience Production - Sites](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
-
-### Experience Production - Forms用例
-
-| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
-| --- | --- | --- | --- | --- |
-| 创建表单 | 从纯语言描述、附加的摘要、图像或PDF生成新的自适应表单 | `aem-forms-adaptiveform-create` | Adobe Experience Manager (AEM) | “创建员工入门培训表单”<br><br>“使用附加的摘要（图像或PDF）创建表单”<br><br>“创建&lt;form type>自适应表单” |
-| 编辑/更新表单 | 修改现有表单 — 添加/编辑字段、调整简单布局、配置提交操作或应用附加准则文档的更改 | `aem-forms-adaptiveform-edit` | Adobe Experience Manager (AEM) | “在名字字段下添加中间名字段”<br><br>“将名字和姓氏字段置于2列布局中，50/50”<br><br>“配置表单以将数据发送到REST端点”<br><br>“更新此表单以匹配附加的准则文档”<br><br>“在&lt;现有字段>字段下添加&lt;字段名称>字段” |
-| 添加业务逻辑 | 创建简单规则，例如根据其他字段的值显示或隐藏字段 | `aem-forms-adaptiveform-edit` | Adobe Experience Manager (AEM) | “仅在员工类型为承包商时显示‘公司’字段”<br><br>“仅在&lt;其他字段>为&lt;值>时显示&lt;字段>字段” |
-| 嵌入表单 | 将现有表单或新创建的表单放置到指定的AEM Sites页面上（仅在Edge Delivery Services页面上受支持） | `aem-forms-adaptiveform-embed` | Adobe Experience Manager (AEM) | “将此表单嵌入到我们网站的主页上”<br><br>“将此表单嵌入到&lt;页面路径>” |
-
-**相关信息**
 
 * [AEM中的代理功能：Brand Experience - Experience Production - Forms](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
@@ -55,8 +49,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 | 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| 诊断和修复失败的Cloud Manager管道 | 调查失败的管道执行，确定根本原因，并生成修复（包含差异）以供审查 | `cloud-manager-pipeline-troubleshooting` | Adobe Experience Manager (AEM) | “为什么我的生成管道失败？”<br><br>“建议修复损坏的生产管道” |
-| 管理Cloud Manager管道 | 创建、运行和监控AEM Cloud Manager管道，包括日志、工件、变量和设置 | `cloud-manager-pipeline-management` | Adobe Experience Manager (AEM) | “列出项目12345的管道”<br><br>“为什么我的开发管道执行失败？” |
+| 管理Cloud Manager管道 | 创建、运行和监控AEM Cloud Manager管道，包括日志、工件、变量和设置 | `cloud-manager-pipeline-management` | Adobe Experience Manager (AEM) | “列出项目12345的管道”<br><br>“我最近管道的状态是什么？” |
 | 管理Cloud Manager环境 | 创建、配置和维护AEM Cloud Manager环境，包括RDE、环境变量、日志和备份 | `cloud-manager-environment-management` | Adobe Experience Manager (AEM) | 为程序12345列出我的环境&quot;<br><br>&quot;重置我的RDE&quot; |
 | 管理Cloud Manager程序 | 列出、检查和删除AEM Cloud Manager程序，包括其管道和环境 | `cloud-manager-program-management` | Adobe Experience Manager (AEM) | “列出我的Cloud Manager程序”<br><br>“获取程序12345的详细信息” |
 | 管理AEM版本更新计划 | 为自动维护配置每日免打扰时间和免更新时段，并查看Adobe的全局代码冻结窗口 | `cloud-manager-release-management` | Adobe Experience Manager (AEM) | “我当前的安静时间窗口是什么？”<br><br>“安排12月20日至1月2日的无更新时段” |
@@ -65,29 +58,29 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 * [AEM中的代理功能：Brand Experience — 开发](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
-### 入门 — AEM Assets用例
+### 入门
 
 | 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| 引导式端到端载入 | 协调完整的入门培训生命周期、存储库选择、文件夹委派、标记、元数据、导入和搜索子技能（如果您不知道需要的特定入门培训任务）。 | `aem-onboarding-workflow` | Adobe Experience Manager (AEM) Assets | “将我们的团队载入AEM Assets”<br><br>“带我了解AEM DAM载入” |
-| 设计和创建文件夹层次结构 | 根据业务需求或CSV输入，在AEM Assets中（在`/content/dam`下）建议和创建可伸缩的文件夹结构。 | `aem-folder-management` | Adobe Experience Manager (AEM) Assets | “推荐生活方式营销资产的文件夹结构”<br><br>“根据此CSV文件创建文件夹” |
-| 设计和创建标记 | 在`/content/cq:tags`下设计和创建受控标记词汇 — 命名空间、分层标记和批量标记操作。 | `aem-tag-taxonomy` | Adobe Experience Manager (AEM) Assets | “使用产品类别的命名空间设计标记分类”<br><br>“从此CSV导入标记”<br><br>“在AEM中创建这些层次结构标记” |
-| 创建和分配元数据表单 | 设计和创建创作UI内容作者使用的自定义元数据表单（从CSV、表、要求文档或描述），然后可以选择将它们分配给文件夹。 | `aem-metadata-form` | Adobe Experience Manager (AEM) Assets | 从此字段列表创建元数据表单&quot;<br><br>&quot;将此表单分配给`campaigns`文件夹&quot; |
+| 引导式端到端载入 | 协调完整的入门培训生命周期、存储库选择、文件夹委派、标记、元数据、导入和搜索子技能（如果您不知道需要的特定入门培训任务）。 | `aem-onboarding-workflow` | Adobe Experience Manager (AEM) - AEM Assets | “将我们的团队载入AEM Assets”<br><br>“带我了解AEM DAM载入” |
+| 设计和创建文件夹层次结构 | 根据业务需求或CSV输入，在AEM Assets中（在`/content/dam`下）建议和创建可伸缩的文件夹结构。 | `aem-folder-management` | Adobe Experience Manager (AEM) - AEM Assets | “推荐生活方式营销资产的文件夹结构”<br><br>“根据此CSV文件创建文件夹” |
+| 设计和创建标记 | 在`/content/cq:tags`下设计和创建受控标记词汇 — 命名空间、分层标记和批量标记操作。 | `aem-tag-taxonomy` | Adobe Experience Manager (AEM) - AEM Assets | “使用产品类别的命名空间设计标记分类”<br><br>“从此CSV导入标记”<br><br>“在AEM中创建这些层次结构标记” |
+| 创建和分配元数据表单 | 设计和创建创作UI内容作者使用的自定义元数据表单（从CSV、表、要求文档或描述），然后可以选择将它们分配给文件夹。 | `aem-metadata-form` | Adobe Experience Manager (AEM) - AEM Assets | 从此字段列表创建元数据表单&quot;<br><br>&quot;将此表单分配给`campaigns`文件夹&quot; |
 
 **相关信息**
 
 * [AEM中的代理功能：品牌体验 — 入门](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
-## 内容顾问 — AEM Assets用例
+## 内容审查程序
 
 ### 内容发现
 
 | 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| 按语义主题搜索 | 使用AI支持的语义匹配功能，按概念、情绪或视觉主题查找资产。 | `aem-assets-discovery` | Adobe Experience Manager (AEM) Assets | “给我找一副晨间咖啡生活方式图片” |
-| 按自定义元数据搜索 | 按自定义元数据字段筛选资源（例如，Coffee Blend、品牌、Roast级别）。 | `aem-assets-discovery` | Adobe Experience Manager (AEM) Assets | “查找`Coffee Blend`为`Morning Muse`的资源”<br><br>“获取许可证未过期的资源”<br><br>“查找营销活动名称未设置的资源（必须为属性编制索引以获取相应的结果）。” |
-| 按审批状态搜索 | 根据审批状态筛选资源。 例如，已批准、正在审查、已拒绝或缺少状态。 | `aem-assets-discovery` | Adobe Experience Manager (AEM) Assets | “显示`Campaign`文件夹中所有已批准的资产” |
-| 按文件夹/路径搜索 | 通过解释引用AEM中文件夹名称的自然语言提示来识别资源。 您只需在其提示中提及文件夹，而无需手动浏览存储库，即可显着减少找到正确内容所需的点击次数。 | `aem-assets-discovery` | Adobe Experience Manager (AEM) Assets | “文件夹`WKND`中是否有任何svg”？<br><br>“在文件夹`WKND`中显示在2025年11月1日之后修改的资源” |
+| 按语义主题搜索 | 使用AI支持的语义匹配功能，按概念、情绪或视觉主题查找资产。 | `aem-assets-discovery` | Adobe Experience Manager (AEM) - AEM Assets | “给我找一副晨间咖啡生活方式图片” |
+| 按自定义元数据搜索 | 按自定义元数据字段筛选资源（例如，Coffee Blend、品牌、Roast级别）。 | `aem-assets-discovery` | Adobe Experience Manager (AEM) - AEM Assets | “查找`Coffee Blend`为`Morning Muse`的资源”<br><br>“获取许可证未过期的资源”<br><br>“查找营销活动名称未设置的资源（必须为属性编制索引以获取相应的结果）。” |
+| 按审批状态搜索 | 根据审批状态筛选资源。 例如，已批准、正在审查、已拒绝或缺少状态。 | `aem-assets-discovery` | Adobe Experience Manager (AEM) - AEM Assets | “显示`Campaign`文件夹中所有已批准的资产” |
+| 按文件夹/路径搜索 | 通过解释引用AEM中文件夹名称的自然语言提示来识别资源。 您只需在其提示中提及文件夹，而无需手动浏览存储库，即可显着减少找到正确内容所需的点击次数。 | `aem-assets-discovery` | Adobe Experience Manager (AEM) - AEM Assets | “文件夹`WKND`中是否有任何svg”？<br><br>“在文件夹`WKND`中显示在2025年11月1日之后修改的资源” |
 
 **相关信息**
 
@@ -97,9 +90,9 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 | 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| 高分辨率演绎版创建和通道优化的演绎版 | 以指定的分辨率和质量级别生成资产的新演绎版，从而无需手动编辑即可轻松准备渠道就绪的变体。 您还可以根据平台特定要求制作演绎版，如Instagram故事，确保资产自动满足格式、比例和质量准则。 | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) Assets | 使用`80% quality`创建`2000px`演绎版作为`JPEG`&quot;<br><br>&quot;为Instagram故事创建演绎版&quot; |
-| 标记叠加和复合生成 | 通过精确放置将促销图形、叠加或徽章应用于现有资源，支持快速创建营销活动就绪的合成内容。 | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) Assets | “在促销横幅上叠加带有`30%`折扣图表的图像，从中心放置`100px`” |
-| 图像增强、背景颜色调整、方向转换 | 应用视觉改进（锐化图像）、替换背景颜色和执行方向转换。 | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) Assets | “将`PNG`的背景颜色更改为`#ff8932`”<br><br>“锐化图像”<br><br>“水平镜像图像” |
+| 高分辨率演绎版创建和通道优化的演绎版 | 以指定的分辨率和质量级别生成资产的新演绎版，从而无需手动编辑即可轻松准备渠道就绪的变体。 您还可以根据平台特定要求制作演绎版，如Instagram故事，确保资产自动满足格式、比例和质量准则。 | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) - AEM Assets | 使用`80% quality`创建`2000px`演绎版作为`JPEG`&quot;<br><br>&quot;为Instagram故事创建演绎版&quot; |
+| 标记叠加和复合生成 | 通过精确放置将促销图形、叠加或徽章应用于现有资源，支持快速创建营销活动就绪的合成内容。 | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) - AEM Assets | “在促销横幅上叠加带有`30%`折扣图表的图像，从中心放置`100px`” |
+| 图像增强、背景颜色调整、方向转换 | 应用视觉改进（锐化图像）、替换背景颜色和执行方向转换。 | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) - AEM Assets | “将`PNG`的背景颜色更改为`#ff8932`”<br><br>“锐化图像”<br><br>“水平镜像图像” |
 
 **相关信息**
 
