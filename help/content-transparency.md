@@ -1,12 +1,10 @@
 ---
 title: 创作AI内容透明度
 description: 了解Adobe如何跨Adobe CX Enterprise应用程序将C2PA元数据自动附加到GenAI生成和GenAI编辑的内容。
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-  - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-source-git-commit: 1ff44fcfab1a304b3640032d6c0985795f580e5e
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
+source-git-commit: 32faffcdcaedc9ae601e601ad92d58b48743af66
 workflow-type: tm+mt
-source-wordcount: 1745
+source-wordcount: 1743
 ht-degree: 2%
 
 ---
@@ -64,7 +62,7 @@ C2PA元数据设计为在Adobe应用程序和兼容的第三方平台之间移�
 
 在某些情况下，在特定地理区域，组织可能会选择或要求显式标识GenAI生成或GenAI编辑的内容。
 
-Adobe提供了有关使用通过Adobe应用程序支持的现有水印功能的[指南](https://helpx.adobe.com/cn/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)。 是否需要可见水印取决于组织的业务要求以及发布内容所在司法辖区的适用法律和法规。
+Adobe提供了有关使用通过Adobe应用程序支持的现有水印功能的[指南](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)。 是否需要可见水印取决于组织的业务要求以及发布内容所在司法辖区的适用法律和法规。
 
 >[!NOTE]
 >
@@ -86,7 +84,7 @@ C2PA元数据自动附加到受支持的GenAI生成和GenAI编辑的内容。 �
 
 ### 水印指南
 
-Adobe提供了[文档](https://helpx.adobe.com/cn/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)介绍如何使用受支持的Adobe应用程序中提供的现有水印功能，以供选择或需要应用可见标签的组织使用。
+Adobe提供了[文档](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)介绍如何使用受支持的Adobe应用程序中提供的现有水印功能，以供选择或需要应用可见标签的组织使用。
 
 ## 跨Adobe CX Enterprise支持的应用程序 {#supported-applications}
 
@@ -100,24 +98,24 @@ Adobe提供了[文档](https://helpx.adobe.com/cn/creative-cloud/apps/generative
 
 | 应用程序/解决方案 | 发行说明/指南 |
 |---|---|
-| Adobe Advertising Cloud | [文档](https://experienceleague.adobe.com/zh-hans/docs/advertising/creative/creative-studio/creative-studio-content-credentials) |
-| Adobe Experience Manager (AEM) | [文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/c2pa-metadata-dynamic-media-openapi) |
-| 用于内容生成的人工智能助手（Adobe Journey Optimizer/Adobe Campaign中的功能） | [文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/generate-content/generative-c2pa-metadata) |
-| Adobe Journey Optimizer B2B Ultimate | [文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
-| Adobe Journey Optimizer B2B Prime （又称Adobe Marketo Optimizer） | [文档](https://experienceleague.adobe.com/zh-hans/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
+| Adobe Advertising Cloud | [文档](https://experienceleague.adobe.com/en/docs/advertising/creative/creative-studio/creative-studio-content-credentials) |
+| Adobe Experience Manager (AEM) | [文档](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/c2pa-metadata-dynamic-media-openapi) |
+| 生成内容（Adobe Journey Optimizer/Adobe Campaign中的功能） | [文档](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
+| Adobe Journey Optimizer B2B Ultimate | [文档](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
+| Adobe Journey Optimizer B2B Prime （又称Adobe Marketo Optimizer） | [文档](https://experienceleague.adobe.com/en/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
 | Adobe Journey Optimizer B2C | [文档](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
-| Adobe Campaign | [文档](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/content/ai-assistant/c2pa-metadata-email-designer) |
-| Adobe Commerce | [文档](https://experienceleague.adobe.com/zh-hans/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
-| GenStudio for Performance Marketing | [文档](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
-| Adobe Marketo Engage | [文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
-| Adobe Workfront | [文档](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/documents/c2pa-metadata-overview) |
-| CX Enterprise Co-worker Campaigns （以前称为HALO ） | [文档](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/c2pa-metadata) |
+| Adobe Campaign | [文档](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/c2pa-metadata-email-designer) |
+| Adobe Commerce | [文档](https://experienceleague.adobe.com/en/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
+| GenStudio for Performance Marketing | [文档](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
+| Adobe Marketo Engage | [文档](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
+| Adobe Workfront | [文档](https://experienceleague.adobe.com/en/docs/workfront/using/documents/c2pa-metadata-overview) |
+| CX Enterprise Co-worker Campaigns （以前称为HALO ） | [文档](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/c2pa-metadata) |
 
 ## 相关链接
 
-* [可见水印指南](https://helpx.adobe.com/cn/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)
+* [可见水印指南](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)
 * [Adobe Inspect](https://contentauthenticity.adobe.com/inspect)
-* [Adobe GenAI标签合规计划概述](https://helpx.adobe.com/cn/creative-cloud/apps/generative-ai/ai-content-labeling-faq.html)
+* [Adobe GenAI标签合规计划概述](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-labeling-faq.html)
 
 ## 常见问题
 
