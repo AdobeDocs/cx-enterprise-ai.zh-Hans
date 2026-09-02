@@ -6,9 +6,9 @@ description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: ecdca9c893722e1cdfd392c79c9ee361bb993793
+source-git-commit: ccdef71b4130a87032e0ba0e7b3bde3bd40614f1
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '304'
 ht-degree: 19%
 
 ---
@@ -93,4 +93,6 @@ ht-degree: 19%
         - [沙盒工具代理技能](./agents/sandbox-tooling.md)
       - 警报 {#alerts}
         - [客户警报技能](./agents/customer-alerts.md)
-
+      - 内容审查程序 {#content-advisor}
+        - [生成营销资产](./coworker/chat/use-cases/content-advisor/generate-assets.md)
+        - [品牌合规性检查](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
