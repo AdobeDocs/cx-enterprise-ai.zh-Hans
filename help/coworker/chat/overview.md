@@ -1,8 +1,10 @@
 ---
 description: 了解Co-worker Chat如何使用对话界面在几分钟内规划、执行和完成跨Adobe和联网系统的客户体验工作。
 title: Adobe CX Enterprise同事聊天概述
-product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 741

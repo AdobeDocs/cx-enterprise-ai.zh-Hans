@@ -1,8 +1,10 @@
 ---
 description: 在Adobe CX Enterprise Co-worker Campaigns中生成电子邮件促销活动的分步指南，从编写提示到查看和导出促销活动。
 title: 创建电子邮件营销活动
-product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 976

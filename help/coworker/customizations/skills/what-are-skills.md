@@ -7,7 +7,8 @@ doc-type: Feature Video
 duration: 223
 last-substantial-update: 2026-08-26T00:00:00.000Z
 jira: KT-22377
-product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 220
@@ -45,6 +46,7 @@ ht-degree: 0%
 
 技能可帮助团队捕获并重复使用这些最佳实践，而无需每次手动重新解释该流程。
  
+
 ## 技能和数据管理
 
 技能不会存储客户数据。
