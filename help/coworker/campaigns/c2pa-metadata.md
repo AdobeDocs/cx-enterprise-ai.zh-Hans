@@ -1,9 +1,11 @@
 ---
 description: 了解同事营销活动如何自动附加并保留图像上的C2PA元数据，从生成一直到电子邮件投放。
 title: 同事营销活动中的C2PA元数据
-source-git-commit: 0d07019c1bf88ecb7452767364d1a5f05702ce0e
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: 387
 ht-degree: 4%
 
 ---

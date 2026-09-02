@@ -1,12 +1,14 @@
 ---
 description: 同事聊天界面的参考指南，涵盖导航、输入框、响应、聊天历史记录以及配置技能、MCP服务器和内存。
 title: 同事聊天UI指南
+jira: KT-22106
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-jira: KT-22106
-source-git-commit: 7bb455d36977d05d1d7d7b93fb16201ebd05695e
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
-source-wordcount: 1712
+source-wordcount: 1713
 ht-degree: 4%
 
 ---
@@ -33,7 +35,7 @@ ht-degree: 4%
 | AJO | 现在可用 | 即将推出 |
 | CJA | 现在可用 | 即将推出 |
 | AEM | 2026年9月 | 即将推出 |
-| Workfront | 2026年9月 | 即将推出：<br><br>* 2026年9月初，在预览实例中，针对精选Workfront系统管理员<br><br>* 2026年9月中旬在生产实例中，针对符合条件的快速发布Workfront客户<br><br>* 2026年10月中旬在生产实例中，针对符合条件的季度发布Workfront客户 |
+| Workfront | 2026年9月 | 即将推出：<br><br>* 2026年9月初在预览实例中为符合条件的Workfront系统管理员推荐<br><br>* 2026年9月中旬在生产实例中为符合条件的快速发布Workfront客户推荐<br><br>* 2026年10月中旬在生产实例中为符合条件的季度发布Workfront客户推荐 |
 | 目标 | 2026年9月 | 即将推出 |
 
 ### 沉浸式体验 {#immersive}

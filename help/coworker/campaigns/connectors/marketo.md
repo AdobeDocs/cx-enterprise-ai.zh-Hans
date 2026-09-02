@@ -1,9 +1,11 @@
 ---
 description: 了解如何将您的Marketo Engage帐户关联到同事营销活动，以便同步Marketo智能列表和静态列表。
 title: 连接到Marketo Engage
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 311
 ht-degree: 0%
