@@ -1,9 +1,9 @@
 ---
 description: 了解Adobe CX Enterprise Co-worker Campaigns发行说明中的功能增强和修复。
 title: 《 CX Enterprise Co-worker Campaign发布说明》
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 2187
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 协作营销活动版本在持续交付模型上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。
 
-## 2026年7月 {#july-2026}
+## 2026 年 7 月 {#july-2026}
 
 **发行日期： 2026年7月23日**
 

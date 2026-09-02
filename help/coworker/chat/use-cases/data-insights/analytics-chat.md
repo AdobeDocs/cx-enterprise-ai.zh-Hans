@@ -1,9 +1,9 @@
 ---
 title: 通过同事聊天分析Customer Journey Analytics数据
 description: 了解如何使用Adobe CX Enterprise Co-worker Chat分析Customer Journey Analytics数据、构建漏斗并查找客户在历程中的流失位置。
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 3210
 ht-degree: 3%
@@ -144,7 +144,7 @@ Co-worker创建可视化图表后，您可以在Analysis Workspace中打开该�
 
 要在新的Analysis Workspace项目中打开可视化图表，请执行以下操作：
 
-1. 选择“在CJA中分析”[!UICONTROL **&#x200B;**]，位于在同事中创建的任何可视化图表旁边。
+1. 选择“在CJA中分析”[!UICONTROL ****]，位于在同事中创建的任何可视化图表旁边。
 
 1. 在Customer Journey Analytics中打开可视化图表后，您可以使用Analysis Workspace拖放浏览器界面进行修改、进一步构建分析、创建受众等等。 您甚至可以与所选的任何人共享您的Workspace项目。
 
@@ -435,11 +435,11 @@ Co-worker创建可视化图表后，您可以在Analysis Workspace中打开该�
 | --- | --- | --- | --- | --- | --- |
 | 桌面 | 70,172 | 44.9% | 54.8% | 23.2% | 5.70% |
 | 平板电脑 | 13,855 | 44.7% | 55.6% | 14.3% | 3.56% |
-| 移动设备 | 53,449 | 44.9% | 55.3% | 8.1% | 2.02% |
+| 移动 | 53,449 | 44.9% | 55.3% | 8.1% | 2.02% |
 
 **确凿证据**
 
-| 量度 | 桌面 | 移动设备 | 间隙 |
+| 量度 | 桌面 | 移动 | 间隙 |
 | --- | --- | --- | --- |
 | 购物车到购买率 | 23.2% | 8.1% | 15个百分点 |
 | 手机是 | — | 差2.8倍 | — |

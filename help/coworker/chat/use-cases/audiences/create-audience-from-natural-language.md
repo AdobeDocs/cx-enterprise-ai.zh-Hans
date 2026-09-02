@@ -8,9 +8,9 @@ doc-type: Feature Video
 duration: 221
 last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22080
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 84
 ht-degree: 0%
@@ -22,4 +22,4 @@ ht-degree: 0%
 
 审核受众、历程、数据集和目标如何连接通常是手动且耗时的过程。 在此视频中，了解同事如何完整地从运营角度了解您的Adobe Experience Platform (AEP)环境，根据行业最佳实践对其进行基准测试，并利用这些发现构建新受众 — 所有这些都在单个对话中完成。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496875/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496848/?learn=on&enablevpops)

@@ -8,9 +8,9 @@ doc-type: Feature Video
 duration: 
 last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22083
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 1527
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 > 
->只有在完成所有先前的升级步骤后，才应执行本页上的步骤。 您可以执行推荐的升级步骤（为大多数组织推荐），也可以使用《Customer Journey Analytics升级指南》执行为您的组织动态生成的步骤。 <ul><li>**建议的升级步骤** （建议大多数组织使用）<p>一组导致实现理想Customer Journey Analytics的步骤。</p><p>有关详细信息，请参阅[从Adobe Analytics升级到Customer Journey Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations)。</p></li><li>**Customer Journey Analytics升级指南** （根据贵组织的特定需求定制的自定义步骤）<p>提供了新的升级指南，可动态生成针对贵组织和独特环境定制的升级步骤。</p><p>要从Customer Journey Analytics访问指南，请选择&#x200B;**[!UICONTROL Workspace]**&#x200B;选项卡，然后在左侧面板中选择&#x200B;**[!UICONTROL 升级到Customer Journey Analytics]**。 按照屏幕上的说明操作。</p></li></ul>
+>只有在完成所有先前的升级步骤后，才应执行本页上的步骤。 您可以执行推荐的升级步骤（为大多数组织推荐），也可以使用《Customer Journey Analytics升级指南》执行为您的组织动态生成的步骤。 <ul><li>**建议的升级步骤** （建议大多数组织使用）<p>一组导致实现理想Customer Journey Analytics的步骤。</p><p>有关详细信息，请参阅[从Adobe Analytics升级到Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations)。</p></li><li>**Customer Journey Analytics升级指南** （根据贵组织的特定需求定制的自定义步骤）<p>提供了新的升级指南，可动态生成针对贵组织和独特环境定制的升级步骤。</p><p>要从Customer Journey Analytics访问指南，请选择&#x200B;**[!UICONTROL Workspace]**&#x200B;选项卡，然后在左侧面板中选择&#x200B;**[!UICONTROL 升级到Customer Journey Analytics]**。 按照屏幕上的说明操作。</p></li></ul>
 
 Co-worker包括验证技能，允许您在从Adobe Analytics升级到Customer Journey Analytics时验证数据。 数据验证在单个会话中完成。
 
@@ -43,7 +43,7 @@ Co-worker包括验证技能，允许您在从Adobe Analytics升级到Customer Jo
 
 您无需知道如何构建实施。 该技能会自动检测您的Customer Journey Analytics实施是使用Analytics Source Connector，还是使用Experience Platform Web SDK的新实施。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496865/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496846/?learn=on&enablevpops)
 
 ## 启动验证会话
 
@@ -192,7 +192,7 @@ Co-worker包括验证技能，允许您在从Adobe Analytics升级到Customer Jo
 
    您无需重复设置过程即可执行此操作；您的公司、报表包和数据视图选择将在整个对话中持续进行。
 
-1. 继续执行Customer Journey Analytics升级指南中的[建议的升级步骤](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations)或动态生成的升级步骤。
+1. 继续执行Customer Journey Analytics升级指南中的[建议的升级步骤](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations)或动态生成的升级步骤。
 
    要从Customer Journey Analytics访问Customer Journey Analytics升级指南，请选择&#x200B;**[!UICONTROL Workspace]**&#x200B;选项卡，然后在左侧面板中选择&#x200B;**[!UICONTROL 升级到Customer Journey Analytics]**。 按照屏幕上的说明操作。
 
