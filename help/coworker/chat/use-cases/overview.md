@@ -1,13 +1,11 @@
 ---
 description: 浏览同事聊天用例和示例提示，按区域在数据见解、受众、历程和平台操作之间组织。
 title: 同事聊天用例
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: befb56a0afc6de347aa2481bc930d1e0fc812f09
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 83cd3d9dcc9ae0c56e8d63e995b166e8ff0736d9
 workflow-type: tm+mt
-source-wordcount: 4261
+source-wordcount: 4260
 ht-degree: 6%
 
 ---
@@ -24,7 +22,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 >
 >所有符合条件的客户都可以在Co-worker中以滚动方式访问Adobe Experience Manager代理功能。
 >
->另请参阅AEM中的[AI - AEM中的代理功能概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)。
+>另请参阅AEM中的[AI - AEM中的代理功能概述](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)。
 
 ## 品牌体验
 
@@ -43,9 +41,9 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：Brand Experience - Experience Production - Sites](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [AEM中的代理功能：Brand Experience - Experience Production - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-* [AEM中的代理功能：Brand Experience - Experience Production - Forms](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [AEM中的代理功能：Brand Experience - Experience Production - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### 开发
 
@@ -58,7 +56,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：Brand Experience — 开发](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [AEM中的代理功能：Brand Experience — 开发](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### 入门
 
@@ -71,7 +69,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：品牌体验 — 入门](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [AEM中的代理功能：品牌体验 — 入门](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## 内容审查程序
 
@@ -86,7 +84,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：内容顾问 — 内容发现](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [AEM中的代理功能：内容顾问 — 内容发现](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### 内容优化
 
@@ -98,7 +96,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：内容顾问 — 内容优化](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [AEM中的代理功能：内容顾问 — 内容优化](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## 品牌治理
 
@@ -110,7 +108,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：品牌管理](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [AEM中的代理功能：品牌管理](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## 数据分析
 
@@ -160,7 +158,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | 实体解析和链接 | 使用语义和词法搜索将实体提及解析为实际的Experience Platform实体并发现XDM字段 | `entity-linking` | Adobe Experience Platform | “将‘假日购物者’解析为实际受众”<br>“查找与购买历史记录相关的字段” |
 | 管理自定义技能 | 保存、修改或删除跨会话保留的用户拥有的可重用技能 | `manage-skill` | 所有符合条件的应用程序 | “将该工作流另存为技能” <br>“删除我的每周报告技能” <br>“将此技能转换为可重复使用的技能” |
 | 监控流容量和违规情况 | 检查沙盒中的当前和历史流使用情况、容量和违规状态 | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | “我的当前沙盒中的当前流容量是多少？” <br> “我当前的沙盒在上周是否超出了容量限制？” |
-| [查看运行状况检查评估结果](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/run-and-operate/health-checks/overview) | 查看沙盒的最新运行状况检查评估，深入研究未通过检查，并查看受影响的实体 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | “我的沙盒有什么问题？” <br> “告诉我关于我最新的运行状况检查评估的信息” <br> “自定义命名空间描述检查有哪些问题？” |
+| [查看运行状况检查评估结果](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | 查看沙盒的最新运行状况检查评估，深入研究未通过检查，并查看受影响的实体 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | “我的沙盒有什么问题？” <br> “告诉我关于我最新的运行状况检查评估的信息” <br> “自定义命名空间描述检查有哪些问题？” |
 | 修复运行状况检查问题 | 在进行任何更改之前，经您批准，可直接从聊天中修复标记的身份命名空间、合并策略和架构问题 | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | “修复身份命名空间描述”<br>“修复重复的合并策略名称”<br>“修复缺少审核字段组的架构”<br>“修复默认合并策略命名” |
 
 ## 沙盒工具
@@ -197,15 +195,15 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 ## 试验与优化
 
 | 域 | 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
-|---|---|---|---|---|---|
-| **试验与优化** | 浏览和查找目标实体 | 发现、检查、搜索和列出Target实体 — 活动（A/B、XT、AP、自动分配、MVT）、受众和选件。 从这里开始探索。 | `target-browse` | Adobe Target | “向我显示所有活动的A/B活动”<br>“我有哪些受众？”<br>“查找活动\&lt;名称或ID>” |
-| **试验与优化、受众分析、内容性能智能** | 活动绩效报表 | 跨所有活动类型（包括推荐）的性能和订单报表 — 转化提升、收入和订单。 | `target-analyze` | Adobe Target | “活动\&lt;名称/ID>表现如何？”<br>“向我显示\&lt;活动>”<br>“哪些活动吸引的上月订单最多？” |
+| --- | --- | --- | --- | --- | --- |
+| **试验与优化** | 浏览和查找目标实体 | 发现、检查、搜索和列出Target实体：活动（A/B、XT、AP、自动分配、MVT）、受众和选件。 从这里开始探索。 | `target-browse` | Adobe Target | “向我显示所有活动的A/B活动”<br>“我有哪些受众？”<br>“查找活动\&lt;名称或ID>” |
+| **试验与优化、受众分析、内容性能智能** | 活动绩效报表 | 跨所有活动类型（包括推荐）的性能和订单报表：转化提升、收入和订单。 | `target-analyze` | Adobe Target | “活动\&lt;名称/ID>表现如何？”<br>“向我显示\&lt;活动>”<br>“哪些活动吸引的上月订单最多？” |
 | **实验和优化，受众管理** | 创作活动、选件和受众 | 创作和配置活动、选件（HTML/JSON/重定向）、受众和响应令牌。 核心创作技能。 | `target-design` | Adobe Target | 创建以\&lt;audience>&quot;<br>&quot;为\&lt;use case>&quot;<br>&quot;添加\&lt;attribute>的响应令牌的A/B活动 |
-| **试验与优化，内容创建** | 构建可视化(WYSIWYG)活动 | 可视化体验编辑器创作 — 使用CSS选择器修改针对实时页面URL创建和编辑可视化A/B和XT活动。 | `target-vec` | Adobe Target | “在\&lt;页面URL>&quot;<br>&quot;上创建可视化A/B测试\&lt;页面URL>上的主页标题更改为\&lt;文本>&quot;<br>&quot;在\&lt;页面URL>上设置具有可视化编辑的XT活动” |
+| **试验与优化，内容创建** | 构建可视化(WYSIWYG)活动 | 可视化体验编辑器创作：使用CSS选择器修改针对实时页面URL创建和编辑可视化A/B和XT活动。 | `target-vec` | Adobe Target | “在\&lt;页面URL>&quot;<br>&quot;上创建可视化A/B测试\&lt;页面URL>上的主页标题更改为\&lt;文本>&quot;<br>&quot;在\&lt;页面URL>上设置具有可视化编辑的XT活动” |
 | **试验与优化** | 浏览和检查推荐 | 只读浏览和检查标准、收藏集、设计、促销活动、排除项、目录和信息源；包括清理建议和目录属性智能。 | `target-recs` | Adobe Target | “显示我的推荐标准和收藏集”<br>“检查\&lt;recs activity>的设计”<br>“查看我的目录信息源及排除项” |
-| **试验与优化** | Recommendations故障诊断 | 只读故障排除记录问题，例如“结果未准备就绪”、空结果和失败记录。 | `target-recs-diagnose` | Adobe Target | “为什么我的推荐结果尚未准备就绪？”<br>“我的推荐返回了空值 — 哪里出了问题？”<br>“诊断为什么\&lt;recs activity>失败” |
-| **试验与优化** | 创作和自动化推荐 | 推荐创作 — 创建、更新和删除标准、收藏集、设计、排除项、促销活动和信息源；构建推荐活动；以及跨许多活动的批量/自动化。 | `target-recs-design` | Adobe Target | “创建‘最近查看的’标准”<br>“使用\&lt;标准>”<br>构建推荐活动”在所有推荐活动中批量更新设计“ |
-| **试验与优化** | 浏览和查找试验 | 跨实验的一般浏览和查找 — 列表、查看和拉取结果和见解。 | `experiment-explorer` | Experimentation Accelerator | “显示我的实验”<br>“列出活动的实验”<br>“显示\&lt;experiment>“<br>”的结果“\&lt;experiment>具有什么见解？” |
-| **试验与优化、受众分析、内容性能智能** | 分析和决定实验 | 跨实验（健康检查、船舶决策和执行摘要）的引导式综合和决策支持。 | `experiment-analysis` | Experimentation Accelerator | “我的实验进行得如何？”<br>“我应该发运\&lt;experiment>？”<br>“我的实验是否正常？”<br>“编写我们的实验的执行摘要” |
-| **试验与优化** | 设计和规划实验 | 前瞻性实验设计和规划 — 接下来要测试什么，如何设计测试，以及如何构建路线图。 | `experiment-strategist` | Experimentation Accelerator | “下一步应该测试什么？”<br>“帮助我设计\&lt;目标>”<br>“我的实验失败 — 下一步是什么？”<br>“构建测试路线图” |
+| **试验与优化** | Recommendations故障诊断 | 只读故障排除记录问题，例如“结果未准备就绪”、空结果和失败记录。 | `target-recs-diagnose` | Adobe Target | “为什么我的推荐结果尚未准备就绪？”<br>“我的推荐返回为空，错误是什么？”<br>“诊断为什么\&lt;recs activity>失败” |
+| **试验与优化** | 创作和自动化推荐 | 推荐创作：创建、更新和删除标准、收藏集、设计、排除项、促销和馈送；构建推荐活动；以及跨许多活动的批量/自动化。 | `target-recs-design` | Adobe Target | “创建‘最近查看的’标准”<br>“使用\&lt;标准>”<br>构建推荐活动”在所有推荐活动中批量更新设计“ |
+| **试验与优化** | 浏览和查找试验 | 跨实验的常规浏览和查找：列表、查看以及拉取结果和见解。 | `experiment-explorer` | Experimentation Accelerator | “显示我的实验”<br>“列出活动的实验”<br>“显示\&lt;experiment>“<br>”的结果“\&lt;experiment>具有什么见解？” |
+| **试验与优化、受众分析、内容性能智能** | 分析和决定实验 | 跨实验的引导式综合和决策支持：健康检查、船舶决策和执行摘要。 | `experiment-analysis` | Experimentation Accelerator | “我的实验进行得如何？”<br>“我应该发运\&lt;experiment>？”<br>“我的实验是否正常？”<br>“编写我们的实验的执行摘要” |
+| **试验与优化** | 设计和规划实验 | 前瞻性实验设计和规划：下一步要测试什么、如何设计测试以及如何构建路线图。 | `experiment-strategist` | Experimentation Accelerator | “下一步应该测试什么？”<br>“帮助我设计\&lt;目标>”<br>“我的实验失败，下一步是什么？”<br>“构建测试路线图” |
 | **实验和优化；客户和帐户历程智能** | 搜索知识并摄取数据 | 检索和搜索试验上下文知识，或摄取外部CSV数据进行分析。 | `experiment-knowledge-base` | Experimentation Accelerator | “我们对试验\&lt;name>？了解多少？”<br>“我们以前是否测试过此假设？”<br>“上传CSV并分析此文件” |
