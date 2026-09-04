@@ -5,9 +5,9 @@ product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+source-git-commit: 83cd3d9dcc9ae0c56e8d63e995b166e8ff0736d9
 workflow-type: tm+mt
-source-wordcount: 3729
+source-wordcount: 4260
 ht-degree: 6%
 
 ---
@@ -187,9 +187,25 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | --- | --- | --- | --- | --- |
 | 管理规划工作区 | 构建和改进Workfront Planning工作区、部分、记录类型和字段，以组织项目和跟踪工作 | `manage-workfront-planning`, `wf-planning-solution-architect` | Workfront规划 | “创建一个名为MKG Hub的工作区并设置记录类型以按地区跟踪程序”<br>“设置跨渠道和区域跟踪MKG程序所需的记录类型和关系” |
 | 管理规划记录 | 在工作区中创建和更新规划记录（营销活动、摘要）及其字段值 | `manage-workfront-planning` | Workfront规划 | “为秋季品牌发布活动创建简报，包括目标、目标受众和关键消息”<br>“使用预算和主要渠道更新秋季品牌发布简报” |
-| 创建和管理项目 | 启动和构建项目 — 应用模板、设置优先级和预算、对任务进行排序、添加阶段和依赖项以及分配人员或角色 | `manage-workfront-workflow` | Workfront工作流程 | “创建春季营销活动，用$200K预算将其设置为高优先级，然后排列任务顺序” <br> “从[项目模板]创建名为[项目名称]的Workfront项目计划” <br> “为秋季发布活动构建项目计划 — 社交营销活动，包含概念、设计、复制和审阅任务” <br> “添加新电子邮件营销任务并将其分配给Rachel Smith” |
-| 加快审查和批准 | 设置多阶段批准、应用批准模板、添加/删除批准者、发送提醒并进行批量更新 | `manage-workfront-workflow` | Workfront工作流程 | “创建多阶段审批 — 复制、设计、法律 — 并提醒未批准的人”<br>“将Chris Smith从所有未完成的审批中移除，并替换为Jane Francis” |
+| 创建和管理项目 | 启动和构建项目：应用模板、设置优先级和预算、对任务进行排序、添加阶段和依赖项以及分配人员或角色 | `manage-workfront-workflow` | Workfront工作流程 | “创建春季营销活动，使用$200K预算将其设置为高优先级，然后排列任务顺序” <br> “从[项目模板]创建名为[项目名称]的Workfront项目计划” <br> “为秋季发布构建项目计划：包含概念、设计、复制和审阅任务的社交营销活动” <br> “添加新电子邮件营销任务并将其分配给Rachel Smith” |
+| 加快审查和批准 | 设置多阶段批准、应用批准模板、添加/删除批准者、发送提醒并进行批量更新 | `manage-workfront-workflow` | Workfront工作流程 | “创建多阶段批准（复制、设计、法律），并提醒未批准的人”<br>“将Chris Smith从所有未完成的批准中移除并替换为Jane Francis” |
 | 更新任务和工作状态 | 标记任务完成、更新完成百分比并关闭您的工作 | `manage-workfront-workflow` | Workfront工作流程 | “将我在秋季启动项中的‘生成关键艺术’任务标记为完成”<br>“100%关闭我的秋季启动项复制任务” |
 | 表面工作分析 | 提出探索性问题以查找存在风险的工作、未分配任务、未完成的问题和跨项目的状态 | `query-workfront` | Workfront工作流程 | “查找未分配给任何人和本周到期的当前项目中的未完成任务”<br>“当前项目中有多少个未完成的问题？” |
 | 项目和任务摘要 | 项目、任务、问题和分配的拉取列表、表和计数 | `query-workfront` | Workfront工作流程 | “显示已准备开始的任务的表，其中具有项目名称、任务到期日期和分配的用户”<br>“获取分配给[用户名]的所有任务” |
 | 跟踪批准和项目组合状态 | 检查审批状态，并按项目组合汇总未完成的工作 | `query-workfront` | Workfront工作流程 | “显示我的审批状态”<br>“显示包含未完成问题的表，这些问题是[Portfolio名称]项目组合的一部分” |
+
+## 试验与优化
+
+| 域 | 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| --- | --- | --- | --- | --- | --- |
+| **试验与优化** | 浏览和查找目标实体 | 发现、检查、搜索和列出Target实体：活动（A/B、XT、AP、自动分配、MVT）、受众和选件。 从这里开始探索。 | `target-browse` | Adobe Target | “向我显示所有活动的A/B活动”<br>“我有哪些受众？”<br>“查找活动\&lt;名称或ID>” |
+| **试验与优化、受众分析、内容性能智能** | 活动绩效报表 | 跨所有活动类型（包括推荐）的性能和订单报表：转化提升、收入和订单。 | `target-analyze` | Adobe Target | “活动\&lt;名称/ID>表现如何？”<br>“向我显示\&lt;活动>”<br>“哪些活动吸引的上月订单最多？” |
+| **实验和优化，受众管理** | 创作活动、选件和受众 | 创作和配置活动、选件（HTML/JSON/重定向）、受众和响应令牌。 核心创作技能。 | `target-design` | Adobe Target | 创建以\&lt;audience>&quot;<br>&quot;为\&lt;use case>&quot;<br>&quot;添加\&lt;attribute>的响应令牌的A/B活动 |
+| **试验与优化，内容创建** | 构建可视化(WYSIWYG)活动 | 可视化体验编辑器创作：使用CSS选择器修改针对实时页面URL创建和编辑可视化A/B和XT活动。 | `target-vec` | Adobe Target | “在\&lt;页面URL>&quot;<br>&quot;上创建可视化A/B测试\&lt;页面URL>上的主页标题更改为\&lt;文本>&quot;<br>&quot;在\&lt;页面URL>上设置具有可视化编辑的XT活动” |
+| **试验与优化** | 浏览和检查推荐 | 只读浏览和检查标准、收藏集、设计、促销活动、排除项、目录和信息源；包括清理建议和目录属性智能。 | `target-recs` | Adobe Target | “显示我的推荐标准和收藏集”<br>“检查\&lt;recs activity>的设计”<br>“查看我的目录信息源及排除项” |
+| **试验与优化** | Recommendations故障诊断 | 只读故障排除记录问题，例如“结果未准备就绪”、空结果和失败记录。 | `target-recs-diagnose` | Adobe Target | “为什么我的推荐结果尚未准备就绪？”<br>“我的推荐返回为空，错误是什么？”<br>“诊断为什么\&lt;recs activity>失败” |
+| **试验与优化** | 创作和自动化推荐 | 推荐创作：创建、更新和删除标准、收藏集、设计、排除项、促销和馈送；构建推荐活动；以及跨许多活动的批量/自动化。 | `target-recs-design` | Adobe Target | “创建‘最近查看的’标准”<br>“使用\&lt;标准>”<br>构建推荐活动”在所有推荐活动中批量更新设计“ |
+| **试验与优化** | 浏览和查找试验 | 跨实验的常规浏览和查找：列表、查看以及拉取结果和见解。 | `experiment-explorer` | Experimentation Accelerator | “显示我的实验”<br>“列出活动的实验”<br>“显示\&lt;experiment>“<br>”的结果“\&lt;experiment>具有什么见解？” |
+| **试验与优化、受众分析、内容性能智能** | 分析和决定实验 | 跨实验的引导式综合和决策支持：健康检查、船舶决策和执行摘要。 | `experiment-analysis` | Experimentation Accelerator | “我的实验进行得如何？”<br>“我应该发运\&lt;experiment>？”<br>“我的实验是否正常？”<br>“编写我们的实验的执行摘要” |
+| **试验与优化** | 设计和规划实验 | 前瞻性实验设计和规划：下一步要测试什么、如何设计测试以及如何构建路线图。 | `experiment-strategist` | Experimentation Accelerator | “下一步应该测试什么？”<br>“帮助我设计\&lt;目标>”<br>“我的实验失败，下一步是什么？”<br>“构建测试路线图” |
+| **实验和优化；客户和帐户历程智能** | 搜索知识并摄取数据 | 检索和搜索试验上下文知识，或摄取外部CSV数据进行分析。 | `experiment-knowledge-base` | Experimentation Accelerator | “我们对试验\&lt;name>？了解多少？”<br>“我们以前是否测试过此假设？”<br>“上传CSV并分析此文件” |

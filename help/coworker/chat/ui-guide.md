@@ -6,10 +6,10 @@ product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+source-git-commit: 73f2a00a3438903f72cddb35c3a5c47196b5821a
 workflow-type: tm+mt
 source-wordcount: 1713
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 4%
 | RTCDP | 现在可用 | 即将推出 |
 | AJO | 现在可用 | 即将推出 |
 | CJA | 现在可用 | 即将推出 |
+| Workfront | 现在可用 | 即将推出：<br><br>* 2026年9月初在预览实例中为符合条件的Workfront系统管理员推荐<br><br>* 2026年9月中旬在生产实例中为符合条件的快速发布Workfront客户推荐<br><br>* 2026年10月中旬在生产实例中为符合条件的季度发布Workfront客户推荐 |
+| 目标 | 现在可用 | 现在可用 |
 | AEM | 2026年9月 | 即将推出 |
-| Workfront | 2026年9月 | 即将推出：<br><br>* 2026年9月初在预览实例中为符合条件的Workfront系统管理员推荐<br><br>* 2026年9月中旬在生产实例中为符合条件的快速发布Workfront客户推荐<br><br>* 2026年10月中旬在生产实例中为符合条件的季度发布Workfront客户推荐 |
-| 目标 | 2026年9月 | 即将推出 |
 
 ### 沉浸式体验 {#immersive}
 
