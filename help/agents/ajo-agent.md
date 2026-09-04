@@ -5,33 +5,14 @@ solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
 TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 0daf43247c80b5a2d3978515a45256bd03326c0c
 workflow-type: tm+mt
-source-wordcount: 3361
+source-wordcount: 3372
 ht-degree: 11%
 
 ---
@@ -41,7 +22,7 @@ ht-degree: 11%
 
 >[!AVAILABILITY]
 >
->Journey Agent为Agent Orchestrator Explorer计划中的客户提供了创建技能和内容生成技能。 有关更多信息，请联系Adobe客户关怀部门。
+>Journey Agent创建AI功能和内容生成AI功能可供作为Agent Orchestrator Explorer项目一部分的客户使用。 有关更多信息，请联系Adobe客户关怀部门。
 
 ## Adobe Journey Optimizer中的Journey Agent简介
 
@@ -53,13 +34,13 @@ Journey Agent包含四个主要待完成任务：
 - **渠道内容创建**：使用AI支持的内容生成功能生成、编辑和管理历程的渠道特定内容（电子邮件、推送、短信）
 - **历程分析**：分析历程、检测问题、揭示见解并优化客户参与
 
-此外，**历程模拟**&#x200B;是Journey Optimizer的一项功能，其中包括[历程模拟](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)，这是一项产品内代理技能，具有非对话性，并具有三项功能：
+此外，**历程模拟**&#x200B;是Journey Optimizer的一项功能，其中包括[历程模拟](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)，这是一项产品内的非对话式AI功能，具有三个子功能：
 
 - 生成模拟用户
 - 生成事件值
 - 快速模拟
 
-## 历程创建：用例、代理技能和用户指南
+## 历程创建：用例、AI功能和用户指南
 
 ## 概述
 
@@ -111,7 +92,7 @@ Journey Agent包含四个主要待完成任务：
 
 对于其中每个用例，代理都会将自然语言需求转换为结构化历程配置。
 
-## 范围和范围外的技能
+## AI功能在范围和范围外
 
 ### **在作用域中**
 
@@ -195,7 +176,7 @@ Journey Agent包含四个主要待完成任务：
 - **规划消息内容**：在创建历程之前定义消息传递策略。
 - **考虑客户体验**：设计尊重客户偏好并避免过度沟通的历程流程。
 
-## 渠道内容创建：用例、代理技能和用户指南
+## 渠道内容创建：用例、AI功能和用户指南
 
 >[!AVAILABILITY]
 >
@@ -221,7 +202,7 @@ Journey Agent包含四个主要待完成任务：
 
 1. **历程画布集成**：从清单中选择历程并查看关联的渠道。
 
-## 范围和范围外的技能
+## AI功能在范围和范围外
 
 ### **在作用域中**
 
@@ -277,13 +258,13 @@ Journey Agent包含四个主要待完成任务：
 1. **定义音调**：指定所需的音调（友好、正式、休闲、紧急）。
 1. **迭代并优化**：使用重新生成操作优化内容，直到满足您的要求为止。
 
-## 历程分析：用例、代理技能和用户指南
+## 历程分析：用例、AI功能和用户指南
 
 ## 概述
 
 Journey Agent将使Journey Optimizer用户能够使用自然语言界面分析和优化历程。 借助Journey Agent，从业者可以快速识别和解决计划和/或受众冲突，检测历程中的用户放弃点并提供见解或建议。 它使从业者能够做出数据驱动的决策、提高客户参与度，并简化历程编排。
 
-在此[概述](https://experienceleague.adobe.com/zh-hans/slides/journey-agent-overview)中了解更多信息并快速发现代理。
+在此[概述](https://experienceleague.adobe.com/en/slides/journey-agent-overview)中了解更多信息并快速发现代理。
 
 >[!AVAILABILITY]
 >
@@ -329,7 +310,7 @@ AJO代理的![示例](./assets/ajo-agent/ajo-agent-sample.png)
 
 对于其中每个分析，代理不仅会检测问题，还会提供&#x200B;**可操作的建议来解决问题**。
 
-## 范围内和范围外的技能
+## AI功能在范围和范围外
 
 ### **范围内**
 
@@ -425,13 +406,13 @@ AJO代理的![示例](./assets/ajo-agent/ajo-agent-sample.png)
 - **定期监测**：计划好定期查看历程表现，以识别趋势和异常。
 - **优化分段**：确保受众细分均衡，以避免疲劳以及最大限度地提高参与度。
 
-## 历程模拟：用例、代理技能和用户指南
+## 历程模拟：用例、AI功能和用户指南
 
 ## 概述
 
 >[!BEGINSHADEBOX]
 
-历程模拟适用于所有Journey Optimizer客户。 历程模拟是历程模拟中的产品内代理技能，适用于作为Agent Orchestrator Explorer程序的一部分并且至少需要以下权限之一的客户：
+历程模拟适用于所有Journey Optimizer客户。 历程模拟是历程模拟中的产品内代理AI功能，适用于作为Agent Orchestrator Explorer程序的一部分并且至少需要以下权限之一的客户：
 
 - **模拟历程**：从历程画布运行模拟工作流。
 
@@ -445,7 +426,7 @@ AJO代理的![示例](./assets/ajo-agent/ajo-agent-sample.png)
 
 >[!ENDSHADEBOX]
 
-历程模拟是Journey Optimizer的一项功能，它允许Journey Optimizer用户在激活之前安全地测试和验证营销历程。 在历程模拟中，历程模拟是产品内的代理技能，而不是对话技能，它直接从历程画布自动化和协助测试过程。
+历程模拟是Journey Optimizer的一项功能，它允许Journey Optimizer用户在激活之前安全地测试和验证营销历程。 在历程模拟中，历程模拟是产品内的人工智能功能，不是对话式功能，它直接从旅程画布自动化和协助测试过程。
 
 历程模拟包括三项功能：
 
@@ -480,7 +461,7 @@ AJO代理的![示例](./assets/ajo-agent/ajo-agent-sample.png)
 - 通过详细的逐节点遍历，识别哪些模拟用户流经哪条路径，以及原因。
 - 在Journey Optimizer UI中运行结束后查看模拟报表，以在激活之前验证结果。
 
-## 范围技能和限制
+## 范围AI功能和限制
 
 ### **在作用域中**
 
@@ -493,14 +474,14 @@ AJO代理的![示例](./assets/ajo-agent/ajo-agent-sample.png)
 - **模拟报表**：在Journey Optimizer UI中运行模拟结束时查看报表。
 - **多用户测试**：同时运行和可视化多个模拟用户的测试，涵盖所有历程分支。
 
-除此之外，历程模拟技能还支持以下功能：
+除此之外，历程模拟人工智能功能还支持以下功能：
 
 - **模拟用户生成**：根据历程路径、现有测试配置文件或指定属性创建模拟用户。
 - **事件值生成**：生成并分配事件属性值以通过特定历程路径推动测试执行。
-- **快速模拟**：运行完整的端到端模拟，只需很少的干预。 该技能会自动生成模拟用户、事件值和预填充的测试设置，然后执行历程并显示结果以供审阅。
+- **快速模拟**：运行完整的端到端模拟，只需很少的干预。 此AI功能自动生成模拟用户、事件值和预填充的测试设置，然后执行历程和显示结果以供审查。
 
 ### **限制**
 
 模拟可能不支持测试模式或实时历程支持的每个活动、渠道或集成，并且行为可能会随着功能成熟而更改。
 
-➡️在Journey Optimizer文档中了解有关[模拟限制](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations)的更多信息。
+➡️在Journey Optimizer文档中了解有关[模拟限制](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations)的更多信息。
