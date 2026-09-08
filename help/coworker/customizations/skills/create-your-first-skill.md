@@ -6,10 +6,9 @@ level: Beginner
 doc-type: Feature Video
 duration: 155
 last-substantial-update: 2026-08-26T00:00:00.000Z
-jira: KT-22377
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+jira: KT-22378
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 526483ff41384d0e3c297b33385f8303636bf4a5
 workflow-type: tm+mt
 source-wordcount: 237
 ht-degree: 0%
@@ -32,7 +31,7 @@ ht-degree: 0%
 
 结果是一个可重复的工作流，只需一个简单的提示即可按需执行。
 
->[!VIDEO](https://video.tv.adobe.com/v/3502340/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502323/?learn=on&enablevpops)
 
 ## 将分析变成可重复使用的技能
 
