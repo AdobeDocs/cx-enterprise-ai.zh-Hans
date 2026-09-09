@@ -6,10 +6,10 @@ description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: ccdef71b4130a87032e0ba0e7b3bde3bd40614f1
+source-git-commit: 526483ff41384d0e3c297b33385f8303636bf4a5
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 19%
+source-wordcount: '311'
+ht-degree: 18%
 
 ---
 
@@ -74,6 +74,7 @@ ht-degree: 19%
     - 技能 {#skills}
       - [什么是技能？](./coworker/customizations/skills/what-are-skills.md)
       - [创建您的第一个技能](./coworker/customizations/skills/create-your-first-skill.md)
+      - [培养并运行质量关卡技能](./coworker/customizations/skills/run-a-quality-gate-skill.md)
   - 聊天 {#chat}
     - [概述](./coworker/chat/overview.md)
     - [UI指南](./coworker/chat/ui-guide.md)
