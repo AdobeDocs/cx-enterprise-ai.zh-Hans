@@ -6,10 +6,10 @@ description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 526483ff41384d0e3c297b33385f8303636bf4a5
+source-git-commit: c0a72630b0db1cbdf3191012ebb5a2911ddb9fe7
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 18%
+source-wordcount: '313'
+ht-degree: 19%
 
 ---
 
@@ -25,40 +25,7 @@ ht-degree: 18%
   - [Agentic AI监控仪表板](./overview/monitoring.md)
   - [代理式工具](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-agentic-tools/using/overview)
   - [创作AI内容透明度](content-transparency.md)
-- AI 助手 {#ai-assistant}
-  - [AI助手UI指南](./ai-assistant/ai-assistant-ui.md)
-  - [提示库](./ai-assistant/prompt-library.md)
-  - [隐私](./ai-assistant/privacy.md)
-  - [法律声明](./ai-assistant/legal-disclaimer.md)
-- 代理 {#agents}
-  - [Agent Orchestrator](./agents/agent-orchestrator.md)
-  - [Audience 代理](./agents/audience.md)
-  - [Data Insights Agent](./agents/cja-data-insights-agent.md)
-  - [试验代理](./agents/agent-experiment.md)
-  - [字段发现代理](./agents/field-discovery-agent.md)
-  - [Journey Agent](./agents/ajo-agent.md)
-  - [产品支持代理](./agents/product-support.md)
-  - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
-  - [通知代理](./agents/notifications.md)
-  - [同事试用版](./agents/trial.md)
-  - [验证数据](./agents/data-validation.md)
-  - 数据工程 {#data-engineering}
-    - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
-- MCP {#mcp}
-  - [Adobe CX Co-worker网关](./mcp/overview.md)
-  - {hide-from-toc}[Real-Time CDP MCP测试版](./mcp/beta/rtcdp-mcp.md)
-  - 快速入门 {#mcp-get-started}
-    - [访问CX Co-worker Gateway工具](./mcp/access.md)
-    - [安装CX Co-worker网关](./mcp/install.md)
-    - [CX Co-worker Gateway中的会话上下文工具](./mcp/context-tools.md)
-  - 产品工具 {#mcp-product-tools}
-    - [Real-Time CDP工具](./mcp/rtcdp-mcp.md)
-    - [Experience Platform工具](./mcp/aep-mcp.md)
-    - [Journey Optimizer工具](./mcp/ajo-mcp.md)
-    - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
-    - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- Coworker {#coworker}
+- CX Enterprise Coworker {#coworker}
   - [关于同事](./coworker/overview.md)
   - 营销活动 {#campaigns}
     - [概述](./coworker/campaigns/overview.md)
@@ -97,3 +64,36 @@ ht-degree: 18%
       - 内容审查程序 {#content-advisor}
         - [生成营销资产](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [品牌合规性检查](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+- AI 助手 {#ai-assistant}
+  - [AI助手UI指南](./ai-assistant/ai-assistant-ui.md)
+  - [提示库](./ai-assistant/prompt-library.md)
+  - [隐私](./ai-assistant/privacy.md)
+  - [法律声明](./ai-assistant/legal-disclaimer.md)
+- 代理 {#agents}
+  - [Agent Orchestrator](./agents/agent-orchestrator.md)
+  - [Audience 代理](./agents/audience.md)
+  - [Data Insights Agent](./agents/cja-data-insights-agent.md)
+  - [试验代理](./agents/agent-experiment.md)
+  - [字段发现代理](./agents/field-discovery-agent.md)
+  - [Journey Agent](./agents/ajo-agent.md)
+  - [产品支持代理](./agents/product-support.md)
+  - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
+  - [通知代理](./agents/notifications.md)
+  - [同事试用版](./agents/trial.md)
+  - [验证数据](./agents/data-validation.md)
+  - 数据工程 {#data-engineering}
+    - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
+- MCP {#mcp}
+  - [Adobe CX Co-worker网关](./mcp/overview.md)
+  - {hide-from-toc}[Real-Time CDP MCP测试版](./mcp/beta/rtcdp-mcp.md)
+  - 快速入门 {#mcp-get-started}
+    - [访问CX Co-worker Gateway工具](./mcp/access.md)
+    - [安装CX Co-worker网关](./mcp/install.md)
+    - [CX Co-worker Gateway中的会话上下文工具](./mcp/context-tools.md)
+  - 产品工具 {#mcp-product-tools}
+    - [Real-Time CDP工具](./mcp/rtcdp-mcp.md)
+    - [Experience Platform工具](./mcp/aep-mcp.md)
+    - [Journey Optimizer工具](./mcp/ajo-mcp.md)
+    - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
+    - [Adobe Analytics工具](./mcp/analytics-mcp.md)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
