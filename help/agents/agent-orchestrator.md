@@ -2,21 +2,10 @@
 title: Adobe Experience Platform Agent Orchestrator
 description: 了解 Adobe Experience Platform Agent Orchestrator。
 TQID: https://experienceleague.adobe.com/xv7K7636d65K0V8R1EG97xnZpZAjnNhfF7JgqQz1aoY
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 956
 ht-degree: 19%
@@ -41,7 +30,7 @@ Agent Orchestrator由AI Assistant对话界面、用于决策和规划的推理�
 
 ### AI 助手对话界面 {#ai-assistant}
 
-AI Assistant是一种智能、自然的语言对话体验，使使用已启用的CX Enterprise应用程序的从业人员能够利用GenAI和Agentic AI功能，其范围取决于客户许可的CX Enterprise应用程序。 要解锁访问权限，请阅读[访问AI Assistant的指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/access)。
+AI Assistant是一种智能、自然的语言对话体验，使使用已启用的CX Enterprise应用程序的从业人员能够利用GenAI和Agentic AI功能，其范围取决于客户许可的CX Enterprise应用程序。 要解锁访问权限，请阅读[访问AI Assistant的指南](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access)。
 
 有关更多信息，请阅读 [AI 助手 UI 指南](../ai-assistant/ai-assistant-ui.md)。
 
@@ -79,9 +68,9 @@ Agent Orchestrator生态系统包含以下代理：
 
 所有用户都可以访问AI助手和关联的Experience Platform代理。
 
-* **Adobe Experience Manager**：您的管理员必须通过[Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)向您授予访问AI助手权限。
+* **Adobe Experience Manager**：您的管理员必须通过[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)向您授予访问AI助手权限。
 
-* **Customer Journey Analytics**：您的管理员必须通过[Customer Journey Analytics访问控制](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/technotes/access-control)授予您访问AI助手权限。 这允许您提问产品知识和数据见解问题。
+* **Customer Journey Analytics**：您的管理员必须通过[Customer Journey Analytics访问控制](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)授予您访问AI助手权限。 这允许您提问产品知识和数据见解问题。
 
 >[!NOTE]
 >

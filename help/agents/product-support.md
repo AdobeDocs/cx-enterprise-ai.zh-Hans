@@ -1,17 +1,10 @@
 ---
 title: 产品支持代理
 description: 了解如何在 AI 助手中使用产品支持代理来简化故障排查和客户支持工单提交流程。
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a8f0706b7c37fd87115a9af0ca646b84dcfe890b
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 365
 ht-degree: 100%
@@ -35,33 +28,33 @@ TQID: https://experienceleague.adobe.com/SKcxvhwgLhbCjQ%2D%2D%2DMdK7JzOKF4EzJra3
 从专家策划的文档获得对常见支持问题的即时响应，例如：
 
 * Adobe支持团队策划的&#x200B;**知识文章**。
-   * 示例问题：
-      * “为什么我的用户档案计数在‘许可证使用信息板’和‘Experience Platform’主页上不同？”
-      * “旅程没有触发的原因是什么？”
+  * 示例问题：
+    * “为什么我的用户档案计数在‘许可证使用信息板’和‘Experience Platform’主页上不同？”
+    * “旅程没有触发的原因是什么？”
 * **产品教程**&#x200B;用于自学学习和技能培养。
-   * 示例问题：
-      * “Adobe Experience Platform如何创建实时体验？”
-      * “如何在Adobe Experience Platform中配置和使用警报？”
+  * 示例问题：
+    * “Adobe Experience Platform如何创建实时体验？”
+    * “如何在Adobe Experience Platform中配置和使用警报？”
 * **产品法律文档**，提供准确且面向许可的信息。
-   * 示例问题：
-      * “在Adobe Experience Platform Activation中批量分段作业的限制是多少？”
-      * “Adobe Experience Platform Activation中的平均配置文件丰富度限制是多少？”
+  * 示例问题：
+    * “在Adobe Experience Platform Activation中批量分段作业的限制是多少？”
+    * “Adobe Experience Platform Activation中的平均配置文件丰富度限制是多少？”
 
 ## 支持案例创建 {#support-case-creation}
 
 直接从产品支持代理启动支持案例，该代理自动捕获上下文见解以加快案例解决。
 
 * 示例问题：
-   * “创建支持工单。”
-   * “您能帮我创建支持票证吗？”
+  * “创建支持工单。”
+  * “您能帮我创建支持票证吗？”
 
 ## 跟踪案例进度 {#track-case-progress}
 
 无缝跟踪支持问题的状态。
 
 * 示例问题和命令：
-   * “我的E-12345的最新情况是什么？”
-   * “票证E-67890有什么更新？”
+  * “我的E-12345的最新情况是什么？”
+  * “票证E-67890有什么更新？”
 
 ## 访问产品支持代理
 
@@ -71,5 +64,5 @@ TQID: https://experienceleague.adobe.com/SKcxvhwgLhbCjQ%2D%2D%2DMdK7JzOKF4EzJra3
 
 有关更多信息，请观看以下视频，了解如何使用产品支持代理在不离开工作流程的情况下无缝进行故障排除。
 
->[!VIDEO](https://video.tv.adobe.com/v/3443193?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443183?learn=on)
 

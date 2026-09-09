@@ -2,19 +2,10 @@
 title: AI助手中的隐私、安全和管理
 description: 了解AI Assistant的隐私、安全和治理实践。
 TQID: https://experienceleague.adobe.com/ViaEXSy4OEyTzSKlYAq0T6PbewPx1PJtyzE8E0wXbvM
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 239
 ht-degree: 3%
@@ -30,7 +21,7 @@ Adobe Experience Platform中的AI助手以隐私、安全和治理为原则。
 * 目前，AI助手没有使用任何个人数据，即使用于培训目的也是如此。
 * AI助手不知道消费者数据。
 * AI助手将遵循所有现有的[访问控制](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home)策略。
-   * 任何基于属性的新访问控制策略在最多24小时&amp;ast后反映在AI Assistant中；
+  * 任何基于属性的新访问控制策略在最多24小时&amp;ast后反映在AI Assistant中；
 * 在与Adobe Experience Platform Healthcare Shield结合使用时，AI Assistant是HIPAA就绪功能。
 * 您可以查看之前与AI助手进行的交互的日志，保留策略为30天。
 * AI助手在响应用户提示时基于特定于沙盒的数据和公共Adobe文档。 数据不会在沙盒之间共享。
