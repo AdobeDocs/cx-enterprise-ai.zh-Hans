@@ -8,11 +8,9 @@ doc-type: Feature Video
 duration: 186
 last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22082
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
 workflow-type: tm+mt
 source-wordcount: 106
 ht-degree: 0%
@@ -26,4 +24,4 @@ ht-degree: 0%
  
 使用自然语言，分析师和营销人员可以就数据提出问题、获得可视化结果、识别有意义的趋势并揭示驱动性能的因素，所有这些都可以在一条对话中完成。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496860/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496847/?learn=on&enablevpops)
