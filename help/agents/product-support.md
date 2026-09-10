@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a8f0706b7c37fd87115a9af0ca646b84dcfe890b
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 365
 ht-degree: 100%
@@ -35,33 +35,33 @@ TQID: https://experienceleague.adobe.com/SKcxvhwgLhbCjQ%2D%2D%2DMdK7JzOKF4EzJra3
 从专家策划的文档获得对常见支持问题的即时响应，例如：
 
 * Adobe支持团队策划的&#x200B;**知识文章**。
-   * 示例问题：
-      * “为什么我的用户档案计数在‘许可证使用信息板’和‘Experience Platform’主页上不同？”
-      * “旅程没有触发的原因是什么？”
+  * 示例问题：
+    * “为什么我的用户档案计数在‘许可证使用信息板’和‘Experience Platform’主页上不同？”
+    * “旅程没有触发的原因是什么？”
 * **产品教程**&#x200B;用于自学学习和技能培养。
-   * 示例问题：
-      * “Adobe Experience Platform如何创建实时体验？”
-      * “如何在Adobe Experience Platform中配置和使用警报？”
+  * 示例问题：
+    * “Adobe Experience Platform如何创建实时体验？”
+    * “如何在Adobe Experience Platform中配置和使用警报？”
 * **产品法律文档**，提供准确且面向许可的信息。
-   * 示例问题：
-      * “在Adobe Experience Platform Activation中批量分段作业的限制是多少？”
-      * “Adobe Experience Platform Activation中的平均配置文件丰富度限制是多少？”
+  * 示例问题：
+    * “在Adobe Experience Platform Activation中批量分段作业的限制是多少？”
+    * “Adobe Experience Platform Activation中的平均配置文件丰富度限制是多少？”
 
 ## 支持案例创建 {#support-case-creation}
 
 直接从产品支持代理启动支持案例，该代理自动捕获上下文见解以加快案例解决。
 
 * 示例问题：
-   * “创建支持工单。”
-   * “您能帮我创建支持票证吗？”
+  * “创建支持工单。”
+  * “您能帮我创建支持票证吗？”
 
 ## 跟踪案例进度 {#track-case-progress}
 
 无缝跟踪支持问题的状态。
 
 * 示例问题和命令：
-   * “我的E-12345的最新情况是什么？”
-   * “票证E-67890有什么更新？”
+  * “我的E-12345的最新情况是什么？”
+  * “票证E-67890有什么更新？”
 
 ## 访问产品支持代理
 
