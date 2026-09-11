@@ -6,9 +6,9 @@ description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: c0a72630b0db1cbdf3191012ebb5a2911ddb9fe7
+source-git-commit: f06ee8c16052091f661f16e291767a38ac7edee9
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '317'
 ht-degree: 19%
 
 ---
@@ -57,6 +57,8 @@ ht-degree: 19%
       - 历程 {#journeys}
         - [使用自然语言创建历程](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
         - [创建忠诚度挑战并显示见解](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
+      - 优化 {#optimization}
+        - [启动Target活动](./coworker/chat/use-cases/optimization/target.md)
       - 沙盒工具 {#sandbox-tooling}
         - [沙盒工具代理技能](./agents/sandbox-tooling.md)
       - 警报 {#alerts}
@@ -96,4 +98,4 @@ ht-degree: 19%
     - [Journey Optimizer工具](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
