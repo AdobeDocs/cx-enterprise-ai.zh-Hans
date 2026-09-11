@@ -24,4 +24,4 @@ ht-degree: 0%
 
 了解CX Enterprise Co-worker为您的优化计划带来的价值。 同事了解业务目标并协调Adobe应用程序的工作 — 分析、诊断和启动 — 无需切换工具。 通过使用同事来读取结果、诊断丢失的变量、调整测试持续时间的大小，从而节省相互交流的天数。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496884/?captions=chi_hans&learn=on&enablevpops)
