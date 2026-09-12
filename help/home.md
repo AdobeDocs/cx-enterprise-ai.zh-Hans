@@ -1,6 +1,6 @@
 ---
 title: CX Enterprise 应用程序中的 AI
-description: 了解CX Enterprise应用程序如何使用generative AI (GenAI) 、 CX Enterprise Co-worker 、 AI Assistant 、 agentic AI和MCP工具。
+description: 了解CX Enterprise应用程序如何使用generative AI (GenAI)、CX Enterprise Coworker、AI Assistant、agentic AI和MCP工具。
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -15,16 +15,16 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c0a72630b0db1cbdf3191012ebb5a2911ddb9fe7
+source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
 workflow-type: tm+mt
-source-wordcount: 971
+source-wordcount: 988
 ht-degree: 3%
 
 ---
 
 # CX Enterprise 中的 AI
 
-本指南介绍Adobe CX Enterprise中的AI功能：generative AI、CX Enterprise Co-worker、AI Assistant、Agent Orchestrator、Experience Platform Agents和MCP。
+本指南介绍Adobe CX Enterprise中的AI功能：创作AI、CX Enterprise Coworker、AI Assistant、Agent Orchestrator、Experience Platform Agents和MCP。
 
 ## AI功能概述
 
@@ -77,7 +77,7 @@ Co-worker是AI Assistant的代理优先演变，可自动化客户体验和营�
 
 ## MCP
 
-[Adobe CX Co-worker Gateway](./mcp/overview.md)是CX Enterprise的统一模型上下文协议(MCP)终结点。 它提供了与MCP兼容的客户端，如[!DNL Claude]、[!DNL ChatGPT]和[!DNL Cursor]，与您的组织有权使用的产品工具之间的单个受管辖连接：
+[Adobe CX Coworker网关](./mcp/overview.md)是CX Enterprise的统一模型上下文协议(MCP)终结点。 它提供了与MCP兼容的客户端，如[!DNL Claude]、[!DNL ChatGPT]和[!DNL Cursor]，与您的组织有权使用的产品工具之间的单个受管辖连接：
 
 - [Real-Time CDP工具](./mcp/rtcdp-mcp.md)
 - [Experience Platform工具](./mcp/aep-mcp.md)
@@ -85,6 +85,7 @@ Co-worker是AI Assistant的代理优先演变，可自动化客户体验和营�
 - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
 - [Adobe Analytics工具](./mcp/analytics-mcp.md)
 - [!DNL Workfront]工具，记录在[Workfront MCP服务器指南](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)中
+- [!DNL Target]工具，记录在[目标MCP服务器指南](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp)中
 
 初次使用CX Co-worker Gateway？ 请参阅[访问CX Co-worker Gateway工具](./mcp/access.md)和[安装CX Co-worker Gateway](./mcp/install.md)以连接。 连接后，使用[会话上下文工具](./mcp/context-tools.md)在调用产品工具之前设置活动组织、沙盒和数据视图。
 
