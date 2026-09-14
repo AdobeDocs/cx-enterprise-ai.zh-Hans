@@ -7,41 +7,54 @@ role: Admin,User,Developer,Leader
 TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+    internal-label: Journey design
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+    internal-label: Audiences
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+    internal-label: Best practices
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0daf43247c80b5a2d3978515a45256bd03326c0c
+    internal-label: Audience segmentation
+source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
 workflow-type: tm+mt
-source-wordcount: 3372
-ht-degree: 11%
-
+source-wordcount: '3820'
+ht-degree: 9%
 ---
 
-
 # Journey Agent：概述和用户指南
-
->[!AVAILABILITY]
->
->Journey Agent创建AI功能和内容生成AI功能可供作为Agent Orchestrator Explorer项目一部分的客户使用。 有关更多信息，请联系Adobe客户关怀部门。
 
 ## Adobe Journey Optimizer中的Journey Agent简介
 
@@ -53,21 +66,23 @@ Journey Agent包含四个主要待完成任务：
 - **渠道内容创建**：使用AI支持的内容生成功能生成、编辑和管理历程的渠道特定内容（电子邮件、推送、短信）
 - **历程分析**：分析历程、检测问题、揭示见解并优化客户参与
 
-此外，**历程模拟**&#x200B;是Journey Optimizer的一项功能，其中包括[历程模拟](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)，这是一项产品内的非对话式AI功能，具有三个子功能：
+此外，**历程模拟**&#x200B;是Journey Optimizer的一项功能，其中包括[历程模拟](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs){target="_blank"}，这是一项产品内的非对话式AI功能，具有三个子功能：
 
 - 生成模拟用户
 - 生成事件值
 - 快速模拟
 
-## 历程创建：用例、AI功能和用户指南
+## 历程创建：用例、AI功能和用户指南 {#journey-create}
 
 ## 概述
 
 通过历程创建，Journey Optimizer用户可以使用自然语言界面构建和配置营销历程。 借助历程创建，从业者可以通过在对话提示中描述其要求来快速创建历程。 代理可简化历程创建，允许营销人员专注于策略而不是技术配置。
 
+有关详细信息，请参阅Adobe Journey Optimizer文档中的[历程创建](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-create){target="_blank"}。
+
 >[!AVAILABILITY]
 >
->历程创建功能适用于作为Agent Orchestrator Explorer程序一部分的客户。 要充分利用历程创建功能，您还需要以下权限：
+>要充分利用历程创建功能，您需要以下权限：
 >
 >**管理历程**：此权限允许您直接在AI助手中创建新旅程。
 >
@@ -109,6 +124,11 @@ Journey Agent包含四个主要待完成任务：
    - 根据客户属性创建决策分支。
    - 根据客户喜好设计拆分路径。
 
+1. **从图像创建历程**
+
+   - 上传参考图像并要求代理使用图像作为参考创建历程。
+   - 代理从参考图像中提取可编辑的提示。
+
 对于其中每个用例，代理都会将自然语言需求转换为结构化历程配置。
 
 ## AI功能在范围和范围外
@@ -128,9 +148,14 @@ Journey Agent包含四个主要待完成任务：
 目前不支持以下功能：
 
 - **高级历程分析**
-- **实时历程修改**
 - **跨历程编排**
 - **A/B测试配置**
+- **InAudience表达式生成**
+- **数据集查找节点**
+- **波形发送设置**
+- **计划周期性选项**
+- **受众的命名空间选择**
+- **自定义操作字段映射**
 - **复杂的数据转换**
 
 ## 示例提示
@@ -195,7 +220,7 @@ Journey Agent包含四个主要待完成任务：
 - **规划消息内容**：在创建历程之前定义消息传递策略。
 - **考虑客户体验**：设计尊重客户偏好并避免过度沟通的历程流程。
 
-## 渠道内容创建：用例、AI功能和用户指南
+## 渠道内容创建：用例、AI功能和用户指南 {#channel-content-create}
 
 >[!AVAILABILITY]
 >
@@ -204,6 +229,8 @@ Journey Agent包含四个主要待完成任务：
 ## 概述
 
 渠道内容创建使Journey Optimizer用户能够使用AI支持的内容生成来生成、编辑和管理历程的特定于渠道的内容。
+
+有关详细信息，请参阅Adobe Journey Optimizer文档中的[渠道内容创建](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#channel-content-create){target="_blank"}。
 
 ## 用例
 
@@ -277,13 +304,15 @@ Journey Agent包含四个主要待完成任务：
 1. **定义音调**：指定所需的音调（友好、正式、休闲、紧急）。
 1. **迭代并优化**：使用重新生成操作优化内容，直到满足您的要求为止。
 
-## 历程分析：用例、AI功能和用户指南
+## 历程分析：用例、AI功能和用户指南 {#journey-analyze}
 
 ## 概述
 
-Journey Agent将使Journey Optimizer用户能够使用自然语言界面分析和优化历程。 借助Journey Agent，从业者可以快速识别和解决计划和/或受众冲突，检测历程中的用户放弃点并提供见解或建议。 它使从业者能够做出数据驱动的决策、提高客户参与度，并简化历程编排。
+历程分析使Journey Optimizer用户能够使用自然语言界面分析和优化旅程。 借助历程分析，从业者可以快速识别和解决计划和受众冲突，检测历程中的用户放弃点，以及提供见解或建议以提高性能。
 
 在此[概述](https://experienceleague.adobe.com/zh-hans/slides/journey-agent-overview)中了解更多信息并快速发现代理。
+
+有关详细信息，请参阅Adobe Journey Optimizer文档中的[历程分析](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"}。
 
 >[!AVAILABILITY]
 >
@@ -327,6 +356,19 @@ AJO代理的![示例](./assets/ajo-agent/ajo-agent-sample.png)
 
    - 基于提示的历程见解 — 有关历程的表面运营见解，即“显示所有实时历程”。
 
+1. **自定义操作错误历程**
+
+   - 识别历程中的自定义操作何时失败或错误率何时激增。
+   - 在故障演变成更广泛的历程中断之前诊断根本原因。
+   - 使用特定的修正步骤快速恢复自定义操作的可靠性。
+
+1. **分析历程异常**
+
+   - 与历史基线相比，检测历程的进入、退出或消息发送计数中意外的峰值、下降或扁平化，包括何时在进入、退出或完成历程的用户档案数量方面提及问题。
+   - 使用确定性统计检查，而不是仅依赖原始异常标记，确认标记的更改是否是真正的异常。
+   - 针对历程执行数据运行有界只读诊断以识别可能的根本原因，显示每个检查查找的内容以及与推荐一起找到的内容。
+   - 调查引用特定历程版本和时间戳的异常警报。
+
 对于其中每个分析，代理不仅会检测问题，还会提供&#x200B;**可操作的建议来解决问题**。
 
 ## AI功能在范围和范围外
@@ -338,13 +380,14 @@ AJO代理的![示例](./assets/ajo-agent/ajo-agent-sample.png)
 - **回应式查询**：允许用户询问有关历程表现、受众使用情况和时间计划冲突的具体问题。
 - **与其他代理集成**：与 Audience 代理和 Data Insights 代理协作进行更深入的分析。
 - **代理响应结构**：推理（解释逻辑）、分析摘要（突出显示关键点）、问题详细信息（描述问题）和推荐（建议后续步骤）。
+- **自定义操作错误分析**：检测和诊断历程中的自定义操作失败和错误峰值。
+- **异常检测**：检测和确认历程的进入、退出或发送计数中具有统计意义的峰值、下降或平线，并找出可能的根本原因。
 
 ### **范围外**
 
 目前不支持以下功能：
 
 - **自动创建历程**
-- **实时异常检测**
 - **渠道重叠**
 - **历程进入分析**
 - **技术问题分析**
@@ -409,6 +452,22 @@ AJO代理的![示例](./assets/ajo-agent/ajo-agent-sample.png)
 - “分析历程[历程名称]的冲突风险。”
 - “为[历程名称]提供冲突诊断。”
 
+### 自定义操作错误分析
+
+- “为什么自定义操作在历程[历程名称]中失败？”
+- “历程[历程名称]中的自定义操作[自定义操作名称]的错误率是多少？”
+- “显示历程[历程名称]中自定义操作失败的根本原因。”
+- “当前是否存在影响历程[历程名称]的自定义操作错误？”
+
+### 历程异常分析
+
+- “为什么昨天我的欢迎之旅的条目减少了？”
+- “本周购物车放弃历程的退出次数是否激增？”
+- “今天续订提醒历程的发送次数看起来很低 — 发生了什么？”
+- “为什么在过去30天内进入我的会员周年感谢之旅的用户档案数量会突然减少？”
+- “本月完成我的续订提醒历程的用户档案比平时少 — 为什么？”
+- “在[时间戳]触发了历程[历程版本ID]的异常警报 — 调查。”
+
 ## 最佳实践
 
 ### 提示最佳实践
@@ -425,7 +484,7 @@ AJO代理的![示例](./assets/ajo-agent/ajo-agent-sample.png)
 - **定期监测**：计划好定期查看历程表现，以识别趋势和异常。
 - **优化分段**：确保受众细分均衡，以避免疲劳以及最大限度地提高参与度。
 
-## 历程模拟：用例、AI功能和用户指南
+## 历程模拟：用例、AI功能和用户指南 {#journey-simulate}
 
 ## 概述
 
@@ -441,7 +500,7 @@ AJO代理的![示例](./assets/ajo-agent/ajo-agent-sample.png)
 
 要在&#x200B;**[!UICONTROL 模拟]** （**[!UICONTROL 快速模拟]**，使用AI生成模拟用户，**[!UICONTROL 生成事件值]**）中使用AI，用户需要&#x200B;**[!UICONTROL AI助手]**&#x200B;功能的&#x200B;**[!UICONTROL 生成内容]**&#x200B;权限。
 
-[了解有关权限的更多信息](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/administration/permissions)。
+[了解有关权限的更多信息](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/access-control/permissions)。
 
 >[!ENDSHADEBOX]
 
@@ -503,4 +562,11 @@ AJO代理的![示例](./assets/ajo-agent/ajo-agent-sample.png)
 
 模拟可能不支持测试模式或实时历程支持的每个活动、渠道或集成，并且行为可能会随着功能成熟而更改。
 
-➡️在Journey Optimizer文档中了解有关[模拟限制](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations)的更多信息。
+➡️在Journey Optimizer文档中了解有关[模拟限制](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs#limitations){target="_blank"}的更多信息。
+
+## 另请参阅
+
+- [Agent Orchestrator](./agent-orchestrator.md)，支持Journey Agent和其他Experience Platform代理的代理层。
+- CX Coworker Gateway中的[Journey Optimizer工具](../mcp/ajo-mcp.md)，用于审阅营销活动和渠道配置的只读MCP表面。
+- [从自然语言创建历程](../coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)和[创建、编辑和管理忠诚度挑战](../coworker/chat/use-cases/journeys/create-loyalty-challenge.md)，在历程创建的基础上构建的同事聊天用例。
+- [产品支持代理](./product-support.md)，用于解决通过AI助手显示的Journey Optimizer问题。

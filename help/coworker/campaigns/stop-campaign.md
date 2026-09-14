@@ -3,15 +3,15 @@ description: 此处显示说明。
 title: 停止营销活动
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: a8859659a5d4d5820d77bf93df62550f10999ea4
 workflow-type: tm+mt
-source-wordcount: 410
+source-wordcount: '349'
 ht-degree: 0%
-
 ---
-
 # 停止营销活动 {#stop-campaign}
 
 用户现在可以停止直接从营销活动详细信息页面主动发送（实时的）营销活动。 停止营销活动是永久性的：收件人会立即停止进行营销活动，之后无法恢复或重新启动营销活动。
@@ -33,13 +33,7 @@ ht-degree: 0%
 - 停止后，营销活动的状态徽章将更新为“已停止”。
 - 如果停止请求失败，则会显示一条错误消息，并且营销活动仍处于活动状态。
 
-## 使用方法
 
-1. 打开当前实时的营销活动（正在积极发送）。
-2. 在促销活动详细信息标题中，单击&#x200B;**停止促销活动**。
-3. 在确认对话框中，查看警告：“停止营销活动是永久性的。 所有收件人将停止进行，并且无法恢复营销活动。”
-4. 单击&#x200B;**停止**&#x200B;确认。
-5. “营销活动已停止。” 此时会显示确认消息，并且营销活动的状态将更新为“已停止”。
 
 ### 输入字段/参数
 
