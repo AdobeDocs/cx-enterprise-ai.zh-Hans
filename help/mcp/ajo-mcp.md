@@ -1,16 +1,16 @@
 ---
-title: CX Co-worker Gateway中的Journey Optimizer工具
-description: 通过CX Co-worker Gateway了解哪些Adobe Journey Optimizer工具可用。
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+title: CX Coworker Gateway中的Journey Optimizer Tools
+description: 了解可通过CX Coworker Gateway使用的Adobe Journey Optimizer工具。
+source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '917'
 ht-degree: 2%
 ---
-# CX Co-worker Gateway中的Adobe Journey Optimizer工具 {#ajo-mcp}
+# CX Coworker Gateway中的Adobe Journey Optimizer工具 {#ajo-mcp}
 
-使用Adobe Journey Optimizer产品工具从与MCP兼容的客户端检查营销活动、历程和渠道配置。 当您的组织已启用，并且您的用户帐户具有所需的Journey Optimizer权限时，可以通过[CX Co-worker Gateway](overview.md)使用这些工具。
+使用Adobe Journey Optimizer产品工具从与MCP兼容的客户端检查营销活动、历程和渠道配置。 当您的组织已启用，并且您的用户帐户具有所需的Journey Optimizer权限时，可以通过[CX Coworker网关](overview.md)使用这些工具。
 
-有关详细信息，请参阅Adobe Journey Optimizer文档中的[使用MCP客户端](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/integrations/ajo-mcp){target="_blank"}。
+有关详细信息，请参阅Adobe Journey Optimizer文档中的[使用MCP客户端](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/combine/ajo-mcp){target="_blank"}。
 
 如需创建、分析和模拟旅程的对话式代理体验，请改为查看[Journey Agent](../agents/ajo-agent.md)。
 
@@ -66,7 +66,7 @@ Journey Optimizer工具为营销活动、历程和渠道配置审核提供了一
 
 除了上述只读产品工具之外，Journey Optimizer用户还可以使用自然语言提示直接从CX Coworker发现和管理内容资源（内容模板、片段、登陆页面以及历程或营销活动内联消息内容）。 此功能由一组单独的读写功能MCP工具提供支持，适用于Journey Optimizer内容，并且可供有权访问CX Coworker的所有客户使用。
 
-有关详细信息，请参阅Adobe Journey Optimizer文档中的[内容管理工具](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#content-management){target="_blank"}。
+有关详细信息，请参阅Adobe Journey Optimizer文档中的[内容管理工具](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#content-management){target="_blank"}。
 
 内容管理工具允许您：
 
