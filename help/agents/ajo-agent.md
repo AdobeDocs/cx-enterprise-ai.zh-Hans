@@ -310,7 +310,7 @@ Journey Agent包含四个主要待完成任务：
 
 历程分析使Journey Optimizer用户能够使用自然语言界面分析和优化旅程。 借助历程分析，从业者可以快速识别和解决计划和受众冲突，检测历程中的用户放弃点，以及提供见解或建议以提高性能。
 
-在此[概述](https://experienceleague.adobe.com/en/slides/journey-agent-overview)中了解更多信息并快速发现代理。
+在此[概述](https://experienceleague.adobe.com/zh-hans/slides/journey-agent-overview)中了解更多信息并快速发现代理。
 
 有关详细信息，请参阅Adobe Journey Optimizer文档中的[历程分析](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#journey-analyze){target="_blank"}。
 
