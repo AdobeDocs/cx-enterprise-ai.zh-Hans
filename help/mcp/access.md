@@ -1,13 +1,11 @@
 ---
 title: 访问CX Co-worker Gateway工具
 description: 在使用Adobe CX Co-worker Gateway工具之前，请确认产品可用性、组织启用和权限。
-source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '584'
 ht-degree: 4%
-
 ---
-
 # 访问CX Co-worker Gateway工具 {#mcp-access}
 
 Adobe CX Enterprise通过单个MCP公开产品工具。 访问权由产品工具评估：必须为相关的产品工具启用Adobe组织，并且您的用户帐户必须具有查看或更改这些工具公开的产品数据所需的产品权限。
@@ -23,11 +21,11 @@ Adobe CX Enterprise通过单个MCP公开产品工具。 访问权由产品工具
 | --- | --- | --- |
 | Real-Time CDP | Beta 版 | 有效的Real-Time CDP许可证、Adobe组织的Beta支持，以及查看您查询的受众、目标、源、身份和激活资源的权限。 |
 | Experience Platform | Beta 版 | 有效的Experience Platform许可证、Adobe组织的Beta支持，以及查看您查询的架构、数据集、治理、查询服务、审核和沙盒资源的权限。 |
-| Journey Optimizer | Beta 版 | 有效的Journey Optimizer许可证、Adobe组织的Beta支持，以及查看活动和渠道配置的权限。 |
+| Journey Optimizer | Beta 版 | 有效的Journey Optimizer许可证、Adobe组织的Beta支持，以及查看营销活动、历程和渠道配置的权限。 |
 | Customer Journey Analytics | 可用 | 有效的Customer Journey Analytics许可证和产品配置文件，包括Adobe Admin Console中的&#x200B;**MCP访问**&#x200B;权限项。 产品权限仍可控制您可以访问或修改的数据视图、组件、报表、项目和受众。 |
 | Adobe Analytics | 可用 | 有效的Adobe Analytics许可证和产品配置文件，包括Adobe Admin Console中的&#x200B;**MCP访问**&#x200B;权限项。 产品权限仍可控制您可以访问或修改的报表包、组件、报表、区段、日期范围和项目。 |
-| Workfront | 预览 | 活动的Workfront许可证和Workfront MCP启用。 请参阅[Workfront MCP文档](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)。 |
-| 目标 | Beta 版 | Adobe Experience Platform组织的有效Target许可证。 请参阅[Target MCP文档](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp-get-started)。 |
+| Workfront | 预览 | 活动的Workfront许可证和Workfront MCP启用。 请参阅[Workfront MCP文档](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)。 |
+| 目标 | Beta 版 | Adobe Experience Platform组织的有效Target许可证。 请参阅[Target MCP文档](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp-get-started)。 |
 
 
 

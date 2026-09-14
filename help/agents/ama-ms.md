@@ -1,13 +1,11 @@
 ---
 title: Adobe Marketing Agent for Microsoft 365 Copilot
 description: 了解如何使用Adobe Marketing Agent for Microsoft 365 Copilot。
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
 source-wordcount: '1832'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft 365 Copilot]的Adobe Marketing Agent
 
 [!DNL Microsoft 365 Copilot]的Adobe Marketing Agent是AI支持的工具，它将Adobe Experience Platform直接连接到[!DNL Microsoft 365 Copilot]。 通过此代理，您可以在[!DNL Microsoft 365]应用程序（如[!DNL Teams]、[!DNL Word]、[!DNL Powerpoint]和[!DNL Excel]）中询问自然语言问题，以便立即从Experience Platform中检索营销见解，而不会中断您的工作流。 这些应用中都提供了相同的代理，并且您与Adobe Marketing Agent的聊天历史记录会转移 — 例如，您可以在[!DNL Teams]中的[!DNL Copilot]中开始研究，并在您草稿营销活动简报或审阅演示文稿时在[!DNL Word]或[!DNL Powerpoint]中继续对话。
@@ -22,7 +20,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->适用于[!DNL Microsoft 365 Copilot]的Adobe Marketing Agent当前支持Experience Platform操作分析、Customer Journey Analytics数据分析、Audience Agent和Journey Agent。
+>适用于[!DNL Microsoft 365 Copilot]的Adobe Marketing Agent当前支持Experience Platform Operational Insights、Customer Journey Analytics Data Insights、[Audience Agent](./audience.md)和[Journey Agent](./ajo-agent.md)。
 
 适用于[!DNL Microsoft 365 Copilot]的Adobe Marketing Agent在Experience Platform和[!DNL Microsoft 365]应用程序之间提供了集成的体验：
 
@@ -37,7 +35,7 @@ ht-degree: 0%
 
 ## 主要用例和示例情景
 
-| 用例 | 描述 |
+| 用例 | 说明 |
 | --- | --- |
 | 检索受众和客户历程的操作洞察 | 借助Adobe Marketing Agent，您可以轻松地检索受众和客户历程中的运营见解。 您可以确定哪些受众规模最大或参与度最高，从而可以优先考虑在何处集中努力。 您可以查看哪些客户历程当前处于活动状态并了解其执行情况，从而帮助您查明优化机会。 该代理还允许您跟踪不同区段随时间的增长或缩减情况，使您能够在发生受众动态变化时响应这些变化。 |
 | 使用数据可视化更好地分析客户历程和营销活动 | 您可以查看历程绩效和流失情况，比较一段时间内的促销活动绩效，并了解哪些接触点可促进转化。 此外，您可以生成有关营销活动效果的可视化报表，并在渠道、区域或不同时间段内比较这些报表。 您还可以探索趋势，而无需手动构建查询或功能板。 |

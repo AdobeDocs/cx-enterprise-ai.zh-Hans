@@ -10,15 +10,15 @@ last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22081
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: 97
-ht-degree: 0%
-
+source-wordcount: '117'
+ht-degree: 1%
 ---
-
 
 # 如何从自然语言提示生成历程
 
@@ -26,4 +26,9 @@ ht-degree: 0%
  
 通过自动化初始设置过程，团队可以花更少的时间从头开始构建历程，花更多时间优化客户体验和业务成果。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496884/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
+
+## 另请参阅
+
+- [Journey Agent](../../../../agents/ajo-agent.md#journey-create)，在同事聊天中支持历程创建的基础AI功能。
+- [更多同事聊天用例](../overview.md#journeys)
