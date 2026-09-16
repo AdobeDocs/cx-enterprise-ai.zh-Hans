@@ -5,15 +5,13 @@ role: User
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 101
-last-substantial-update: 2026-09-08T00:00:00Z
+last-substantial-update: 2026-09-08
 jira: KT-22379
-source-git-commit: 526483ff41384d0e3c297b33385f8303636bf4a5
+source-git-commit: 4cb104d919b71cb8c0e71ec5c747b23020c102ca
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
-
 ---
-
 
 # 使用自定义人工智能技能构建并运行质量关卡技能
 
@@ -23,19 +21,19 @@ ht-degree: 1%
 
 在此视频中，您将了解自定义同事技能如何充当激活门，在受众向下游移动之前根据组织的激活标准自动验证受众。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503173/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503162/?learn=on&enablevpops)
 
 ## 示例激活质量关卡技能
  
-通过将提示粘贴到同事中，您可以创建自己的可重用&#x200B;**激活质量关卡**&#x200B;技能。 同事的技能创作功能将提示转换为&#x200B;**您自己的环境**&#x200B;内保存的技能。 下面是基于视频演示的示例。
+通过将提示粘贴到同事中，您可以创建自己的可重用**激活质量关卡**&#x200B;技能。 同事的技能创作功能将提示转换为&#x200B;**您自己的环境**内保存的技能。 下面是基于视频演示的示例。
  
-关键是要为三个治理审核定义您自己的&#x200B;**通过/失败标准**：
+关键是要为三个治理审核定义您自己的**通过/失败标准**：
  
 1. 禁止/同意
 2. 频率限制
 3. 命名约定
  
-每个人的框架都是一样的。 自定义标记为&#x200B;**`[...]`**&#x200B;的部分，以符合您组织的标准。
+每个人的框架都是一样的。 自定义标记为**`[...]`**&#x200B;的部分，以符合您组织的标准。
 
 ## 主提示
 
@@ -80,9 +78,6 @@ The three gates are:
 [Paste Gate 1, Gate 2, and Gate 3 definitions here]
 ```
 
-&#x200B;---
- 
-
 ## 入口1：禁止/同意
  
 > 编辑此部分以符合您组织的禁止使用和同意要求。
@@ -110,9 +105,6 @@ Our standard:
 [Example: A consent audience is mandatory for all email and SMS destinations. For direct mail destinations it is optional.]
 ```
 
-&#x200B;---
- 
-
 ## 门限2：频率限制
 
 > 编辑此部分以匹配贵组织的投放频率要求。
@@ -136,8 +128,6 @@ Our standard:
 
 [Example: Frequency must be DAILY or less frequent. Any hourly cadence or blank value is blocked.]
 ```
-
-&#x200B;---
 
 ## 门3：命名约定
  
@@ -178,15 +168,11 @@ Mortgage – High Propensity Prospects
 When blocked on naming, always propose a compliant replacement name.
 ```
 
- 
-
-&#x200B;---
-
 ## 指引
 
 ### &#x200B;1. 仅自定义带括号的部分
 
-仅更新&#x200B;**`[...]`**&#x200B;中包含的部分。
+仅更新&#x200B;**`[...]`**中包含的部分。
  
 这些部分定义了组织的特定治理标准。
  
@@ -196,8 +182,6 @@ When blocked on naming, always propose a compliant replacement name.
 - 关口评估
 - 记分卡渲染
 - 判决逻辑
-
-&#x200B;---
 
 
 ### &#x200B;2. 验证先决条件
@@ -214,8 +198,6 @@ When blocked on naming, always propose a compliant replacement name.
 - DataTable渲染
 
 如果这些功能在客户的环境中不可用，则该技能将无法按设计要求运行。
-
-&#x200B;---
 
 ### &#x200B;3. 将技能保持为只读
 

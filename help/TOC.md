@@ -6,9 +6,9 @@ description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: f16706f2bf434e77743bfe17cd18c0f2e6b0f6ad
+source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '333'
 ht-degree: 19%
 ---
 
@@ -40,6 +40,7 @@ ht-degree: 19%
       - [什么是技能？](./coworker/customizations/skills/what-are-skills.md)
       - [创建您的第一个技能](./coworker/customizations/skills/create-your-first-skill.md)
       - [培养并运行质量关卡技能](./coworker/customizations/skills/run-a-quality-gate-skill.md)
+      - [管理和迭代技能](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
   - 聊天 {#chat}
     - [概述](./coworker/chat/overview.md)
     - [UI指南](./coworker/chat/ui-guide.md)
@@ -97,6 +98,6 @@ ht-degree: 19%
     - [Journey Optimizer工具](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [目标](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [目标](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
