@@ -6,7 +6,7 @@ description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: c60304b2c4efa512ca1ca90ba68b5fa97ea25e0b
+source-git-commit: f7d7be4b9574f8d5346a2aa23b1544637231343e
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 18%
@@ -25,22 +25,6 @@ ht-degree: 18%
   - [创作AI内容透明度](content-transparency.md)
 - CX Enterprise Coworker {#coworker}
   - [关于同事](./coworker/overview.md)
-  - 营销活动 {#campaigns}
-    - [概述](./coworker/campaigns/overview.md)
-    - [创建电子邮件营销活动](./coworker/campaigns/create-an-email-campaign.md)
-    - [用例](./coworker/campaigns/use-cases.md)
-    - [提示最佳实践](./coworker/campaigns/prompting-best-practices.md)
-    - [C2PA元数据](./coworker/campaigns/c2pa-metadata.md)
-    - 连接器 {#connectors}
-      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
-      - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
-    - [发行说明](./coworker/campaigns/release-notes.md)
-  - 自定义 {#customizations}
-    - 技能 {#skills}
-      - [什么是技能？](./coworker/customizations/skills/what-are-skills.md)
-      - [创建您的第一个技能](./coworker/customizations/skills/create-your-first-skill.md)
-      - [培养并运行质量关卡技能](./coworker/customizations/skills/run-a-quality-gate-skill.md)
-      - [管理和迭代技能](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
   - 聊天 {#chat}
     - [概述](./coworker/chat/overview.md)
     - [UI指南](./coworker/chat/ui-guide.md)
@@ -67,6 +51,22 @@ ht-degree: 18%
       - 内容审查程序 {#content-advisor}
         - [生成营销资产](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [品牌合规性检查](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+  - 自定义 {#customizations}
+    - 技能 {#skills}
+      - [什么是技能？](./coworker/customizations/skills/what-are-skills.md)
+      - [创建您的第一个技能](./coworker/customizations/skills/create-your-first-skill.md)
+      - [培养并运行质量关卡技能](./coworker/customizations/skills/run-a-quality-gate-skill.md)
+      - [管理和迭代技能](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
+  - 营销活动 {#campaigns}
+    - [概述](./coworker/campaigns/overview.md)
+    - [创建电子邮件营销活动](./coworker/campaigns/create-an-email-campaign.md)
+    - [用例](./coworker/campaigns/use-cases.md)
+    - [提示最佳实践](./coworker/campaigns/prompting-best-practices.md)
+    - [C2PA元数据](./coworker/campaigns/c2pa-metadata.md)
+    - 连接器 {#connectors}
+      - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
+      - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
+    - [发行说明](./coworker/campaigns/release-notes.md)
 - AI 助手 {#ai-assistant}
   - [AI助手UI指南](./ai-assistant/ai-assistant-ui.md)
   - [提示库](./ai-assistant/prompt-library.md)
@@ -99,6 +99,6 @@ ht-degree: 18%
     - [Journey Optimizer工具](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [目标](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [目标](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
