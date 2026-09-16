@@ -6,10 +6,10 @@ description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
+source-git-commit: c60304b2c4efa512ca1ca90ba68b5fa97ea25e0b
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 19%
+source-wordcount: '339'
+ht-degree: 18%
 ---
 
 # CX Enterprise 中的 AI {#experience-cloud-ai}
@@ -51,6 +51,7 @@ ht-degree: 19%
         - [分析CJA数据](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [探索趋势和根本原因](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [升级时验证AA到CJA的数据](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+        - [验证CJA报表的数据集质量](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
       - 受众 {#audiences}
         - [评估平台运行状况并构建受众](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - 历程 {#journeys}
@@ -98,6 +99,6 @@ ht-degree: 19%
     - [Journey Optimizer工具](./mcp/ajo-mcp.md)
     - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [目标](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [目标](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
