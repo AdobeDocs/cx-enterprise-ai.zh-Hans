@@ -6,13 +6,11 @@ description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
+source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '333'
 ht-degree: 19%
-
 ---
-
 
 # CX Enterprise 中的 AI {#experience-cloud-ai}
 
@@ -42,6 +40,7 @@ ht-degree: 19%
       - [什么是技能？](./coworker/customizations/skills/what-are-skills.md)
       - [创建您的第一个技能](./coworker/customizations/skills/create-your-first-skill.md)
       - [培养并运行质量关卡技能](./coworker/customizations/skills/run-a-quality-gate-skill.md)
+      - [管理和迭代技能](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
   - 聊天 {#chat}
     - [概述](./coworker/chat/overview.md)
     - [UI指南](./coworker/chat/ui-guide.md)
@@ -56,6 +55,7 @@ ht-degree: 19%
         - [评估平台运行状况并构建受众](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - 历程 {#journeys}
         - [使用自然语言创建历程](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
+      - 忠诚度 {#loyalty}
         - [创建忠诚度挑战并显示见解](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - 优化 {#optimization}
         - [启动Target活动](./coworker/chat/use-cases/optimization/target.md)
@@ -86,12 +86,12 @@ ht-degree: 19%
   - 数据工程 {#data-engineering}
     - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
-  - [Adobe CX Co-worker网关](./mcp/overview.md)
+  - [Adobe CX Coworker Gateway](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP测试版](./mcp/beta/rtcdp-mcp.md)
   - 快速入门 {#mcp-get-started}
-    - [访问CX Co-worker Gateway工具](./mcp/access.md)
-    - [安装CX Co-worker网关](./mcp/install.md)
-    - [CX Co-worker Gateway中的会话上下文工具](./mcp/context-tools.md)
+    - [访问CX Coworker Gateway工具](./mcp/access.md)
+    - [安装CX Coworker Gateway](./mcp/install.md)
+    - [CX Coworker Gateway中的会话上下文工具](./mcp/context-tools.md)
   - 产品工具 {#mcp-product-tools}
     - [Real-Time CDP工具](./mcp/rtcdp-mcp.md)
     - [Experience Platform工具](./mcp/aep-mcp.md)

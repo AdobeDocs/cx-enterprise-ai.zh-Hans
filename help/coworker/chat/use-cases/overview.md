@@ -7,20 +7,20 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
+source-git-commit: 2f1f6aa3aa3eff13fa932bb8500476371e9be705
 workflow-type: tm+mt
-source-wordcount: '4795'
+source-wordcount: '4802'
 ht-degree: 6%
 ---
 # 同事聊天用例{#use-cases}
 
-Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experience Platform]数据，而不是手动导航多个UI或编写查询。 此页面按工作区域整理了从业人员最依赖的用例目录：数据分析、受众、历程、基本元素和沙盒工具。 每个条目都包括它调用的技能、与它一起使用的应用程序以及示例提示，您可以复制、适应自己的数据，并通过对话进行细化。
+Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experience Platform]数据，而不是手动导航多个UI或编写查询。 此页面按工作区域整理了从业人员最依赖的用例目录：数据分析、受众、历程、忠诚度、基本元素和沙盒工具。 每个条目都包括它调用的技能、与它一起使用的应用程序以及示例提示，您可以复制、适应自己的数据，并通过对话进行细化。
 
 >[!NOTE]
 >
 >即将推出：
 >
->通过CX Enterprise Co-worker构建的全新AEM代理功能，可帮助您更快完成更多工作。
+>通过CX Enterprise Coworker推出的新AEM代理功能，旨在帮助您更快完成更多工作。
 >
 >所有符合条件的客户都可以在Co-worker中以滚动方式访问Adobe Experience Manager代理功能。
 >
@@ -143,13 +143,22 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 | 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| [从自然语言创建历程](journeys/create-journey-from-natural-language.md) | 在AJO中通过文本提示或上传的图像/流程图编排旅程创建 | `journey-create` | Adobe Journey Optimizer (AJO) | “创建一个欢迎历程，注册后发送电子邮件，等待3天，然后发送跟进”<br>“从此上传的流程图图像构建历程” |
-| [分析历程冲突](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} | 检测活动历程之间的受众重叠、计划冲突和重复数据删除问题 | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | “我的购物车放弃历程是否与任何其他历程冲突？” <br> “检查我的活动历程之间的受众重叠” |
-| [分析历程流失](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} | 识别客户在旅程中的流失位置和原因，并检测导致脱离接触的行为模式 | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | “在我的重新参与历程中，客户从哪里流失？”<br> “历程X中的哪些节点的流失率最高？” |
-| [分析自定义操作错误](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} | 识别历程中自定义操作何时失败或错误率激增，并在故障升级为更广泛中断之前诊断根本原因 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | “为什么自定义操作在我的忠诚度注册历程中失败？” <br> “在我的欢迎历程中向我显示自定义操作ExternalPush的错误率。” |
-| [检测历程异常](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} | 检测并确认历程的进入、退出或发送计数中相对于历史基线的意外尖峰、下降或扁平化，并揭示可能的根本原因 | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | “为什么昨天我的欢迎历程的条目减少了？” <br> “本周购物车放弃历程的退出次数是否激增？” |
-| [创建、编辑和管理忠诚度挑战](journeys/create-loyalty-challenge.md) | 简化并加快忠诚度计划管理 | `loyalty` | Adobe Journey Optimizer (AJO) | “创建挑战，鼓励会员尝试新的季节性饮品”<br>“向我展示会员流失率最高的忠诚度挑战。” |
-| [分析忠诚度计划绩效](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#loyalty-data-insight){target="_blank"} | 使用自然语言查询和分析忠诚度积分、成员层、赎回和收入指标 | `loyalty-insights` | Adobe Journey Optimizer (AJO) | “2026年8月期间授予了多少忠诚度积分？” <br> “显示2026年8月按天划分的忠诚度计划总收入。” |
+| 从自然语言创建历程 | 在AJO中通过文本提示或上传的图像/流程图编排旅程创建 | `journey-create` | Adobe Journey Optimizer (AJO) | “创建一个欢迎历程，注册后发送电子邮件，等待3天，然后发送跟进”<br>“从此上传的流程图图像构建历程” |
+| 分析历程冲突 | 检测活动历程之间的受众重叠、计划冲突和重复数据删除问题 | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | “我的购物车放弃历程是否与任何其他历程冲突？” <br> “检查我的活动历程之间的受众重叠” |
+| 分析历程流失 | 识别客户在旅程中的流失位置和原因，并检测导致脱离接触的行为模式 | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | “在我的重新参与历程中，客户从哪里流失？”<br> “历程X中的哪些节点的流失率最高？” |
+| 分析自定义操作错误 | 识别历程中自定义操作何时失败或错误率激增，并在故障升级为更广泛中断之前诊断根本原因 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | “为什么自定义操作在我的忠诚度注册历程中失败？” <br> “在我的欢迎历程中向我显示自定义操作ExternalPush的错误率。” |
+| 检测历程异常 | 检测并确认历程的进入、退出或发送计数中相对于历史基线的意外尖峰、下降或扁平化，并揭示可能的根本原因 | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | “为什么昨天我的欢迎历程的条目减少了？” <br> “本周购物车放弃历程的退出次数是否激增？” |
+
+有关历程的CX Coworker技能的更多详细信息，请参阅[Adobe Journey Optimizer历程文档](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/journeys-coworker-skills){target="_blank"}。
+
+## 忠诚度
+
+| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| --- | --- | --- | --- | --- |
+| 创建、编辑和管理忠诚度挑战 | 简化并加快忠诚度计划管理 | `loyalty` | Adobe Journey Optimizer (AJO) | “创建挑战，鼓励会员尝试新的季节性饮品”<br>“向我展示会员流失率最高的忠诚度挑战。” |
+| 分析忠诚度计划绩效 | 使用自然语言查询和分析忠诚度积分、成员层、赎回和收入指标 | `loyalty-insights` | Adobe Journey Optimizer (AJO) | “2026年8月期间授予了多少忠诚度积分？” <br> “显示2026年8月按天划分的忠诚度计划总收入。” |
+
+有关CX Coworker忠诚度技能的更多详细信息，请参阅[Adobe Journey Optimizer忠诚度文档](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/loyalty-coworker-skills){target="_blank"}。
 
 ## 优化
 
@@ -159,10 +168,10 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 | 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| 浏览和浏览试验 | 查找试验概述、列表、计数、原始结果、见解和机会 | `experiment-explorer` | Experimentation Accelerator | “显示我的实验” · “列出活动的测试” · “有多少实验正在运行？” |
-| 分析实验性能 | 使用量度获取项目组合细分、单次试验运行状况检查、执行简报和跨试验报告，并可以选择使用CJA数据丰富这些数据 | `experiment-analysis` | Experimentation Accelerator | “我的A/B测试表现如何？” · “使用CJA指标生成活动报表” · “此测试是否正常？” |
-| 计划和设计实验 | 获取要运行的影响最大的下一个测试、针对指定主题的设计、目标到量度的转换、失败测试的恢复指导或序列化多试验路线图 | `experiment-strategist` | Experimentation Accelerator | “下一步应该测试什么？” · “帮助我设计一个实验来改进结账转化” · “构建第3季度的测试路线图” |
-| 搜索试验历史记录 | 从过去的实验中检索假设、学习、结果和治疗，按主题查找以前的实验，或摄取外部CSV以丰富结果 | `experiment-knowledge-base` | Experimentation Accelerator | “我们对X实验了解多少？” · “我们以前测试过这个假设吗？” · “摄取此CSV” |
+| 浏览和浏览试验 | 查找试验概述、列表、计数、原始结果、见解和机会 | `experiment-explorer` | ADOBE TARGET / ADOBE JOURNEY OPTIMIZER | “显示我的实验” · “列出活动的测试” · “有多少实验正在运行？” |
+| 分析实验性能 | 使用量度获取项目组合细分、单次试验运行状况检查、执行简报和跨试验报告，并可以选择使用CJA数据丰富这些数据 | `experiment-analysis` | ADOBE TARGET / ADOBE JOURNEY OPTIMIZER | “我的A/B测试表现如何？” · “使用CJA指标生成活动报表” · “此测试是否正常？” |
+| 计划和设计实验 | 获取要运行的影响最大的下一个测试、针对指定主题的设计、目标到量度的转换、失败测试的恢复指导或序列化多试验路线图 | `experiment-strategist` | ADOBE TARGET / ADOBE JOURNEY OPTIMIZER | “下一步应该测试什么？” · “帮助我设计一个实验来改进结账转化” · “构建第3季度的测试路线图” |
+| 搜索试验历史记录 | 从过去的实验中检索假设、学习、结果和治疗，按主题查找以前的实验，或摄取外部CSV以丰富结果 | `experiment-knowledge-base` | ADOBE TARGET / ADOBE JOURNEY OPTIMIZER | “我们对X实验了解多少？” · “我们以前测试过这个假设吗？” · “摄取此CSV” |
 
 ### Target活动和受众
 
