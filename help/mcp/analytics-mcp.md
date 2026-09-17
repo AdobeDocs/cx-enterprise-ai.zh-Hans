@@ -1,20 +1,19 @@
 ---
-title: CX Co-worker Gateway中的Adobe Analytics工具
-description: 通过Adobe CX Co-worker Gateway了解哪些Adobe Analytics工具可用。
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+title: CX Coworker Gateway中的Adobe Analytics Tools
+description: 了解可通过Adobe CX Coworker Gateway使用的Adobe Analytics工具。
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 4%
-
 ---
+# Adobe CX Coworker Gateway中的Adobe Analytics工具 {#aa-mcp}
 
-# Adobe CX Co-worker Gateway中的Adobe Analytics工具 {#aa-mcp}
-
-您可以使用Adobe Analytics工具从与MCP兼容的客户端浏览报表包、发现维度和量度、运行报表以及管理选定的分析组件。 当您的帐户具有所需的Adobe Analytics许可证和权限时，可通过统一的[Adobe CX Co-worker Gateway](overview.md)使用这些工具。
+您可以使用Adobe Analytics工具从与MCP兼容的客户端浏览报表包、发现维度和量度、运行报表以及管理选定的分析组件。 当您的帐户具有所需的Adobe许可证和权限时，可通过统一的[Adobe Analytics CX Coworker网关](overview.md)使用这些工具。
 
 >[!AVAILABILITY]
 >
->拥有Adobe Analytics许可证的客户可以使用Analytics工具。 访问由Adobe Admin Console中的&#x200B;**MCP访问**&#x200B;权限控制。 有关详细信息，请阅读[访问CX Co-worker Gateway工具](access.md)。
+>拥有Adobe Analytics许可证的客户可以使用Analytics工具。 访问由Adobe Admin Console中的&#x200B;**MCP访问**&#x200B;权限控制。 有关详细信息，请阅读[访问CX Coworker网关工具](access.md)。
 
 ## 主要功能 {#mcp-capabilities}
 

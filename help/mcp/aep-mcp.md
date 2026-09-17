@@ -1,21 +1,20 @@
 ---
-title: CX Co-worker Gateway中的Experience Platform工具
-description: 通过CX Co-worker Gateway了解哪些Adobe Experience Platform工具可用。
-source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
+title: CX Coworker Gateway中的Experience Platform Tools
+description: 了解可通过CX Coworker Gateway使用的Adobe Experience Platform工具。
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '1947'
 ht-degree: 6%
-
 ---
 
+# Adobe CX Coworker Gateway中的Adobe Experience Platform工具 {#aep-mcp}
 
-# Adobe CX Co-worker Gateway中的Adobe Experience Platform工具 {#aep-mcp}
-
-您可以使用Adobe Experience Platform产品工具从与MCP兼容的客户端检查架构、数据集、数据管理配置、查询服务资源和审核事件。 当您的组织已启用，并且您的用户帐户具有所需的Experience Platform权限时，可以通过[Adobe CX Co-worker Gateway](overview.md)使用这些工具。
+您可以使用Adobe Experience Platform产品工具从与MCP兼容的客户端检查架构、数据集、数据管理配置、查询服务资源和审核事件。 当您的组织已启用，并且您的用户帐户拥有所需的Adobe权限时，可以通过[Experience Platform CX Coworker Gateway](overview.md)使用这些工具。
 
 >[!AVAILABILITY]
 >
->Experience Platform产品工具位于Beta中。 访问仅通过邀请进行，并且需要Adobe组织启用。 请参阅[访问CX Co-worker网关工具](access.md)。
+>Experience Platform产品工具位于Beta中。 访问仅通过邀请进行，并且需要Adobe组织启用。 请参阅[访问CX Coworker网关工具](access.md)。
 
 ## 概要
 
@@ -256,7 +255,7 @@ Experience Platform目录服务的统一调度工具。 查询数据集元数据
 
 >[!NOTE]
 >
->此工具仅检索评估结果。 要修复标记的问题，请使用[!DNL Experience Platform] UI中的运行状况检查详细信息面板。 请参阅[运行状况检查](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/run-and-operate/health-checks)。 在[CX Co-worker Chat](../coworker/chat/overview.md)中提供了针对所支持运行状况检查的自动修正指南。
+>此工具仅检索评估结果。 要修复标记的问题，请使用[!DNL Experience Platform] UI中的运行状况检查详细信息面板。 请参阅[运行状况检查](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/run-and-operate/health-checks)。 在[CX Coworker Chat](../coworker/chat/overview.md)中，支持运行状况检查的自动修正指南可作为一种技能使用。
 
 **功能：**&#x200B;列出当前沙盒的所有运行状况检查结果，获取一个命名检查的结果
 

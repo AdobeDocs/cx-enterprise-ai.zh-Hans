@@ -1,22 +1,23 @@
 ---
-title: Adobe CX Co-worker网关概述
-description: Adobe CX Co-worker Gateway是适用于Adobe CX Enterprise的统一MCP，它为MCP客户端提供了到支持的产品工具的单一连接。
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+title: Adobe CX Coworker Gateway概述
+description: Adobe CX Coworker网关是适用于Adobe CX Enterprise的统一MCP，它为MCP客户端提供了到受支持的产品工具的单一连接。
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 3%
 ---
-# Adobe CX Co-worker网关 {#mcp-overview}
+# Adobe CX Coworker Gateway {#mcp-overview}
 
-Adobe CX Co-worker Gateway是适用于Adobe CX Enterprise的统一模型上下文协议(MCP)。 通过一个连接，与MCP兼容的客户端可以访问您的组织和帐户有权使用的Adobe产品工具。
+Adobe CX Coworker网关是适用于Adobe CX Enterprise的统一模型上下文协议(MCP)。 通过一个连接，与MCP兼容的客户端可以访问您的组织和帐户有权使用的Adobe产品工具。
 
 >[!IMPORTANT]
 >
->必须先启用Adobe组织，然后才能使用&#x200B;**CX Co-worker Gateway**&#x200B;工具。
+>必须启用Adobe组织，然后才能使用&#x200B;**CX Coworker Gateway**&#x200B;工具。
 >
 >如果贵组织尚没有访问权限，请发送电子邮件至[cx-coworker-gateway-support@adobe.com](mailto:cx-coworker-gateway-support@adobe.com)，请求为贵组织启用帐户。
 
-对所有MCP客户端设置使用CX Co-worker Gateway端点：
+对所有MCP客户端设置使用CX Coworker网关端点：
 
 ```
 https://cx-coworker-gateway.adobe.io/mcp
@@ -28,7 +29,7 @@ https://cx-coworker-gateway.adobe.io/mcp
 
 MCP（Model Context Protocol，模型上下文协议）是一种用于将AI应用程序连接到外部系统的开源标准。 与MCP兼容的客户端（如[!DNL Claude]、[!DNL ChatGPT]、[!DNL Cursor]、[!DNL Claude Code]、[!DNL Codex]和[!DNL VS Code]）可以使用这些工具检索产品上下文、运行支持的操作并以自然语言返回答案。
 
-CX Co-worker Gateway为CX Co-worker Gateway产品工具提供了一个受管理的端点。 只需连接到端点并使用为您的授权解决方案呈现的产品工具，而无需添加单独的产品服务器。
+CX Coworker Gateway为CX Coworker Gateway产品工具提供了一个受管理的端点。 只需连接到端点并使用为您的授权解决方案呈现的产品工具，而无需添加单独的产品服务器。
 
 ## 可用的产品工具 {#available-product-tools}
 
@@ -47,13 +48,13 @@ CX Co-worker Gateway为CX Co-worker Gateway产品工具提供了一个受管理�
 
 >[!NOTE]
 >
->工具可用性取决于您的产品许可证、组织支持、产品权限以及用于身份验证的Adobe凭据。 MCP仅显示您的组织和用户帐户有权访问的工具。 请参阅[访问CX Co-worker网关工具](access.md)。
+>工具可用性取决于您的产品许可证、组织支持、产品权限以及用于身份验证的Adobe凭据。 MCP仅显示您的组织和用户帐户有权访问的工具。 请参阅[访问CX Coworker网关工具](access.md)。
 
 
 
 ## 快速入门 {#mcp-get-started}
 
-1. 查看[访问CX Co-worker Gateway工具](access.md)以确认产品的可用性、启用和权限。
-2. 按照[安装Adobe for CX Co-worker Gateway](install.md)将MCP客户端连接到终结点。
+1. 查看[访问CX Coworker Gateway工具](access.md)以确认产品可用性、启用和权限。
+2. 按照[安装适用于CX Coworker网关的Adobe](install.md)将MCP客户端连接到终结点。
 3. 查看您计划使用的每个产品工具的产品页面。
 

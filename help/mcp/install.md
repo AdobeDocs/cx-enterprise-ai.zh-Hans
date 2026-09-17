@@ -1,26 +1,25 @@
 ---
-title: 安装Adobe CX Co-worker网关
-description: 了解如何将与MCP兼容的客户端连接到Adobe CX Co-worker网关。
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+title: 安装Adobe CX Coworker Gateway
+description: 了解如何将与MCP兼容的客户端连接到Adobe CX Coworker网关。
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 0%
-
 ---
+# 安装Adobe CX Coworker Gateway {#mcp-install}
 
-# 安装Adobe CX Co-worker网关 {#mcp-install}
-
-阅读本指南，了解如何将与MCP兼容的客户端连接到Adobe CX Co-worker Gateway。  CX Co-worker Gateway对所有有文档记录的产品工具使用一个端点：
+阅读本指南，了解如何将兼容MCP的客户端连接到Adobe CX Coworker网关。  CX Coworker Gateway对所有文档化产品工具使用一个端点：
 
 ```
 https://cx-coworker-gateway.adobe.io/mcp
 ```
 
-安装之前，请确认您的组织和用户帐户可以访问所需的产品工具。 请参阅[访问CX Co-worker网关工具](access.md)。
+安装之前，请确认您的组织和用户帐户可以访问所需的产品工具。 请参阅[访问CX Coworker网关工具](access.md)。
 
 ## 安装工作原理 {#mcp-install-how}
 
-CX Co-worker Gateway使用远程HTTP传输和基于浏览器的Adobe登录流程。 在每个受支持的客户端中，安装模式都相同：
+CX Coworker网关通过基于浏览器的Adobe登录流程使用远程HTTP传输。 在每个受支持的客户端中，安装模式都相同：
 
 1. 添加终结点URL： `https://cx-coworker-gateway.adobe.io/mcp`。
 2. 保存或启用连接。
@@ -35,7 +34,7 @@ CX Co-worker Gateway使用远程HTTP传输和基于浏览器的Adobe登录流程
 
 大多数团队和企业MCP客户端计划要求管理员为组织添加自定义连接器。 在这些环境中，安装分为两个步骤：
 
-1. 管理员为组织添加一次CX Co-worker Gateway端点。
+1. 管理员为组织添加一次CX Coworker网关端点。
 2. 每个用户都使用自己的Adobe凭据启用连接器并登录。
 
 ### 步骤1：管理员添加端点 {#mcp-install-enterprise-admin}
@@ -49,7 +48,7 @@ CX Co-worker Gateway使用远程HTTP传输和基于浏览器的Adobe登录流程
 1. 以&#x200B;**所有者**&#x200B;或&#x200B;**主要所有者**&#x200B;的身份登录到[!DNL Claude]。
 2. 转到&#x200B;**设置** > **管理** > **连接器**。 在某些计划中，它显示为&#x200B;**组织设置** > **连接器**。
 3. 选择&#x200B;**添加自定义连接器**。
-4. 输入`https://cx-coworker-gateway.adobe.io/mcp`作为服务器URL，并使用可识别的名称，如“Adobe for CX Co-worker Gateway”。
+4. 输入`https://cx-coworker-gateway.adobe.io/mcp`作为服务器URL，并使用可识别的名称，例如“Adobe for CX Coworker Gateway”。
 5. 保存连接器。
 
 #### ChatGPT团队和企业 {#mcp-install-enterprise-chatgpt}
@@ -64,14 +63,14 @@ CX Co-worker Gateway使用远程HTTP传输和基于浏览器的Adobe登录流程
 
 #### 其他组织管理的客户端 {#mcp-install-enterprise-other}
 
-对于支持组织管理的远程连接器的其他客户端，请使用`https://cx-coworker-gateway.adobe.io/mcp`将CX Co-worker Gateway添加为远程HTTP MCP服务器。 除非您的客户端需要占位符值，否则将可选标头、持有者令牌字段、客户端ID字段和客户端密钥字段保留为空。
+对于支持组织管理的远程连接器的其他客户端，请使用`https://cx-coworker-gateway.adobe.io/mcp`将CX Coworker网关添加为远程HTTP MCP服务器。 除非您的客户端需要占位符值，否则将可选标头、持有者令牌字段、客户端ID字段和客户端密钥字段保留为空。
 
 ### 步骤2：用户启用连接器 {#mcp-install-enterprise-user}
 
-管理员添加CX Co-worker Gateway后，每个用户都为其自己的帐户启用它：
+管理员添加CX Coworker Gateway后，每个用户都会为自己的帐户启用它：
 
 1. 在客户端中打开个人连接器、应用程序或MCP设置。
-2. 找到CX Co-worker Gateway连接器并启用它。
+2. 找到CX Coworker网关连接器并启用它。
 3. 开始对话，调用某个Adobe工具，然后在出现提示时完成基于浏览器的Adobe登录。
 4. 设置会话的产品上下文（如果您的工具需要） — 组织所有产品，为基于Experience Platform的工具设置沙盒，并为Customer Journey Analytics设置数据视图。 查看工具调用的[产品上下文](#mcp-connect-params)。
 
@@ -104,7 +103,7 @@ CX Co-worker Gateway使用远程HTTP传输和基于浏览器的Adobe登录流程
 3. 输入`https://cx-coworker-gateway.adobe.io/mcp`作为服务器URL。
 4. 选择&#x200B;**连接**&#x200B;并完成Adobe登录流程。
 
-连接后，在Cursor的Composer和Agent模式中提供了标题为Adobe for CX Co-worker Gateway的工具。
+连接后，在Cursor的“编辑器”和“代理”模式中，可以使用标题为Adobe for CX Coworker Gateway的工具。
 
 ### Claude码 {#mcp-install-individual-claude-code}
 
@@ -184,7 +183,7 @@ url = "https://cx-coworker-gateway.adobe.io/mcp"
 
 ### 其他客户端 {#mcp-install-individual-other}
 
-对于支持远程MCP的其他桌面或Web客户端，请使用`https://cx-coworker-gateway.adobe.io/mcp`添加作为HTTP服务器的适用于CX协同工作网关的Adobe。 除非您的客户端需要占位符值，否则将可选标头、持有者令牌字段、客户端ID字段和客户端密钥字段保留为空。
+对于具有远程MCP支持的其他桌面或Web客户端，请使用`https://cx-coworker-gateway.adobe.io/mcp`将CX Coworker网关的Adobe添加为远程HTTP服务器。 除非您的客户端需要占位符值，否则将可选标头、持有者令牌字段、客户端ID字段和客户端密钥字段保留为空。
 
 ## 工具调用的产品上下文 {#mcp-connect-params}
 

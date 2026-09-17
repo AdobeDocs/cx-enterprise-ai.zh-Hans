@@ -1,28 +1,28 @@
 ---
-description: 了解Adobe CX Enterprise Co-worker Campaigns，它是一款AI原生营销应用程序，可将单个提示转化为可供审核的营销活动。
-title: Adobe CX Enterprise Co-worker概述
+description: 了解Adobe CX Enterprise Coworker Campaigns，它是一款AI原生营销应用程序，可将单个提示转化为可供审核的营销活动。
+title: Adobe CX Enterprise Coworker概述
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 21d2304c94d68d7800283b46e2a15012ffe55810
 workflow-type: tm+mt
-source-wordcount: 950
+source-wordcount: '950'
 ht-degree: 0%
-
 ---
-
-# Adobe CX Enterprise同事促销活动概述 {#overview}
+# Adobe CX Enterprise Coworker促销活动概述 {#overview}
 
 同事营销活动是一种AI原生营销应用程序，可将您从单个提示引导至一个完整的审核就绪营销活动。
 
-目前，与AI的所有交互都将引导您生成[营销活动] (./)。 即将提供更多功能。
+目前，与AI的所有交互都将引导您生成[营销活动](/help/coworker/campaigns/create-an-email-campaign.md)。 即将提供更多功能。
 
 ## 如何访问
 
 >[!NOTE]
 >
->同事营销活动可通过免费试用获得，有效期至2026年10月1日。 在试用期间，所有资产和活动均特定于用户。
+>同事营销活动可通过免费试用获得，有效期至2026年12月31日。 在试用期间，所有资产和活动均特定于用户。
 
 1. 转到coworker-campaigns.experience.adobe.com 。
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 同事营销活动是处于积极开发状态的产品。 以下是要了解的情况：
 
-- **试用期**：现在至2026年10月1日。
+- **试用期**：现在至2026年12月31日。
 - **需要接受**：在访问产品之前，您需要查看并接受试用条款。
 - **地区**：此免费试用版目前仅适用于北美用户。
 - **受众**：通过CSV上传受众。 所有受众均特定于其各自的营销活动（此时，它们不会存储在您环境中的任何其他位置）。
