@@ -1,20 +1,19 @@
 ---
-title: CX Co-worker Gateway中的会话上下文工具
-description: 了解为所有CX Co-worker Gateway工具调用设置组织、沙盒和数据视图上下文的核心工具。
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+title: CX Coworker Gateway中的会话上下文工具
+description: 了解为所有CX Coworker Gateway工具调用设置组织、沙盒和数据视图上下文的核心工具。
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
-
 ---
+# Adobe CX Coworker Gateway中的会话上下文工具 {#mcp-core}
 
-# Adobe CX Co-worker Gateway中的会话上下文工具 {#mcp-core}
-
-Adobe CX Co-worker Gateway包括一组会话上下文工具，用于建立所有其他产品工具都在其中运行的Adobe组织、Adobe Experience Platform沙盒和Customer Journey Analytics数据视图。 无需其他许可证或启用 — 在连接到[CX Co-worker Gateway服务器](overview.md)后，每个经过身份验证的用户都可以使用这些工具。
+Adobe CX Coworker Gateway包括一组会话上下文工具，用于建立所有其他产品工具都在其中运行的Adobe组织、Adobe Experience Platform沙盒和Customer Journey Analytics数据视图。 无需其他许可证或启用 — 在连接到[CX Coworker网关服务器](overview.md)后，每个经过身份验证的用户都可以使用这些工具。
 
 ## 上下文的工作方式 {#mcp-core-how}
 
-CX Co-worker Gateway将每个工具调用范围限定到一个活动的Adobe组织。 除此之外，上下文要求取决于产品：
+CX Coworker网关将每个工具调用范围限定为一个活动的Adobe组织。 除此之外，上下文要求取决于产品：
 
 - **基于Experience Platform的产品** — [Real-Time CDP](rtcdp-mcp.md)、[Experience Platform](aep-mcp.md)和[Journey Optimizer](ajo-mcp.md)工具在Experience Platform沙盒中运行。 与`core-set_sandbox`的每个会话均设置一次沙盒；所有三个会话都共享该沙盒。
 - **其他产品** — 未在Experience Platform上构建的产品不使用沙盒上下文。 例如，[Customer Journey Analytics](cja-mcp.md)工具针对数据视图进行解析，[Adobe Analytics](analytics-mcp.md)工具针对报表包进行解析。
@@ -64,5 +63,5 @@ CX Co-worker Gateway将每个工具调用范围限定到一个活动的Adobe组�
 
 ## 相关页面 {#mcp-core-related}
 
-- [安装Adobe CX Co-worker Gateway](install.md) — 如何连接MCP客户端，包括产品上下文设置部分。
-- [访问CX Co-worker Gateway工具](access.md) — 按产品列出的访问要求。
+- [安装Adobe CX Coworker网关](install.md) — 如何连接您的MCP客户端，包括产品上下文设置部分。
+- [访问CX Coworker网关工具](access.md) — 按产品列出访问要求。
