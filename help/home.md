@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: fccf9111460413fe5b89229564a682827152b1ab
+source-git-commit: 81c51c896a10559db58c6389a08f9c84b96ef73c
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '960'
 ht-degree: 2%
 ---
 # CX Enterprise应用程序中的人工智能
@@ -47,19 +47,19 @@ ht-degree: 2%
 
 ## Coworker
 
-Co-worker是AI Assistant的代理优先演变，可自动化客户体验和营销工作流，因此您的团队可以专注于业务目标而不是日常执行。 与其一次问一个问题，不如描述一个目标。 同事计划、执行、验证和返回已完成的工作以供您审批。 了解有关[Adobe for Business](https://business.adobe.com/cn/products/cx-enterprise-coworker.html)的更多信息。
+Co-worker是AI Assistant的代理优先演变，可自动化客户体验和营销工作流，因此您的团队可以专注于业务目标而不是日常执行。 与其一次问一个问题，不如描述一个目标。 同事计划、执行、验证和返回已完成的工作以供您审批。 了解有关[Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker.html)的更多信息。
 
 同事包括：
 
-- **[同事聊天](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**：用于浏览数据、验证受众和历程以及跨CX Enterprise应用程序完成多步骤任务的对话界面。
-- **[团队协作](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**（以前称为&#x200B;_协作营销活动_）：一种AI原生应用程序，可将营销活动简报、受众构建、内容生成、历程设计和校对整合为单一对话体验。 它使用内置模板、最佳实践和提示性指导，帮助小型、敏捷团队快速启动促销活动。 了解有关[Adobe for Business](https://business.adobe.com/cn/products/cx-enterprise-coworker/teams.html)的更多信息。
+- **[同事聊天](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**：用于浏览数据、验证受众和历程以及跨CX Enterprise应用程序完成多步骤任务的对话界面。
+- **[同事营销活动](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**：人工智能原生应用程序，可将营销活动简报、受众构建、内容生成、历程设计和校对整合为单一对话体验。 它使用内置模板、最佳实践和提示性指导，帮助小型、敏捷团队快速启动促销活动。 了解有关[Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker/teams.html)的更多信息。
 - **同事项目**（即将推出）：用于自动化端到端客户体验编排工作流的统一工作区，帮助团队协调任务、审批和执行以推动从战略到交付的结果。 即将提供项目文档。
 
 符合条件的客户正在逐步从AI助手和Experience Platform代理过渡到同事聊天。 阅读[同事试用版](./agents/trial.md)以了解试用资格、AI信用使用情况以及如何获取访问权限。
 
 要查看同事聊天的实际效果，请浏览[Playground中的同事聊天](./coworker/playground-coworker-chat.md)，或阅读实际用例，例如[验证AA到CJA的迁移数据](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)和[分析CJA数据](./coworker/chat/use-cases/data-insights/analytics-chat.md)。
 
-有关同事聊天、团队和项目的同事的完整产品文档，请参阅[同事](./coworker/overview.md)。 有关沙盒到沙盒对象复制，请参阅[沙盒工具代理技能](./agents/sandbox-tooling.md)。
+有关同事聊天、团队同事（同事营销活动）和项目的完整产品文档，请参阅[同事](./coworker/overview.md)。 有关沙盒到沙盒对象复制，请参阅[沙盒工具代理技能](./agents/sandbox-tooling.md)。
 
 ## AI 助手
 
@@ -94,8 +94,8 @@ Co-worker是AI Assistant的代理优先演变，可自动化客户体验和营�
 - [Journey Optimizer工具](./mcp/ajo-mcp.md)
 - [Customer Journey Analytics工具](./mcp/cja-mcp.md)
 - [Adobe Analytics工具](./mcp/analytics-mcp.md)
-- [!DNL Workfront]工具，记录在[Workfront MCP服务器指南](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)中
-- [!DNL Target]工具，记录在[目标MCP服务器指南](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp)中
+- [!DNL Workfront]工具，记录在[Workfront MCP服务器指南](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)中
+- [!DNL Target]工具，记录在[目标MCP服务器指南](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)中
 
 初次使用CX Coworker Gateway？ 请参阅[访问CX Coworker网关工具](./mcp/access.md)和[安装CX Coworker网关](./mcp/install.md)以连接。 连接后，使用[会话上下文工具](./mcp/context-tools.md)在调用产品工具之前设置活动组织、沙盒和数据视图。
 
