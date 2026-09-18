@@ -6,7 +6,7 @@ description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 4ae7aa9127368da137582ce3aad3259fa815a497
+source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 18%
@@ -60,7 +60,7 @@ ht-degree: 18%
   - 营销活动 {#campaigns}
     - [概述](./coworker/campaigns/overview.md)
     - [创建电子邮件营销活动](./coworker/campaigns/create-an-email-campaign.md)
-    - {hide-from-toc}[启动和管理营销活动](./coworker/campaigns/launch-manage-campaign.md)
+    - [启动和管理营销活动](./coworker/campaigns/launch-manage-campaign.md)
     - [用例](./coworker/campaigns/use-cases.md)
     - [提示最佳实践](./coworker/campaigns/prompting-best-practices.md)
     - [C2PA元数据](./coworker/campaigns/c2pa-metadata.md)
@@ -93,13 +93,13 @@ ht-degree: 18%
   - 快速入门 {#mcp-get-started}
     - {hide-from-toc}[访问CX Coworker网关工具](./mcp/access.md)
     - {hide-from-toc}[安装CX Coworker Gateway](./mcp/install.md)
-    - {hide-from-toc}[CX Coworker Gateway中的会话上下文工具](./mcp/context-tools.md)
+    - CX Coworker Gateway中的{hide-from-toc}[会话上下文工具](./mcp/context-tools.md)
   - 产品工具 {#mcp-product-tools}
     - {hide-from-toc}[Real-Time CDP工具](./mcp/rtcdp-mcp.md)
     - {hide-from-toc}[Experience Platform工具](./mcp/aep-mcp.md)
     - {hide-from-toc}[Journey Optimizer工具](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [目标](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [目标](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 

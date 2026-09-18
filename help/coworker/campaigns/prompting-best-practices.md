@@ -3,18 +3,22 @@ description: 了解同事营销活动以提示最佳实践 — 联合启动框�
 title: 提示最佳实践
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
 workflow-type: tm+mt
-source-wordcount: 532
+source-wordcount: '687'
 ht-degree: 1%
-
 ---
-
 # 提示最佳实践 {#best-practices}
 
 要充分利用同事营销活动，首先需要您提供提示。 了解产生最佳结果的实践：用于构建提示的共星框架、要包含的内容和要避免的内容，以及基于情景的示例，这些示例为人工智能提供生成相关的目标内容所需的上下文。
+
+>[!NOTE]
+>
+>目前，您只能连接到同事营销活动支持的集成。  如果您有任何现有的Adobe Enterprise应用程序（用于存储受众或构建历程），我们建议您改用[CX Enterprise Coworker](/help/coworker/chat/use-cases/overview.md)。
 
 ## 使用CO-STAR框架 {#costar-framework}
 
@@ -56,9 +60,21 @@ ht-degree: 1%
 </tbody>
 </table>
 
+### 提示中支持的内容
+
+使用&#x200B;**电子邮件编辑器**&#x200B;或&#x200B;**Adobe Express**&#x200B;进行可视化/图像修改。 支持以下请求类型。
+
+- **指定营销活动的频率和节奏**：“创建每周发送的电子邮件营销活动……”
+
+- **从更大的列表中定位特定受众**：“仅针对那些带狗的与会者创建营销活动，以便在‘all-attendees.csv’中进行&#x200B;_公园里叫_&#x200B;活动”
+
+- **上传HTML文件**：“使用我附加的HTML文件作为创建电子邮件促销活动的基础。”
+
+- **在对话期间进行更改**：“将此营销活动结束前的天数从2天更改为3天。”
+
 ### 提示中不支持该内容
 
-使用&#x200B;**电子邮件编辑器**&#x200B;或&#x200B;**Adobe Express**&#x200B;进行可视化/图像修改。 这些请求不受支持，应通过其他工具进行处理：
+这些请求&#x200B;**不支持**，应通过其他工具处理：
 
 <table style="table-layout: fixed; border: 0;">
 <thead style="border: 0; background-color: #FFFFFF">
@@ -114,6 +130,10 @@ ht-degree: 1%
 
 始终提供上下文和价值主张，以便AI可生成相关内容。
 
+>[!NOTE]
+>
+>虽然您当前只能生成和启动电子邮件营销活动，但始终可以要求同事为社交媒体、WhatsApp或短信生成副本。
+
 <table style="table-layout: fixed; border-collapse: collapse; border: 0;">
 <thead>
 <tr style="border: 0;background-color: #FFFFFF;">
@@ -124,19 +144,19 @@ ht-degree: 1%
 <tbody>
 <tr>
 <td><strong>B2B技术</strong></td>
-<td>“开展活动以展示ROI和技术规范，同时帮助IT决策者评估我们的云基础架构解决方案并解决其安全问题，重点是99.9%的正常运行时间、符合SOC 2的要求以及40%的成本节约。”</td>
+<td>“创建四点接触式电子邮件促销活动，展示ROI和技术规范，同时帮助IT决策者评估我们的云基础架构解决方案以解决安全问题，其中重点是99.9%的正常运行时间、符合SOC 2的要求以及40%的成本节约。”</td>
 </tr>
 <tr>
 <td><strong>电子商务零售</strong></td>
-<td>“发起促销活动，以紧急应对库存有限的节日商品，同时强调免运费和最后一刻购物者的轻松回报，强调数量有限（剩余50件不到）和24小时停运。”</td>
+<td>“推出单次接触式促销活动，以紧急应对库存有限的节日商品，同时强调免运费和方便最后一刻购物者的退货，并强调数量有限（剩余50件不到）和24小时发货截止时间。”</td>
 </tr>
 <tr>
 <td><strong>教育和培训</strong></td>
-<td>“开展一场强调职业发展成果和行业认证的宣传活动，同时展示讲师的专业知识，突出显示92%的职位安排率和基于项目的课程。”</td>
+<td>“创建一项强调职业发展成果和行业认证的双接触式营销活动，同时展示讲师的专业知识，突出显示92%的职位安排率和基于项目的课程。”</td>
 </tr>
 <tr>
 <td><strong>咨询</strong></td>
-<td>“通过展示三个具有详细ROI标准的客户成功案例（IBM：成本降低45%，埃森哲：潜在客户增长200%，Microsoft：时间节省60%），开展活动以培育企业前景，面向拥有1000多名员工的企业的IT主管。”</td>
+<td>“通过展示三个具有详细ROI标准的客户成功案例（IBM：成本降低45%，Accenture：潜在客户增长200%，Microsoft：时间节省60%），开展三点营销活动以培育企业潜在客户，面向拥有1000多名员工的企业的IT主管。”</td>
 </tr>
 </tbody>
 </table>
