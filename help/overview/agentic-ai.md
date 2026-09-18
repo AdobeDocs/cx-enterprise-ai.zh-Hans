@@ -1,6 +1,6 @@
 ---
-title: CX Enterprise应用程序中的智能人工智能
-description: 了解 CX Enterprise 各应用程序中支持代理式 AI 功能的位置。
+title: CX Enterprise应用程序中的智能代理
+description: 了解 CX Enterprise 各应用程序中哪些地方提供代理式 AI。
 solution: Experience Cloud
 landing-page-name: ai
 landing-page-breadcrumb-title: AI Documentation
@@ -12,31 +12,30 @@ last-update: '2026-05-21T00:00:00.000Z'
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-source-git-commit: 4e10361b7df9786bd027e94d4be4a9dff2964f8a
+    internal-label: AI Tools
+source-git-commit: 76356e79bb8608a65c3140c9990a5a4fcbc76a0e
 workflow-type: tm+mt
-source-wordcount: 1194
-ht-degree: 10%
-
+source-wordcount: '1125'
+ht-degree: 9%
 ---
-
 # 关于Adobe CX Enterprise中的Agentic AI
 
-Adobe [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/home)支持CX Enterprise应用程序中的代理AI功能。
+Adobe [Experience Platform Agent Orchestrator](../agents/agent-orchestrator.md)支持CX Enterprise应用程序中的代理AI功能。
 
-代理可帮助自动执行任务、更快地提供见解并简化工作流。 因此，团队可以更高效地工作，从CX Enterprise中获得更多价值。
+代理可帮助自动执行任务、更快地提供见解并简化工作流。 因此，团队可以更高效地工作，并从CX Enterprise中获得更多价值。
 
 CX Enterprise AI代理在以下任一位置提供：
 
 * [现有CX Enterprise应用程序](#existing-apps)
-* [AI优先的CX企业应用程序](#ai-first-apps)
+* [人工智能优先的CX Enterprise应用程序](#ai-first-apps)
 
-以下各节将介绍这两种在CX Enterprise中启用代理人工智能的方法。
+以下各部分将介绍这两种在CX Enterprise中启用智能人工智能的方法。
 
 ## 现有CX Enterprise应用程序 {#existing-apps}
 
-在现有应用程序中，您可以使用自然语言通过[AI Assistant](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/home)中的对话界面指示Adobe Experience Platform代理。 AI助手可在全屏视图和右边栏视图中可用。
+在现有应用程序中，您可以使用自然语言通过[AI Assistant](../ai-assistant/ai-assistant-ui.md)中的对话界面指示Adobe Experience Platform代理。 AI助手可在全屏视图和右边栏视图中可用。
 
-可以在现有CX Enterprise应用程序中为具有以下类别之一的客户启用代理：
+可以在现有CX Enterprise应用程序中为客户启用代理，这些代理具有以下类别之一：
 
 * 您购买了Adobe Experience Platform Agents AI信用许可证
 * 您被包含在针对使用情况的试用中（提供的有限人工智能积分）
@@ -44,24 +43,24 @@ CX Enterprise AI代理在以下任一位置提供：
 
 使用AI代理执行&#x200B;_代理作业_&#x200B;将使用AI积分。 了解有关&#x200B;_[代理作业和AI信用消耗](ai-credit-consumption.md)_&#x200B;中的代理作业和AI信用消耗的详细信息。
 
-AI代理遵循&#x200B;_您的_&#x200B;输入和监督，并遵守产品级别的访问控制。 您只能执行您有权在底层CX Enterprise应用程序中使用的作业或访问数据。
+AI代理遵循&#x200B;_您的_&#x200B;输入和监督，并遵守产品级别的访问控制。 您只能执行您有权在基础CX Enterprise应用程序中使用的作业或访问数据。
 
 ### 现有CX Enterprise应用程序中的AI代理 {#existing-apps-table}
 
-下表列出了现有CX Enterprise应用程序中可用的Experience Platform Agent。
+下表列出了现有Experience Platform应用程序中可用的CX Enterprise代理。
 
 | 代理名称 | 功能 | 支持的应用程序 | 运行状况数据/HIPAA就绪 |
 |---|----------|----------|----------|
-| [Audience Agent](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/audience) | 让您的团队能够使用自然语言提示管理和优化受众，以提高上市难度、效率和上市速度。 | <ul><li>Real-Time CDP（B2B、B2C和B2P版本）</li><li>Adobe Journey Optimizer（B2B和B2C版本）</li></ul> | |
+| [Audience Agent](../agents/audience.md) | 让您的团队能够使用自然语言提示管理和优化受众，以提高上市难度、效率和上市速度。 | <ul><li>Real-Time CDP（B2B、B2C和B2P版本）</li><li>Adobe Journey Optimizer（B2B和B2C版本）</li></ul> | |
 | [内容顾问代理](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agents/content-advisor/overview) | <ul><li>帮助团队使用自然语言在整个企业中快速找到最相关的内容，从而减少搜索所花费的时间，并加快决策和执行速度。</li><li>使用自然语言提示简化从源资源创建可视内容变体的过程。</li></ul> | <ul><li>Adobe Experience Manager Assets</li></ul><ul><li>Dynamic Media（云服务）</li></ul> | |
 | [Data Insights Agent](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | 快速解答有关您的数据的问题。 它使用来自数据视图的组件和您的实际数据在 Analysis Workspace 中构建相关的可视化图表。 | <ul><li>Customer Journey Analytics（B2B和B2C版本）</li></ul> | 是 |
 | [Brand Experience 代理](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/overview) | <ul><li>通过自动重新构建、丰富和验证现有站点，加快数字体验的迁移和现代化，以便团队能够以更低的风险和手动操作更快地向现代、人工智能就绪的体验迁移。</li><li>进行高容量体验创建和更新，显着减少手动工作量和周期时间，使团队能够在不牺牲质量或一致性的情况下更快地移动。</li><li>通过自动生成、结构和验证表单体验，加快创建优化的品牌内表单，使团队能够更快地启动并只需很少的手动操作即可捕获更高质量的数据。</li><li>通过分析根本原因并提出修复建议，帮助AEM CS开发人员和技术管理员解决Cloud Manager管道中的构建步骤失败问题。</li></ul> | <ul><li>Adobe Experience Manager Sites云服务(Experience Modernization)</li></ul><ul><li>Adobe Experience Manager Sites (Experience Production)</li></ul><ul><li>Adobe Experience Manager Forms（表单创建）</li></ul><ul><li>所有基于云的Adobe Experience Manager应用程序（开发支持）</li></ul> | |
 | [品牌治理代理](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agents/governance/overview) | 通过自动化的品牌策略检查、权限和智能功能来确保品牌完整性和合规性，从而通过实时治理支持DRM。 | <ul><li>Adobe Experience Manager Assets</li><li>Adobe Experience Manager Sites（品牌策略）</li></ul> | |
-| [Journey Agent](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent) | 使您的团队能够快速分析和大规模优化多点接触客户历程。 | <ul><li>Adobe Journey Optimizer（B2B和B2C版本）</li></ul> | |
-| [产品支持代理](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/product-support) | 无需离开工作流即可解决支持问题，创建客户支持工单并使用AI Assistant跟踪案例进度。 | <ul><li>Real-Time CDP（B2B、B2C和B2P版本）</li><li>Adobe Journey Optimizer（B2B和B2C版本）</li><li>Customer Journey Analytics（B2B和B2C版本）</li><li>Adobe Experience Manager</li></ul> | |
-| [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms) | 将Experience Platform直接连接到Microsoft 365 Copilot。 您可以在Microsoft 365应用程序（如Teams、Word、Powerpoint和Excel）中询问自然语言问题，以便立即从Experience Platform中检索营销洞察，而不会中断您的工作流程。 | <ul><li> Adobe Agent Orchestrator，可支持Audience Agent、Journey Agent、Customer Journey Analytics数据分析、Experience Platform运营分析</li></ul> | |
+| [Journey Agent](../agents/ajo-agent.md) | 使您的团队能够快速分析和大规模优化多点接触客户历程。 | <ul><li>Adobe Journey Optimizer（B2B和B2C版本）</li></ul> | |
+| [产品支持代理](../agents/product-support.md) | 无需离开工作流即可解决支持问题，创建客户支持工单并使用AI Assistant跟踪案例进度。 | <ul><li>Real-Time CDP（B2B、B2C和B2P版本）</li><li>Adobe Journey Optimizer（B2B和B2C版本）</li><li>Customer Journey Analytics（B2B和B2C版本）</li><li>Adobe Experience Manager</li></ul> | |
+| [Adobe Marketing Agent for Microsoft 365 Copilot](../agents/ama-ms.md) | 将Experience Platform直接连接到Microsoft 365 Copilot。 您可以在Microsoft 365应用程序（如Teams、Word、Powerpoint和Excel）中询问自然语言问题，以便立即从Experience Platform中检索营销洞察，而不会中断您的工作流程。 | <ul><li> Adobe Agent Orchestrator，可支持Audience Agent、Journey Agent、Customer Journey Analytics数据分析、Experience Platform运营分析</li></ul> | |
 
-## AI优先的CX企业应用程序 {#ai-first-apps}
+## 人工智能优先的CX Enterprise应用程序 {#ai-first-apps}
 
 AI优先应用是以AI为主要组件构建的。 它们使用生成性或代理性人工智能来执行关键任务，并且代理性功能已包含在AI优先的应用程序许可证中。 因此，它们不需要Experience Platform Agent Orchestrator许可证。
 
@@ -69,7 +68,7 @@ AI优先应用是以AI为主要组件构建的。 它们使用生成性或代理
 
 | 代理名称 | 功能 | 支持的应用程序 |
 |---|----------|----------|
-| [CX Enterprise Coworker](../coworker/overview.md) | 充当agential队友：根据自然语言目标规划多步骤工作，在Adobe和连接的系统中执行工作，验证结果，并返回已完成的工作以供您审批 — 减少手动协调任务的需要。 | <ul><li>CX Enterprise Co-worker （聊天）</li><li>CX Enterprise Co-worker （营销活动）</li></ul> |
+| [CX Enterprise Coworker](../coworker/overview.md) | 充当agential队友：根据自然语言目标规划多步骤工作，在Adobe和连接的系统中执行工作，验证结果，并返回已完成的工作以供您审批 — 减少手动协调任务的需要。 | <ul><li>CX Enterprise Coworker（聊天）</li><li>CX Enterprise Coworker（营销活动）</li></ul> |
 | [Experimentation Agent](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/content-experiment/experiment/experiment-accelerator-security) | 自动化、分析和综合洞察，以便您可以从集中工作区中快速识别高影响力的实验和发展机会 — 同时减少手动流程。 | <ul><li>AJO Experimentation Accelerator</li></ul> |
 | [LLM优化代理](https://experienceleague.adobe.com/zh-hans/docs/llm-optimizer/using/home) | 增强人工智能驱动型搜索环境中的可见性、准确性和影响力，在人工智能生成的答案中提供品牌存在感洞察，提供规范性的内容推荐，并自动执行优化修复。 | <ul><li>Adobe LLM Optimizer</li></ul> |
 | [Site Optimization Agent](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-sites-optimizer/content/home) | 通过自动检测和部署网站增强功能，最大限度地提高业务成效。 使用创新型人工智能和多种监控技术，您可以增加网站流量获取、参与度等 | <ul><li>AEM Sites Optimizer</li></ul> |
@@ -77,9 +76,9 @@ AI优先应用是以AI为主要组件构建的。 它们使用生成性或代理
 
 ## 有关此主题的更多帮助
 
-* [CX Enterprise Agentic工具](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-agentic-tools/using/overview#adobe-cx-enterprise-agentic-tools)
+* [CX Enterprise Agentic Tools](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-agentic-tools/using/overview#adobe-cx-enterprise-agentic-tools)
 * [代理作业和AI信用消耗](ai-credit-consumption.md)
-* CX Enterprise中的[AI](https://experienceleague.adobe.com/zh-hans/docs/ai)文档主页
-* [AEM中的代理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agents/overview)
+* [AI文档主页](https://experienceleague.adobe.com/zh-hans/docs/ai)文档主页
+* [Experience Manager as a Cloud Service中的代理概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agents/overview)
 
 [!BADGE 了解有关Adobe for Business的更多信息]{type=Informative url="https://business.adobe.com/cn/products/experience-platform/agent-orchestrator.html" tooltip="转到Business.adobe.com"}
