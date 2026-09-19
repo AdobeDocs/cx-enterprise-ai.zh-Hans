@@ -2,13 +2,13 @@
 audience: user
 user-guide-title: CX Enterprise 中的 AI
 user-guide-description: 通过实际文档、实施指导和参考材料，了解如何构建、配置、集成和扩展AI Assistant、同事、代理和MCP。
-description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提高您的产品知识并获得操作见解。
+description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中使用AI改善您的产品知识并获得运营见解。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
+source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '344'
 ht-degree: 18%
 ---
 
@@ -60,6 +60,7 @@ ht-degree: 18%
   - 营销活动 {#campaigns}
     - [概述](./coworker/campaigns/overview.md)
     - [创建电子邮件营销活动](./coworker/campaigns/create-an-email-campaign.md)
+    - [启动和管理营销活动](./coworker/campaigns/launch-manage-campaign.md)
     - [用例](./coworker/campaigns/use-cases.md)
     - [提示最佳实践](./coworker/campaigns/prompting-best-practices.md)
     - [C2PA元数据](./coworker/campaigns/c2pa-metadata.md)

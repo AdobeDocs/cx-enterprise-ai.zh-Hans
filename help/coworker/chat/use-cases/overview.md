@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: db8f6b723110d86fc3bd65f2e1f5ab3047157e8f
+source-git-commit: 92553b9b27ee38ba31ccd00b443502e990e625be
 workflow-type: tm+mt
-source-wordcount: '4800'
+source-wordcount: '4876'
 ht-degree: 6%
 ---
 # 同事聊天用例{#use-cases}
@@ -149,7 +149,13 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | 分析自定义操作错误 | 识别历程中自定义操作何时失败或错误率激增，并在故障升级为更广泛中断之前诊断根本原因 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | “为什么自定义操作在我的忠诚度注册历程中失败？” <br> “在我的欢迎历程中向我显示自定义操作ExternalPush的错误率。” |
 | 检测历程异常 | 检测并确认历程的进入、退出或发送计数中相对于历史基线的意外尖峰、下降或扁平化，并揭示可能的根本原因 | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | “为什么昨天我的欢迎历程的条目减少了？” <br> “本周购物车放弃历程的退出次数是否激增？” |
 
-有关历程的CX Coworker技能的更多详细信息，请参阅[Adobe Journey Optimizer历程文档](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}。
+有关历程的CX Coworker技能的更多详细信息，请参阅[Adobe Journey Optimizer历程文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}。
+
+## 营销计划
+
+| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+|---|---|---|---|---|
+| 构建项目 | 将现有项目模板调整到新项目中，根据纯语言的活动描述或上传的活动摘要生成Smart Campaigns、计划和占位符电子邮件 | `build-programs` | Adobe Marketo Engage | “为我们8月份的产品演示创建一个网络研讨会注册计划”<br><br>“构建一个程序，当潜在客户点击得分为50分时触发该程序”<br><br>“为未活动的潜在客户创建3封电子邮件的重新参与系列90天” |
 
 ## 忠诚度
 
@@ -158,7 +164,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | 创建、编辑和管理忠诚度挑战 | 简化并加快忠诚度计划管理 | `loyalty` | Adobe Journey Optimizer (AJO) | “创建挑战，鼓励会员尝试新的季节性饮品”<br>“向我展示会员流失率最高的忠诚度挑战。” |
 | 分析忠诚度计划绩效 | 使用自然语言查询和分析忠诚度积分、成员层、赎回和收入指标 | `loyalty-insights` | Adobe Journey Optimizer (AJO) | “2026年8月期间授予了多少忠诚度积分？” <br> “显示2026年8月按天划分的忠诚度计划总收入。” |
 
-有关CX Coworker忠诚度技能的更多详细信息，请参阅[Adobe Journey Optimizer忠诚度文档](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}。
+有关CX Coworker忠诚度技能的更多详细信息，请参阅[Adobe Journey Optimizer忠诚度文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}。
 
 ## 优化
 
