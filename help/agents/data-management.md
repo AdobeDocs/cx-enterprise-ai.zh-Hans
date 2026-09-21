@@ -33,14 +33,14 @@ Data Management Agent提供四种技能。
 
 在需要查找和分析Experience Event数据集以及设置、更改或删除数据湖保留策略时，请使用数据管理代理。
 
-如果您不确定数据湖保留策略是否是您目标的正确选项，请参阅[选择正确的数据生命周期管理功能](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/choose-a-capability)，以比较可用的保留和删除选项。
+如果您不确定数据湖保留策略是否是您目标的正确选项，请参阅[选择正确的数据生命周期管理功能](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-lifecycle/choose-a-capability)，以比较可用的保留和删除选项。
 
 这些技能不会管理以下相关功能：
 
 - **配置文件存储保留策略。** 要管理体验事件在配置文件存储中保留的时长，请在启用配置文件的体验事件数据集上配置体验事件过期策略。 请参阅[体验事件过期](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/event-expirations)。
 - **沙盒范围的假名配置文件数据过期。** 要在沙盒满足配置的条件后自动删除假名配置文件数据，请参阅[假名配置文件](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/profile/pseudonymous-profiles)。
-- **数据集过期。** 要计划在未来日期删除整个数据集，请参阅[数据集过期](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration)。
-- **记录删除。** 若要出于隐私或卫生原因删除个人配置文件记录，请参阅[记录删除](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/record-delete)。
+- **数据集过期。** 要计划在未来日期删除整个数据集，请参阅[数据集过期](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-lifecycle/ui/dataset-expiration)。
+- **记录删除。** 若要出于隐私或卫生原因删除个人配置文件记录，请参阅[记录删除](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-lifecycle/ui/record-delete)。
 
 ## 先决条件 {#prerequisites}
 
@@ -50,7 +50,7 @@ Data Management Agent提供四种技能。
 - 您需要使用的数据集和保留操作所需的Adobe Experience Platform权限。 Data Management Agent使用您现有的Experience Platform权限，不授予其他访问权限。 有关Adobe Experience Platform权限和角色的工作方式，请参阅[访问控制概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home)。
 - CX Coworker中安装的Adobe CXO插件。
 
-有关安装插件的说明，请参阅[辅助进程UI指南](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)。
+有关安装插件的说明，请参阅[辅助进程UI指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)。
 
 ## 使用数据管理代理 {#use-the-data-management-agent}
 
@@ -62,7 +62,7 @@ Data Management Agent提供四种技能。
 
 要使用数据管理代理，请执行以下操作：
 
-1. 导航到&#x200B;**[!UICONTROL CX Coworker]**。 有关访问详细信息，请参阅[辅助进程UI指南](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)。
+1. 导航到&#x200B;**[!UICONTROL CX Coworker]**。 有关访问详细信息，请参阅[辅助进程UI指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)。
 1. 输入说明要完成的任务的要求。
 1. 检查结果并使用跟进问题继续调查。
 
@@ -82,4 +82,4 @@ Data Management Agent提供四种技能。
 
 有关使用每种技能在体验事件数据集上查找、分析和管理数据湖保留的指导，请参阅[管理数据湖保留](../coworker/chat/use-cases/data-management/manage-data-lake-retention.md)。
 
-有关数据湖保留策略在Adobe Experience Platform中如何工作的更多信息，包括保留行为和配置，请参阅[Experience Event数据集保留(TTL)指南](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide)。
+有关数据湖保留策略在Adobe Experience Platform中如何工作的更多信息，包括保留行为和配置，请参阅[Experience Event数据集保留(TTL)指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide)。
