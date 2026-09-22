@@ -6,9 +6,9 @@ description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
+source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '361'
 ht-degree: 18%
 ---
 
@@ -59,6 +59,10 @@ ht-degree: 18%
       - [创建您的第一个技能](./coworker/customizations/skills/create-your-first-skill.md)
       - [培养并运行质量关卡技能](./coworker/customizations/skills/run-a-quality-gate-skill.md)
       - [管理和迭代技能](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
+    - 插件 {#plugins}
+      - [什么是插件](./coworker/customizations/plugins/what-are-plugins.md)
+    - 记忆 {#memory}
+      - [什么是内存](./coworker/customizations/memory/what-is-memory.md)
   - 营销活动 {#campaigns}
     - [概述](./coworker/campaigns/overview.md)
     - [创建电子邮件营销活动](./coworker/campaigns/create-an-email-campaign.md)
