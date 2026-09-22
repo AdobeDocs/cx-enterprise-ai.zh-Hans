@@ -2,13 +2,13 @@
 audience: user
 user-guide-title: CX Enterprise 中的 AI
 user-guide-description: 通过实际文档、实施指导和参考材料，了解如何构建、配置、集成和扩展AI Assistant、同事、代理和MCP。
-description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中使用AI改善您的产品知识并获得运营见解。
+description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提高您的产品知识并获得操作见解。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
+source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '353'
 ht-degree: 18%
 ---
 
@@ -36,6 +36,8 @@ ht-degree: 18%
         - [探索趋势和根本原因](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [升级时验证AA到CJA的数据](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [验证CJA报表的数据集质量](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
+      - 数据管理 {#data-management}
+        - [管理数据湖保留](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
       - 受众 {#audiences}
         - [评估平台运行状况并构建受众](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - 历程 {#journeys}
@@ -77,6 +79,7 @@ ht-degree: 18%
   - [Agent Orchestrator](./agents/agent-orchestrator.md)
   - [Audience 代理](./agents/audience.md)
   - [Data Insights Agent](./agents/cja-data-insights-agent.md)
+  - [数据管理代理](./agents/data-management.md)
   - [试验代理](./agents/agent-experiment.md)
   - [字段发现代理](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)

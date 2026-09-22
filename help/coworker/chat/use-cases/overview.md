@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 92553b9b27ee38ba31ccd00b443502e990e625be
+source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
 workflow-type: tm+mt
-source-wordcount: '4876'
+source-wordcount: '5040'
 ht-degree: 6%
 ---
 # 同事聊天用例{#use-cases}
@@ -216,6 +216,13 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | 监控流容量和违规情况 | 检查沙盒中的当前和历史流使用情况、容量和违规状态 | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | “我的当前沙盒中的当前流容量是多少？” <br> “我当前的沙盒在上周是否超出了容量限制？” |
 | [查看运行状况检查评估结果](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/run-and-operate/health-checks/overview) | 查看沙盒的最新运行状况检查评估，深入研究未通过检查，并查看受影响的实体 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | “我的沙盒有什么问题？” <br> “告诉我关于我最新的运行状况检查评估的信息” <br> “自定义命名空间描述检查有哪些问题？” |
 | 修复运行状况检查问题 | 在进行任何更改之前，经您批准，可直接从聊天中修复标记的身份命名空间、合并策略和架构问题 | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | “修复身份命名空间描述”<br>“修复重复的合并策略名称”<br>“修复缺少审核字段组的架构”<br>“修复默认合并策略命名” |
+
+## 数据管理
+
+| 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
+| --- | --- | --- | --- | --- |
+| [查找值得优化或清理的数据](./data-management/manage-data-lake-retention.md#find-data-worth-optimizing) | 了解是否可以通过将最大、使用率最低或遗忘的数据集显示为候选清理或数据湖保留策略而优化Experience Event数据 | `List datasets` | Adobe Experience Platform | “我感觉我的数据可以优化”<br> “帮助我了解我的数据的价值”<br> “优化我的沙盒数据”<br> “清理我的沙盒数据集” |
+| [调查数据集的使用情况并管理保留](./data-management/manage-data-lake-retention.md#check-how-actively-a-dataset-is-used) | 找到值得仔细研究的数据集后，可了解其使用积极性，对潜在数据湖保留策略的影响进行建模，并在准备就绪时设置、更改或删除该策略，并在进行任何更改之前进行审核和批准 | `Analyze dataset usage`, `Analyze dataset retention`, `Manage dataset retention` | Adobe Experience Platform | “我的Web事件数据集的使用情况如何？” <br> “如果在此数据集中设置60天的保留期，将会产生什么影响？” |
 
 ## 沙盒工具
 
