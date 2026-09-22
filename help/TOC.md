@@ -2,13 +2,13 @@
 audience: user
 user-guide-title: CX Enterprise 中的 AI
 user-guide-description: 通过实际文档、实施指导和参考材料，了解如何构建、配置、集成和扩展AI Assistant、同事、代理和MCP。
-description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提高您的产品知识并获得操作见解。
+description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中使用AI改善您的产品知识并获得运营见解。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
+source-git-commit: 9f242cdd899327e760c27e81d28439203dca6efa
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '365'
 ht-degree: 18%
 ---
 
@@ -59,10 +59,12 @@ ht-degree: 18%
       - [创建您的第一个技能](./coworker/customizations/skills/create-your-first-skill.md)
       - [培养并运行质量关卡技能](./coworker/customizations/skills/run-a-quality-gate-skill.md)
       - [管理和迭代技能](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
+    - 集成 {#integrations}
+      - [什么是集成？](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
     - 插件 {#plugins}
-      - [什么是插件](./coworker/customizations/plugins/what-are-plugins.md)
+      - [什么是插件？](./coworker/customizations/plugins/what-are-plugins.md)
     - 记忆 {#memory}
-      - [什么是内存](./coworker/customizations/memory/what-is-memory.md)
+      - [什么是记忆？](./coworker/customizations/memory/what-is-memory.md)
   - 营销活动 {#campaigns}
     - [概述](./coworker/campaigns/overview.md)
     - [创建电子邮件营销活动](./coworker/campaigns/create-an-email-campaign.md)
@@ -100,13 +102,13 @@ ht-degree: 18%
   - 快速入门 {#mcp-get-started}
     - {hide-from-toc}[访问CX Coworker网关工具](./mcp/access.md)
     - {hide-from-toc}[安装CX Coworker Gateway](./mcp/install.md)
-    - {hide-from-toc}[CX Coworker Gateway中的会话上下文工具](./mcp/context-tools.md)
+    - CX Coworker Gateway中的{hide-from-toc}[会话上下文工具](./mcp/context-tools.md)
   - 产品工具 {#mcp-product-tools}
     - {hide-from-toc}[Real-Time CDP工具](./mcp/rtcdp-mcp.md)
     - {hide-from-toc}[Experience Platform工具](./mcp/aep-mcp.md)
     - {hide-from-toc}[Journey Optimizer工具](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [目标](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [目标](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
