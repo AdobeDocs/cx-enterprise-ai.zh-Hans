@@ -1,13 +1,11 @@
 ---
 title: 在AI Assistant中验证数据
 description: 了解如何在AI Assistant中使用Agent Orchestrator支持的数据验证对数据集执行统计和语义验证。
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1602'
 ht-degree: 0%
-
 ---
-
 # 在AI Assistant中验证数据
 
 您可以使用AI Assistant验证Adobe Experience Platform数据集的数据质量。 由Agent Orchestrator提供的数据验证功能可以对数据集执行统计和语义验证，分析数据集字段，识别数据质量问题，并返回具有可操作洞察信息的自然语言摘要。 数据工程师、分析人员和数据管理员可以通过AI Assistant使用此功能执行快速数据质量评估，而无需编写SQL查询或浏览复杂的架构层次结构。
@@ -24,6 +22,10 @@ ht-degree: 0%
 >
 >AI Assistant是此工作流的对话界面。 Agent Orchestrator在后台执行推理并协调验证步骤。
 
+>[!NOTE]
+>
+>数据验证还可作为同事技能使用。 查看[与同事验证Experience Platform数据](/help/coworker/chat/use-cases/data-insights/data-validation-aep.md)。
+
 ## 用例
 
 | 用例 | 描述 |
@@ -34,7 +36,7 @@ ht-degree: 0%
 
 ## UI指南
 
-在Adobe CX Enterprise中使用&#x200B;**AI Assistant**&#x200B;验证您的数据。 人工智能助手是对话界面，而Agent Orchestrator在后台协调验证工作流。 以下步骤遵循您将看到的主屏幕。
+在Adobe CX Enterprise中使用&#x200B;**AI助手**&#x200B;验证您的数据。 人工智能助手是对话界面，而Agent Orchestrator在后台协调验证工作流。 以下步骤遵循您将看到的主屏幕。
 
 ### 开始验证
 

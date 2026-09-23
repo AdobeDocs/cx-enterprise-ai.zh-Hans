@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: a1954d0dfe6a0db091e69725676e1da23a509e03
+source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
 workflow-type: tm+mt
-source-wordcount: '5256'
+source-wordcount: '5301'
 ht-degree: 5%
 ---
 # 同事聊天用例{#use-cases}
@@ -24,7 +24,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 >
 >所有符合条件的客户都可以在Co-worker中以滚动方式访问Adobe Experience Manager代理功能。
 >
->另请参阅AEM中的[AI - AEM中的代理功能概述](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)。
+>另请参阅AEM中的[AI - AEM中的代理功能概述](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview)。
 
 ## 品牌体验
 
@@ -43,9 +43,9 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：Brand Experience - Experience Production - Sites](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [AEM中的代理功能：Brand Experience - Experience Production - Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-* [AEM中的代理功能：Brand Experience - Experience Production - Forms](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [AEM中的代理功能：Brand Experience - Experience Production - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### 开发
 
@@ -58,7 +58,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：Brand Experience — 开发](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [AEM中的代理功能：Brand Experience — 开发](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### 入门
 
@@ -71,7 +71,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：品牌体验 — 入门](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [AEM中的代理功能：品牌体验 — 入门](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## 内容审查程序
 
@@ -86,7 +86,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：内容顾问 — 内容发现](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [AEM中的代理功能：内容顾问 — 内容发现](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### 内容优化
 
@@ -98,7 +98,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：内容顾问 — 内容优化](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [AEM中的代理功能：内容顾问 — 内容优化](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## 品牌治理
 
@@ -110,7 +110,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 **相关信息**
 
-* [AEM中的代理功能：品牌管理](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [AEM中的代理功能：品牌管理](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## 数据分析
 
@@ -124,6 +124,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | [根本原因分析](data-insights/root-cause-analysis.md) | 调查量度发生更改的原因：诊断下降、尖峰和异常 | `cja-root-cause-analysis` | Customer Journey Analytics (CJA) | “上周为什么转化率下降？” <br> “是什么导致了1月15日的收入激增？” |
 | 执行摘要和KPI摘要 | 制作为利益相关者准备的性能摘要、规范性建议和幻灯片组概述 | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `dx-api` | Customer Journey Analytics (CJA) | “给我上个月的执行摘要”<br>“根据本季度的数据创建一个幻灯片组大纲” |
 | [AA ↔ CJA数据验证](data-insights/data-validation-aa-cja.md) | 在Adobe Analytics和Customer Journey Analytics之间比较、审核和协调数据，尤其是在从Adobe Analytics升级到Customer Journey Analytics时 | `aa-cja-validation`, `cja`, `dx-api` | ADOBE ANALYTICS + CJA | “将我的AA报表包与CJA数据视图进行比较”<br>“验证AA和CJA之间的页面视图” |
+| [验证数据集和字段质量](data-insights/data-validation-aep.md) | 对Experience Platform数据集和字段运行统计和语义验证，以在执行后或持续进行<!--TODO: confirm skill ID(s) with engineering before publishing-->时捕获数据质量问题 | `data-validation` | Adobe Experience Platform | “验证数据集Electronics Sample 1000” <br>“验证Customers_2024数据集中的电子邮件字段” |
 | 运行时间序列和因果分析 | 查询和分析受众、数据集和具有因果归因的历程的历史时间序列数据 | `operational-stats-causal-analysis` | 所有符合条件的应用程序 | “显示过去90天的受众规模趋势” <br>“为什么我的数据集行数在3月3日激增？” |
 | 创建自定义CJA技能 | 将分析模式转变为可重用、可重复的技能，这些技能可在不同会话间持续保留 | `cja-skill-creator` | Customer Journey Analytics (CJA) | “将此每周收入分析转换为可重复使用的技能”<br>“将此技能另存为每月funnel报告的技能” |
 
@@ -149,7 +150,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | 分析自定义操作错误 | 识别历程中自定义操作何时失败或错误率激增，并在故障升级为更广泛中断之前诊断根本原因 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | “为什么自定义操作在我的忠诚度注册历程中失败？” <br> “在我的欢迎历程中向我显示自定义操作ExternalPush的错误率。” |
 | 检测历程异常 | 检测并确认历程的进入、退出或发送计数中相对于历史基线的意外尖峰、下降或扁平化，并揭示可能的根本原因 | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | “为什么昨天我的欢迎历程的条目减少了？” <br> “本周购物车放弃历程的退出次数是否激增？” |
 
-有关历程的CX Coworker技能的更多详细信息，请参阅[Adobe Journey Optimizer历程文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}。
+有关历程的CX Coworker技能的更多详细信息，请参阅[Adobe Journey Optimizer历程文档](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}。
 
 ## 营销计划
 
@@ -167,7 +168,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | 创建、编辑和管理忠诚度挑战 | 简化并加快忠诚度计划管理 | `loyalty` | Adobe Journey Optimizer (AJO) | “创建挑战，鼓励会员尝试新的季节性饮品”<br>“向我展示会员流失率最高的忠诚度挑战。” |
 | 分析忠诚度计划绩效 | 使用自然语言查询和分析忠诚度积分、成员层、赎回和收入指标 | `loyalty-insights` | Adobe Journey Optimizer (AJO) | “2026年8月期间授予了多少忠诚度积分？” <br> “显示2026年8月按天划分的忠诚度计划总收入。” |
 
-有关CX Coworker忠诚度技能的更多详细信息，请参阅[Adobe Journey Optimizer忠诚度文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}。
+有关CX Coworker忠诚度技能的更多详细信息，请参阅[Adobe Journey Optimizer忠诚度文档](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}。
 
 ## 优化
 
@@ -217,7 +218,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | 实体解析和链接 | 使用语义和词法搜索将实体提及解析为实际的Experience Platform实体并发现XDM字段 | `entity-linking` | Adobe Experience Platform | “将‘假日购物者’解析为实际受众”<br>“查找与购买历史记录相关的字段” |
 | 管理自定义技能 | 保存、修改或删除跨会话保留的用户拥有的可重用技能 | `manage-skill` | 所有符合条件的应用程序 | “将该工作流另存为技能” <br>“删除我的每周报告技能” <br>“将此技能转换为可重复使用的技能” |
 | 监控流容量和违规情况 | 检查沙盒中的当前和历史流使用情况、容量和违规状态 | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | “我的当前沙盒中的当前流容量是多少？” <br> “我当前的沙盒在上周是否超出了容量限制？” |
-| [查看运行状况检查评估结果](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/run-and-operate/health-checks/overview) | 查看沙盒的最新运行状况检查评估，深入研究未通过检查，并查看受影响的实体 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | “我的沙盒有什么问题？” <br> “告诉我关于我最新的运行状况检查评估的信息” <br> “自定义命名空间描述检查有哪些问题？” |
+| [查看运行状况检查评估结果](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | 查看沙盒的最新运行状况检查评估，深入研究未通过检查，并查看受影响的实体 | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | “我的沙盒有什么问题？” <br> “告诉我关于我最新的运行状况检查评估的信息” <br> “自定义命名空间描述检查有哪些问题？” |
 | 修复运行状况检查问题 | 在进行任何更改之前，经您批准，可直接从聊天中修复标记的身份命名空间、合并策略和架构问题 | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | “修复身份命名空间描述”<br>“修复重复的合并策略名称”<br>“修复缺少审核字段组的架构”<br>“修复默认合并策略命名” |
 
 ## 数据管理
