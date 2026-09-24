@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 85b2c02e98de5b9005e4c19407e63b0fc5b02646
+source-git-commit: 34cad34ad13eaf9de30e49ba90ef2530763aabc1
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '203'
 ht-degree: 3%
 ---
 # 关于Adobe CX Enterprise Coworker
@@ -17,23 +17,6 @@ ht-degree: 3%
 Co-worker是一个由AI提供支持的团队成员，它重新构想了组织、团队和个人的工作性质。 Co-worker优雅地自动化了客户体验和营销工作流，因此组织可以专注于实现业务目标和转变成果，而不是协调任务。 作为代理引擎， Co-worker采用了一种新的创新方法来自动化业务流程。 它通过将数据、智能、协作和代理技能执行与内置的企业上下文、治理和人为监督整合在一起，提高了AI模型的性能和准确性。
 
 ## 同事聊天
-
-卡片
-
-<!--
-CARDS
-
-* https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide
-  {title = UI guide}
-  {description = Learn about the Coworker Chat interface, including navigation, the input box, responses, chat history, and configuring Skills, MCP servers, and Memory.}
-  {cta = Watch}
-
-* https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja
-  {title = Validate Customer Journey Analytics data}
-  {description = Learn how Analytics admins use the CX Enterprise Coworker data validation skill to compare Adobe Analytics and Customer Journey Analytics data during the upgrade.}
-  {cta = Watch}
--->
-
 
 Co-worker Chat使团队能够使用自然语言自动执行Adobe产品任务，通过灵活的规划、可自定义的技能和智能的执行快速将想法转化为行动。
 
