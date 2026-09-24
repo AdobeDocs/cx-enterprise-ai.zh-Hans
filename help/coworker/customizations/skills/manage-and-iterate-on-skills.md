@@ -1,15 +1,15 @@
 ---
 title: 管理和迭代同事的技能
-description: 了解如何使用行之有效的治理工作流管理可重用的人工智能技能。 了解如何建立基准、进行受控的技能更新、比较结果、验证改进和安全地淘汰过时的技能，同时保持输出的一致性、可靠性。
+description: 了解如何使用治理工作流管理可重复使用的AI技能、建立基线、进行受控更新、验证改进并淘汰过时的技能。
 role: User, Developer
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 258
 last-substantial-update: 2026-09-16
 jira: KT-22445
-source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
+source-git-commit: 3c68c4d087141956c290a1d665d6f9eeaca3300f
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '462'
 ht-degree: 0%
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 可重复使用的AI技能可帮助团队执行一致、可重复的任务。 但是，随着业务要求的发展，这些技能也需要发展。 此视频演示了管理以治理为中心的人工智能技能的整个生命周期的实用方法，从评估和改进到验证和弃用。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503574/?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503566/?learn=on)
 
 ## 基线为什么重要
 

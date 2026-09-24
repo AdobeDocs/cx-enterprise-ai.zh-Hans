@@ -1,23 +1,21 @@
 ---
 title: 客户警报技能
-description: 了解如何使用CX Co-worker中的“客户警报技能”来查看警报、分析警报活动、管理订阅并通过自然语言对话确定操作问题的优先级。
-source-git-commit: 6d2ed4b1ab956faf844ab3f517b52c6a2bd2b2dd
+description: 了解如何使用CX Coworker中的客户警报技能通过自然语言对话来查看、分析和优先处理警报活动。
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1022'
 ht-degree: 4%
-
 ---
-
 
 # 客户警报技能
 
 >[!AVAILABILITY]
 >
-> 所有有权访问Adobe CX Enterprise Co-worker的客户都可以获得客户警报技能。
+> 所有有权访问Adobe CX Enterprise Coworker的客户都可以获得客户警报技能。
 >
 > 要使用“客户警报技能”，您必须有权访问Adobe Experience Platform警报以及与这些警报关联的资源。
 
-使用CX Co-worker中的客户警报技能将警报活动转换为个性化的操作简报。 审查最近的警报，确定高优先级问题，了解哪些资源受到影响，并通过自然语言对话集中调查工作。
+使用CX Coworker中的“客户警报技能”将警报活动转换为个性化的操作简报。 审查最近的警报，确定高优先级问题，了解哪些资源受到影响，并通过自然语言对话集中调查工作。
 
 “客户警报技能”可帮助您从警报信号转变为切实可行的洞察信息，而无需手动查看警报视图或在多个界面上关联信息。 先从有关最近警报活动的广泛问题开始，然后使用跟进问题识别定期警报模式、分析受影响的对象并关注您拥有的警报。
 
@@ -29,23 +27,23 @@ ht-degree: 4%
 
 - 访问Adobe Experience Platform。
 - 查看与您的组织相关的警报的权限。
-- CX Co-worker中安装的Adobe CXO插件。
+- CX Coworker中安装的Adobe CXO插件。
 
 有关安装插件的说明，请参阅https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide。
 
 ## 使用客户警报技能 {#use-customer-alert-skills}
 
-使用自然语言请求通过CX Co-worker与客户警报技能互动。 提出有关警报活动、订阅、警报趋势或受影响对象的问题。 继续对话，提出后续问题，以优化结果并集中分析重点。
+使用自然语言请求通过CX Coworker与客户警报技能交互。 提出有关警报活动、订阅、警报趋势或受影响对象的问题。 继续对话，提出后续问题，以优化结果并集中分析重点。
 
 要使用客户预警技能，请执行以下操作：
 
-1. 导航到&#x200B;**[!UICONTROL CX Co-worker]**。
+1. 导航到&#x200B;**[!UICONTROL CX Coworker]**。
 
 1. 输入有关警报的问题或请求。 例如：
 
    *“列出过去24小时内触发的所有警报？”*
 
-   ![CX Co-worker中提出的第一个问题](./assets/alerts/initial-question.png)
+   ![CX Coworker中提出的第一个问题](./assets/alerts/initial-question.png)
 
 1. 查看客户提醒技能返回的结果。
 
@@ -186,6 +184,6 @@ ht-degree: 4%
 
 ## 后续步骤 {#next-steps}
 
-阅读本指南后，您应该了解如何使用CX Co-worker中的客户警报技能来查看警报活动、分析警报趋势、管理警报订阅并通过自然语言对话调查操作问题。
+阅读本指南后，您应该了解如何使用CX Coworker中的客户警报技能来查看警报活动、分析警报趋势、管理警报订阅并通过自然语言对话调查操作问题。
 
 有关警报的详细信息，请参阅[客户警报概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/observability/alerts/overview)。

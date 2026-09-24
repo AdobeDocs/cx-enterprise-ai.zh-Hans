@@ -1,6 +1,6 @@
 ---
 title: 使用Co-worker中的数据验证技能验证Customer Journey Analytics数据
-description: 了解如何使用Co-worker中的数据验证技能验证Customer Journey Analytics数据。 在构建功能板、区段和客户历程之前，识别CJA数据集并发现数据问题。
+description: 了解如何使用Co-worker中的数据验证技能验证Customer Journey Analytics数据，并在构建仪表板之前解决问题。
 feature: AI Tools
 role: User
 level: Beginner, Intermediate
@@ -8,9 +8,9 @@ doc-type: Feature Video
 duration: 330
 last-substantial-update: 2026-09-16
 jira: KT-22622
-source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '625'
 ht-degree: 0%
 ---
 # 使用[!DNL Coworker]中的数据验证技能验证Customer Journey Analytics数据

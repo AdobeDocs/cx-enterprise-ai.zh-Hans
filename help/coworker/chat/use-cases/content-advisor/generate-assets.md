@@ -1,6 +1,6 @@
 ---
 title: 同事营销资产生成
-description: 了解同事如何简化社交媒体渠道的资产创建，从而节省时间和精力。
+description: 了解如何使用同事聊天为社交渠道生成品牌营销资产，从而节省时间和精力。
 role: User
 level: Beginner, Intermediate
 doc-type: Feature Video
@@ -9,15 +9,15 @@ last-substantial-update: 2026-09-01T00:00:00.000Z
 jira: KT-22502
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 135
+source-wordcount: '140'
 ht-degree: 0%
-
 ---
-
 
 # 通过同事聊天生成营销资产
 
@@ -27,4 +27,4 @@ Co-worker简化了为社交媒体和其他渠道创建品牌资产的过程。 �
 
 Co-worker还提供了进一步自定义的灵活性。 您可以修改资源、创建变体或调整内容以适合不同的格式，例如Instagram故事。 通过这种方法，您可以在同事管理技术细节的同时专注于目标。
 
->[!VIDEO](https://video.tv.adobe.com/v/3502719/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502692/?learn=on&enablevpops)
