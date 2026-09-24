@@ -2,14 +2,14 @@
 audience: user
 user-guide-title: CX Enterprise 中的 AI
 user-guide-description: 通过实际文档、实施指导和参考材料，了解如何构建、配置、集成和扩展AI Assistant、同事、代理和MCP。
-description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中使用AI改善您的产品知识并获得运营见解。
+description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提高您的产品知识并获得操作见解。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 7b3e62eed184e54e03e61ea3e46b611d0ab46394
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 18%
+source-wordcount: '373'
+ht-degree: 16%
 ---
 
 # CX Enterprise 中的 AI {#experience-cloud-ai}
@@ -23,8 +23,8 @@ ht-degree: 18%
   - [Agentic AI监控仪表板](./overview/monitoring.md)
   - [代理式工具](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-agentic-tools/using/overview)
   - [创作AI内容透明度](content-transparency.md)
-- CX Enterprise Coworker {#coworker}
-  - [关于同事](./coworker/overview.md)
+- CX Enterprise Coworker指南 {#coworker}
+  - [同事概述](./coworker/overview.md)
   - 聊天 {#chat}
     - [概述](./coworker/chat/overview.md)
     - [UI指南](./coworker/chat/ui-guide.md)
@@ -77,12 +77,12 @@ ht-degree: 18%
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
     - [发行说明](./coworker/campaigns/release-notes.md)
-- AI 助手 {#ai-assistant}
+- AI Assistant指南 {#ai-assistant}
   - [AI助手UI指南](./ai-assistant/ai-assistant-ui.md)
   - [提示库](./ai-assistant/prompt-library.md)
   - [隐私](./ai-assistant/privacy.md)
   - [法律声明](./ai-assistant/legal-disclaimer.md)
-- 代理 {#agents}
+- AI代理 {#agents}
   - [Agent Orchestrator](./agents/agent-orchestrator.md)
   - [Audience 代理](./agents/audience.md)
   - [Data Insights Agent](./agents/cja-data-insights-agent.md)

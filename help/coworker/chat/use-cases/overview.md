@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 279e33861b08f5644678a3498acf0fd3e7bca1fc
 workflow-type: tm+mt
-source-wordcount: '5301'
-ht-degree: 5%
+source-wordcount: '5341'
+ht-degree: 6%
 ---
 # 同事聊天用例{#use-cases}
 
@@ -149,6 +149,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | 分析历程流失 | 识别客户在旅程中的流失位置和原因，并检测导致脱离接触的行为模式 | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | “在我的重新参与历程中，客户从哪里流失？”<br> “历程X中的哪些节点的流失率最高？” |
 | 分析自定义操作错误 | 识别历程中自定义操作何时失败或错误率激增，并在故障升级为更广泛中断之前诊断根本原因 | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | “为什么自定义操作在我的忠诚度注册历程中失败？” <br> “在我的欢迎历程中向我显示自定义操作ExternalPush的错误率。” |
 | 检测历程异常 | 检测并确认历程的进入、退出或发送计数中相对于历史基线的意外尖峰、下降或扁平化，并揭示可能的根本原因 | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | “为什么昨天我的欢迎历程的条目减少了？” <br> “本周购物车放弃历程的退出次数是否激增？” |
+| 比较历程版本 | 比较两个历程版本并查看节点、连接和历程级别属性更改的结构化差异 | `journey-analyze-version-comparison` | Adobe Journey Optimizer (AJO) | “比较我的欢迎历程的版本2和3”<br>“这两个历程版本之间发生了什么变化？” |
 
 有关历程的CX Coworker技能的更多详细信息，请参阅[Adobe Journey Optimizer历程文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}。
 
