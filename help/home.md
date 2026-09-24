@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 81c51c896a10559db58c6389a08f9c84b96ef73c
+source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '965'
 ht-degree: 2%
 ---
 # CX Enterprise应用程序中的人工智能
@@ -57,7 +57,7 @@ Co-worker是AI Assistant的代理优先演变，可自动化客户体验和营�
 
 符合条件的客户正在逐步从AI助手和Experience Platform代理过渡到同事聊天。 阅读[同事试用版](./agents/trial.md)以了解试用资格、AI信用使用情况以及如何获取访问权限。
 
-要查看同事聊天的实际效果，请浏览[Playground中的同事聊天](./coworker/playground-coworker-chat.md)，或阅读实际用例，例如[验证AA到CJA的迁移数据](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)和[分析CJA数据](./coworker/chat/use-cases/data-insights/analytics-chat.md)。
+要查看同事聊天的实际效果，请浏览[Playground中的同事聊天](./coworker/playground-coworker-chat.md)，或阅读实际用例，例如[验证AA到CJA的迁移数据](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)、[验证您的Experience Platform数据](./coworker/chat/use-cases/data-insights/data-validation-aep.md)和[分析CJA数据](./coworker/chat/use-cases/data-insights/analytics-chat.md)。
 
 有关同事聊天、团队同事（同事营销活动）和项目的完整产品文档，请参阅[同事](./coworker/overview.md)。 有关沙盒到沙盒对象复制，请参阅[沙盒工具代理技能](./agents/sandbox-tooling.md)。
 

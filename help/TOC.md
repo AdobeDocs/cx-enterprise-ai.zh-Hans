@@ -6,9 +6,9 @@ description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 9f242cdd899327e760c27e81d28439203dca6efa
+source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '370'
 ht-degree: 18%
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 18%
         - [探索趋势和根本原因](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [升级时验证AA到CJA的数据](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [验证CJA报表的数据集质量](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
+        - [验证Experience Platform数据](./coworker/chat/use-cases/data-insights/data-validation-aep.md)
       - 数据管理 {#data-management}
         - [管理数据湖保留](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
       - 受众 {#audiences}
@@ -111,4 +112,3 @@ ht-degree: 18%
     - {hide-from-toc}[Adobe Analytics工具](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
     - [目标](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp)
-

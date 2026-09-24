@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
+source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
 workflow-type: tm+mt
-source-wordcount: '5040'
-ht-degree: 6%
+source-wordcount: '5301'
+ht-degree: 5%
 ---
 # 同事聊天用例{#use-cases}
 
@@ -124,6 +124,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 | [根本原因分析](data-insights/root-cause-analysis.md) | 调查量度发生更改的原因：诊断下降、尖峰和异常 | `cja-root-cause-analysis` | Customer Journey Analytics (CJA) | “上周为什么转化率下降？” <br> “是什么导致了1月15日的收入激增？” |
 | 执行摘要和KPI摘要 | 制作为利益相关者准备的性能摘要、规范性建议和幻灯片组概述 | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `dx-api` | Customer Journey Analytics (CJA) | “给我上个月的执行摘要”<br>“根据本季度的数据创建一个幻灯片组大纲” |
 | [AA ↔ CJA数据验证](data-insights/data-validation-aa-cja.md) | 在Adobe Analytics和Customer Journey Analytics之间比较、审核和协调数据，尤其是在从Adobe Analytics升级到Customer Journey Analytics时 | `aa-cja-validation`, `cja`, `dx-api` | ADOBE ANALYTICS + CJA | “将我的AA报表包与CJA数据视图进行比较”<br>“验证AA和CJA之间的页面视图” |
+| [验证数据集和字段质量](data-insights/data-validation-aep.md) | 对Experience Platform数据集和字段运行统计和语义验证，以在执行后或持续进行<!--TODO: confirm skill ID(s) with engineering before publishing-->时捕获数据质量问题 | `data-validation` | Adobe Experience Platform | “验证数据集Electronics Sample 1000” <br>“验证Customers_2024数据集中的电子邮件字段” |
 | 运行时间序列和因果分析 | 查询和分析受众、数据集和具有因果归因的历程的历史时间序列数据 | `operational-stats-causal-analysis` | 所有符合条件的应用程序 | “显示过去90天的受众规模趋势” <br>“为什么我的数据集行数在3月3日激增？” |
 | 创建自定义CJA技能 | 将分析模式转变为可重用、可重复的技能，这些技能可在不同会话间持续保留 | `cja-skill-creator` | Customer Journey Analytics (CJA) | “将此每周收入分析转换为可重复使用的技能”<br>“将此技能另存为每月funnel报告的技能” |
 
@@ -154,8 +155,11 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 ## 营销计划
 
 | 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
-|---|---|---|---|---|
-| 构建项目 | 将现有项目模板调整到新项目中，根据纯语言的活动描述或上传的活动摘要生成Smart Campaigns、计划和占位符电子邮件 | `build-programs` | Adobe Marketo Engage | “为我们8月份的产品演示创建一个网络研讨会注册计划”<br><br>“构建一个程序，当潜在客户点击得分为50分时触发该程序”<br><br>“为未活动的潜在客户创建3封电子邮件的重新参与系列90天” |
+| --- | --- | --- | --- | --- |
+| 构建项目 | 将现有项目模板调整为新项目，其中的Smart Campaigns、计划和占位符电子邮件由纯语言描述或上传的简介生成 | `build-programs` | Adobe Marketo Engage | “为我们8月份的产品演示创建一个网络研讨会注册计划”<br><br>“构建一个程序，当潜在客户点击得分为50分时触发该程序”<br><br>“为未活动的潜在客户创建3封电子邮件的重新参与系列90天” |
+| 从简短的节目中站出来 | 将纯语言简报或上传的活动文档转换为工作程序：克隆最接近的匹配模板，结转智能营销活动和令牌，并更新事件详细信息。 新的智能营销活动保持停用以供您审阅 | `build-programs` | Adobe Marketo Engage | “我将于9月10日在芝加哥举办一次网络研讨会。 为我设置计划“<br><br>”从此简介设置下个月的路演计划并更新活动令牌“ |
+| 克隆和调整现有程序 | 复制新城市、季度或区域的先前项目并更新日期、令牌和命名。 子智能营销活动会延期并保留为已停用，直到您激活它们 | `build-programs` | Adobe Marketo Engage | “在10月17日克隆我们纽约办事处的上季度活动计划并更新日期和令牌”<br><br>“复制我们英国受众的芝加哥路演计划” |
+| 使用资格逻辑构建智能营销活动 | 创建触发器或批处理智能营销活动，添加智能列表规则（如填写表单或达到分数），并配置流程步骤（如发送电子邮件） | `build-programs` | Adobe Marketo Engage | “创建一个触发器营销活动，在商机填写“联系我们”表单时发送我们的欢迎电子邮件”<br><br>“为点击50分的商机构建批处理营销活动并添加“发送电子邮件”步骤” |
 
 ## 忠诚度
 
