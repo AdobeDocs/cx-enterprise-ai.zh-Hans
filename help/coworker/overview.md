@@ -40,7 +40,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide" title="UI指南" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498558?format=jpeg&nocache=1790258761614" alt="UI指南"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498575?captions=chi_hans&format=jpeg&nocache=1790258761614" alt="UI指南"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -63,7 +63,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja" title="验证Customer Journey Analytics数据" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3496846/?format=jpeg&nocache=1790258762238" alt="验证Customer Journey Analytics数据"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3496865/?captions=chi_hans&format=jpeg&nocache=1790258762238" alt="验证Customer Journey Analytics数据"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
