@@ -30,4 +30,4 @@ ht-degree: 0%
 >
 >本视频演示了同事在基于页面编辑器的网站上创作页面的过程。 在与Edge Delivery Services一起交付的网站上，同事的工作方式相同。
 
-请参阅[同事聊天概述](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)以开始使用同事聊天。
+请参阅[同事聊天概述](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)以开始使用同事聊天。
