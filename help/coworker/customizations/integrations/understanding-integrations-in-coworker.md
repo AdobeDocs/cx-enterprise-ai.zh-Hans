@@ -7,7 +7,7 @@ doc-type: Feature Video
 duration: 240
 last-substantial-update: 2026-09-22
 jira: KT-22447
-source-git-commit: 9f242cdd899327e760c27e81d28439203dca6efa
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 0%
@@ -17,4 +17,4 @@ ht-degree: 0%
 
 快速浏览并概述Co-worker中的集成，包括什么是集成、为何使用集成以及如何使用界面。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503744/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503753/?captions=chi_hans&learn=on&enablevpops)

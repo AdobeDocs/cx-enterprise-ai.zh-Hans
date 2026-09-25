@@ -1,15 +1,15 @@
 ---
 title: 同事插件 — 它们是什么、如何工作以及如何安装它们
-description: 了解Adobe CX Coworker插件如何通过技能和MCP服务器来扩展功能。
+description: 了解Adobe CX Coworker插件、可安装的包（这些包将捆绑技能和MCP服务器以扩展功能以满足特定业务需求）。
 role: User, Developer
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 210
 last-substantial-update: 2026-09-22
 jira: KT-22449
-source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '500'
 ht-degree: 4%
 ---
 

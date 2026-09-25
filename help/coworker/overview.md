@@ -1,15 +1,15 @@
 ---
 title: 关于Adobe CX Enterprise Coworker
-description: 了解如何使用Adobe CX Enterprise Coworker将您的营销提升到新的水平。
+description: 了解Adobe CX Enterprise Coworker，它是一个AI支持的团队成员，可自动执行整个组织的客户体验和营销工作流。
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 7b3e62eed184e54e03e61ea3e46b611d0ab46394
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '499'
 ht-degree: 17%
 ---
 # CX Enterprise Coworker概述 {#overview}

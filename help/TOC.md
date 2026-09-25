@@ -6,10 +6,10 @@ description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 7b3e62eed184e54e03e61ea3e46b611d0ab46394
+source-git-commit: 27b08d0b2176aee18d39d5d3cd408273e34e0efc
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 16%
+source-wordcount: '374'
+ht-degree: 17%
 ---
 
 # CX Enterprise 中的 AI {#experience-cloud-ai}
@@ -55,6 +55,7 @@ ht-degree: 16%
         - [生成营销资产](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [品牌合规性检查](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
   - 自定义 {#customizations}
+    - [概述](./coworker/customizations/overview.md)
     - 技能 {#skills}
       - [什么是技能？](./coworker/customizations/skills/what-are-skills.md)
       - [创建您的第一个技能](./coworker/customizations/skills/create-your-first-skill.md)
