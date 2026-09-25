@@ -7,7 +7,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 792890c00265d0319e8eee3c1008ef5ce155b0ec
 workflow-type: tm+mt
 source-wordcount: '5341'
 ht-degree: 6%
@@ -30,7 +30,7 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 | 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| 更新AEM页面 | 执行更新、删除、替换或添加内容元素等操作，以保持体验准确且最新。 输入内容可以是自然语言或可视批注，如PDF或屏幕截图。 | `aem-sites-pages-update` | Adobe Experience Manager (AEM) - AEM Sites | 在&lt;URL>上将标题更新为Hello World<br><br>在&lt;URL>上将“参加我们的咖啡测验”按钮更改为更吸引人的版本<br><br>根据附加的<br><br>在&lt;URL>上更新&lt;URL>我想在页面底部添加一个新的Teaser部分，介绍我们在8月份举行的促销活动，购买咖啡机并免费获得2袋咖啡。 还可以找到朋友喝咖啡的图像，并在Teaser中使用 |
+| [更新AEM页面](content-advisor/author-web-pages.md) | 执行更新、删除、替换或添加内容元素等操作，以保持体验准确且最新。 输入内容可以是自然语言或可视批注，如PDF或屏幕截图。 | `aem-sites-pages-update` | Adobe Experience Manager (AEM) - AEM Sites | 在&lt;URL>上将标题更新为Hello World<br><br>在&lt;URL>上将“参加我们的咖啡测验”按钮更改为更吸引人的版本<br><br>根据附加的<br><br>在&lt;URL>上更新&lt;URL>我想在页面底部添加一个新的Teaser部分，介绍我们在8月份举行的促销活动，购买咖啡机并免费获得2袋咖啡。 还可以找到朋友喝咖啡的图像，并在Teaser中使用 |
 | 批量更新AEM | 同时跨多个页面执行批量操作，例如删除、替换或添加内容元素，以保持体验准确且最新。 | `aem-sites-pages-bulkreplace` | Adobe Experience Manager (AEM) - AEM Sites | 在&lt;aem path>上，将包含副本“MyBarista\”的所有页面更新为“BrewPass” |
 | 从图转到可视内容片段 | 使用自然语言将设计直接从Figma导入Adobe Experience Manager。 该技能会自动创建所需的内容模型、内容片段、资源和可视化模板，使业务用户能够在几分钟内从设计转移到支持Web的内容，而无需手动设置。 | `aem-sites-visualcontentfragments-create` | Adobe Experience Manager (AEM) - AEM Sites | 从&lt;Figma_URL>导入 |
 
