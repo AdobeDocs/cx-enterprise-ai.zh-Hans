@@ -1,22 +1,47 @@
 ---
-description: 了解Adobe CX Enterprise Co-worker Campaigns发行说明中的功能增强和修复。
-title: 《 CX Enterprise Co-worker Campaign发布说明》
+description: 了解Adobe CX Enterprise Coworker Campaigns发行说明中的功能增强和修复。
+title: CX Enterprise Coworker Campaigns发行说明
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: dcd2c251357930ae31f78e2d9460d038a0710e3d
+    internal-label: CX Enterprise Coworker
+source-git-commit: 25e4b0b917fec566b7f85f6914817d3d038abf0e
 workflow-type: tm+mt
-source-wordcount: 3291
+source-wordcount: '3586'
 ht-degree: 0%
-
 ---
-
-# Adobe CX Enterprise Co-worker Campaign发行说明 {#release-notes}
+# Adobe CX Enterprise Coworker Campaigns发行说明 {#release-notes}
 
 协作营销活动版本在持续交付模型上运行，通过该模型可采用更具可扩展性、分阶段的方法部署功能。
 
-## 2026年9月 {#sep-2026}
+## 2026 年 9 月 {#sep-2026}
+
+**发行日期： 2026年9月17日**
+
+* 连接托管在Azure、GCP或自定义域上的Databricks工作区
+* 在完全设置活动的工作流之前，无法再启动活动
+* 活动模板已更新内容
+* 上传联系人列表CSV时直接选择连接器
+* 修复了在滚动浏览一长串试用注册后可能发生崩溃的问题
+* 修复了上传标头为空白或重复的受众CSV可能会导致页面崩溃的问题
+* 修复了营销活动提示中解析后未填写的占位符文本
+* 修复了由于缺少颜色渐变而导致的“技能”页面崩溃
+* 在回答相同问题后，修复的聊天卡住了，并重复了相同的问题
+* 聊天响应不再在您的选定答案前面显示杂凑ID前缀
+* 立即聊天建议快速进行下一步回复，您可以点按以填充撰写框
+* 现在，营销活动模板将在简化的页面内视图中打开，而不是在单独的对话框中
+* 现在，扩展的聊天进度栏可在内部滚动，而不是将您的对话推到视线之外
+* Campaign设置现在可更准确地反映最新讨论区详细信息
+* 升级计划对话框现在使用更加一致的外观
+* 从营销活动计划标头中删除了多余的状态指示器，以便外观更干净
+* 现在，快速电子邮件编辑将一起保存为单个版本历史记录条目，而不是多个
+* 在生成草稿时，修复了偶尔会清空的品牌套件标题
+* 直接在图像工具栏中使用Adobe Express编辑图像
+* 现在，无需手动刷新，基本代理受众数据在营销活动展示板上保持同步
+* 营销活动展示板上的品牌徽标裁剪得更加整齐，以适合其空间
+* 当营销活动计划移至营销活动展示板时，提供更流畅的视觉切换效果
 
 **发行日期： 2026年9月3日**
 
@@ -345,7 +370,7 @@ ht-degree: 0%
 
 * 当您工作时，营销活动展示板和列表会与最新详细信息保持一致
 * Campaign聊天和Agent Builder中会显示明确的创作AI免责声明
-* 支持联系人详细信息现在使用专用的CX Co-worker Campaigns电子邮件地址
+* 支持联系人详细信息现在使用专用的CX Coworker促销活动电子邮件地址
 * 营销主页删除了轮候表部分，并更清楚地显示了主页视频
 * 更多屏幕会自动采用您的语言和本地日期格式
 * 整个过程中的各种性能和可靠性改进
