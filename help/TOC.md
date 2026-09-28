@@ -107,7 +107,7 @@ ht-degree: 17%
   - 快速入门 {#mcp-get-started}
     - {hide-from-toc}[访问CX Coworker网关工具](./mcp/access.md)
     - {hide-from-toc}[安装CX Coworker Gateway](./mcp/install.md)
-    - CX Coworker Gateway中的{hide-from-toc}[会话上下文工具](./mcp/context-tools.md)
+    - {hide-from-toc}[CX Coworker Gateway中的会话上下文工具](./mcp/context-tools.md)
   - 产品工具 {#mcp-product-tools}
     - {hide-from-toc}[Real-Time CDP工具](./mcp/rtcdp-mcp.md)
     - {hide-from-toc}[Experience Platform工具](./mcp/aep-mcp.md)
