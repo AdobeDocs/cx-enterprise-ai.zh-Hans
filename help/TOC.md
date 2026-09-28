@@ -6,7 +6,7 @@ description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: a4beeda8283b677a72ec4e276276998cd0df5b01
+source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 17%
@@ -51,10 +51,10 @@ ht-degree: 17%
         - [沙盒工具代理技能](./agents/sandbox-tooling.md)
       - 警报 {#alerts}
         - [客户警报技能](./agents/customer-alerts.md)
-      - 内容审查程序 {#content-advisor}
-        - [生成营销资产](./coworker/chat/use-cases/content-advisor/generate-assets.md)
-        - [品牌合规性检查](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
-        - [创作AEM Sites页面](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
+      - 品牌可见度 {#brand-visibility}
+        - [生成营销资产](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
+        - [品牌合规性检查](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
+        - [创作AEM Sites页面](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
       - 工作流程和规划 {#workflow-and-planning}
         - [规划数字营销活动发布](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
   - 自定义 {#customizations}
@@ -107,12 +107,12 @@ ht-degree: 17%
   - 快速入门 {#mcp-get-started}
     - {hide-from-toc}[访问CX Coworker网关工具](./mcp/access.md)
     - {hide-from-toc}[安装CX Coworker Gateway](./mcp/install.md)
-    - {hide-from-toc}[CX Coworker Gateway中的会话上下文工具](./mcp/context-tools.md)
+    - CX Coworker Gateway中的{hide-from-toc}[会话上下文工具](./mcp/context-tools.md)
   - 产品工具 {#mcp-product-tools}
     - {hide-from-toc}[Real-Time CDP工具](./mcp/rtcdp-mcp.md)
     - {hide-from-toc}[Experience Platform工具](./mcp/aep-mcp.md)
     - {hide-from-toc}[Journey Optimizer工具](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [目标](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [目标](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
