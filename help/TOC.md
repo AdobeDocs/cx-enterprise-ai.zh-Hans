@@ -6,7 +6,7 @@ description: 了解CX企业版中的AI工具。 在CX Enterprise中使用AI提�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 60ed766e62bf5822244abdfc4e944ff71aaa0d57
+source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 17%
@@ -51,12 +51,12 @@ ht-degree: 17%
         - [沙盒工具代理技能](./agents/sandbox-tooling.md)
       - 警报 {#alerts}
         - [客户警报技能](./agents/customer-alerts.md)
-      - 内容审查程序 {#content-advisor}
-        - [生成营销资产](./coworker/chat/use-cases/content-advisor/generate-assets.md)
-        - [品牌合规性检查](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+      - 品牌可见度 {#brand-visibility}
+        - [生成营销资产](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
+        - [品牌合规性检查](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
+        - [创作AEM Sites页面](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
       - 工作流程和规划 {#workflow-and-planning}
         - [规划数字营销活动发布](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
-        - [创作AEM Sites页面](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
   - 自定义 {#customizations}
     - [概述](./coworker/customizations/overview.md)
     - 技能 {#skills}

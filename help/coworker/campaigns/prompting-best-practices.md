@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
+source-git-commit: d037ab69c5d03cba18dcfcdd8745c8f331765214
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '781'
 ht-degree: 1%
 ---
 # 提示最佳实践 {#best-practices}
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->目前，您只能连接到同事营销活动支持的集成。  如果您有任何现有的Adobe Enterprise应用程序（用于存储受众或构建历程），我们建议您改用[CX Enterprise Coworker](/help/coworker/chat/use-cases/overview.md)。
+>目前，您只能连接到同事营销活动支持的集成。 如果您有任何现有的Adobe Enterprise应用程序（用于存储受众或构建历程），我们建议您改用[CX Enterprise Coworker](/help/coworker/chat/use-cases/overview.md)。
 
-## 使用CO-STAR框架 {#costar-framework}
+## 使用CO-STAR框架
 
 为了获得最佳结果，请使用CO-STAR框架组织您的提示。 这种结构化方法可确保AI准确了解您所需的内容。
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 | **A — 受众** | 您定位的受众 | 确保消息与合适的人员引起共鸣 |
 | **R — 要求** | 特定限制或必备项 | 定义边界和关键元素 |
 
-## AI提示要点 {#key-takeaways}
+## AI提示要点
 
 ### 做和不做
 
@@ -114,7 +114,7 @@ ht-degree: 1%
 </tbody>
 </table>
 
-### 质量核对清单 {#quality-checklist}
+### 质量核对清单
 
 在生成内容之前，请确保满足以下条件：
 
@@ -160,6 +160,22 @@ ht-degree: 1%
 </tr>
 </tbody>
 </table>
+
+## 一般营销提示想法
+
+### 内容营销
+
+- “制作20个博客主题，回答首次购房者的常见问题。”
+- “LinkedIn集思广益，为创建B2B网络安全初创公司提出想法。”
+- “创建一个为期三个月的内容日历，专注于培训新客户。”
+- “建议可重新用于博客、视频、新闻稿和社交帖子的内容主题。”
+
+### 电子邮件营销
+
+- “为对可持续时尚感兴趣的新订阅者生成欢迎电子邮件序列。”
+- “脑力激荡主题线，它们创造好奇心，但听起来不像点击诱饵。”
+- “针对不活跃的客户提出重新接触促销活动建议。”
+- “为已完成入门培训的用户创建生命周期电子邮件想法。”
 
 >[!MORELIKETHIS]
 >
