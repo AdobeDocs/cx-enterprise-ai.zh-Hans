@@ -1,7 +1,7 @@
 ---
 title: 客户警报技能
 description: 了解如何使用CX Coworker中的客户警报技能通过自然语言对话来查看、分析和优先处理警报活动。
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 4%

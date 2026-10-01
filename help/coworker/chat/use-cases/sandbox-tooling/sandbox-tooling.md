@@ -1,7 +1,7 @@
 ---
 title: 沙盒工具代理技能
 description: 了解如何使用沙盒工具代理技能跨沙盒环境复制对象元数据。
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
