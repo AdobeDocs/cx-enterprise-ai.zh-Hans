@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: f3430820a49a690ef43b23347495653a41294ca9
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 17%
+source-wordcount: '658'
+ht-degree: 6%
 ---
 # CX Enterprise Coworker概述 {#overview}
 
@@ -20,85 +20,105 @@ Co-worker是一个由AI提供支持的团队成员，它重新构想了组织、
 
 Co-worker Chat使团队能够使用自然语言自动执行Adobe产品任务，通过灵活的规划、可自定义的技能和智能的执行快速将想法转化为行动。
 
-<!--
-CARDS
+## 策划的同事聊天学习
 
-* https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide
-  {title = UI guide}
-  {description = Learn about the Coworker Chat interface, including navigation, the input box, responses, chat history, and configuring Skills, MCP servers, and Memory.}
-  {cta = Watch}
-
-* https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja
-  {title = Validate Customer Journey Analytics data}
-  {description = Learn how Analytics admins use the CX Enterprise Coworker data validation skill to compare Adobe Analytics and Customer Journey Analytics data during the upgrade.}
-  {cta = Watch}
--->
-<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="UI guide">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
+    <div class="column is-half-tablet is-half-desktop" aria-label="Get started with CX Enterprise Coworker Chat">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column;">
+        <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide" title="UI指南" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498575?captions=chi_hans&format=jpeg&nocache=1790258761614" alt="UI指南"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-get-started-with-chat" title="CX Enterprise Coworker Chat入门" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498575?captions=chi_hans&format=jpeg" alt="Experience League LIVE：Co-worker中的受众和历程B2C功能" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide" target="_blank" rel="referrer" title="UI指南">UI指南</a>
+                        <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker Chat入门">开始使用CX Enterprise Coworker Chat</a>
                     </p>
-                    <p class="is-size-6">了解同事聊天界面，包括导航、输入框、响应、聊天历史记录以及配置技能、MCP服务器和内存。</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">观看</span>
+                <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">播放列表</span>
                 </a>
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Validate Customer Journey Analytics data">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+    <div class="column is-half-tablet is-half-desktop" aria-label="Customize CX Enterprise Coworker Chat">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column;">
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja" title="验证Customer Journey Analytics数据" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3496865/?captions=chi_hans&format=jpeg&nocache=1790258762238" alt="验证Customer Journey Analytics数据"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    <a href="ttps://experienceleague.adobe.com/en/playlists/coworker-customize-chat" title="CX Enterprise Coworker Chat入门" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3502331?captions=chi_hans&format=jpeg" alt="Experience League LIVE：Co-worker中的受众和历程B2C功能" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
             </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja" target="_blank" rel="referrer" title="验证Customer Journey Analytics数据">验证Customer Journey Analytics数据</a>
+                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="自定义CX Enterprise Coworker Chat">自定义CX Enterprise Coworker Chat</a>
                     </p>
-                    <p class="is-size-6">了解Analytics管理员如何在升级期间使用CX Enterprise Coworker数据验证技能比较Adobe Analytics和Customer Journey Analytics数据。</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/data-insights/data-validation-aa-cja" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">观看</span>
+                <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">播放列表</span>
                 </a>
             </div>
         </div>
     </div>
 </div>
-<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-## 自定义
+## Experience League LIVE：同事已解锁系列
 
-通过自定义设置，您可以通过技能、集成、插件和内存来扩展和个性化同事。
+<div class="columns">
+    <div class="column is-half-tablet is-half-desktop" aria-label="Transforming CX Workflows with Adobe CX Enterprise Coworker">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-09-24-26" title="用Adobe CX Enterprise Coworker转换CX工作流" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/exl-live-20260924.png" alt="Experience League LIVE：使用Adobe CX Enterprise Coworker转换CX工作流" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-09-24-26" target="_blank" rel="referrer" title="用Adobe CX Enterprise Coworker转换CX工作流">使用Adobe CX Enterprise Coworker转换CX工作流</a>
+                    </p>
+                    <p class="is-size-6">探索真实用例，这些用例演示组织如何让同事努力发掘见解、创建受众、优化历程以及更快、更高效地提供客户体验。</p>
+                </div>
+                <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-09-24-26" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">观看</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop" aria-label="Audience and Journey B2C capabilities in Coworker">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008" title="Co-worker中的受众和历程B2C功能" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/exl-live-20261008.png" alt="Experience League LIVE：Co-worker中的受众和历程B2C功能" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008" target="_blank" rel="referrer" title="Co-worker中的受众和历程B2C功能">同事中的受众和历程B2C功能</a>
+                    </p>
+                    <p class="is-size-6">了解同事如何执行端到端工作流程以实现客户体验编排，从而提高生产效率并简化其他技术性或复杂的任务。</p>
+                </div>
+                <a href="https://engage.adobe.com/ExpLeagueLive-261008.html?cid=cwkr-ovw-20261008" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">注册</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 
-* [什么是技能？](./customizations/skills/what-are-skills.md)
-* [创建您的第一个技能](./customizations/skills/create-your-first-skill.md)
-* [培养并运行质量关卡技能](./customizations/skills/run-a-quality-gate-skill.md)
-* [管理和迭代技能](./customizations/skills/manage-and-iterate-on-skills.md)
-* [什么是集成？](./customizations/integrations/understanding-integrations-in-coworker.md)
-* [什么是插件？](./customizations/plugins/what-are-plugins.md)
-* [什么是记忆？](./customizations/memory/what-is-memory.md)
+## 同事团队（以前称为“营销活动”）
 
-## 营销活动
-
-同事营销活动是小型敏捷团队的一项模板化功能，可用于站起来执行营销活动。
+同事团队是小型敏捷团队的一项模板化功能，可用于站起来执行活动。
 
 * [概述](./campaigns/overview.md)
 * [创建电子邮件营销活动](./campaigns/create-an-email-campaign.md)
