@@ -29,7 +29,7 @@ Co-worker Chat使团队能够使用自然语言自动执行Adobe产品任务，�
         <div class="card" style="height: 100%; display: flex; flex-direction: column;">
         <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" title="CX Enterprise Coworker Chat入门" target="_blank" rel="referrer">
+                    <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-get-started-with-chat" title="CX Enterprise Coworker Chat入门" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3498558?format=jpeg" alt="Experience League LIVE：Co-worker中的受众和历程B2C功能" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -37,10 +37,10 @@ Co-worker Chat使团队能够使用自然语言自动执行Adobe产品任务，�
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker Chat入门">开始使用CX Enterprise Coworker Chat</a>
+                        <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" title="CX Enterprise Coworker Chat入门">开始使用CX Enterprise Coworker Chat</a>
                     </p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-get-started-with-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">播放列表</span>
                 </a>
             </div>
@@ -58,10 +58,10 @@ Co-worker Chat使团队能够使用自然语言自动执行Adobe产品任务，�
             </div>
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="自定义CX Enterprise Coworker Chat">自定义CX Enterprise Coworker Chat</a>
+                        <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-customize-chat" target="_blank" rel="referrer" title="自定义CX Enterprise Coworker Chat">自定义CX Enterprise Coworker Chat</a>
                     </p>
                 </div>
-                <a href="https://experienceleague.adobe.com/en/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/zh-hans/playlists/coworker-customize-chat" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">播放列表</span>
                 </a>
             </div>
