@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
+source-git-commit: 8b900f43168e74cab003eb4bd72d5c18910c882b
 workflow-type: tm+mt
-source-wordcount: '7039'
+source-wordcount: '7086'
 ht-degree: 6%
 ---
 # 同事聊天用例 {#use-cases}
@@ -116,14 +116,14 @@ Co-worker Chat允许您使用自然语言查询、分析和处理[!DNL Experienc
 
 | 用例 | 描述 | 技能 | 应用程序 | 示例提示 |
 | --- | --- | --- | --- | --- |
-| [提取CJA报告和量度](data-insights/analytics-chat.md) | 实时查询CJA以提取量度、维度、区段和数据视图 | `cja` | Customer Journey Analytics (CJA) | “显示过去30天的页面查看次数”<br>“列出主数据视图中的热门区段” |
-| 比较分析 | 并排比较各个渠道、时间段或区段之间的量度 | `cja-root-cause-analysis`, `cja`, `dx-api`, `knowledge-graph` | Customer Journey Analytics (CJA) | “按渠道逐月比较收入”<br>“本季度移动与桌面转化情况如何？” |
-| 营销活动效果 | 测量在给定时间段内促销活动、渠道和Web属性的执行情况。 | `cja`, `dx-api`, `knowledge-graph` | | “上个月，我们的Acrobat网络营销活动表现如何？” |
-| funnel分析 | 逐步了解每个阶段都存在流失的多步转化漏斗 | `cja` | Customer Journey Analytics (CJA) | &quot;带我浏览funnel&quot; <br> &quot;显示从PDP到购买的转化funnel&quot; |
-| 预测 | 基于历史CJA数据预测未来量度值 | `cja` | Customer Journey Analytics (CJA) | “未来30天的预测会话”<br>“我们是否即将实现收入目标？” |
-| [根本原因分析](data-insights/root-cause-analysis.md) | 调查量度发生更改的原因：诊断下降、尖峰和异常 | `cja-root-cause-analysis` | Customer Journey Analytics (CJA) | “上周为什么转化率下降？” <br> “是什么导致了1月15日的收入激增？” |
-| 执行摘要和KPI摘要 | 制作为利益相关者准备的性能摘要、规范性建议和幻灯片组概述 | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `dx-api` | Customer Journey Analytics (CJA) | “给我上个月的执行摘要”<br>“根据本季度的数据创建一个幻灯片组大纲” |
-| [AA ↔ CJA数据验证](data-insights/data-validation-aa-cja.md) | 在Adobe Analytics和Customer Journey Analytics之间比较、审核和协调数据，尤其是在从Adobe Analytics升级到Customer Journey Analytics时 | `aa-cja-validation`, `cja`, `dx-api` | ADOBE ANALYTICS + CJA | “将我的AA报表包与CJA数据视图进行比较”<br>“验证AA和CJA之间的页面视图” |
+| [提取CJA和AA报告与指标](data-insights/analytics-chat.md) | 实时查询CJA或AA以提取量度、维度、区段、数据视图和报表包 | `cja`, `aa` | Customer Journey Analytics (CJA)、Adobe Analytics (AA) | “显示过去30天的页面查看次数”<br>“列出主数据视图中的热门区段” |
+| 比较分析 | 并排比较各个渠道、时间段或区段之间的量度 | `cja-root-cause-analysis`, `cja`, `aa-root-cause-analysis`, `aa`, `dx-api`, `knowledge-graph` | Customer Journey Analytics (CJA)、Adobe Analytics (AA) | “按渠道逐月比较收入”<br>“本季度移动与桌面转化情况如何？” |
+| 营销活动效果 | 测量在给定时间段内促销活动、渠道和Web属性的执行情况。 | `cja`, `aa`, `dx-api`, `knowledge-graph` | | “上个月，我们的Acrobat网络营销活动表现如何？” |
+| funnel分析 | 逐步了解每个阶段都存在流失的多步转化漏斗 | `cja`, `aa` | Customer Journey Analytics (CJA)、Adobe Analytics (AA) | &quot;带我浏览funnel&quot; <br> &quot;显示从PDP到购买的转化funnel&quot; |
+| 预测 | 基于历史CJA或AA数据预测未来量度值 | `cja`, `aa` | Customer Journey Analytics (CJA)、Adobe Analytics (AA) | “未来30天的预测会话”<br>“我们是否即将实现收入目标？” |
+| [根本原因分析](data-insights/root-cause-analysis.md) | 调查量度发生更改的原因：诊断下降、尖峰和异常 | `cja-root-cause-analysis`, `aa-root-cause-analysis` | Customer Journey Analytics (CJA)、Adobe Analytics (AA) | “上周为什么转化率下降？” <br> “是什么导致了1月15日的收入激增？” |
+| 执行摘要和KPI摘要 | 制作为利益相关者准备的性能摘要、规范性建议和幻灯片组概述 | `cja-executive-summary`, `cja-bacom-anomaly-tracker-v2`, `cja-cno-weekly-pulse`, `cja-reporting`, `cja`, `aa`, `dx-api` | Customer Journey Analytics (CJA)、Adobe Analytics (AA) | “给我上个月的执行摘要”<br>“根据本季度的数据创建一个幻灯片组大纲” |
+| [AA ↔ CJA数据验证](data-insights/data-validation-aa-cja.md) | 在Adobe Analytics和Customer Journey Analytics之间比较、审核和协调数据，尤其是在从Adobe Analytics升级到Customer Journey Analytics时 | `aa-cja-validation`, `cja`, `aa`, `dx-api` | ADOBE ANALYTICS + CJA | “将我的AA报表包与CJA数据视图进行比较”<br>“验证AA和CJA之间的页面视图” |
 | [验证数据集和字段质量](data-insights/data-validation-aep.md) | 对Experience Platform数据集和字段运行统计和语义验证，以在执行后或持续进行<!--TODO: confirm skill ID(s) with engineering before publishing-->时捕获数据质量问题 | `data-validation` | Adobe Experience Platform | “验证数据集Electronics Sample 1000” <br>“验证Customers_2024数据集中的电子邮件字段” |
 | 运行时间序列和因果分析 | 查询和分析受众、数据集和具有因果归因的历程的历史时间序列数据 | `operational-stats-causal-analysis` | 所有符合条件的应用程序 | “显示过去90天的受众规模趋势” <br>“为什么我的数据集行数在3月3日激增？” |
 | 创建自定义CJA技能 | 将分析模式转变为可重用、可重复的技能，这些技能可在不同会话间持续保留 | `cja-skill-creator` | Customer Journey Analytics (CJA) | “将此每周收入分析转换为可重复使用的技能”<br>“将此技能另存为每月funnel报告的技能” |
