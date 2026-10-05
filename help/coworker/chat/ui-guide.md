@@ -4,20 +4,20 @@ title: 同事聊天UI指南
 jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 38de8c889dc46760877bc4adca8ba3b79039de98
 workflow-type: tm+mt
-source-wordcount: 1719
+source-wordcount: '1719'
 ht-degree: 4%
-
 ---
-
 # UI指南 {#ui-guide}
 
 开始使用同事聊天界面。 本指南涵盖方方面面，从访问应用程序、导航工作区到充分利用对话、管理历史记录和定制设置。
 
->[!VIDEO](https://video.tv.adobe.com/v/3498575?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## 访问同事聊天
 
@@ -25,18 +25,18 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->可通过右上角的同事图标![同事图标](./assets/icon-coworker.png)访问产品内体验。 沉浸式体验详细信息概述如下[&#128279;](#immersive)。
+>可通过右上角的同事图标![同事图标](./assets/icon-coworker.png)访问产品内体验。 沉浸式体验详细信息概述如下[](#immersive)。
 
-下表列出了这些体验在何时可用于每个CX Enterprise应用程序。
+下表捕获这些体验何时可用于每个CX Enterprise应用程序。
 
-| CX企业级应用程序 | 沉浸式体验 | 产品内体验 |
+| CX Enterprise应用程序 | 沉浸式体验 | 产品内体验 |
 |---|---|---|
 | RTCDP | 现在可用 | 即将推出 |
 | AJO | 现在可用 | 即将推出 |
 | CJA | 现在可用 | 即将推出 |
 | Workfront | 现在可用 | 即将推出：<br><br>* 2026年9月初在预览实例中为符合条件的Workfront系统管理员推荐<br><br>* 2026年9月中旬在生产实例中为符合条件的快速发布Workfront客户推荐<br><br>* 2026年10月中旬在生产实例中为符合条件的季度发布Workfront客户推荐 |
 | 目标 | 现在可用 | 现在可用 |
-| AEM | 现在可用 | 即将推出 |
+| AEM | 现在可用 | 现在可用 |
 | Marketo Engage | 现在可用 | 即将推出 |
 
 ### 沉浸式体验 {#immersive}
@@ -45,7 +45,7 @@ ht-degree: 4%
 
 您还可以通过从CX Enterprise顶部标题的应用程序选择器中选择&#x200B;**Co-worker**&#x200B;来访问它。
 
-![从CX Enterprise应用程序选择器访问Co-worker](./assets/ui-guide-1.png)
+![从CX Enterprise应用程序选择器访问同事](./assets/ui-guide-1.png)
 
 ## 选择您的组织和沙盒
 
@@ -68,7 +68,7 @@ ht-degree: 4%
 
 ## 探索界面
 
-CX Co-worker界面有两个主要区域：左侧是导航边栏，窗口其余部分为对话画布。
+CX Coworker界面有两个主要区域：左侧的导航边栏和填充窗口其余部分的对话画布。
 
 ![主屏幕](./assets/ui-guide-4.png)
 
@@ -91,7 +91,7 @@ CX Co-worker界面有两个主要区域：左侧是导航边栏，窗口其余�
 
 ### 建议的提示
 
-在“为您推荐”下， CX Co-worker列出了示例任务。 选择任何建议以将其加载到输入框中，然后在发送前对其进行编辑或按原样发送。 建议是一种查看Co-worker Chat支持的工作类型的快速方法：在沙盒之间移动架构、在历程中发现异常、验证数据集等。
+CX Coworker在为您推荐下列出了示例任务。 选择任何建议以将其加载到输入框中，然后在发送前对其进行编辑或按原样发送。 建议是一种查看Co-worker Chat支持的工作类型的快速方法：在沙盒之间移动架构、在历程中发现异常、验证数据集等。
 
 ### 实体提及
 
