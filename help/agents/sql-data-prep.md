@@ -8,7 +8,7 @@ ht-degree: 1%
 ---
 # Co-worker中的SQL数据准备
 
-在Co-worker中使用SQL数据准备来执行带有自然语言提示的常用[数据Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)任务。 您可以生成SQL、对现有查询进行故障诊断或优化、预览结果，以及计划定期执行的查询。
+在Co-worker中使用SQL数据准备来执行带有自然语言提示的常用[数据Distiller](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/data-distiller/overview)任务。 您可以生成SQL、对现有查询进行故障诊断或优化、预览结果，以及计划定期执行的查询。
 
 >[!AVAILABILITY]
 >
@@ -56,7 +56,7 @@ Co-worker生成或更新SQL后，您可以继续对话以预览结果、优化�
 
 在需要其他信息时，同事可以询问跟进问题，例如确定合适的数据集或确认时间表的时区。
 
-查询预览最多返回五行。 要直接在Experience Platform中运行和使用查询，请参阅[查询编辑器UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide)。
+查询预览最多返回五行。 要直接在Experience Platform中运行和使用查询，请参阅[查询编辑器UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/ui/user-guide)。
 
 ![Co-worker响应显示SQL查询结果的五行预览，以及用于将查询另存为模板或计划其定期执行的选项。](./assets/sql-data-prep/query-preview.png)
 
@@ -74,7 +74,7 @@ Co-worker会返回生成的SQL，并且可以执行查询以提供结果的预�
 
 ![Co-worker响应显示按事件类型汇总客户参与情况的已生成SQL，随后是事件总数和独特客户的表预览以及结果分析。](./assets/sql-data-prep/authoring-result.png)
 
-有关直接在Experience Platform中创建和运行查询的信息，请参阅[查询编辑器用户界面指南](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide)。
+有关直接在Experience Platform中创建和运行查询的信息，请参阅[查询编辑器用户界面指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/ui/user-guide)。
 
 ### 优化现有SQL {#optimize-sql}
 
@@ -113,7 +113,7 @@ Co-worker会返回生成的SQL，并且可以执行查询以提供结果的预�
 
 已优化通过SQL创作功能生成的SQL。 您无需单独提交新生成的SQL以进行优化。
 
-有关SQL语法和支持的命令，请参阅[查询服务SQL引用](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview)。
+有关SQL语法和支持的命令，请参阅[查询服务SQL引用](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/sql/overview)。
 
 ### 诊断和修复SQL错误 {#diagnose-sql-errors}
 
@@ -156,13 +156,13 @@ Co-worker分析查询，确定错误原因，解释问题并提供更正后的SQ
 
 ![确认计划SQL查询的同事响应，包括保存的模板、计划、时区、结束日期、计划状态和失败警报。](./assets/sql-data-prep/schedule-query.png)
 
-有关查询计划、循环设置、输出数据集和警报的详细信息，请参阅[查询计划](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/query-schedules)。
+有关查询计划、循环设置、输出数据集和警报的详细信息，请参阅[查询计划](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/ui/query-schedules)。
 
 ## 后续步骤 {#next-steps}
 
 有关SQL数据准备使用的数据Distiller和查询服务功能的更多信息，请参阅以下文档：
 
-- [数据Distiller概述](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
-- [查询编辑器UI指南](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide)
-- [查询计划](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/query-schedules)
-- [查询服务SQL引用](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview)
+- [数据Distiller概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/data-distiller/overview)
+- [查询编辑器UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/ui/user-guide)
+- [查询计划](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/ui/query-schedules)
+- [查询服务SQL引用](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/query/sql/overview)
