@@ -6,9 +6,9 @@ description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
+source-git-commit: 7cab54c87c39994dc07302af62de394cbc6b6df5
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '388'
 ht-degree: 17%
 ---
 
@@ -95,6 +95,7 @@ ht-degree: 17%
   - [字段发现代理](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)
   - [产品支持代理](./agents/product-support.md)
+  - [SQL数据准备](./agents/sql-data-prep.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [通知代理](./agents/notifications.md)
   - [同事试用版](./agents/trial.md)

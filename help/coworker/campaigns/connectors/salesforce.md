@@ -7,14 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 13961eecbb862bf40cf86e892001392c72aae36c
+source-git-commit: 38de8c889dc46760877bc4adca8ba3b79039de98
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '221'
 ht-degree: 0%
 ---
 # 连接到Salesforce {#salesforce}
 
-Adobe同事营销活动允许您将您的Salesforce帐户连接到……
+Adobe同事营销活动允许您连接Salesforce帐户以访问潜在客户和联系人。
 
 >[!PREREQUISITES]
 >
@@ -52,7 +52,7 @@ Adobe同事营销活动允许您将您的Salesforce帐户连接到……
 
    ![](./assets/salesforce-4.png)
 
-连接后，Salesforce会出现在连接器列表中，再次显示什么？
+连接后，Salesforce将显示在连接器列表中，并在关联潜在客户或联系人列表以从Salesforce同步时进行选择。
 
 **断开连接：**
 
