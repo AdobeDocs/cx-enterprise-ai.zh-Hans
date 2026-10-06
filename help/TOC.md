@@ -6,17 +6,17 @@ description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 7cab54c87c39994dc07302af62de394cbc6b6df5
+source-git-commit: 6397e3d8e40511dfc261757046b216fa37e4162e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 17%
+source-wordcount: '391'
+ht-degree: 19%
 ---
 
 # CX Enterprise 中的 AI {#experience-cloud-ai}
 
 - [CX Enterprise 中的 AI](home.md)
-- 关于CX Enterprise中的AI {#overview}
-  - [关于CX Enterprise中的AI](./overview/overview-ai-cxe.md)
+- 关于 CX Enterprise 中的 AI {#overview}
+  - [关于 CX Enterprise 中的 AI](./overview/overview-ai-cxe.md)
   - [关于创作AI](./overview/generative-ai.md)
   - [关于智能人工智能](./overview/agentic-ai.md)
   - [关于AI积分使用](./overview/ai-credit-consumption.md)
@@ -52,9 +52,10 @@ ht-degree: 17%
       - 警报 {#alerts}
         - [客户警报技能](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
       - 品牌可见度 {#brand-visibility}
-        - [生成营销资产](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
         - [品牌合规性检查](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
         - [创作AEM Sites页面](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
+        - [载入AEM Assets](./coworker/chat/use-cases/brand-visibility/onboard-aem-assets.md)
+        - [生成营销资产](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
       - 工作流程和规划 {#workflow-and-planning}
         - [规划数字营销活动发布](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
   - 自定义 {#customizations}
@@ -108,12 +109,12 @@ ht-degree: 17%
   - 快速入门 {#mcp-get-started}
     - {hide-from-toc}[访问CX Coworker网关工具](./mcp/access.md)
     - {hide-from-toc}[安装CX Coworker Gateway](./mcp/install.md)
-    - {hide-from-toc}[CX Coworker Gateway中的会话上下文工具](./mcp/context-tools.md)
+    - CX Coworker Gateway中的{hide-from-toc}[会话上下文工具](./mcp/context-tools.md)
   - 产品工具 {#mcp-product-tools}
     - {hide-from-toc}[Real-Time CDP工具](./mcp/rtcdp-mcp.md)
     - {hide-from-toc}[Experience Platform工具](./mcp/aep-mcp.md)
     - {hide-from-toc}[Journey Optimizer工具](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Customer Journey Analytics工具](./mcp/cja-mcp.md)
     - {hide-from-toc}[Adobe Analytics工具](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [目标](https://experienceleague.adobe.com/zh-hans/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [目标](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
