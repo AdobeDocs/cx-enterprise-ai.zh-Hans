@@ -6,17 +6,17 @@ description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 7cab54c87c39994dc07302af62de394cbc6b6df5
+source-git-commit: 211edcac77ddd5fc88b0e902ef7022ca7d7d988e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 17%
+source-wordcount: '396'
+ht-degree: 19%
 ---
 
 # CX Enterprise 中的 AI {#experience-cloud-ai}
 
 - [CX Enterprise 中的 AI](home.md)
-- 关于CX Enterprise中的AI {#overview}
-  - [关于CX Enterprise中的AI](./overview/overview-ai-cxe.md)
+- 关于 CX Enterprise 中的 AI {#overview}
+  - [关于 CX Enterprise 中的 AI](./overview/overview-ai-cxe.md)
   - [关于创作AI](./overview/generative-ai.md)
   - [关于智能人工智能](./overview/agentic-ai.md)
   - [关于AI积分使用](./overview/ai-credit-consumption.md)
@@ -52,9 +52,10 @@ ht-degree: 17%
       - 警报 {#alerts}
         - [客户警报技能](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
       - 品牌可见度 {#brand-visibility}
-        - [生成营销资产](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
         - [品牌合规性检查](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
         - [创作AEM Sites页面](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
+        - [载入AEM Assets](./coworker/chat/use-cases/brand-visibility/onboard-aem-assets.md)
+        - [生成营销资产](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
       - 工作流程和规划 {#workflow-and-planning}
         - [规划数字营销活动发布](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
   - 自定义 {#customizations}
@@ -68,6 +69,7 @@ ht-degree: 17%
       - [什么是集成？](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
     - 插件 {#plugins}
       - [什么是插件？](./coworker/customizations/plugins/what-are-plugins.md)
+      - [管理组织的插件](./coworker/customizations/plugins/manage-plugins-for-your-org.md)
     - 记忆 {#memory}
       - [什么是记忆？](./coworker/customizations/memory/what-is-memory.md)
   - 营销活动 {#campaigns}
