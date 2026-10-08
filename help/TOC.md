@@ -6,10 +6,10 @@ description: 了解CX Enterprise中的人工智能工具。 在CX Enterprise中�
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 211edcac77ddd5fc88b0e902ef7022ca7d7d988e
+source-git-commit: d46978f89c75aff6ef16223370ea41a7e74c0525
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 19%
+source-wordcount: '400'
+ht-degree: 20%
 ---
 
 # CX Enterprise 中的 AI {#experience-cloud-ai}
@@ -32,7 +32,9 @@ ht-degree: 19%
     - 用例 {#use-cases}
       - [同事聊天用例](./coworker/chat/use-cases/overview.md)
       - 数据分析 {#data-insights}
-        - [分析CJA数据](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - {hide-from-toc}[概述](./coworker/chat/use-cases/data-insights/analytics-overview-v2.md)
+        - {hide-from-toc}[概述](./coworker/chat/use-cases/data-insights/analytics-overview.md)
+        - [快速入门](./coworker/chat/use-cases/data-insights/analytics-chat.md)
         - [探索趋势和根本原因](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [升级时验证AA到CJA的数据](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [验证CJA报表的数据集质量](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
@@ -73,6 +75,7 @@ ht-degree: 19%
     - 记忆 {#memory}
       - [什么是记忆？](./coworker/customizations/memory/what-is-memory.md)
   - 营销活动 {#campaigns}
+    - {hide-from-toc}[新团队体验](./coworker/campaigns/new-teams-experience.md)
     - [概述](./coworker/campaigns/overview.md)
     - [创建电子邮件营销活动](./coworker/campaigns/create-an-email-campaign.md)
     - [启动和管理营销活动](./coworker/campaigns/launch-manage-campaign.md)
