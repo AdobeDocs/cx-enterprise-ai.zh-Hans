@@ -7,14 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: d46978f89c75aff6ef16223370ea41a7e74c0525
+source-git-commit: 1b3d66150211994ffefcbf53a5c16585e93b09a5
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '220'
 ht-degree: 0%
 ---
-# 新的团队体验 {#new-teams-experience}
+# 即将推出：具有跨团队活动可见性的默认工作区 {#new-teams-experience}
 
-## 可能需要操作：新的团队体验即将在10月15日推出
+## 可能需要操作：新的团队体验将于2026年10月15日发布
 
 ### 更改了哪些内容？这将产生哪些影响？
 
@@ -32,4 +32,10 @@ ht-degree: 0%
 * **促销活动**：使用促销活动右上角的下载图标，将每个促销活动导出为PDF或Word文件。
 * **电子邮件**：使用电子邮件编辑器中的导出图标将电子邮件下载为HTML。
 
-有问题吗？ 通过coworkerca@adobe.com联系我们。
+**观看下面的视频演练**
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504225/?learn=on&enablevpops)
+
+### 有问题吗？
+
+通过coworkerca@adobe.com联系我们。
