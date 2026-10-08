@@ -2,17 +2,15 @@
 title: 在同事项目中生成实施核对清单
 description: 了解同事项目如何根据您的《实施指南》计划生成预填充的实施核对清单，以及您可以分配和跟踪的步骤。
 hold: true
-source-git-commit: 2f110983d77a4e516e4d36ebe85373a490658d5d
+source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 1%
-
+source-wordcount: '703'
+ht-degree: 0%
 ---
-
 
 # 生成与同事项目的实施核对清单
 
-同事项目可以生成一个实施核对清单项目，该项目已预填充了您在实施Customer Journey Analytics指南计划中针对Adobe Analytics、Content Analytics (ACA)、Marketing Campaign Analytics (MCA)或流媒体的按顺序步骤。 在技术上，同事可自动完成或协助完成尽可能多的步骤，因此您和您的团队可以在一个单一、可跟踪的位置完成实施。
+Adobe CX Enterprise Coworker可以在同事项目中生成一个实施核对清单项目，该项目已预先填充了您在实施指南计划中针对Customer Journey Analytics、Adobe Analytics到Customer Journey Analytics的升级、Content Analytics (ACA)、Marketing Campaign Analytics (MCA)或流媒体的按顺序步骤。 在技术上，同事可自动完成或协助完成尽可能多的步骤，因此您和您的团队可以在一个单一、可跟踪的位置完成实施。
 
 如果您正在领导实施、执行技术步骤，或只是需要了解进度，则可以使用此核对清单在不离开同事的情况下分配工作、跟踪状态并与团队协作。
 

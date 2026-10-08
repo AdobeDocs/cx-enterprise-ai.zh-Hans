@@ -6,9 +6,9 @@ product_v2:
   internal-label: CX Enterprise Coworker
 feature_v2:
   internal-label: CX Enterprise Coworker
-source-git-commit: e153ef2cff7d9140726ebebf6a1869eca6ee3bed
+source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
 workflow-type: tm+mt
-source-wordcount: '2332'
+source-wordcount: '2354'
 ht-degree: 0%
 ---
 
@@ -18,7 +18,9 @@ Adobe CX Enterprise Coworker Chat使团队能够使用自然语言自动执行Ad
 
 Co-worker Chat可以执行以前仅在Analysis Workspace中才有的高级数据分析。 Co-worker Chat可访问来自Customer Journey Analytics数据视图或Adobe Analytics报表包的数据，从而允许您浏览这些数据并获得自然语言提示的答案。
 
-您可以随时打开在同事聊天中创建的可视化图表，以进行手动控制。
+在同事聊天中创建可视化图表时，您可以随时在Analysis Workspace中打开该可视化图表，以便进行更多手动控制。
+
+以下信息概述了如何在“同事聊天”中分析数据。
 
 ## 在同事聊天中开始分析
 
@@ -446,7 +448,7 @@ CARDS
 
 <!-- The following table are links to each of the stand-alone articles in this folder -->
 
-| 用例 | 描述 |
+| 用例 | 说明 |
 | --- | --- |
 | [分析Customer Journey Analytics和Adobe Analytics数据](/help/coworker/chat/use-cases/data-insights/analytics-chat.md) | 回答有关数据视图或报表包的自然语言问题，构建漏斗和其他可视化图表，并找出客户流失的位置。 您可以在Analysis Workspace中打开任何可视化图表以供进一步分析。 |
 | [探索趋势和根本原因](/help/coworker/chat/use-cases/data-insights/root-cause-analysis.md) | 无需手动查询，即可识别Customer Journey Analytics和Adobe Analytics数据的趋势以及导致性能发生变化的因素。 |
