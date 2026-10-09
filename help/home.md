@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
+source-git-commit: 6908bfda861a96b10950728a9f83263335f707ea
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '962'
 ht-degree: 2%
 ---
 # CX Enterprise应用程序中的人工智能
@@ -38,6 +38,7 @@ ht-degree: 2%
 
 从这里开始，逐步了解在CX Enterprise中使用人工智能的位置和方式：
 
+- [同事](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/home)是代理第一队友，负责计划、执行、验证和返回已完成的客户体验和营销工作以供您审批。
 - [关于创作AI](./overview/generative-ai.md)介绍了哪些CX Enterprise应用程序支持创作AI和AI助手，以及它们之间的比较情况。
 - [关于代理人工智能](./overview/agentic-ai.md)介绍代理人工智能如何在现有CX Enterprise应用程序和AI优先应用程序中工作，并列出每个应用程序中可用的代理。
 - [AI监控](./overview/monitoring.md)涵盖跟踪代理采用、使用、反馈和AI信用消耗的仪表板。
@@ -51,15 +52,17 @@ Co-worker是AI Assistant的代理优先演变，可自动化客户体验和营�
 
 同事包括：
 
-- **[同事聊天](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**：用于浏览数据、验证受众和历程以及跨CX Enterprise应用程序完成多步骤任务的对话界面。
-- **[同事营销活动](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**：人工智能原生应用程序，可将营销活动简报、受众构建、内容生成、历程设计和校对整合为单一对话体验。 它使用内置模板、最佳实践和提示性指导，帮助小型、敏捷团队快速启动促销活动。 了解有关[Adobe for Business](https://business.adobe.com/cn/products/cx-enterprise-coworker/teams.html)的更多信息。
+- **[同事聊天](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/overview)**：用于浏览数据、验证受众和历程以及跨CX Enterprise应用程序完成多步骤任务的对话界面。
+- **[同事营销活动](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/campaigns/overview)**：人工智能原生应用程序，可将营销活动简报、受众构建、内容生成、历程设计和校对整合为单一对话体验。 它使用内置模板、最佳实践和提示性指导，帮助小型、敏捷团队快速启动促销活动。 了解有关[Adobe for Business](https://business.adobe.com/cn/products/cx-enterprise-coworker/teams.html)的更多信息。
 - **同事项目**（即将推出）：用于自动化端到端客户体验编排工作流的统一工作区，帮助团队协调任务、审批和执行以推动从战略到交付的结果。 即将提供项目文档。
 
-符合条件的客户正在逐步从AI助手和Experience Platform代理过渡到同事聊天。 阅读[同事试用版](./agents/trial.md)以了解试用资格、AI信用使用情况以及如何获取访问权限。
+符合条件的客户正在逐步从AI助手和Experience Platform代理过渡到同事聊天。
 
-要查看同事聊天的实际效果，请浏览[Playground中的同事聊天](./coworker/playground-coworker-chat.md)，或阅读实际用例，例如[验证AA到CJA的迁移数据](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)、[验证您的Experience Platform数据](./coworker/chat/use-cases/data-insights/data-validation-aep.md)和[分析CJA数据](./coworker/chat/use-cases/data-insights/analytics-chat.md)。
+### 同事资源
 
-有关同事聊天、团队同事（同事营销活动）和项目的完整产品文档，请参阅[同事](./coworker/overview.md)。 有关沙盒到沙盒对象复制，请参阅[沙盒工具代理技能](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md)。
+- 阅读[同事试用版](./agents/trial.md)以了解试用资格、AI信用使用情况以及如何获得访问权限。
+- 有关所有同事内容，请参阅[同事帮助主页](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/home)。
+- 有关沙盒到沙盒对象复制，请参阅[沙盒工具代理技能](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/use-cases/sandbox-tooling/sandbox-tooling)。
 
 ## AI 助手
 
