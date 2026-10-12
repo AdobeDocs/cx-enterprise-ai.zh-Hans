@@ -48,9 +48,9 @@ topic_v2:
     internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '3820'
+source-wordcount: '3848'
 ht-degree: 9%
 ---
 
@@ -66,7 +66,7 @@ Journey Agent包含四个主要待完成任务：
 - **渠道内容创建**：使用AI支持的内容生成功能生成、编辑和管理历程的渠道特定内容（电子邮件、推送、短信）
 - **历程分析**：分析历程、检测问题、揭示见解并优化客户参与
 
-此外，**历程模拟**&#x200B;是Journey Optimizer的一项功能，其中包括[历程模拟](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs){target="_blank"}，这是一项产品内的非对话式AI功能，具有三个子功能：
+此外，**历程模拟**&#x200B;是Journey Optimizer的一项功能，其中包括[历程模拟](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs){target="_blank"}，这是一项产品内的非对话式AI功能，具有三个子功能：
 
 - 生成模拟用户
 - 生成事件值
@@ -78,7 +78,7 @@ Journey Agent包含四个主要待完成任务：
 
 通过历程创建，Journey Optimizer用户可以使用自然语言界面构建和配置营销历程。 借助历程创建，从业者可以通过在对话提示中描述其要求来快速创建历程。 代理可简化历程创建，允许营销人员专注于策略而不是技术配置。
 
-有关详细信息，请参阅Adobe Journey Optimizer文档中的[历程创建](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-create){target="_blank"}。
+有关详细信息，请参阅Adobe Journey Optimizer文档中的[历程创建](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-create){target="_blank"}。
 
 >[!AVAILABILITY]
 >
@@ -230,7 +230,7 @@ Journey Agent包含四个主要待完成任务：
 
 渠道内容创建使Journey Optimizer用户能够使用AI支持的内容生成来生成、编辑和管理历程的特定于渠道的内容。
 
-有关详细信息，请参阅Adobe Journey Optimizer文档中的[渠道内容创建](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#channel-content-create){target="_blank"}。
+有关详细信息，请参阅Adobe Journey Optimizer文档中的[渠道内容创建](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#channel-content-create){target="_blank"}。
 
 ## 用例
 
@@ -310,9 +310,9 @@ Journey Agent包含四个主要待完成任务：
 
 历程分析使Journey Optimizer用户能够使用自然语言界面分析和优化旅程。 借助历程分析，从业者可以快速识别和解决计划和受众冲突，检测历程中的用户放弃点，以及提供见解或建议以提高性能。
 
-在此[概述](https://experienceleague.adobe.com/zh-hans/slides/journey-agent-overview)中了解更多信息并快速发现代理。
+在此[概述](https://experienceleague.adobe.com/en/slides/journey-agent-overview)中了解更多信息并快速发现代理。
 
-有关详细信息，请参阅Adobe Journey Optimizer文档中的[历程分析](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"}。
+有关详细信息，请参阅Adobe Journey Optimizer文档中的[历程分析](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"}。
 
 >[!AVAILABILITY]
 >
@@ -348,9 +348,9 @@ AJO代理的![示例](./assets/ajo-agent/ajo-agent-sample.png)
 
 1. **历程计划重叠分析**
 
-   - 识别针对同一受众群体的预定的历程之间的时间冲突。
+   - 识别针对同一受众群体的已安排历程之间的时间冲突。
    - 避免过度沟通，提高计划效率。
-   - 确保历程在最佳时间运行，最大限度地发挥受众影响力。
+   - 确保历程在最佳时间运行，最大限度地提升对受众的影响。
 
 1. **运营洞察**
 
@@ -500,7 +500,7 @@ AJO代理的![示例](./assets/ajo-agent/ajo-agent-sample.png)
 
 要在&#x200B;**[!UICONTROL 模拟]** （**[!UICONTROL 快速模拟]**，使用AI生成模拟用户，**[!UICONTROL 生成事件值]**）中使用AI，用户需要&#x200B;**[!UICONTROL AI助手]**&#x200B;功能的&#x200B;**[!UICONTROL 生成内容]**&#x200B;权限。
 
-[了解有关权限的更多信息](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/access-control/permissions)。
+[了解有关权限的更多信息](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions)。
 
 >[!ENDSHADEBOX]
 
@@ -562,11 +562,11 @@ AJO代理的![示例](./assets/ajo-agent/ajo-agent-sample.png)
 
 模拟可能不支持测试模式或实时历程支持的每个活动、渠道或集成，并且行为可能会随着功能成熟而更改。
 
-➡️在Journey Optimizer文档中了解有关[模拟限制](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs#limitations){target="_blank"}的更多信息。
+➡️在Journey Optimizer文档中了解有关[模拟限制](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs#limitations){target="_blank"}的更多信息。
 
 ## 另请参阅
 
 - [Agent Orchestrator](./agent-orchestrator.md)，支持Journey Agent和其他Experience Platform代理的代理层。
 - CX Coworker Gateway中的[Journey Optimizer工具](../mcp/ajo-mcp.md)，用于审阅营销活动和渠道配置的只读MCP表面。
-- [从自然语言创建历程](../coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)和[创建、编辑和管理忠诚度挑战](../coworker/chat/use-cases/journeys/create-loyalty-challenge.md)，在历程创建的基础上构建的同事聊天用例。
+- [从自然语言创建历程](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/journeys/create-journey-from-natural-language)和[创建、编辑和管理忠诚度挑战](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/journeys/create-loyalty-challenge)，在历程创建的基础上构建的同事聊天用例。
 - [产品支持代理](./product-support.md)，用于解决通过AI助手显示的Journey Optimizer问题。

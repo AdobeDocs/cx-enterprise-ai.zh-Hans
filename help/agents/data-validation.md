@@ -1,9 +1,9 @@
 ---
 title: 在AI Assistant中验证数据
 description: 了解如何在AI Assistant中使用Agent Orchestrator支持的数据验证对数据集执行统计和语义验证。
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1616'
 ht-degree: 0%
 ---
 # 在AI Assistant中验证数据
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->数据验证还可作为同事技能使用。 查看[与同事验证Experience Platform数据](/help/coworker/chat/use-cases/data-insights/data-validation-aep.md)。
+>数据验证还可作为同事技能使用。 查看[与同事验证Experience Platform数据](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/data-validation-aep)。
 
 ## 用例
 
-| 用例 | 描述 |
+| 用例 | 说明 |
 | --- | --- |
 | 新实施 | 在这些方案中，您可以验证关键标识和事件字段，以确认格式和空值速率看起来正常。 |
 | 可疑的映射问题 | 在这些方案中，您可以验证字段并检查顶值和无效值以确认它与预期的语义匹配。 |
