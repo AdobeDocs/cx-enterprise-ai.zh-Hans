@@ -2,9 +2,9 @@
 title: CX Coworker Gateway中的Experience Platform Tools
 description: 了解可通过CX Coworker Gateway使用的Adobe Experience Platform工具。
 hide: true
-source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1947'
+source-wordcount: '1955'
 ht-degree: 6%
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 6%
 
 | 工具 | 描述 | 资源 | 功能 | 状态 |
 | --- | --- | --- | --- | --- |
-| `search_allowed_ip_ranges` | 检索查询服务IP访问限制 | 数据Distiller身份验证· IP范围 | list | 活动 |
-| `search_audit` | 列出Experience Platform中的用户活动审核事件 | 审核查询·审核事件 | 列表，按资源类型筛选，操作，状态，时间范围 | 活动 |
-| `search_datasets` | 查询数据集和批量摄取元数据 | 目录API ·数据集、批次 | 列表，获取，筛选，列出最后一个，列出文件 | 活动 |
-| `search_class_relations` | 搜索Experience Platform企业级关系 | 类关系·静态YAML索引 | 按令牌、多词、部分匹配搜索 | 活动 |
-| `search_data_access` | 列出失败摄取批次中的文件 | 数据访问API ·失败的批处理 | 列出失败的文件 | 活动 |
-| `search_data_lake` | 检查数据集元数据和批次运行状况 | Data Lake API ·数据集、批次 | 获取，获取大小，列出失败的批次 | 活动 |
-| `search_dule` | 查询数据管理标签、策略和操作 | 数据管理·标签、策略、营销活动 | 列表，获取，列表启用，评估 | 活动 |
-| `search_query_service` | 查询SQL查询、模板、计划、警报 | 查询服务·查询、模板、计划、警报 | 列表，获取，筛选，获取连接参数 | 活动 |
-| `search_sandbox_health_assessment` | 为当前沙盒检索最新的运行和操作运行状况检查评估结果 | 运行和运行·运行状况检查评估 | 列表，按支票名称获取 | 活动 |
-| `search_schema_registry` | 查询XDM架构、字段组、类、类型 | 架构注册表·架构、字段组、类、数据类型、描述符 | 列表，获取，按容器筛选 | 活动 |
-| `execute_observability_metrics_query` | 查询当前沙盒或所有沙盒的[!DNL Observability Insights]量度 | 可观察性洞察·量度 | 时间序列和聚合查询、多量度请求、标记过滤器、groupBy/exclude、按量度缩减采样 | 活动 |
-| `inspect_observability_breaches` | 检测度量超过其配置的基线的[!DNL Observability Insights]入侵间隔 | 可观察性洞察·违规 | 按系列、组织和沙盒范围列出违规间隔 | 活动 |
+| `search_allowed_ip_ranges` | 检索查询服务IP访问限制 | 数据Distiller身份验证· IP范围 | list | 活跃 |
+| `search_audit` | 列出Experience Platform中的用户活动审核事件 | 审核查询·审核事件 | 列表，按资源类型筛选，操作，状态，时间范围 | 活跃 |
+| `search_datasets` | 查询数据集和批量摄取元数据 | 目录API ·数据集、批次 | 列表，获取，筛选，列出最后一个，列出文件 | 活跃 |
+| `search_class_relations` | 搜索Experience Platform企业级关系 | 类关系·静态YAML索引 | 按令牌、多词、部分匹配搜索 | 活跃 |
+| `search_data_access` | 列出失败摄取批次中的文件 | 数据访问API ·失败的批处理 | 列出失败的文件 | 活跃 |
+| `search_data_lake` | 检查数据集元数据和批次运行状况 | Data Lake API ·数据集、批次 | 获取，获取大小，列出失败的批次 | 活跃 |
+| `search_dule` | 查询数据管理标签、策略和操作 | 数据管理·标签、策略、营销活动 | 列表，获取，列表启用，评估 | 活跃 |
+| `search_query_service` | 查询SQL查询、模板、计划、警报 | 查询服务·查询、模板、计划、警报 | 列表，获取，筛选，获取连接参数 | 活跃 |
+| `search_sandbox_health_assessment` | 为当前沙盒检索最新的运行和操作运行状况检查评估结果 | 运行和运行·运行状况检查评估 | 列表，按支票名称获取 | 活跃 |
+| `search_schema_registry` | 查询XDM架构、字段组、类、类型 | 架构注册表·架构、字段组、类、数据类型、描述符 | 列表，获取，按容器筛选 | 活跃 |
+| `execute_observability_metrics_query` | 查询当前沙盒或所有沙盒的[!DNL Observability Insights]量度 | 可观察性洞察·量度 | 时间序列和聚合查询、多量度请求、标记过滤器、groupBy/exclude、按量度缩减采样 | 活跃 |
+| `inspect_observability_breaches` | 检测度量超过其配置的基线的[!DNL Observability Insights]入侵间隔 | 可观察性洞察·违规 | 按系列、组织和沙盒范围列出违规间隔 | 活跃 |
 
 ## 工具引用
 
@@ -255,7 +255,7 @@ Experience Platform目录服务的统一调度工具。 查询数据集元数据
 
 >[!NOTE]
 >
->此工具仅检索评估结果。 要修复标记的问题，请使用[!DNL Experience Platform] UI中的运行状况检查详细信息面板。 请参阅[运行状况检查](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/run-and-operate/health-checks)。 在[CX Coworker Chat](../coworker/chat/overview.md)中，支持运行状况检查的自动修正指南可作为一种技能使用。
+>此工具仅检索评估结果。 要修复标记的问题，请使用[!DNL Experience Platform] UI中的运行状况检查详细信息面板。 请参阅[运行状况检查](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/run-and-operate/health-checks)。 在[CX Coworker Chat](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/overview)中，支持运行状况检查的自动修正指南可作为一种技能使用。
 
 **功能：**&#x200B;列出当前沙盒的所有运行状况检查结果，获取一个命名检查的结果
 

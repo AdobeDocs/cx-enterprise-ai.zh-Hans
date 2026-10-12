@@ -1,9 +1,9 @@
 ---
 title: Co-worker中的SQL数据准备
 description: 了解如何在Co-worker中使用SQL数据准备来生成、优化、排查和计划SQL查询。
-source-git-commit: dff76b520c013554276e72a3e19b5d56c16af5fa
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1126'
 ht-degree: 1%
 ---
 # Co-worker中的SQL数据准备
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 Co-worker生成或更新SQL后，您可以继续对话以预览结果、优化查询、保存查询或安排其定期执行。
 
-有关使用同事界面的指导，请参阅[同事用户界面指南](../coworker/chat/ui-guide.md)。
+有关使用同事界面的指导，请参阅[同事用户界面指南](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/ui-guide)。
 
 ## 支持的功能 {#supported-capabilities}
 

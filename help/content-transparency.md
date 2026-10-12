@@ -3,14 +3,14 @@ title: 创作AI内容透明度
 description: 了解Adobe如何跨Adobe CX Enterprise应用程序将C2PA元数据自动附加到GenAI生成和GenAI编辑的内容。
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+    internal-label: AI Tools
   - id: ec4263d9-bf7c-44c7-b3f1-3e664861c8f2
-source-git-commit: 32faffcdcaedc9ae601e601ad92d58b48743af66
+    internal-label: Generative AI
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: 1743
+source-wordcount: '1738'
 ht-degree: 2%
-
 ---
-
 
 # 创作AI内容透明度
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 >
 >推出后，未来涉及使用AI创建或编辑内容的工作流将自动支持C2PA元数据。
 
-本页详细介绍Adobe如何跨Adobe CX Enterprise应用程序处理C2PA元数据的自动连接。
+本页介绍Adobe如何处理跨Adobe CX Enterprise应用程序自动附加C2PA元数据的详细信息。
 
 新法规要求创新型人工智能技术提供商支持与GenAI生成和GenAI编辑的内容工作流相关的持久的、机器可读的披露，以提高透明度。
 
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 ## 更改内容
 
-Adobe将于2026年8月推出，将跨Adobe Creative Cloud、Adobe Document Cloud、Adobe Firefly和Adobe CX Enterprise应用程序引入C2PA元数据支持。
+Adobe将于2026年8月推出，将在Adobe Creative Cloud、Adobe Document Cloud、Adobe Firefly和Adobe CX Enterprise应用程序中引入C2PA元数据支持。
 
 此版本包括：
 
@@ -72,7 +72,7 @@ Adobe提供了有关使用通过Adobe应用程序支持的现有水印功能的[
 
 ## 可用性和版本
 
-这些功能将在整个&#x200B;**2026年8月**&#x200B;日（在支持的Adobe CX Enterprise工作流中）推出。
+这些功能将在整个&#x200B;**2026年8月**&#x200B;中跨支持的Adobe CX Enterprise工作流推出。
 
 >[!NOTE]
 >
@@ -92,7 +92,7 @@ Adobe提供了[文档](https://helpx.adobe.com/cn/creative-cloud/apps/generative
 
 以下Adobe应用程序和服务提供了有关C2PA元数据如何以及何时附加到某些CX Enterprise应用程序中符合条件的内容的更多信息。
 
-但是，在适用的情况下，所有Adobe CX Enterprise应用程序都会在受支持的资源通过Adobe工作流移动时继续保留现有C2PA元数据。 这有助于维护整个内容supply chain中的来源信息的完整性。
+但是，如果适用，所有Adobe CX Enterprise应用程序都会在受支持的资源通过Adobe工作流移动时继续保留现有C2PA元数据。 这有助于维护整个内容supply chain中的来源信息的完整性。
 
 >[!NOTE]
 >
@@ -104,14 +104,14 @@ Adobe提供了[文档](https://helpx.adobe.com/cn/creative-cloud/apps/generative
 | Adobe Experience Manager (AEM) | [文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/c2pa-metadata-dynamic-media-openapi) |
 | 生成内容（Adobe Journey Optimizer/Adobe Campaign中的功能） | [文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
 | Adobe Journey Optimizer B2B Ultimate | [文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
-| Adobe Journey Optimizer B2B Prime （又称Adobe Marketo Optimizer） | [文档](https://experienceleague.adobe.com/zh-hans/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
+| Adobe Journey Optimizer B2B Prime（又称Adobe Marketo Optimizer） | [文档](https://experienceleague.adobe.com/zh-hans/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
 | Adobe Journey Optimizer B2C | [文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/generate-content/c2pa/generative-c2pa-metadata) |
 | Adobe Campaign | [文档](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/content/ai-assistant/c2pa-metadata-email-designer) |
 | Adobe Commerce | [文档](https://experienceleague.adobe.com/zh-hans/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
 | GenStudio for Performance Marketing | [文档](https://experienceleague.adobe.com/zh-hans/docs/genstudio-for-performance-marketing/user-guide/content/content-credentials) |
 | Adobe Marketo Engage | [文档](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/demand-generation/images-and-files/c2pa-metadata) |
 | Adobe Workfront | [文档](https://experienceleague.adobe.com/zh-hans/docs/workfront/using/documents/c2pa-metadata-overview) |
-| CX Enterprise Co-worker Campaigns （以前称为HALO ） | [文档](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/c2pa-metadata) |
+| CX Enterprise Coworker Campaigns（以前称为HALO） | [文档](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/campaigns/c2pa-metadata) |
 
 ## 相关链接
 
@@ -123,7 +123,7 @@ Adobe提供了[文档](https://helpx.adobe.com/cn/creative-cloud/apps/generative
 
 **哪些Adobe应用程序将C2PA元数据应用于已编辑或创建的创作AI内容？**
 
-受支持的Adobe CX Enterprise应用程序自动将C2PA元数据附加到符合GenAI生成和GenAI编辑的内容中。 有关Adobe CX Enterprise应用程序的更多详细信息，请参阅[支持的应用程序](#supported-applications)部分。
+受支持的Adobe CX Enterprise应用程序会自动将C2PA元数据附加到符合GenAI生成和GenAI编辑的内容中。 有关Adobe CX Enterprise应用程序的更多详细信息，请参阅[支持的应用程序](#supported-applications)部分。
 
 **Adobe将C2PA元数据添加到哪些内容类型？**
 
@@ -131,7 +131,7 @@ Adobe提供了[文档](https://helpx.adobe.com/cn/creative-cloud/apps/generative
 
 **在编辑和发布过程中，Adobe CX中的哪些应用程序保留C2PA元数据？**
 
-所有Adobe CX Enterprise应用程序都设计为可在内容通过兼容的Adobe工作流时保留C2PA元数据。 Adobe应用程序外部的保留取决于外部平台是否支持C2PA元数据。
+所有Adobe CX Enterprise应用程序都设计为可在内容通过兼容的Adobe工作流移动时保留C2PA元数据。 Adobe应用程序外部的保留取决于外部平台是否支持C2PA元数据。
 
 **将多个GenAI生成的图像合并到单个图像时会发生什么情况？**
 

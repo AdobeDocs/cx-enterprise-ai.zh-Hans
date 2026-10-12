@@ -1,9 +1,9 @@
 ---
 title: Adobe Experience Platform数据管理代理
 description: 了解如何使用CX Coworker中的数据管理代理查找和分析Adobe Experience Platform数据集，并管理数据湖保留策略。
-source-git-commit: 40f144c7a06592c78dccc6c17f19554b62f667c9
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1036'
 ht-degree: 3%
 ---
 # 数据管理代理
@@ -50,7 +50,7 @@ Data Management Agent提供四种技能。
 - 您需要使用的数据集和保留操作所需的Adobe Experience Platform权限。 Data Management Agent使用您现有的Experience Platform权限，不授予其他访问权限。 有关Adobe Experience Platform权限和角色的工作方式，请参阅[访问控制概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home)。
 - CX Coworker中安装的Adobe CXO插件。
 
-有关安装插件的说明，请参阅[辅助进程UI指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)。
+有关安装插件的说明，请参阅[辅助进程UI指南](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/ui-guide)。
 
 ## 使用数据管理代理 {#use-the-data-management-agent}
 
@@ -62,13 +62,13 @@ Data Management Agent提供四种技能。
 
 要使用数据管理代理，请执行以下操作：
 
-1. 导航到&#x200B;**[!UICONTROL CX Coworker]**。 有关访问详细信息，请参阅[辅助进程UI指南](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide)。
+1. 导航到&#x200B;**[!UICONTROL CX Coworker]**。 有关访问详细信息，请参阅[辅助进程UI指南](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/ui-guide)。
 1. 输入说明要完成的任务的要求。
 1. 检查结果并使用跟进问题继续调查。
 
 如果请求更改了数据湖保留策略，Data Management Agent将显示建议的影响，并需要在应用更改之前进行确认。
 
-有关用于识别数据集、分析使用情况和保留影响以及管理数据湖保留策略的端到端工作流，请参阅[管理数据湖保留](../coworker/chat/use-cases/data-management/manage-data-lake-retention.md)。
+有关用于识别数据集、分析使用情况和保留影响以及管理数据湖保留策略的端到端工作流，请参阅[管理数据湖保留](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/use-cases/data-management/manage-data-lake-retention)。
 
 ## Data Management Agent的工作原理 {#how-the-data-management-agent-works}
 
@@ -80,6 +80,6 @@ Data Management Agent提供四种技能。
 
 ## 后续步骤 {#next-steps}
 
-有关使用每种技能在体验事件数据集上查找、分析和管理数据湖保留的指导，请参阅[管理数据湖保留](../coworker/chat/use-cases/data-management/manage-data-lake-retention.md)。
+有关使用每种技能在体验事件数据集上查找、分析和管理数据湖保留的指导，请参阅[管理数据湖保留](https://experienceleague.adobe.com/zh-hans/docs/coworker/content/chat/use-cases/data-management/manage-data-lake-retention)。
 
 有关数据湖保留策略在Adobe Experience Platform中如何工作的更多信息，包括保留行为和配置，请参阅[Experience Event数据集保留(TTL)指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide)。
