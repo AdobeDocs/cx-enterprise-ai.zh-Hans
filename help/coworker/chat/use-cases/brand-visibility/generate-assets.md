@@ -10,10 +10,7 @@ jira: KT-22502
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -27,4 +24,4 @@ Co-worker简化了为社交媒体和其他渠道创建品牌资产的过程。 �
 
 Co-worker还提供了进一步自定义的灵活性。 您可以修改资源、创建变体或调整内容以适合不同的格式，例如Instagram故事。 通过这种方法，您可以在同事管理技术细节的同时专注于目标。
 
->[!VIDEO](https://video.tv.adobe.com/v/3502719/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502692/?learn=on&enablevpops)

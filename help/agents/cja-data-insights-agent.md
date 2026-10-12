@@ -3,32 +3,43 @@ description: 了解如何使用Customer Journey Analytics中的Data Insights Age
 title: 使用Data Insights Agent可视化数据
 role: User, Admin
 solution: Customer Journey Analytics
-TQID: https://experienceleague.adobe.com/UtKIDlN2x7MOAiHNRRQ8b5OO4fIwzV74r1fnfMwblcQ
+TQID: 'https://experienceleague.adobe.com/UtKIDlN2x7MOAiHNRRQ8b5OO4fIwzV74r1fnfMwblcQ'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
+    internal-label: Analytics dashboards
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+    internal-label: Data management
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 2686
+source-wordcount: '2686'
 ht-degree: 4%
-
 ---
-
 # 使用Data Insights Agent可视化数据
 
 >[!AVAILABILITY]
@@ -71,7 +82,7 @@ AI助手中的![Data Insights Agent](/help/agents/assets/cja-agent/cja-ai-asst-d
 
 * **权限**：必须先在[!UICONTROL Adobe Admin Console]中授予必要的权限，用户才能访问Data Insights Agent。
 
-  要授予权限，[产品配置文件管理员](https://helpx.adobe.com/cn/enterprise/using/manage-product-profiles.html)必须在[!UICONTROL Admin Console]中完成以下步骤：
+  要授予权限，[产品配置文件管理员](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)必须在[!UICONTROL Admin Console]中完成以下步骤：
   1. 在&#x200B;**[!UICONTROL Admin Console]**&#x200B;中，选择&#x200B;**[!UICONTROL 产品]**&#x200B;选项卡以查看&#x200B;**[!UICONTROL 所有产品和服务]**&#x200B;页面。
   1. 选择&#x200B;**[!UICONTROL Customer Journey Analytics]**。
   1. 在&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;选项卡上，选择要为其提供[!UICONTROL AI助手：产品知识]访问权限的产品配置文件的标题。
@@ -89,7 +100,7 @@ AI助手中的![Data Insights Agent](/help/agents/assets/cja-agent/cja-ai-asst-d
 
   1. 选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存权限。
 
-  有关访问控制的详细信息，请参阅[访问控制](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/technotes/access-control#access-control)。
+  有关访问控制的详细信息，请参阅[访问控制](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control)。
 
 * **数据视图访问**：必须为Data Insights Agent启用数据视图。
 
@@ -97,7 +108,7 @@ AI助手中的![Data Insights Agent](/help/agents/assets/cja-agent/cja-ai-asst-d
   >
   >启用数据视图时，请考虑以下事项：
   >* 每个IMS组织最多可启用50个数据视图。 如果您在给定组织的所有产品配置文件中启用了超过50个数据视图，Data Insights Agent将使用50个最常用的数据视图。
-  >  您可以使用数据视图[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views)中Data Insights Agent列上的信息查看IMS组织中为Data Insights Agent启用的数据视图数量。
+  >  您可以使用数据视图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views)中Data Insights Agent列上的[信息查看IMS组织中为Data Insights Agent启用的数据视图数量。
   >* 在启用数据视图的同一天，Data Insights Agent可以引用包含的数据视图。
 
   要为Data Insights Agent启用数据视图，请执行以下操作：
@@ -108,7 +119,7 @@ AI助手中的![Data Insights Agent](/help/agents/assets/cja-agent/cja-ai-asst-d
 
      ![启用Data Insights Agent的数据视图](/help/agents/assets/cja-agent/data-view-enable-dia.png)
 
-     有关为Data Insights Agent启用数据视图的详细信息，请参阅数据视图的[AI设置](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/create-dataview#ai-settings/help/data-views/create-dataview.md网站#ai-settings)。
+     有关为Data Insights Agent启用数据视图的详细信息，请参阅数据视图的[AI设置](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview#ai-settings/help/data-views/create-dataview.md网站#ai-settings)。
 
   要查看在IMS组织中为Data Insights Agent启用的数据视图的数量，请执行以下操作：
 
@@ -123,7 +134,7 @@ AI助手中的![Data Insights Agent](/help/agents/assets/cja-agent/cja-ai-asst-d
 
 1. 转到[experience.adobe.com](https://experience.adobe.com/)并使用您的Adobe ID登录。
 
-2. 从CX企业主页中选择&#x200B;**Customer Journey Analytics**。
+2. 从CX Enterprise主页中选择&#x200B;**Customer Journey Analytics**。
 
 3. 在项目页面顶部的横幅中选择&#x200B;**[!UICONTROL 空白项目]**&#x200B;以打开一个新的空白项目。
 
@@ -189,13 +200,13 @@ AI助手中的![Data Insights Agent](/help/agents/assets/cja-agent/cja-ai-asst-d
 
 ![圆环图](/help/agents/assets/cja-agent/ai-asst-result3.png)
 
-## 跨CX企业版应用程序访问Data Insights Agent
+## 跨CX Enterprise应用程序访问Data Insights Agent
 
-通过Adobe Experience Platform Agent Orchestrator，您可以在多个Adobe CX Enterprise应用程序（如Adobe Journey Optimizer和Real-Time CDP）中访问Data Insights Agent的功能。
+Adobe Experience Platform Agent Orchestrator允许您在多个Adobe CX Enterprise应用程序（如Data Insights Agent和Real-Time CDP）中访问Adobe Journey Optimizer的功能。
 
 Agent Orchestrator解释您的请求，确定需要哪些专业代理，并协调他们提供正确的响应。 它可以跨多轮交互跟踪上下文，因此您可以自然地基于先前的查询进行构建。
 
-有关详细信息，请参阅[Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/cn/products/experience-platform/agent-orchestrator.html)。
+有关详细信息，请参阅[Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/products/experience-platform/agent-orchestrator.html)。
 
 ## 示例数据可视化提示
 
@@ -285,8 +296,8 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 
 >[!MORELIKETHIS]
 >
->[组件设置](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[数据字典](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
->[批准计算量度](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
->[共享区段](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/segments/seg-share)
+>[组件设置](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[数据字典](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[批准计算量度](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[共享区段](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)
 

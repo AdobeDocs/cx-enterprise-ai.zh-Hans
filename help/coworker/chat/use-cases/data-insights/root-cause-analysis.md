@@ -11,10 +11,7 @@ jira: KT-22082
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -26,4 +23,4 @@ ht-degree: 0%
  
 使用自然语言，分析师和营销人员可以就数据提出问题、获得可视化结果、识别有意义的趋势并揭示驱动性能的因素，所有这些都可以在一条对话中完成。
 
->[!VIDEO](https://video.tv.adobe.com/v/3496860/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496847/?learn=on&enablevpops)

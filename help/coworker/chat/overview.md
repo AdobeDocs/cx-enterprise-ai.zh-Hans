@@ -1,18 +1,15 @@
 ---
-description: 了解Co-worker Chat如何使用对话界面在几分钟内规划、执行和完成跨Adobe和联网系统的客户体验工作。
-title: Adobe CX Enterprise同事聊天概述
+description: 了解 Coworker 聊天如何使用对话界面在数分钟内跨 Adobe 系统和连接的系统规划、执行和完成客户体验工作。
+title: Adobe CX Enterprise Coworker Chat概述
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 741
-ht-degree: 0%
-
+source-wordcount: '741'
+ht-degree: 3%
 ---
-
-# Adobe CX Enterprise同事聊天概述 {#overview}
+# Adobe CX Enterprise Coworker Chat概述 {#overview}
 
 同事聊天是一种用于完成客户体验工作的对话界面。 您用简单的语言描述了目标（例如，“构建春季瑜伽促销活动的受众”或“告诉我为什么这个受众上周在收缩”），Co-worker Chat规划工作，在您的Adobe和连接的系统中执行工作，验证结果，然后将完成的工作交还给您进行审批。
 
@@ -24,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->同事聊天是Adobe CX Enterprise Co-worker的一个模块。 其他两个模块扩展了同一个基础：同事营销活动（从一个对话中站起来启动一个完整的营销活动）和同事项目（用于端到端、多团队工作流的始终在线工作区）。 本页介绍“同事聊天”。
+>同事聊天是Adobe CX Enterprise Coworker的一个模块。 其他两个模块扩展了同一个基础：同事营销活动（从一个对话中站起来启动一个完整的营销活动）和同事项目（用于端到端、多团队工作流的始终在线工作区）。 本页介绍“同事聊天”。
 
 ## AI助理的演变
 
@@ -55,7 +52,7 @@ ht-degree: 0%
 * Workfront
 * Marketo Engage
 * _Real-Time CDP B2B edition（即将推出）_
-* _Adobe Journey Optimizer B2B edition（即将推出）_
+* _Adobe Journey Optimizer B2B Edition（即将推出）_
 * _Customer Journey Analytics B2B edition（即将推出）_
 
 ## 构建基块
@@ -63,11 +60,11 @@ ht-degree: 0%
 同事聊天由同事构建块提供支持。 以下构建基块现已可用。
 
 * **企业工具：**&#x200B;将目标转换为已完成工作的引擎。 它运行一个连续的、自我纠正的循环（原因、选择技能、执行、验证、重复），从错误中恢复并并行工作，直到完成作业，而不仅仅是尝试完成。
-* **技能：**&#x200B;可重复使用的行动手册，使用纯Markdown语言轻松完成每项任务。 “同事聊天”提供当前最常见客户体验任务的技能，目标是涵盖所有Adobe CX Enterprise应用程序随时间推移而发生的工作情况。
+* **技能：**&#x200B;可重复使用的行动手册，使用纯Markdown语言轻松完成每项任务。 “同事聊天”提供当前最常见客户体验任务的技能，目标是涵盖一段时间内所有Adobe CX Enterprise应用程序的工作。
 * **MCP连接器：**&#x200B;管理跨Adobe和第三方系统操作的访问权限，并提供开箱即用的连接器和自带选项。
 * **治理：**&#x200B;审批审核、从Adobe组织继承的权限、执行操作前运行的检查以及完整的审核跟踪。
 * **内存：**&#x200B;同事聊天会跨会话学习您的偏好、决策和更正内容，范围从组织范围的规则到您的个人偏好设置，因此您使用它的次数越多，聊天就越清晰。
 
 ## 视频概述
 
->[!VIDEO](https://video.tv.adobe.com/v/3495975?captions=chi_hans&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}
