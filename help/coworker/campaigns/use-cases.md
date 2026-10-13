@@ -1,20 +1,17 @@
 ---
-description: 浏览Adobe CX Enterprise Co-worker Campaigns的实际提示模式，按用例组织，横跨客户获取、参与、事件、转化和保留促销活动。
+description: 浏览Adobe CX Enterprise Coworker促销活动的实际提示模式，按用例组织，包括客户获取、参与、事件、转化和保留促销活动。
 title: 同事营销活动用例
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 508
+source-wordcount: '508'
 ht-degree: 0%
-
 ---
-
 # 用例 {#use-cases}
 
-以下是生命周期营销人员和增长营销人员在Adobe CX Enterprise Co-worker Campaigns中使用的真实提示模式。 每个报表包都设计为可复制、与自己的受众和品牌详细信息交换并在对话中进行优化。
+以下是生命周期和增长营销人员在Adobe CX Enterprise Coworker促销活动中使用的真实提示模式。 每个报表包都设计为可复制、与自己的受众和品牌详细信息交换并在对话中进行优化。
 
 ## 使用方法
 

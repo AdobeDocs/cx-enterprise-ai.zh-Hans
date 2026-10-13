@@ -3,32 +3,43 @@ description: 了解如何使用Customer Journey Analytics中的Data Insights Age
 title: 使用Data Insights Agent可视化数据
 role: User, Admin
 solution: Customer Journey Analytics
-TQID: https://experienceleague.adobe.com/UtKIDlN2x7MOAiHNRRQ8b5OO4fIwzV74r1fnfMwblcQ
+TQID: 'https://experienceleague.adobe.com/UtKIDlN2x7MOAiHNRRQ8b5OO4fIwzV74r1fnfMwblcQ'
 product_v2:
   - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
 feature_v2:
   - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
+    internal-label: Analytics dashboards
   - id: c73c4213-d623-4126-81f4-80b42e5e2656
+    internal-label: Analysis Workspace
   - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+    internal-label: Components
 subfeature_v2:
   - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+    internal-label: Metrics
   - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+    internal-label: Segments
   - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+    internal-label: Dimensions
   - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+    internal-label: Calculated metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+    internal-label: Data management
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 2686
+source-wordcount: '2686'
 ht-degree: 4%
-
 ---
-
 # 使用Data Insights Agent可视化数据
 
 >[!AVAILABILITY]
@@ -123,7 +134,7 @@ AI助手中的![Data Insights Agent](/help/agents/assets/cja-agent/cja-ai-asst-d
 
 1. 转到[experience.adobe.com](https://experience.adobe.com/)并使用您的Adobe ID登录。
 
-2. 从CX企业主页中选择&#x200B;**Customer Journey Analytics**。
+2. 从CX Enterprise主页中选择&#x200B;**Customer Journey Analytics**。
 
 3. 在项目页面顶部的横幅中选择&#x200B;**[!UICONTROL 空白项目]**&#x200B;以打开一个新的空白项目。
 
@@ -189,9 +200,9 @@ AI助手中的![Data Insights Agent](/help/agents/assets/cja-agent/cja-ai-asst-d
 
 ![圆环图](/help/agents/assets/cja-agent/ai-asst-result3.png)
 
-## 跨CX企业版应用程序访问Data Insights Agent
+## 跨CX Enterprise应用程序访问Data Insights Agent
 
-通过Adobe Experience Platform Agent Orchestrator，您可以在多个Adobe CX Enterprise应用程序（如Adobe Journey Optimizer和Real-Time CDP）中访问Data Insights Agent的功能。
+Adobe Experience Platform Agent Orchestrator允许您在多个Adobe CX Enterprise应用程序（如Data Insights Agent和Real-Time CDP）中访问Adobe Journey Optimizer的功能。
 
 Agent Orchestrator解释您的请求，确定需要哪些专业代理，并协调他们提供正确的响应。 它可以跨多轮交互跟踪上下文，因此您可以自然地基于先前的查询进行构建。
 

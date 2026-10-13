@@ -3,15 +3,12 @@ description: 描述。
 title: 了解电子邮件编辑器
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: '476'
 ht-degree: 0%
-
 ---
-
 # 了解电子邮件编辑器 {#email-editor}
 
 利用电子邮件编辑器，可直接在营销活动展示板上优化AI生成的电子邮件。 编辑主题行和标题，设置文本和图像的内嵌格式，或在其他模板中交换。

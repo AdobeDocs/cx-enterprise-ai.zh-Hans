@@ -4,10 +4,7 @@ description: 了解如何使用Adobe CX Enterprise Coworker Chat分析Customer J
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
-source-git-commit: 909dbae2c8abce1c89ae4f8039de04d4f4328d0b
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
 source-wordcount: '2094'
 ht-degree: 4%
@@ -249,11 +246,11 @@ Co-worker Chat包含内存功能，允许您访问跨越所有聊天的信息。
 | --- | --- | --- | --- | --- | --- |
 | 桌面 | 70,172 | 44.9% | 54.8% | 23.2% | 5.70% |
 | 平板电脑 | 13,855 | 44.7% | 55.6% | 14.3% | 3.56% |
-| 移动设备 | 53,449 | 44.9% | 55.3% | 8.1% | 2.02% |
+| 移动 | 53,449 | 44.9% | 55.3% | 8.1% | 2.02% |
 
 **确凿证据**
 
-| 量度 | 桌面 | 移动设备 | 间隙 |
+| 量度 | 桌面 | 移动 | 间隙 |
 | --- | --- | --- | --- |
 | 购物车到购买率 | 23.2% | 8.1% | 15个百分点 |
 | 手机是 | — | 差2.8倍 | — |
