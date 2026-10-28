@@ -65,10 +65,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
+source-git-commit: 13d4b6e0c41f434786c7e293a4ccbda0c367d7f4
 workflow-type: tm+mt
-source-wordcount: '3412'
-ht-degree: 12%
+source-wordcount: '3411'
+ht-degree: 13%
 ---
 # 关于CX Enterprise中的创作AI
 
@@ -76,7 +76,7 @@ CX Enterprise中的Generative AI (genAI)可帮助您自动执行创意和认知�
 
 >[!IMPORTANT]
 >
->在使用CX Enterprise创作AI功能之前，您必须了解并遵循[Adobe CX Enterprise创作AI用户准则](https://www.adobe.com/cn/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
+>在使用CX Enterprise创作AI功能之前，您必须了解并遵循[Adobe CX Enterprise创作AI用户准则](https://www.adobe.com/cn/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)。
 
 **什么是genAI？**
 
@@ -135,7 +135,7 @@ GenAI可以&#x200B;_创建_&#x200B;原始内容，或者&#x200B;_生成对用户
 | | _AJO Prime_&#x200B;和&#x200B;_Ultimate_&#x200B;提供[内容生成](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en)功能，为文本和图像提供主动内容变体建议。 | 是 |
 | [Adobe Journey Optimizer B2B Edition](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | 产品知识的AI助手。 | 否 |
 | [[!DNL Campaign] 托管云服务](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/content/ai-assistant/generative-gs) | AI Assistant for Content Accelerator可根据跨渠道（如电子邮件、短信和推送）的营销目标自动生成个性化、引人入胜的有效内容。 | 是 |
-| **[!DNL Customer Journey Analytics]** | GenAI用于：<ul><li> [智能字幕](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en)：有关最常用的Workspace可视化图表的见解。</li><li>[Content Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/content-analytics/report/report?lang=en#template)：自动分配资源元数据。</li></ul> AI助手：<ul><li>[产品知识](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[产品支持代理](agentic-ai.md) </li><li>[Data Insights Agent](agentic-ai.md)</li></ul> | 否 |
+| **[!DNL Customer Journey Analytics]** | GenAI用于：<ul><li> [智能字幕](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en)：有关最常用的Workspace可视化图表的见解。</li><li>[Content Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/content-analytics/report/report?lang=en#template)：自动分配资源元数据。</li></ul> AI助手：<ul><li>[产品知识](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[产品支持代理](agentic-ai.md) </li><li>[Data Insights Agent](agentic-ai.md)</li></ul> | 否 |
 | [Real-Time CDP](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home) | 来自Experience League的产品知识为[!DNL AI Assistant]。 它还提供了运营见解。 | 否 |
 | **[!DNL Marketo]** | GenAI在Email Designer （带Firefly）、[Dynamic Chat](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview?lang=en)和[交互式网络研讨会](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai?lang=en)中可用。<br> Marketo Engage的AI助手[向Designer发送电子邮件](https://experienceleague.adobe.com/zh-hans/docs/marketo/using/product-docs/email-marketing/email-designer/ai-assistant) | 是 |
 | [Adobe Target](https://experienceleague.adobe.com/zh-hans/docs/target/using/introduction/assistant-ai/ai-assistant) | 产品知识的AI助手。 | 否 |
@@ -315,7 +315,7 @@ Journey Optimizer B2B Edition使用[!UICONTROL AI助手]帮助您了解产品知
 
 通过Customer Journey Analytics，可通过以下方式使用创作AI或AI助手：
 
-* 产品知识的[AI助手](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)。
+* 产品知识的[AI助手](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)。
 * [智能字幕](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)，为最常用的自然语言Workspace可视化图表提供关键见解。
 * [Content Analytics](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/content-analytics/report/report#template)以自动分配每个资源元数据。
 
@@ -327,7 +327,7 @@ Journey Optimizer B2B Edition使用[!UICONTROL AI助手]帮助您了解产品知
 
 经验丰富的用户可获得高级用例或学习策略以快速执行任务。 您可以快速了解概念、排除问题或搜索信息。
 
-[!BADGE 了解详情]{type=Informative url="https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant" tooltip="了解CJA中的AI助手"}
+[!BADGE 了解详情]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant" tooltip="了解CJA中的AI助手"}
 
 **智能字幕**
 
