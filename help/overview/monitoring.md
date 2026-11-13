@@ -50,7 +50,7 @@ Agentic AI [!UICONTROL 监控]仪表板使Center of Excellence (COE)成员和其
 | **反馈** | 响应质量和用户满意度的信号 |
 | **AI积分** | 信用消耗趋势和余额 |
 
-Adobe CX Enterprise](agentic-ai.md)文档中的[代理AI在现有CX Enterprise应用程序](agentic-ai.md#existing-apps-table)表中的[AI代理中列出了使用监视作用域中的代理。
+Adobe CX Enterprise[&#128279;](agentic-ai.md)文档中的[代理AI在现有CX Enterprise应用程序](agentic-ai.md#existing-apps-table)表中的AI代理中列出了使用监视作用域中的代理。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
 
