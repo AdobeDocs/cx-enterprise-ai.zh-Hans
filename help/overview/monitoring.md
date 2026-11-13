@@ -22,21 +22,24 @@ subfeature_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
+source-git-commit: aba8260fc0aa8e2df892a985704ae56d4fc62b9a
 workflow-type: tm+mt
-source-wordcount: 996
+source-wordcount: '1037'
 ht-degree: 1%
-
 ---
-
 # Agentic AI监控仪表板
 
-Agentic AI [!UICONTROL 监控]仪表板使Center of Excellence (COE)成员和其他治理利益相关者能够了解代理AI的使用和采用。 查看7天或30天趋势以了解谁使用[!DNL AI Assistant]或其他表面（如[Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)）与[!DNL Experience Platform Agents]交互以及他们收到的值。 这些视图共同帮助您使用数据而不是假设来指导代理采用。
+Agentic AI [!UICONTROL 监控]仪表板使Center of Excellence (COE)成员和其他治理利益相关者能够了解代理AI的使用和采用。 查看7天或30天趋势以了解谁使用[!DNL AI Assistant]或其他表面（如[Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)）与[!DNL Experience Platform Agents]交互以及他们收到的值。 这些视图共同帮助您使用数据而不是假设来指导代理采用。
+
+>[!IMPORTANT]
+>
+>此仪表板中的量度未反映[!DNL Coworker]的使用情况。 [!DNL Coworker]监视仪表板正在开发中，将在可用时记录该仪表板。
 
 **可用性**
 
 * 目前，任何拥有至少一个Experience Platform本机应用程序（Customer Journey Analytics、Journey Optimizer或Real-Time CDP）许可证的帐户都可以访问此仪表板
 * 此仪表板不涉及[AI优先应用程序](agentic-ai.md#ai-first-cx-enterprise-applications)（如Experimentation Accelerator、LLM Optimizer和Sites Optimizer）的使用和采用量度。
+* [!DNL Coworker]仪表板即将推出。
 
 [!UICONTROL 监控]仪表板包含以下视图：
 
@@ -47,13 +50,13 @@ Agentic AI [!UICONTROL 监控]仪表板使Center of Excellence (COE)成员和其
 | **反馈** | 响应质量和用户满意度的信号 |
 | **AI积分** | 信用消耗趋势和余额 |
 
-Adobe CX Enterprise中的[代理AI](agentic-ai.md)文档在现有CX Enterprise应用程序[&#128279;](agentic-ai.md#existing-apps-table)表的AI代理中列出了用于监视使用情况的作用域中的代理。
+Adobe CX Enterprise](agentic-ai.md)文档中的[代理AI在现有CX Enterprise应用程序](agentic-ai.md#existing-apps-table)表中的[AI代理中列出了使用监视作用域中的代理。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491876?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
 
 ## 启用功能板权限 {#permissions}
 
-通过更新每个授权用户的产品配置文件或角色，在[!DNL Adobe Experience Platform]中授予仪表板访问权限。 启用权限后，[!UICONTROL 监视]功能将在CX Enterprise主页上向用户显示。
+通过更新每个授权用户的产品配置文件或角色，在[!DNL Adobe Experience Platform]中授予仪表板访问权限。 启用权限后，[!UICONTROL 监控]功能将在CX Enterprise主页上向用户显示。
 
 >[!IMPORTANT]
 >
@@ -89,7 +92,7 @@ Adobe CX Enterprise中的[代理AI](agentic-ai.md)文档在现有CX Enterprise�
    * **[!UICONTROL 查看自定义仪表板]**
    * **[!UICONTROL 管理标准仪表板]**
 
-1. 要查看仪表板，请返回CX Enterprise主页，然后单击&#x200B;**[!UICONTROL 监视]**。
+1. 要查看仪表板，请返回CX Enterprise主页，然后单击&#x200B;**[!UICONTROL 监控]**。
 
    ![代理AI监视仪表板](assets/monitoring.png)
 
@@ -104,7 +107,7 @@ Adobe CX Enterprise中的[代理AI](agentic-ai.md)文档在现有CX Enterprise�
 * **每个对话的平均提示数：**&#x200B;每个对话的参与深度。
 * **反馈：**&#x200B;来自用户的向上和向下拇指分布反馈（仅适用于[!DNL AI Assistant]交互）。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491886?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491865?learn=on)
 
 ### 对话重播
 
@@ -113,7 +116,7 @@ Adobe CX Enterprise中的[代理AI](agentic-ai.md)文档在现有CX Enterprise�
 * **提示和响应历史记录：**&#x200B;用户的提示和响应已传递。
 * **反馈信号：**&#x200B;用户通过竖起或竖下大拇指进行交互，以识别摩擦、阻止或支持需求。 此信息可帮助您的组织改善提示相关性，并帮助Adobe在一段时间内提高响应质量。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491895?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491866?learn=on)
 
 ## 用户仪表板
 
@@ -130,7 +133,7 @@ Adobe CX Enterprise中的[代理AI](agentic-ai.md)文档在现有CX Enterprise�
 * **对话活动：**&#x200B;每个用户的对话数和提示数。
 * **最活跃用户：**&#x200B;高度参与的用户和团队推动采用代理。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491928?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491868?learn=on)
 
 ## 反馈仪表板
 
@@ -144,7 +147,7 @@ Adobe CX Enterprise中的[代理AI](agentic-ai.md)文档在现有CX Enterprise�
 * **提示和响应历史记录：**&#x200B;用户提示和与提交的反馈关联的响应。
 * **反馈详细信息和注释：**&#x200B;反馈提交期间用户的其他上下文和注释。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491919?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491878?learn=on)
 
 ## AI信用仪表板
 
@@ -156,11 +159,11 @@ AI信用仪表板显示贵组织对[!DNL Experience Platform Agents]的使用如
 * **每日和每月趋势：**&#x200B;消费模式的尖峰、下降和变化。
 * **AI剩余信用额度：**&#x200B;剩余信用额度，以便您能够主动计划并避免超额。
 
->[!VIDEO](https://video.tv.adobe.com/v/3491910?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491867?learn=on)
 
 ## 有关此主题的更多帮助
 
-* [!DNL Experience Platform]中的[许可证使用情况仪表板](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dashboards/guides/license-usage)
-* [Adobe CX Enterprise中的代理AI](agentic-ai.md)
+* [!DNL Experience Platform]中的[许可证使用情况仪表板](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)
+* [Adobe CX Enterprise的人工智能](agentic-ai.md)
 * [代理作业和AI信用消耗](ai-credit-consumption.md)
-* [许可证使用情况仪表板](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [许可证使用情况仪表板](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
