@@ -17,18 +17,18 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
+source-git-commit: 88ac5904cbf810a32d3cfde06c8ab18ae5f53746
 workflow-type: tm+mt
-source-wordcount: 2162
+source-wordcount: '2219'
 ht-degree: 2%
-
 ---
-
 # AI 助手
+
+本文档适用于AI助手（新一代）。 有关AI助手（旧版）的信息，请参阅Adobe Experience Platform文档中的[AI助手UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home)。
 
 >[!IMPORTANT]
 >
->本文档适用于AI助手（新一代）。 有关AI助手（旧版）的信息，请参阅Adobe Experience Platform文档中的[AI助手UI指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/ai-assistant/home)。
+>Adobe CX Enterprise Coworker是AI Assistant的更强大、更强大的演变，旨在帮助您的用户更快完成更多工作。 同事负责您的团队当前利用AI Assistant的所有工作并扩展它，帮助他们自动执行日常任务，提高工作效率，并做出更智能、更有洞察力的决策。 [了解详情](https://business.adobe.com/cn/products/cx-enterprise-coworker.html)。
 
 请参阅下表比较AI助手（旧版）和AI助手（下一代）：
 
@@ -37,7 +37,7 @@ ht-degree: 2%
 | 用户体验 | AI助手（旧版）仅在右边栏面板中可用。 | AI助手（新一代）在右边栏面板和沉浸式全屏体验中均可用。 |
 | 功能范围 | 您可以将AI助手（旧版）用于产品知识和操作见解。 | 您可以使用AI Assistant（新一代）来获取产品知识、运营见解以及高级代理技能和多步骤任务执行。 |
 | 平台架构 | AI助手（旧版）不是在Agent Orchestrator栈栈上构建的。 | AI Assistant （下一代）由[Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/agent-orchestrator)提供支持，支持可扩展性和功能间的高级协调。 |
-| 应用范围 | AI Assistant（旧版）是一种特定于应用程序的实施。 | 您可以使用AI Assistant （下一代）在所有Adobe CX Enterprise应用程序中实现统一的AI Assistant体验。 |
+| 应用范围 | AI Assistant（旧版）是一种特定于应用程序的实施。 | 您可以使用AI Assistant（下一代）在所有Adobe CX Enterprise应用程序中实现统一的AI Assistant体验。 |
 | 访问和权限模型 | 应用程序范围的访问模型与各个产品边界保持一致。 | 所有用户均可访问AI Assistant（下一代）和相关的Experience Platform代理。 **注释**： <ul><li>**Adobe Experience Manager**：您的管理员必须授予您通过[Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)访问AI助手（下一代）的权限。</li><li>**Customer Journey Analytics**：您的管理员必须通过[Customer Journey Analytics访问控制](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/technotes/access-control?lang=en)授予您访问AI助手权限。 这允许您提问产品知识和数据见解问题。 |
 
 AI Assistant是一种智能的对话式、创新型人工智能工具，可在基于Adobe Experience Platform的应用程序中提高工作效率并重新定义工作。 您可以使用AI Assistant访问Adobe Experience Platform代理和其他AI功能。
@@ -52,7 +52,7 @@ AI Assistant是一种智能的对话式、创新型人工智能工具，可在�
 
 可通过多种方式访问AI助手。
 
-在CX Enterprise主界面中，从左侧导航中选择&#x200B;**[!UICONTROL AI Assistant]**&#x200B;以启动AI Assistant的全屏视图。
+在CX Enterprise主页界面中，从左侧导航中选择&#x200B;**[!UICONTROL AI助手]**&#x200B;以启动AI助手的全屏视图。
 
 +++选择以查看
 
@@ -60,7 +60,7 @@ AI Assistant是一种智能的对话式、创新型人工智能工具，可在�
 
 +++
 
-您还可以从CX Enterprise应用程序（如Experience Platform、Adobe Journey Optimizer和Customer Journey Analytics）的主页启动AI Assistant。 导航到您的产品主页，然后从顶部标题中选择&#x200B;**AI助手图标**&#x200B;以启动右边栏上的AI助手聊天面板。
+您还可以从CX Enterprise应用程序（如Experience Platform、Adobe Journey Optimizer和Customer Journey Analytics）的主页启动AI助手。 导航到您的产品主页，然后从顶部标题中选择&#x200B;**AI助手图标**&#x200B;以启动右边栏上的AI助手聊天面板。
 
 +++选择以查看
 
@@ -76,11 +76,11 @@ AI Assistant是一种智能的对话式、创新型人工智能工具，可在�
 
 AI Assistant界面包括几个关键元素，可帮助您进行有效交互：
 
-1. **[!UICONTROL 对话]**：选择&#x200B;**[!UICONTROL 对话]**&#x200B;图标以启动新对话并从历史记录中访问最近的对话。 有关详细信息，请阅读有关[对话](#conversations)的部分。
-2. **输入框**：选择输入框以输入AI助手的问题和提示。 有关详细信息，请阅读有关[输入功能](#input-features)的部分。
-3. **数据和对象自动完成**： — 选择加号图标以使用数据和对象建议并自动完成。 选中后，可使用弹出窗口选择建议的实体。 有关详细信息，请阅读有关[数据和对象自动完成](#autocomplete)的部分。
-4. **上下文设置**： — 选择“上下文设置”图标以配置AI助手的信息源。 您可以使用此工具配置AI Assistant引用的应用程序、沙盒和数据视图，以回答您的查询。 有关详细信息，请阅读有关[上下文设置](#context-setting)的部分。
-5. **发现**： — 选择&#x200B;**[!UICONTROL 学习]**、**[!UICONTROL 分析]**&#x200B;和&#x200B;**[!UICONTROL 优化]**，以查看可用于开始的示例查询。 有关详细信息，请阅读有关[可发现性提示](#discoverability-prompts)的部分。
+1. **[!UICONTROL 对话]**：Select **[!UICONTROL 对话]**&#x200B;图标以启动新对话并从历史记录中访问最近的对话。 有关详细信息，请阅读有关[对话](#conversations)的部分。
+2. **输入框**：Select输入框，用于输入AI助手的问题和提示。 有关详细信息，请阅读有关[输入功能](#input-features)的部分。
+3. **数据和对象自动完成**： - Select加号图标可使用数据和对象建议并自动完成。 选中后，可使用弹出窗口选择建议的实体。 有关详细信息，请阅读有关[数据和对象自动完成](#autocomplete)的部分。
+4. **上下文设置**： - Select上下文设置图标以配置AI助手的信息源。 您可以使用此工具配置AI Assistant引用的应用程序、沙盒和数据视图，以回答您的查询。 有关详细信息，请阅读有关[上下文设置](#context-setting)的部分。
+5. **发现**： - Select **[!UICONTROL 学习]**、**[!UICONTROL 分析]**&#x200B;和&#x200B;**[!UICONTROL 优化]**&#x200B;以查看可用于入门的示例查询。 有关详细信息，请阅读有关[可发现性提示](#discoverability-prompts)的部分。
 
 ![全屏的AI助手。](./assets/ai-assistant/ui-home.png)
 
@@ -88,13 +88,13 @@ AI Assistant界面包括几个关键元素，可帮助您进行有效交互：
 
 在紧凑的面板中，边栏视图提供对聊天、发现提示、更新、对话和界面控制的快速访问。
 
-1. **[!UICONTROL 聊天]**：从标题中选择&#x200B;**[!UICONTROL 聊天]**，以便在您离开时返回您的对话以访问界面上的不同元素。
-1. **[!UICONTROL 发现]**：选择&#x200B;**[!UICONTROL 发现]**&#x200B;可查看按类别组织的AI助手提示列表。 您可以使用这些预配置的提示填充您的聊天。 此外，您可以调整建议的提示以满足特定用例。
-1. **[!UICONTROL 新增功能]**：选择&#x200B;**[!UICONTROL 新增功能]**&#x200B;查看AI助手可用的最新更新列表。
-1. **[!UICONTROL 对话]**：选择&#x200B;**[!UICONTROL 对话]**&#x200B;图标以启动新对话并从历史记录中访问最近的对话。 有关详细信息，请阅读有关[对话](#conversations)的部分。
-1. **全屏视图**：选择&#x200B;**[!UICONTROL 全屏视图]**&#x200B;图标将AI助手界面从右边栏更改为全屏模式。
-1. **数据和对象自动完成**：选择加号图标以使用数据和对象建议并自动完成。 选中后，可使用弹出窗口选择建议的实体。 有关详细信息，请阅读有关[数据和对象自动完成](#autocomplete)的部分。
-1. **上下文设置**：选择“上下文设置”图标以配置AI助手的信息源。 您可以使用此工具配置AI Assistant引用的应用程序、沙盒和数据视图，以回答您的查询。 有关详细信息，请阅读有关[上下文设置](#context-setting)的部分。
+1. **[!UICONTROL 聊天]**： Select **[!UICONTROL 聊天]**，在您离开时返回您的对话以访问界面上的不同元素。
+1. **[!UICONTROL 发现]**： Select **[!UICONTROL 发现]**&#x200B;以查看按类别组织的AI助手提示列表。 您可以使用这些预配置的提示填充您的聊天。 此外，您可以调整建议的提示以满足特定用例。
+1. **[!UICONTROL 新增功能]**： Select **[!UICONTROL 新增功能]**&#x200B;查看AI助手可用的最新更新列表。
+1. **[!UICONTROL 对话]**：Select **[!UICONTROL 对话]**&#x200B;图标以启动新对话并从历史记录中访问最近的对话。 有关详细信息，请阅读有关[对话](#conversations)的部分。
+1. **全屏视图**： Select **[!UICONTROL 全屏视图]**&#x200B;图标可将AI助手界面从右边栏更改为全屏模式。
+1. **数据和对象自动完成**： Select加号图标可使用数据和对象建议并自动完成。 选中后，可使用弹出窗口选择建议的实体。 有关详细信息，请阅读有关[数据和对象自动完成](#autocomplete)的部分。
+1. **上下文设置**：Select上下文设置图标以配置AI助手的信息源。 您可以使用此工具配置AI Assistant引用的应用程序、沙盒和数据视图，以回答您的查询。 有关详细信息，请阅读有关[上下文设置](#context-setting)的部分。
 
 ![边栏视图中的AI助手](./assets/ai-assistant/rail-mode.png)
 
@@ -118,13 +118,13 @@ AI Assistant界面包括几个关键元素，可帮助您进行有效交互：
 
 >[!TAB 使用边栏视图中的发现]
 
-从边栏视图中选择&#x200B;**[!UICONTROL 发现]**&#x200B;以访问广泛的发现提示列表，您可以使用这些提示开始使用，并填充与AI助理的聊天。
+从边栏视图中Select **[!UICONTROL 发现]**，以访问广泛的发现提示列表，您可以使用该列表开始使用，并填充与AI助理的聊天。
 
 ![边栏视图中的发现面板。](./assets/ai-assistant/inputs/discover-rail.png)
 
 >[!ENDTABS]
 
-选择提示以填充输入框。 在此处，您可以编辑提示以适合您的特定用例。 准备就绪后，选择右侧的发送图标以提交查询。
+Select提示填充输入框。 在此处，您可以编辑提示以适合您的特定用例。 准备就绪后，选择右侧的发送图标以提交查询。
 
 ![输入框中的发现提示。](./assets/ai-assistant/inputs/question-input.png)
 
@@ -166,7 +166,7 @@ AI Assistant界面包括几个关键元素，可帮助您进行有效交互：
 
 >[!TAB 竖起缩略图]
 
-选择&#x200B;**[!UICONTROL 向上缩略图]**&#x200B;以提供正反馈。 您可以选择从正反馈列表中进行选择，或者使用输入框输入您自己的特定反馈。
+Select **[!UICONTROL 竖起拇指]**&#x200B;以提供积极反馈。 您可以选择从正反馈列表中进行选择，或者使用输入框输入您自己的特定反馈。
 
 +++选择以查看
 
@@ -180,7 +180,7 @@ AI Assistant界面包括几个关键元素，可帮助您进行有效交互：
 
 >[!TAB 拇指朝下]
 
-选择&#x200B;**[!UICONTROL 向下]**&#x200B;的缩略图以提供建设性的反馈。 您可以选择从建设性反馈列表中进行选择，或者使用输入框输入您自己的特定反馈。
+Select **[!UICONTROL 向下拇指]**&#x200B;以提供建设性反馈。 您可以选择从建设性反馈列表中进行选择，或者使用输入框输入您自己的特定反馈。
 
 +++选择以查看
 
@@ -202,7 +202,7 @@ AI Assistant界面包括几个关键元素，可帮助您进行有效交互：
 
 ### 对话
 
-您可以使用&#x200B;*[!UICONTROL 所有对话]*&#x200B;面板重置并重新访问与AI助理的对话。 选择&#x200B;**[!UICONTROL 对话]**&#x200B;图标以查看&#x200B;*[!UICONTROL 所有对话]*&#x200B;窗口。
+您可以使用&#x200B;*[!UICONTROL 所有对话]*&#x200B;面板重置并重新访问与AI助理的对话。 Select **[!UICONTROL 对话]**&#x200B;图标以查看&#x200B;*[!UICONTROL 所有对话]*&#x200B;窗口。
 
 ![AI助手上的对话窗口。](./assets/ai-assistant/conversations/select-conversations.png)
 
@@ -224,7 +224,7 @@ AI Assistant界面包括几个关键元素，可帮助您进行有效交互：
 
 | 信息源 | 描述 | 示例 |
 | --- | --- | --- |
-| 应用程序 | 与您的查询相关的CX企业应用程序。 | Experience Platform、Journey Optimizer、Customer Journey Analytics等 |
+| 应用程序 | 您的查询所属的CX Enterprise应用程序。 | Experience Platform、Journey Optimizer、Customer Journey Analytics等 |
 | 沙盒 | 包含您的查询相关的数据集或信息的沙盒。 | 生产(VA7)、开发 |
 | 数据视图 | 在将AI助手与Customer Journey Analytics结合使用时，数据视图设置可帮助Data Insights Agent了解： <ul><li>要查询的数据集</li><li>哪些数据组件可用</li><li>如何构建有关数据的响应</li><li>要在Analysis Workspace中创建哪些可视化图表</li></ul> | |
 
@@ -238,11 +238,11 @@ AI Assistant界面包括几个关键元素，可帮助您进行有效交互：
 
 ### 验证响应
 
-可通过多种方式验证来自AI Assistant的响应。 选择&#x200B;**[!UICONTROL 与对象匹配的查询词]**&#x200B;以查看查询中与组织中特定对象匹配的词的摘要。
+可通过多种方式验证来自AI Assistant的响应。 Select **[!UICONTROL 与对象匹配的查询词]**&#x200B;以查看查询中与组织中特定对象匹配的词的摘要。
 
 ![查询词与您的响应匹配。](./assets/ai-assistant/autocomplete/query-terms.png)
 
-选择&#x200B;**[!UICONTROL 以下是我获得结果的方式]**，查看有关AI助手如何获得答案的详细逐步说明。 此外，您还可以查看为回答问题而执行的SQL查询。 此查询是只读的，不支持在查询服务中使用。
+Select **[!UICONTROL 以下是我获得结果的方式]**，以详细逐步说明AI助手如何获得答案。 此外，您还可以查看为回答问题而执行的SQL查询。 此查询是只读的，不支持在查询服务中使用。
 
 ![AI助手上的SQL验证工具。](./assets/ai-assistant/autocomplete/verifications.png)
 
