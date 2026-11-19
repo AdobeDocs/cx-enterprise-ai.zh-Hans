@@ -38,7 +38,7 @@ _AI点数_&#x200B;是一个基于使用情况的量度，它量化了操作或�
 
 | 功能 | 描述 | 支持的应用程序 | AI来源 |
 | --- | --- | --- | --- |
-| [品牌感知元数据](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/best-practices/brand-aware-metadata-best-practices) | 品牌内自定义元数据生成 | Adobe Experience Manager [!DNL Assets] | 1个AI点数（每10个元数据世代） |
+| [品牌感知元数据](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/best-practices/brand-aware-metadata-best-practices) | 品牌内自定义元数据生成 | Adobe Experience Manager [!DNL Assets] | 1个AI点数（每10个元数据世代） |
 | Digital Rights Management | 使用权限提取和管理 | Adobe Experience Manager [!DNL Assets] | 6个AI积分（每个处理文档） |
 
 ### AEP Agents信用率
@@ -83,4 +83,4 @@ _代理作业_&#x200B;是AEP代理为获得客户输入内容所指示的特定�
 
 * [CX Enterprise中的GenAI](generative-ai.md)
 * [CX Enterprise 中的代理式 AI](agentic-ai.md)
-* [面向Adobe Experience Platform代理使用的试用版](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial)
+* [面向Adobe Experience Platform代理使用的试用版](https://experienceleague.adobe.com/zh-hans/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial)
