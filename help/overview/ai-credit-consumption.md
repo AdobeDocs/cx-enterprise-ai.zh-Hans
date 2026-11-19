@@ -1,25 +1,24 @@
 ---
 title: AI信用使用
-description: 了解CX Enterprise应用程序中的AI积分使用情况。
+description: 了解CX Enterprise应用程序中的AI积分使用。
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
+last-substantial-update: 2026-19-2026
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
     internal-label: AI Tools
-source-git-commit: 28e8b218e0923c9e463cce763a182b56a660d275
+source-git-commit: 47f06af825995d14691816ff1fc3e5592ffd6250
 workflow-type: tm+mt
-source-wordcount: 967
+source-wordcount: '1033'
 ht-degree: 5%
-
 ---
-
 # AI信用消费
 
-了解CX Enterprise应用程序中的AI积分使用情况。
+了解CX Enterprise应用程序中的AI积分使用。
 
 ## AI 积分
 
@@ -28,17 +27,25 @@ _AI点数_&#x200B;是一个基于使用情况的量度，它量化了操作或�
 ## 使用AI积分的合格服务
 
 * [CX Enterprise Coworker](#cx-enterprise-coworker-credit-rate)
+* [CX Enterprise AI功能](#cx-enterprise-ai-capabilities)
 * [AEP代理](#aep-agents-credit-rate)
 
-### CX Enterprise Co-worker信用率
+### CX Enterprise Coworker信用率
 
 在有限的介绍期内，同事输入按每个输入25个人工智能积分的费率冲减人工智能积分。 此费率仅在有限的时间内可用，并且可能会发生更改。
+
+### CX Enterprise AI功能
+
+| 功能 | 描述 | 支持的应用程序 | AI来源 |
+| --- | --- | --- | --- |
+| [品牌感知元数据](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/best-practices/brand-aware-metadata-best-practices) | 品牌内自定义元数据生成 | Adobe Experience Manager [!DNL Assets] | 1个AI点数（每10个元数据世代） |
+| Digital Rights Management | 使用权限提取和管理 | Adobe Experience Manager [!DNL Assets] | 6个AI积分（每个处理文档） |
 
 ### AEP Agents信用率
 
 _代理作业_&#x200B;是AEP代理为获得客户输入内容所指示的特定结果而执行的一系列任务和操作。
 
-通过AI Assistant使用自然语言提示，可以要求代理执行特定作业。 根据这些输入，Agent Orchestrator协调相应的代理以执行相关CX Enterprise应用程序中的每个步骤。
+通过AI Assistant使用自然语言提示，可以要求代理执行特定作业。 根据这些输入，Agent Orchestrator协调相应的代理，以在相关的CX Enterprise应用程序中执行每个步骤。
 
 根据所执行作业的复杂性和价值，AI信用使用可能有所不同：
 
@@ -46,7 +53,7 @@ _代理作业_&#x200B;是AEP代理为获得客户输入内容所指示的特定�
 * 复杂（通常为多步）任务会消耗更多积分
 * 涉及高级推理、验证、多代理协调或集成的任务消耗更多积分
 
-要查看您的许可CX Enterprise应用中有哪些AEP代理和代理作业可用，请参阅[CX Enterprise Agentic AI Capability Catalog](https://agentic-capability-explorer.entapp.adproto.com/)。
+若要查看许可的AEP应用中有哪些CX Enterprise代理和代理作业可用，请参阅[CX Enterprise Agentic AI功能目录](https://agentic-capability-explorer.entapp.adproto.com/)。
 
 #### 估计的座席工作信用费率
 
